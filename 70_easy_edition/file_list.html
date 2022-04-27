@@ -10,8 +10,8 @@ const title_length = urlParams.get('title').length
 const title = urlParams.get('title').substr(1).substr(0,title_length-2)
 
 var piece_num = parseInt(piece)-1
-var mei_file = "70_easy-"+piece_num+".mei"
-var tc_file = "70_easy-"+piece_num+".tc"
+var mei_file = "mei/70_easy-"+piece_num+".mei"
+var tc_file = "tc_files/70_easy-"+piece_num+".tc"
 
 function write_title() {
 	document.write("<h2>70 Easy to Intermediate Pieces for Renaissance Lute</h2>Piece number "+piece+"<br><h3><i>"+title+"</i></h3>")
