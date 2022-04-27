@@ -1,0 +1,30 @@
+<html>
+<head>
+<script>
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+const piece = urlParams.get('piece')
+
+// Remove leading/trailing single-quotes from title:
+const title_length = urlParams.get('title').length
+const title = urlParams.get('title').substr(1).substr(0,title_length-2)
+
+var piece_num = parseInt(piece)-1
+var mei_file = "70_easy-"+piece_num+".mei"
+var tc_file = "70_easy-"+piece_num+".tc"
+
+function write_title() {
+	document.write("<h2>70 Easy to Intermediate Pieces for Renaissance Lute</h2>Piece number "+piece+"<br><h3><i>"+title+"</i></h3>")
+}
+function list_files() {
+	document.write(
+		"<ul>Files:<li><a href='"+mei_file+"'>MEI</a></li><li><a href='"+tc_file+"'>TabCode</a></li></ul>"
+	)
+}
+
+</script>
+</head>
+<body
+onload = 'write_title();list_files()'>
+</body>"
+</html>
