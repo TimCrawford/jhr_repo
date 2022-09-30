@@ -10,7 +10,7 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application isodate="2022-01-14" version="1.4.4">
+                <application isodate="2022-09-26" version="1.4.5">
                     <name>luteconv</name>
                 </application>
             </appInfo>
@@ -37,9 +37,9 @@
                                     <course n="5" pname="c" oct="3" />
                                     <course n="6" pname="g" oct="2" />
                                     <course n="7" pname="f" oct="2" />
-                                    <course n="8" pname="f" oct="2" />
-                                    <course n="9" pname="e" oct="2" />
-                                    <course n="10" pname="d" oct="2" />
+                                    <course n="8" pname="e" oct="2" accid="f" />
+                                    <course n="9" pname="d" oct="2" />
+                                    <course n="10" pname="c" oct="2" />
                                     <course n="11" pname="c" oct="2" />
                                     <course n="12" pname="b" oct="1" />
                                 </tuning>
@@ -1028,14 +1028,14 @@
                         <measure n="52" right="end">
                             <staff n="1">
                                 <layer n="1">
-                                    <tabGrp dur="2">
-                                        <tabDurSym />
+                                    <tabGrp dur="2" xml:id="id45">
                                         <note tab.course="2" tab.fret="3" />
                                         <note tab.course="3" tab.fret="3" />
                                         <note tab.course="4" tab.fret="0" />
                                     </tabGrp>
                                 </layer>
                             </staff>
+                            <fermata startid="#id45" />
                         </measure>
                     </section>
                 </score>

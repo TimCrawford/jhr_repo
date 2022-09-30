@@ -10,7 +10,7 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application isodate="2022-01-14" version="1.4.4">
+                <application isodate="2022-09-26" version="1.4.5">
                     <name>luteconv</name>
                 </application>
             </appInfo>
@@ -72,38 +72,44 @@
                         <measure n="3">
                             <staff n="1">
                                 <layer n="1">
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="2" tab.fret="2" />
-                                        <note tab.course="3" tab.fret="3" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="2" tab.fret="3" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="1" tab.fret="0" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="3" tab.fret="1" />
-                                    </tabGrp>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="2" />
+                                            <note tab.course="3" tab.fret="3" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="3" />
+                                        </tabGrp>
+                                    </beam>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="0" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="1" />
+                                        </tabGrp>
+                                    </beam>
                                 </layer>
                             </staff>
                         </measure>
                         <measure n="4">
                             <staff n="1">
                                 <layer n="1">
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="2" tab.fret="3" />
-                                        <note tab.course="3" tab.fret="0" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="3" tab.fret="1" />
-                                    </tabGrp>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="3" />
+                                            <note tab.course="3" tab.fret="0" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="1" />
+                                        </tabGrp>
+                                    </beam>
                                     <tabGrp dur="4">
                                         <tabDurSym />
                                         <note tab.course="2" tab.fret="1" />
@@ -154,14 +160,16 @@
                                         <note tab.course="3" tab.fret="3" />
                                         <note tab.course="4" tab.fret="2" xml:id="id2" />
                                     </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="3" tab.fret="2" xml:id="id3" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="4" tab.fret="0" />
-                                    </tabGrp>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="2" xml:id="id3" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="4" tab.fret="0" />
+                                        </tabGrp>
+                                    </beam>
                                 </layer>
                             </staff>
                             <line startid="#id2" endid="#id3" />
@@ -169,26 +177,30 @@
                         <measure n="8">
                             <staff n="1">
                                 <layer n="1">
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="1" tab.fret="0" />
-                                        <note tab.course="3" tab.fret="3" />
-                                        <note tab.course="5" tab.fret="4" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="4" tab.fret="0" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="2" tab.fret="0" />
-                                        <note tab.course="3" tab.fret="1" />
-                                        <note tab.course="4" tab.fret="2" xml:id="id4" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="2" tab.fret="1" xml:id="id5" />
-                                    </tabGrp>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="0" />
+                                            <note tab.course="3" tab.fret="3" />
+                                            <note tab.course="5" tab.fret="4" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="4" tab.fret="0" />
+                                        </tabGrp>
+                                    </beam>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="0" />
+                                            <note tab.course="3" tab.fret="1" />
+                                            <note tab.course="4" tab.fret="2" xml:id="id4" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="1" xml:id="id5" />
+                                        </tabGrp>
+                                    </beam>
                                 </layer>
                             </staff>
                             <line startid="#id4" endid="#id5" />
@@ -196,26 +208,30 @@
                         <measure n="9">
                             <staff n="1">
                                 <layer n="1">
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="3" tab.fret="0" xml:id="id6" />
-                                        <note tab.course="4" tab.fret="0" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="2" tab.fret="0" />
-                                        <note tab.course="3" tab.fret="1" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="4" tab.fret="2" />
-                                        <note tab.course="5" tab.fret="3" xml:id="id7" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="1" tab.fret="0" />
-                                        <note tab.course="3" tab.fret="3" xml:id="id8" />
-                                    </tabGrp>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="0" xml:id="id6" />
+                                            <note tab.course="4" tab.fret="0" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="0" />
+                                            <note tab.course="3" tab.fret="1" />
+                                        </tabGrp>
+                                    </beam>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="4" tab.fret="2" />
+                                            <note tab.course="5" tab.fret="3" xml:id="id7" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="0" />
+                                            <note tab.course="3" tab.fret="3" xml:id="id8" />
+                                        </tabGrp>
+                                    </beam>
                                 </layer>
                             </staff>
                             <line startid="#id7" endid="#id8" />
@@ -223,26 +239,30 @@
                         <measure n="10">
                             <staff n="1">
                                 <layer n="1">
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="2" tab.fret="3" />
-                                        <note tab.course="5" tab.fret="2" xml:id="id9" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="1" tab.fret="3" />
-                                        <note tab.course="2" tab.fret="0" xml:id="id10" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="1" tab.fret="2" />
-                                        <note tab.course="2" tab.fret="0" />
-                                        <note tab.course="4" tab.fret="0" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="3" tab.fret="3" />
-                                    </tabGrp>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="3" />
+                                            <note tab.course="5" tab.fret="2" xml:id="id9" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="3" />
+                                            <note tab.course="2" tab.fret="0" xml:id="id10" />
+                                        </tabGrp>
+                                    </beam>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="2" />
+                                            <note tab.course="2" tab.fret="0" />
+                                            <note tab.course="4" tab.fret="0" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="3" />
+                                        </tabGrp>
+                                    </beam>
                                 </layer>
                             </staff>
                             <line startid="#id9" endid="#id10" />
@@ -284,25 +304,29 @@
                         <measure n="13">
                             <staff n="1">
                                 <layer n="1">
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="2" tab.fret="1" xml:id="id13" />
-                                        <note tab.course="4" tab.fret="2" />
-                                        <note tab.course="5" tab.fret="0" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="5" tab.fret="2" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="1" tab.fret="0" />
-                                        <note tab.course="5" tab.fret="3" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="4" tab.fret="0" xml:id="id14" />
-                                    </tabGrp>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="1" xml:id="id13" />
+                                            <note tab.course="4" tab.fret="2" />
+                                            <note tab.course="5" tab.fret="0" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="5" tab.fret="2" />
+                                        </tabGrp>
+                                    </beam>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="0" />
+                                            <note tab.course="5" tab.fret="3" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="4" tab.fret="0" xml:id="id14" />
+                                        </tabGrp>
+                                    </beam>
                                 </layer>
                             </staff>
                             <line startid="#id13" endid="#id14" />
@@ -415,24 +439,28 @@
                         <measure n="20">
                             <staff n="1">
                                 <layer n="1">
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="2" tab.fret="1" />
-                                        <note tab.course="4" tab.fret="2" />
-                                        <note tab.course="5" tab.fret="0" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="3" tab.fret="3" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="1" tab.fret="5" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="2" tab.fret="1" />
-                                    </tabGrp>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="1" />
+                                            <note tab.course="4" tab.fret="2" />
+                                            <note tab.course="5" tab.fret="0" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="3" />
+                                        </tabGrp>
+                                    </beam>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="5" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="1" />
+                                        </tabGrp>
+                                    </beam>
                                 </layer>
                             </staff>
                         </measure>
@@ -462,15 +490,17 @@
                                         <note tab.course="2" tab.fret="3" />
                                         <note tab.course="4" tab.fret="4" xml:id="id25" />
                                     </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="1" tab.fret="2" />
-                                        <note tab.course="2" tab.fret="3" xml:id="id26" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="4" tab.fret="5" />
-                                    </tabGrp>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="2" />
+                                            <note tab.course="2" tab.fret="3" xml:id="id26" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="4" tab.fret="5" />
+                                        </tabGrp>
+                                    </beam>
                                 </layer>
                             </staff>
                             <line startid="#id25" endid="#id26" />
@@ -537,16 +567,18 @@
                                         <note tab.course="3" tab.fret="5" />
                                         <note tab.course="4" tab.fret="5" />
                                     </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="1" tab.fret="3" />
-                                        <note tab.course="2" tab.fret="0" />
-                                        <note tab.course="4" tab.fret="2" xml:id="id31" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="3" tab.fret="1" xml:id="id32" />
-                                    </tabGrp>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="3" />
+                                            <note tab.course="2" tab.fret="0" />
+                                            <note tab.course="4" tab.fret="2" xml:id="id31" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="1" xml:id="id32" />
+                                        </tabGrp>
+                                    </beam>
                                 </layer>
                             </staff>
                             <line startid="#id31" endid="#id32" />
@@ -629,15 +661,17 @@
                                         <note tab.course="1" tab.fret="2" />
                                         <note tab.course="3" tab.fret="3" xml:id="id38" />
                                     </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="2" tab.fret="0" />
-                                        <note tab.course="4" tab.fret="0" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="1" tab.fret="3" />
-                                    </tabGrp>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="0" />
+                                            <note tab.course="4" tab.fret="0" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="3" />
+                                        </tabGrp>
+                                    </beam>
                                 </layer>
                             </staff>
                             <line startid="#id37" endid="#id38" />
@@ -681,25 +715,29 @@
                         <measure n="34">
                             <staff n="1">
                                 <layer n="1">
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="1" tab.fret="3" xml:id="id43" />
-                                        <note tab.course="2" tab.fret="0" />
-                                        <note tab.course="6" tab.fret="0" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="4" tab.fret="2" xml:id="id44" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="1" tab.fret="2" xml:id="id45" />
-                                        <note tab.course="3" tab.fret="3" xml:id="id46" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="4" tab.fret="0" xml:id="id47" />
-                                    </tabGrp>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="3" xml:id="id43" />
+                                            <note tab.course="2" tab.fret="0" />
+                                            <note tab.course="6" tab.fret="0" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="4" tab.fret="2" xml:id="id44" />
+                                        </tabGrp>
+                                    </beam>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="2" xml:id="id45" />
+                                            <note tab.course="3" tab.fret="3" xml:id="id46" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="4" tab.fret="0" xml:id="id47" />
+                                        </tabGrp>
+                                    </beam>
                                 </layer>
                             </staff>
                             <line startid="#id44" endid="#id46" />
@@ -713,52 +751,60 @@
                                         <note tab.course="1" tab.fret="0" />
                                         <note tab.course="3" tab.fret="1" />
                                     </tabGrp>
-                                    <tabGrp dur="16">
-                                        <tabDurSym />
-                                        <note tab.course="5" tab.fret="3" />
-                                    </tabGrp>
-                                    <tabGrp dur="16">
-                                        <tabDurSym />
-                                        <note tab.course="5" tab.fret="2" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="2" tab.fret="1" />
-                                        <note tab.course="5" tab.fret="0" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="3" tab.fret="3" />
-                                    </tabGrp>
+                                    <beam>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="5" tab.fret="3" />
+                                        </tabGrp>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="5" tab.fret="2" />
+                                        </tabGrp>
+                                    </beam>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="1" />
+                                            <note tab.course="5" tab.fret="0" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="3" />
+                                        </tabGrp>
+                                    </beam>
                                 </layer>
                             </staff>
                         </measure>
                         <measure n="36">
                             <staff n="1">
                                 <layer n="1">
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="2" tab.fret="0" />
-                                        <note tab.course="3" tab.fret="3" />
-                                        <note tab.course="6" tab.fret="0" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="3" tab.fret="1" xml:id="id48" />
-                                    </tabGrp>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="0" />
+                                            <note tab.course="3" tab.fret="3" />
+                                            <note tab.course="6" tab.fret="0" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="1" xml:id="id48" />
+                                        </tabGrp>
+                                    </beam>
                                     <tabGrp dur="8">
                                         <tabDurSym />
                                         <note tab.course="3" tab.fret="3" />
                                         <note tab.course="4" tab.fret="5" />
                                     </tabGrp>
-                                    <tabGrp dur="16">
-                                        <tabDurSym />
-                                        <note tab.course="4" tab.fret="4" />
-                                    </tabGrp>
-                                    <tabGrp dur="16">
-                                        <tabDurSym />
-                                        <note tab.course="4" tab.fret="2" xml:id="id49" />
-                                    </tabGrp>
+                                    <beam>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="4" tab.fret="4" />
+                                        </tabGrp>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="4" tab.fret="2" xml:id="id49" />
+                                        </tabGrp>
+                                    </beam>
                                 </layer>
                             </staff>
                             <fing playingHand="right" playingFinger="1" startid="#id48" />
@@ -767,28 +813,32 @@
                         <measure n="37">
                             <staff n="1">
                                 <layer n="1">
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="2" tab.fret="3" />
-                                        <note tab.course="4" tab.fret="4" />
-                                        <note tab.course="5" tab.fret="5" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="4" tab.fret="5" xml:id="id50" />
-                                    </tabGrp>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="3" />
+                                            <note tab.course="4" tab.fret="4" />
+                                            <note tab.course="5" tab.fret="5" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="4" tab.fret="5" xml:id="id50" />
+                                        </tabGrp>
+                                    </beam>
                                     <tabGrp dur="8">
                                         <tabDurSym />
                                         <note tab.course="3" tab.fret="3" />
                                     </tabGrp>
-                                    <tabGrp dur="16">
-                                        <tabDurSym />
-                                        <note tab.course="4" tab.fret="4" />
-                                    </tabGrp>
-                                    <tabGrp dur="16">
-                                        <tabDurSym />
-                                        <note tab.course="4" tab.fret="2" xml:id="id51" />
-                                    </tabGrp>
+                                    <beam>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="4" tab.fret="4" />
+                                        </tabGrp>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="4" tab.fret="2" xml:id="id51" />
+                                        </tabGrp>
+                                    </beam>
                                 </layer>
                             </staff>
                             <fing playingHand="right" playingFinger="1" startid="#id50" />
@@ -797,15 +847,17 @@
                         <measure n="38">
                             <staff n="1">
                                 <layer n="1">
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="3" tab.fret="3" />
-                                        <note tab.course="4" tab.fret="4" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="5" tab.fret="5" />
-                                    </tabGrp>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="3" />
+                                            <note tab.course="4" tab.fret="4" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="5" tab.fret="5" />
+                                        </tabGrp>
+                                    </beam>
                                     <tabGrp dur="4">
                                         <tabDurSym />
                                         <note tab.course="2" tab.fret="3" />
@@ -842,15 +894,17 @@
                                         <note tab.course="4" tab.fret="5" />
                                         <note tab.course="5" tab.fret="5" xml:id="id54" />
                                     </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="3" tab.fret="3" />
-                                        <note tab.course="4" tab.fret="4" xml:id="id55" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="2" tab.fret="3" />
-                                    </tabGrp>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="3" />
+                                            <note tab.course="4" tab.fret="4" xml:id="id55" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="3" />
+                                        </tabGrp>
+                                    </beam>
                                 </layer>
                             </staff>
                             <line startid="#id54" endid="#id55" />
@@ -858,24 +912,28 @@
                         <measure n="41">
                             <staff n="1">
                                 <layer n="1">
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="2" tab.fret="3" />
-                                        <note tab.course="3" tab.fret="1" />
-                                        <note tab.course="4" tab.fret="2" xml:id="id56" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="2" tab.fret="1" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="2" tab.fret="0" xml:id="id57" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="4" tab.fret="0" />
-                                    </tabGrp>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="3" />
+                                            <note tab.course="3" tab.fret="1" />
+                                            <note tab.course="4" tab.fret="2" xml:id="id56" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="1" />
+                                        </tabGrp>
+                                    </beam>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="0" xml:id="id57" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="4" tab.fret="0" />
+                                        </tabGrp>
+                                    </beam>
                                 </layer>
                             </staff>
                             <ornam ho="2" startid="#id57">+</ornam>
@@ -884,16 +942,18 @@
                         <measure n="42">
                             <staff n="1">
                                 <layer n="1">
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="2" tab.fret="0" />
-                                        <note tab.course="4" tab.fret="2" />
-                                        <note tab.course="5" tab.fret="3" xml:id="id58" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="4" tab.fret="0" />
-                                    </tabGrp>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="0" />
+                                            <note tab.course="4" tab.fret="2" />
+                                            <note tab.course="5" tab.fret="3" xml:id="id58" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="4" tab.fret="0" />
+                                        </tabGrp>
+                                    </beam>
                                     <tabGrp dur="4">
                                         <tabDurSym />
                                         <note tab.course="3" tab.fret="3" />
@@ -912,15 +972,17 @@
                                         <note tab.course="4" tab.fret="2" />
                                         <note tab.course="5" tab.fret="2" />
                                     </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="3" tab.fret="0" xml:id="id60" />
-                                        <note tab.course="4" tab.fret="0" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="3" tab.fret="1" xml:id="id61" />
-                                    </tabGrp>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="0" xml:id="id60" />
+                                            <note tab.course="4" tab.fret="0" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="1" xml:id="id61" />
+                                        </tabGrp>
+                                    </beam>
                                 </layer>
                             </staff>
                             <ornam ho="2" startid="#id60">+</ornam>
@@ -947,26 +1009,30 @@
                         <measure n="45">
                             <staff n="1">
                                 <layer n="1">
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="3" tab.fret="3" />
-                                        <note tab.course="4" tab.fret="4" />
-                                        <note tab.course="5" tab.fret="5" xml:id="id62" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="3" tab.fret="5" xml:id="id63" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="3" tab.fret="6" />
-                                        <note tab.course="4" tab.fret="5" />
-                                        <note tab.course="5" tab.fret="7" xml:id="id64" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="3" tab.fret="5" xml:id="id65" />
-                                    </tabGrp>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="3" />
+                                            <note tab.course="4" tab.fret="4" />
+                                            <note tab.course="5" tab.fret="5" xml:id="id62" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="5" xml:id="id63" />
+                                        </tabGrp>
+                                    </beam>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="6" />
+                                            <note tab.course="4" tab.fret="5" />
+                                            <note tab.course="5" tab.fret="7" xml:id="id64" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="5" xml:id="id65" />
+                                        </tabGrp>
+                                    </beam>
                                 </layer>
                             </staff>
                             <fing playingHand="right" playingFinger="1" startid="#id63" />
@@ -977,23 +1043,27 @@
                         <measure n="46">
                             <staff n="1">
                                 <layer n="1">
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="3" tab.fret="3" />
-                                        <note tab.course="4" tab.fret="5" xml:id="id66" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="2" tab.fret="5" xml:id="id67" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="4" tab.fret="4" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="2" tab.fret="4" xml:id="id68" />
-                                    </tabGrp>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="3" />
+                                            <note tab.course="4" tab.fret="5" xml:id="id66" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="5" xml:id="id67" />
+                                        </tabGrp>
+                                    </beam>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="4" tab.fret="4" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="4" xml:id="id68" />
+                                        </tabGrp>
+                                    </beam>
                                 </layer>
                             </staff>
                             <line startid="#id66" endid="#id67" />
@@ -1002,25 +1072,29 @@
                         <measure n="47">
                             <staff n="1">
                                 <layer n="1">
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="1" tab.fret="0" />
-                                        <note tab.course="3" tab.fret="1" />
-                                        <note tab.course="4" tab.fret="2" xml:id="id69" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="2" tab.fret="1" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="1" tab.fret="3" />
-                                        <note tab.course="2" tab.fret="0" xml:id="id70" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="3" tab.fret="1" />
-                                    </tabGrp>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="0" />
+                                            <note tab.course="3" tab.fret="1" />
+                                            <note tab.course="4" tab.fret="2" xml:id="id69" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="1" />
+                                        </tabGrp>
+                                    </beam>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="3" />
+                                            <note tab.course="2" tab.fret="0" xml:id="id70" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="1" />
+                                        </tabGrp>
+                                    </beam>
                                 </layer>
                             </staff>
                             <line startid="#id69" endid="#id70" />
@@ -1052,23 +1126,27 @@
                                         <note tab.course="2" tab.fret="0" />
                                         <note tab.course="5" tab.fret="3" xml:id="id72" />
                                     </tabGrp>
-                                    <tabGrp dur="16">
-                                        <tabDurSym />
-                                        <note tab.course="3" tab.fret="3" />
-                                    </tabGrp>
-                                    <tabGrp dur="16">
-                                        <tabDurSym />
-                                        <note tab.course="3" tab.fret="1" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="1" tab.fret="0" />
-                                        <note tab.course="3" tab.fret="3" xml:id="id73" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="4" tab.fret="2" />
-                                    </tabGrp>
+                                    <beam>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="3" />
+                                        </tabGrp>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="1" />
+                                        </tabGrp>
+                                    </beam>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="0" />
+                                            <note tab.course="3" tab.fret="3" xml:id="id73" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="4" tab.fret="2" />
+                                        </tabGrp>
+                                    </beam>
                                 </layer>
                             </staff>
                             <line startid="#id72" endid="#id73" />
@@ -1076,24 +1154,28 @@
                         <measure n="50">
                             <staff n="1">
                                 <layer n="1">
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="2" tab.fret="3" />
-                                        <note tab.course="3" tab.fret="1" />
-                                        <note tab.course="5" tab.fret="2" xml:id="id74" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="1" tab.fret="0" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="3" tab.fret="0" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="2" tab.fret="4" xml:id="id75" />
-                                    </tabGrp>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="3" />
+                                            <note tab.course="3" tab.fret="1" />
+                                            <note tab.course="5" tab.fret="2" xml:id="id74" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="0" />
+                                        </tabGrp>
+                                    </beam>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="0" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="4" xml:id="id75" />
+                                        </tabGrp>
+                                    </beam>
                                 </layer>
                             </staff>
                             <line startid="#id74" endid="#id75" />
@@ -1107,41 +1189,47 @@
                                         <note tab.course="4" tab.fret="2" />
                                         <note tab.course="6" tab.fret="4" />
                                     </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="1" tab.fret="0" />
-                                        <note tab.course="5" tab.fret="0" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="2" tab.fret="3" />
-                                    </tabGrp>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="0" />
+                                            <note tab.course="5" tab.fret="0" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="3" />
+                                        </tabGrp>
+                                    </beam>
                                 </layer>
                             </staff>
                         </measure>
                         <measure n="52">
                             <staff n="1">
                                 <layer n="1">
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="2" tab.fret="1" xml:id="id76" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="2" tab.fret="3" />
-                                        <note tab.course="3" tab.fret="5" />
-                                        <note tab.course="5" tab.fret="2" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="2" tab.fret="1" />
-                                        <note tab.course="3" tab.fret="3" />
-                                        <note tab.course="5" tab.fret="3" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="4" tab.fret="0" />
-                                    </tabGrp>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="1" xml:id="id76" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="3" />
+                                            <note tab.course="3" tab.fret="5" />
+                                            <note tab.course="5" tab.fret="2" />
+                                        </tabGrp>
+                                    </beam>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="1" />
+                                            <note tab.course="3" tab.fret="3" />
+                                            <note tab.course="5" tab.fret="3" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="4" tab.fret="0" />
+                                        </tabGrp>
+                                    </beam>
                                 </layer>
                             </staff>
                             <ornam ho="2" startid="#id76">+</ornam>
@@ -1149,27 +1237,31 @@
                         <measure n="53">
                             <staff n="1">
                                 <layer n="1">
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="2" tab.fret="0" />
-                                        <note tab.course="3" tab.fret="1" />
-                                        <note tab.course="4" tab.fret="2" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="2" tab.fret="3" />
-                                        <note tab.course="4" tab.fret="4" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="2" tab.fret="3" />
-                                        <note tab.course="3" tab.fret="5" />
-                                        <note tab.course="4" tab.fret="5" xml:id="id77" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="1" tab.fret="3" xml:id="id78" />
-                                    </tabGrp>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="0" />
+                                            <note tab.course="3" tab.fret="1" />
+                                            <note tab.course="4" tab.fret="2" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="3" />
+                                            <note tab.course="4" tab.fret="4" />
+                                        </tabGrp>
+                                    </beam>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="3" />
+                                            <note tab.course="3" tab.fret="5" />
+                                            <note tab.course="4" tab.fret="5" xml:id="id77" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="3" xml:id="id78" />
+                                        </tabGrp>
+                                    </beam>
                                 </layer>
                             </staff>
                             <line startid="#id77" endid="#id78" />
@@ -1220,14 +1312,16 @@
                                         <note tab.course="4" tab.fret="2" />
                                         <note tab.course="5" tab.fret="0" />
                                     </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="4" tab.fret="3" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="5" tab.fret="2" xml:id="id80" />
-                                    </tabGrp>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="4" tab.fret="3" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="5" tab.fret="2" xml:id="id80" />
+                                        </tabGrp>
+                                    </beam>
                                 </layer>
                             </staff>
                             <line startid="#id79" endid="#id80" />
@@ -1286,16 +1380,18 @@
                         <measure n="60">
                             <staff n="1">
                                 <layer n="1">
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="2" tab.fret="0" />
-                                        <note tab.course="3" tab.fret="1" />
-                                        <note tab.course="6" tab.fret="3" xml:id="id85" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="4" tab.fret="2" />
-                                    </tabGrp>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="0" />
+                                            <note tab.course="3" tab.fret="1" />
+                                            <note tab.course="6" tab.fret="3" xml:id="id85" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="4" tab.fret="2" />
+                                        </tabGrp>
+                                    </beam>
                                     <tabGrp dur="4">
                                         <tabDurSym />
                                         <note tab.course="2" tab.fret="0" />
@@ -1325,16 +1421,18 @@
                         <measure n="62">
                             <staff n="1">
                                 <layer n="1">
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="3" tab.fret="1" />
-                                        <note tab.course="4" tab.fret="4" />
-                                        <note tab.course="6" tab.fret="0" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="3" tab.fret="0" xml:id="id87" />
-                                    </tabGrp>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="1" />
+                                            <note tab.course="4" tab.fret="4" />
+                                            <note tab.course="6" tab.fret="0" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="0" xml:id="id87" />
+                                        </tabGrp>
+                                    </beam>
                                     <tabGrp dur="4">
                                         <tabDurSym />
                                         <note tab.course="3" tab.fret="1" />
@@ -1388,15 +1486,17 @@
                                         <note tab.course="4" tab.fret="2" />
                                         <note tab.course="5" tab.fret="2" xml:id="id92" />
                                     </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="2" tab.fret="0" />
-                                        <note tab.course="4" tab.fret="0" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="3" tab.fret="3" xml:id="id93" />
-                                    </tabGrp>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="0" />
+                                            <note tab.course="4" tab.fret="0" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="3" xml:id="id93" />
+                                        </tabGrp>
+                                    </beam>
                                 </layer>
                             </staff>
                             <line startid="#id92" endid="#id93" />
@@ -1404,24 +1504,28 @@
                         <measure n="66">
                             <staff n="1">
                                 <layer n="1">
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="3" tab.fret="1" />
-                                        <note tab.course="4" tab.fret="2" xml:id="id94" />
-                                        <note tab.course="5" tab.fret="3" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="3" tab.fret="0" xml:id="id95" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="3" tab.fret="1" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="5" tab.fret="2" />
-                                    </tabGrp>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="1" />
+                                            <note tab.course="4" tab.fret="2" xml:id="id94" />
+                                            <note tab.course="5" tab.fret="3" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="0" xml:id="id95" />
+                                        </tabGrp>
+                                    </beam>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="1" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="5" tab.fret="2" />
+                                        </tabGrp>
+                                    </beam>
                                 </layer>
                             </staff>
                             <ornam ho="2" startid="#id94">+</ornam>
@@ -1436,16 +1540,18 @@
                                         <note tab.course="4" tab.fret="2" />
                                         <note tab.course="5" tab.fret="0" />
                                     </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="3" tab.fret="5" />
-                                        <note tab.course="4" tab.fret="2" />
-                                        <note tab.course="6" tab.fret="4" xml:id="id96" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="4" tab.fret="0" xml:id="id97" />
-                                    </tabGrp>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="5" />
+                                            <note tab.course="4" tab.fret="2" />
+                                            <note tab.course="6" tab.fret="4" xml:id="id96" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="4" tab.fret="0" xml:id="id97" />
+                                        </tabGrp>
+                                    </beam>
                                 </layer>
                             </staff>
                             <line startid="#id96" endid="#id97" />
@@ -1476,24 +1582,28 @@
                                         <note tab.course="5" tab.fret="3" />
                                         <note tab.course="6" tab.fret="0" />
                                     </tabGrp>
-                                    <tabGrp dur="16">
-                                        <tabDurSym />
-                                        <note tab.course="5" tab.fret="2" />
-                                    </tabGrp>
-                                    <tabGrp dur="16">
-                                        <tabDurSym />
-                                        <note tab.course="5" tab.fret="3" xml:id="id101" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="3" tab.fret="2" />
-                                        <note tab.course="5" tab.fret="2" />
-                                    </tabGrp>
-                                    <tabGrp dur="8">
-                                        <tabDurSym />
-                                        <note tab.course="3" tab.fret="3" />
-                                        <note tab.course="5" tab.fret="0" />
-                                    </tabGrp>
+                                    <beam>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="5" tab.fret="2" />
+                                        </tabGrp>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="5" tab.fret="3" xml:id="id101" />
+                                        </tabGrp>
+                                    </beam>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="2" />
+                                            <note tab.course="5" tab.fret="2" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="3" />
+                                            <note tab.course="5" tab.fret="0" />
+                                        </tabGrp>
+                                    </beam>
                                 </layer>
                             </staff>
                             <line startid="#id100" endid="#id101" />
@@ -1501,8 +1611,7 @@
                         <measure n="70" right="end">
                             <staff n="1">
                                 <layer n="1">
-                                    <tabGrp dur="2">
-                                        <tabDurSym />
+                                    <tabGrp dur="2" xml:id="id102">
                                         <note tab.course="1" tab.fret="0" />
                                         <note tab.course="2" tab.fret="0" />
                                         <note tab.course="3" tab.fret="2" />
@@ -1512,6 +1621,7 @@
                                     </tabGrp>
                                 </layer>
                             </staff>
+                            <fermata startid="#id102" />
                         </measure>
                     </section>
                 </score>

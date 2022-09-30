@@ -10,7 +10,7 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application isodate="2022-01-14" version="1.4.4">
+                <application isodate="2022-09-26" version="1.4.5">
                     <name>luteconv</name>
                 </application>
             </appInfo>
@@ -773,8 +773,7 @@
                                     <tabGrp dur="8">
                                         <note tab.course="7" tab.fret="0" />
                                     </tabGrp>
-                                    <tabGrp dur="2">
-                                        <tabDurSym />
+                                    <tabGrp dur="2" xml:id="id7">
                                         <note tab.course="1" tab.fret="5" />
                                         <note tab.course="2" tab.fret="3" />
                                         <note tab.course="3" tab.fret="0" />
@@ -783,6 +782,7 @@
                                     </tabGrp>
                                 </layer>
                             </staff>
+                            <fermata startid="#id7" />
                         </measure>
                         <measure n="33">
                             <staff n="1">
@@ -800,25 +800,25 @@
                                         <note tab.course="1" tab.fret="3" />
                                     </tabGrp>
                                     <tabGrp dur="32">
-                                        <note tab.course="1" tab.fret="2" xml:id="id7" />
+                                        <note tab.course="1" tab.fret="2" xml:id="id8" />
                                     </tabGrp>
                                     <tabGrp dur="32">
                                         <note tab.course="1" tab.fret="0" />
                                     </tabGrp>
                                     <tabGrp dur="32">
-                                        <note tab.course="2" tab.fret="3" xml:id="id8" />
+                                        <note tab.course="2" tab.fret="3" xml:id="id9" />
                                     </tabGrp>
                                     <tabGrp dur="32">
                                         <note tab.course="2" tab.fret="2" />
                                     </tabGrp>
                                     <tabGrp dur="32">
-                                        <note tab.course="2" tab.fret="0" xml:id="id9" />
+                                        <note tab.course="2" tab.fret="0" xml:id="id10" />
                                     </tabGrp>
                                     <tabGrp dur="32">
                                         <note tab.course="3" tab.fret="3" />
                                     </tabGrp>
                                     <tabGrp dur="32">
-                                        <note tab.course="3" tab.fret="1" xml:id="id10" />
+                                        <note tab.course="3" tab.fret="1" xml:id="id11" />
                                     </tabGrp>
                                     <tabGrp dur="32">
                                         <note tab.course="3" tab.fret="0" />
@@ -852,10 +852,10 @@
                                     </tabGrp>
                                 </layer>
                             </staff>
-                            <fing playingHand="right" playingFinger="1" startid="#id7" />
                             <fing playingHand="right" playingFinger="1" startid="#id8" />
                             <fing playingHand="right" playingFinger="1" startid="#id9" />
                             <fing playingHand="right" playingFinger="1" startid="#id10" />
+                            <fing playingHand="right" playingFinger="1" startid="#id11" />
                         </measure>
                         <measure n="34">
                             <staff n="1">
@@ -919,8 +919,7 @@
                                     <tabGrp dur="8">
                                         <note tab.course="1" tab.fret="5" />
                                     </tabGrp>
-                                    <tabGrp dur="2">
-                                        <tabDurSym />
+                                    <tabGrp dur="2" xml:id="id12">
                                         <note tab.course="1" tab.fret="5" />
                                         <note tab.course="2" tab.fret="3" />
                                         <note tab.course="3" tab.fret="3" />
@@ -930,6 +929,7 @@
                                     </tabGrp>
                                 </layer>
                             </staff>
+                            <fermata startid="#id12" />
                         </measure>
                     </section>
                 </score>

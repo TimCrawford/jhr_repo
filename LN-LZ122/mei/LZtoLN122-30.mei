@@ -10,7 +10,7 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application isodate="2022-01-14" version="1.4.4">
+                <application isodate="2022-09-26" version="1.4.5">
                     <name>luteconv</name>
                 </application>
             </appInfo>
@@ -30,8 +30,8 @@
                         <staffGrp>
                             <staffDef n="1" lines="6" notationtype="tab.lute.french">
                                 <tuning>
-                                    <course n="1" pname="g" oct="4" />
-                                    <course n="2" pname="d" oct="4" />
+                                    <course n="1" pname="e" oct="4" />
+                                    <course n="2" pname="c" oct="4" />
                                     <course n="3" pname="a" oct="3" />
                                     <course n="4" pname="f" oct="3" />
                                     <course n="5" pname="c" oct="3" />
@@ -462,12 +462,12 @@
                                         <note tab.course="4" tab.fret="2" />
                                         <note tab.course="5" tab.fret="0" />
                                     </tabGrp>
-                                    <tabGrp dur="2">
-                                        <tabDurSym />
+                                    <tabGrp dur="2" xml:id="id45">
                                         <note tab.course="10" tab.fret="0" />
                                     </tabGrp>
                                 </layer>
                             </staff>
+                            <fermata startid="#id45" />
                         </measure>
                     </section>
                 </score>

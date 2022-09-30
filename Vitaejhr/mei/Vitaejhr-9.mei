@@ -10,7 +10,7 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application isodate="2022-01-14" version="1.4.4">
+                <application isodate="2022-09-26" version="1.4.5">
                     <name>luteconv</name>
                 </application>
             </appInfo>
@@ -219,8 +219,7 @@
                                         <tabDurSym />
                                         <note tab.course="2" tab.fret="4" xml:id="id1" />
                                     </tabGrp>
-                                    <tabGrp dur="2">
-                                        <tabDurSym />
+                                    <tabGrp dur="2" xml:id="id2">
                                         <note tab.course="1" tab.fret="0" />
                                         <note tab.course="2" tab.fret="0" />
                                         <note tab.course="4" tab.fret="2" />
@@ -230,6 +229,7 @@
                             </staff>
                             <ornam ho="-2" startid="#id0">+</ornam>
                             <fing playingHand="right" playingFinger="1" startid="#id1" />
+                            <fermata startid="#id2" />
                         </measure>
                     </section>
                 </score>

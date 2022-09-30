@@ -10,7 +10,7 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application isodate="2022-01-14" version="1.4.4">
+                <application isodate="2022-09-26" version="1.4.5">
                     <name>luteconv</name>
                 </application>
             </appInfo>
@@ -2248,19 +2248,19 @@
                         <measure n="73" right="end">
                             <staff n="1">
                                 <layer n="1">
-                                    <tabGrp dur="2">
-                                        <tabDurSym />
-                                        <note tab.course="1" tab.fret="3" xml:id="id366" />
-                                        <note tab.course="2" tab.fret="3" xml:id="id367" />
-                                        <note tab.course="3" tab.fret="5" xml:id="id368" />
+                                    <tabGrp dur="2" xml:id="id366">
+                                        <note tab.course="1" tab.fret="3" xml:id="id367" />
+                                        <note tab.course="2" tab.fret="3" xml:id="id368" />
+                                        <note tab.course="3" tab.fret="5" xml:id="id369" />
                                     </tabGrp>
                                 </layer>
                             </staff>
-                            <fing playingHand="left" playingFinger="1" startid="#id366" />
+                            <fermata startid="#id366" />
                             <fing playingHand="left" playingFinger="1" startid="#id367" />
-                            <fing playingHand="left" playingFinger="3" startid="#id368" />
-                            <fing playingHand="right" playingFinger="1" startid="#id368" />
-                            <line startid="#id365" endid="#id368" />
+                            <fing playingHand="left" playingFinger="1" startid="#id368" />
+                            <fing playingHand="left" playingFinger="3" startid="#id369" />
+                            <fing playingHand="right" playingFinger="1" startid="#id369" />
+                            <line startid="#id365" endid="#id369" />
                         </measure>
                     </section>
                 </score>

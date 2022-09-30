@@ -10,7 +10,7 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application isodate="2022-01-14" version="1.4.4">
+                <application isodate="2022-09-26" version="1.4.5">
                     <name>luteconv</name>
                 </application>
             </appInfo>
@@ -448,8 +448,7 @@
                         <measure n="19">
                             <staff n="1">
                                 <layer n="1">
-                                    <tabGrp dur="2">
-                                        <tabDurSym />
+                                    <tabGrp dur="2" xml:id="id13">
                                         <note tab.course="1" tab.fret="0" />
                                         <note tab.course="2" tab.fret="0" />
                                         <note tab.course="3" tab.fret="2" />
@@ -457,6 +456,7 @@
                                     </tabGrp>
                                 </layer>
                             </staff>
+                            <fermata startid="#id13" />
                         </measure>
                         <measure n="20">
                             <staff n="1">
@@ -472,14 +472,14 @@
                                         <tabDurSym />
                                         <note tab.course="2" tab.fret="1" />
                                         <note tab.course="3" tab.fret="3" />
-                                        <note tab.course="4" tab.fret="2" xml:id="id13" />
+                                        <note tab.course="4" tab.fret="2" xml:id="id14" />
                                     </tabGrp>
                                     <tabGrp dur="8">
                                         <note tab.course="5" tab.fret="0" />
                                     </tabGrp>
                                 </layer>
                             </staff>
-                            <fing playingHand="right" playingFinger="1" startid="#id13" />
+                            <fing playingHand="right" playingFinger="1" startid="#id14" />
                         </measure>
                         <measure n="21">
                             <staff n="1">
@@ -495,7 +495,7 @@
                                         <note tab.course="2" tab.fret="0" />
                                     </tabGrp>
                                     <tabGrp dur="16">
-                                        <note tab.course="2" tab.fret="1" xml:id="id14" />
+                                        <note tab.course="2" tab.fret="1" xml:id="id15" />
                                     </tabGrp>
                                     <tabGrp dur="16">
                                         <note tab.course="2" tab.fret="3" />
@@ -504,19 +504,19 @@
                                         <note tab.course="6" tab.fret="3" />
                                     </tabGrp>
                                     <tabGrp dur="16">
-                                        <note tab.course="2" tab.fret="0" xml:id="id15" />
+                                        <note tab.course="2" tab.fret="0" xml:id="id16" />
                                     </tabGrp>
                                     <tabGrp dur="16">
                                         <note tab.course="2" tab.fret="1" />
                                     </tabGrp>
                                     <tabGrp dur="16">
-                                        <note tab.course="2" tab.fret="3" xml:id="id16" />
+                                        <note tab.course="2" tab.fret="3" xml:id="id17" />
                                     </tabGrp>
                                 </layer>
                             </staff>
-                            <fing playingHand="right" playingFinger="1" startid="#id14" />
                             <fing playingHand="right" playingFinger="1" startid="#id15" />
                             <fing playingHand="right" playingFinger="1" startid="#id16" />
+                            <fing playingHand="right" playingFinger="1" startid="#id17" />
                         </measure>
                         <measure n="22">
                             <staff n="1">
@@ -586,11 +586,11 @@
                                         <note tab.course="2" tab.fret="3" />
                                     </tabGrp>
                                     <tabGrp dur="16">
-                                        <note tab.course="2" tab.fret="1" xml:id="id17" />
+                                        <note tab.course="2" tab.fret="1" xml:id="id18" />
                                     </tabGrp>
                                 </layer>
                             </staff>
-                            <fing playingHand="right" playingFinger="1" startid="#id17" />
+                            <fing playingHand="right" playingFinger="1" startid="#id18" />
                         </measure>
                         <measure n="25">
                             <staff n="1">
@@ -602,38 +602,37 @@
                                         <note tab.course="6" tab.fret="3" />
                                     </tabGrp>
                                     <tabGrp dur="16">
-                                        <note tab.course="3" tab.fret="0" xml:id="id18" />
+                                        <note tab.course="3" tab.fret="0" xml:id="id19" />
                                     </tabGrp>
                                     <tabGrp dur="16">
                                         <note tab.course="3" tab.fret="1" />
                                     </tabGrp>
                                     <tabGrp dur="16">
-                                        <note tab.course="3" tab.fret="3" xml:id="id19" />
+                                        <note tab.course="3" tab.fret="3" xml:id="id20" />
                                     </tabGrp>
                                     <tabGrp dur="16">
                                         <note tab.course="2" tab.fret="0" />
                                     </tabGrp>
                                     <tabGrp dur="16">
-                                        <note tab.course="2" tab.fret="1" xml:id="id20" />
+                                        <note tab.course="2" tab.fret="1" xml:id="id21" />
                                     </tabGrp>
                                     <tabGrp dur="16">
                                         <note tab.course="2" tab.fret="3" />
                                     </tabGrp>
                                     <tabGrp dur="16">
-                                        <note tab.course="2" tab.fret="0" xml:id="id21" />
+                                        <note tab.course="2" tab.fret="0" xml:id="id22" />
                                     </tabGrp>
                                 </layer>
                             </staff>
-                            <fing playingHand="right" playingFinger="1" startid="#id18" />
                             <fing playingHand="right" playingFinger="1" startid="#id19" />
                             <fing playingHand="right" playingFinger="1" startid="#id20" />
                             <fing playingHand="right" playingFinger="1" startid="#id21" />
+                            <fing playingHand="right" playingFinger="1" startid="#id22" />
                         </measure>
                         <measure n="26">
                             <staff n="1">
                                 <layer n="1">
-                                    <tabGrp dur="2">
-                                        <tabDurSym />
+                                    <tabGrp dur="2" xml:id="id23">
                                         <note tab.course="2" tab.fret="1" />
                                         <note tab.course="3" tab.fret="1" />
                                         <note tab.course="4" tab.fret="2" />
@@ -641,6 +640,7 @@
                                     </tabGrp>
                                 </layer>
                             </staff>
+                            <fermata startid="#id23" />
                         </measure>
                         <measure n="27">
                             <staff n="1">
@@ -656,14 +656,14 @@
                                         <tabDurSym />
                                         <note tab.course="1" tab.fret="0" />
                                         <note tab.course="2" tab.fret="1" />
-                                        <note tab.course="3" tab.fret="1" xml:id="id22" />
+                                        <note tab.course="3" tab.fret="1" xml:id="id24" />
                                     </tabGrp>
                                     <tabGrp dur="8">
                                         <note tab.course="5" tab.fret="3" />
                                     </tabGrp>
                                 </layer>
                             </staff>
-                            <fing playingHand="right" playingFinger="1" startid="#id22" />
+                            <fing playingHand="right" playingFinger="1" startid="#id24" />
                         </measure>
                         <measure n="28">
                             <staff n="1">
@@ -687,11 +687,11 @@
                                         <note tab.course="2" tab.fret="0" />
                                     </tabGrp>
                                     <tabGrp dur="16">
-                                        <note tab.course="3" tab.fret="3" xml:id="id23" />
+                                        <note tab.course="3" tab.fret="3" xml:id="id25" />
                                     </tabGrp>
                                 </layer>
                             </staff>
-                            <fing playingHand="right" playingFinger="1" startid="#id23" />
+                            <fing playingHand="right" playingFinger="1" startid="#id25" />
                         </measure>
                         <measure n="29">
                             <staff n="1">
@@ -721,14 +721,14 @@
                         <measure n="30" right="end">
                             <staff n="1">
                                 <layer n="1">
-                                    <tabGrp dur="2">
-                                        <tabDurSym />
+                                    <tabGrp dur="2" xml:id="id26">
                                         <note tab.course="3" tab.fret="3" />
                                         <note tab.course="4" tab.fret="2" />
                                         <note tab.course="5" tab.fret="0" />
                                     </tabGrp>
                                 </layer>
                             </staff>
+                            <fermata startid="#id26" />
                         </measure>
                     </section>
                 </score>
