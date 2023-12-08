@@ -4,13 +4,14 @@
     <pitch>67</pitch>
     <tuning>(-5 -5 -4 -5 -5 -5)</tuning>
 </rules>}
-{ Converted to TabCode .tc by luteconv 1.4.5 }
-{ encoding-date 2022-08-14 }
+{ Converted to TabCode .tc by luteconv 1.4.8 }
+{ encoding-date 2023-12-08 }
 { 42-26. Untitled - lute part - AABBCC8 7D }
 { GB-Cu Nn.6.36, f. 37r }
 
 { Stave 1 }
 { Bar 1 }
+|
 E.a1(Oe:5)a2c4a6
 Sc1
 Qd1
@@ -50,7 +51,7 @@ Qa1d5
 |
 E.c1(Oe:5)a5
 Sa1.
-Qa1a2c5(C1:7)
+Qa1a2(E)c5(C1:7)
 Ee2
 d3.(C-1:7)
 { Bar 8 }
@@ -58,6 +59,7 @@ d3.(C-1:7)
 {^}
 { Stave 2 }
 { Bar 8 }
+|
 a6
 a1a2c3
 c4
@@ -65,7 +67,7 @@ a6
 Qa1a2c3
 { Bar 9 }
 ||
-Sa1a6
+Sa1(E)(E)a6
 a2.
 c2
 e2.
@@ -73,9 +75,9 @@ a1
 e2
 a1
 c1
-d1a6
+d1(E)(E)a6
 c1
-d1c6
+d1(E)(E)c6
 f1
 { Bar 10 }
 |
@@ -86,13 +88,14 @@ h1
 l2.
 i2
 h2.
-Ed1d6
+Ed1(E)(E)d6
 f1.
 { Bar 11 }
 |
 {^}
 { Stave 3 }
 { Bar 11 }
+|
 Sh1f4(C2:5)
 i2
 f1
@@ -101,7 +104,7 @@ f1a4
 c1.
 d1
 f1.
-d1c4(C3:5)
+d1(E)c4(C3:5)
 a1.
 c1
 d1.(C-3:7)
@@ -114,13 +117,13 @@ e2
 a1.
 c1
 d1.
-Qc1a2c5
+Qc1a2(E)c5
 { Bar 13 }
 |
 Ec1a2c5
 Sa1
 c1
-d1d4(C4:5)
+d1(E)d4(C4:5)
 a1.
 f1
 d1.(C-4:7)
@@ -132,7 +135,8 @@ Ec1
 {^}
 { Stave 4 }
 { Bar 14 }
-Ed1a2d6
+|
+Ed1a2(E)d6
 Sc1
 a1
 d2
@@ -148,7 +152,7 @@ b2a5
 d2
 a1
 b2
-e2c5(C6:5)
+e2(E)c5(C6:5)
 a1.
 c1
 d1.
@@ -171,6 +175,7 @@ Qc4(Oe:5)
 {^}
 { Stave 5 }
 { Bar 17 }
+|
 E.e2(Oe:5)a3Xa
 Sa1.
 Ec1
@@ -189,7 +194,7 @@ Ea1
 |
 Ec1a4
 f1.
-d2d6
+d2(E)d6
 d1.
 Sd5(C7:5)
 c1.
@@ -206,8 +211,8 @@ Ea2
 c1(Oe:5)a2Xa
 Sa1
 c1.
-Ed1Xa
-Sf1a5
+Ed1(E)Xa
+Sf1(E)a5
 d1.
 c1
 a1.
@@ -217,6 +222,7 @@ Ec1a4
 {^}
 { Stave 6 }
 { Bar 22 }
+|
 Q.d1a2b3d6
 Ec1
 Qa1b2d3a5
@@ -267,6 +273,7 @@ b2.
 {^}
 { Stave 7 }
 { Bar 27 }
+|
 e2
 a1.
 c1
@@ -307,6 +314,7 @@ c1
 {^}
 { Stave 8 }
 { Bar 30 }
+|
 Sd1
 c1.
 d1
@@ -348,6 +356,7 @@ Qh1
 {^}
 { Stave 9 }
 { Bar 33 }
+|
 E.a2b3d6(C9:5)
 Sc2.
 Ed2
@@ -378,7 +387,7 @@ a5
 a1.
 { Bar 37 }
 |
-E.e2(Oe:5)a3Xa
+E.e2(Oe:5)a3(E)Xa
 Sa1.
 Ec1(Oe:5)
 Xa
@@ -389,6 +398,7 @@ f1.
 {^}
 { Stave 10 }
 { Bar 38 }
+|
 E.h1(Oe:5)a2a3Xa
 Sf1.
 Ed1
@@ -426,6 +436,7 @@ d2.
 {^}
 { Stave 11 }
 { Bar 42 }
+|
 Qd1a2b3d6
 Ec1
 Sa1
@@ -469,6 +480,7 @@ f1.
 {^}
 { Stave 12 }
 { Bar 46 }
+|
 Eh1
 Sf1
 d1.

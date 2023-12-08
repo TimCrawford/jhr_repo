@@ -4,13 +4,14 @@
     <pitch>67</pitch>
     <tuning>(-5 -5 -4 -5 -5)</tuning>
 </rules>}
-{ Converted to TabCode .tc by luteconv 1.4.5 }
-{ encoding-date 2022-08-14 }
+{ Converted to TabCode .tc by luteconv 1.4.8 }
+{ encoding-date 2023-12-08 }
 { JD68c. (Alo John Dowland) - 12x4bars }
 { GB-Gu Euing 25, ff. 21v-22r }
 
 { Stave 1 }
 { Bar 1 }
+|
 M(C/)
 Qd1a2b3c4
 d1
@@ -18,7 +19,7 @@ f1d2a3a4
 f1
 { Bar 2 }
 |
-h1d2f4
+h1d2(E)f4
 h1
 f1f2g3h4
 c1e2f3
@@ -26,7 +27,7 @@ c1e2f3
 |
 Ed1f2c4
 f1
-h1f4
+h1(E)f4
 f3
 f1c2e4
 e2
@@ -48,7 +49,7 @@ c1
 |
 a1b2
 d1
-c1d3
+c1(E)d3
 a1
 e2f3
 a1
@@ -59,6 +60,7 @@ d3
 {^}
 { Stave 2 }
 { Bar 7 }
+|
 d1d2f4
 f1
 h1
@@ -69,7 +71,7 @@ d1f2
 c4
 { Bar 8 }
 |
-Ec1f3
+Ec1(E)f3
 Se2
 c2
 Ee2
@@ -77,59 +79,60 @@ d3
 Ha1a2c3c4
 { Bar 9 }
 ||
-Ed1c4
+Ed1(E)c4
 a2
 d1b2
 Sa2
 a4
-Ef1d3d5
-b3c5
-f1a5
+Ef1d3(E)d5
+b3(E)c5
+f1(E)a5
 a3
 { Bar 10 }
 |
-h1d6
+h1(E)(E)d6
 f3
-h1a4
+h1(E)a4
 c4
-f1e4
+f1(E)e4
 c4
-c1c5
+c1(E)c5
 b4
 { Bar 11 }
 |
 {^}
 { Stave 3 }
 { Bar 11 }
-d1a2c4a6
+|
+d1a2(E)c4(E)a6
 f1e4
 h1f4
-d1c4
-f1a3a5
-h1g4
-d1c4
-f1e4
+d1(E)c4
+f1a3(E)a5
+h1(E)g4
+d1(E)c4
+f1(E)e4
 { Bar 12 }
 |
 c1a2b4c5
-d1c4
-c1c5
+d1(E)c4
+c1(E)c5
 b4
-Q.a1a2c3c4a6
+Q.a1a2c3c4(E)a6
 Ea1
 { Bar 13 }
 ||
 Ed1a2c4
-c1d3
+c1(E)d3
 d1a2
 a1c2
-c1d2c5
-d1a2c4
-c1a4
+c1d2(E)c5
+d1a2(E)c4
+c1(E)a4
 e2f3c5
 { Bar 14 }
 |
-a1c4d5
+a1(E)c4d5
 f1a3
 d1b3
 Sc1d3
@@ -137,24 +140,25 @@ a1
 Ee2f3c5
 a1
 c1
-e2c5
+e2(E)c5
 { Bar 15 }
 |
 {^}
 { Stave 4 }
 { Bar 15 }
+|
 d1f3d6
-f1g3
+f1(E)g3
 h1d2
-d1f3
-f1g3d5
-d1f3f5
-c1d3c4
-a1b3
+d1(E)f3
+f1g3(E)d5
+d1(E)f3f5
+c1(E)d3c4
+a1(E)b3
 { Bar 16 }
 |
 e2f3e4c5
-f2c4
+f2(E)c4
 e4c5
 e2
 Ha1a2c3c4c5a6
@@ -164,7 +168,7 @@ Sd1
 c4
 b3
 a3
-d1c4
+d1(E)c4
 a4
 d5
 c5
@@ -181,29 +185,30 @@ a5
 {^}
 { Stave 5 }
 { Bar 18 }
-Sh1d6
+|
+Sh1(E)(E)d6
 f4
 f4
 f5
-h1h5
+h1(E)h5
 f5
 h5
 h6
-f1d5
+f1(E)d5
 c5
 d5
 a5
-c1a4
+c1(E)a4
 d5
 c5
 a5
 { Bar 19 }
 |
-d1d6
+d1(E)(E)d6
 d5
-f1c5
+f1(E)c5
 a5
-h1d6
+h1(E)(E)d6
 a5
 c5
 e5
@@ -211,7 +216,7 @@ f1a4
 c4
 e4
 a4
-d1c4
+d1(E)c4
 a3
 b3
 d3
@@ -220,6 +225,7 @@ d3
 {^}
 { Stave 6 }
 { Bar 20 }
+|
 c1a2
 c2
 d2
@@ -228,7 +234,7 @@ c1a2
 d3
 c3
 a3
-Ea1c3
+Ea1(E)c3
 c4
 Qc4
 { Bar 21 }
@@ -245,7 +251,7 @@ c1d2
 a4
 a4
 c4
-c1a3
+c1(E)a3
 b3
 d3
 a2
@@ -254,15 +260,16 @@ a2
 {^}
 { Stave 7 }
 { Bar 22 }
+|
 a1b2
 d5
 d5
 a4
-a1c4
+a1(E)c4
 a3
 b3
 d3
-e2c5
+e2(E)c5
 a2
 a2
 c2
@@ -280,11 +287,11 @@ d1
 h1
 f1d5
 d1
-c1a4
+c1(E)a4
 f1
 d1
 c1
-a1c4
+a1(E)c4
 d1
 c1
 a1
@@ -293,18 +300,19 @@ a1
 {^}
 { Stave 8 }
 { Bar 24 }
-Se2c5
+|
+Se2(E)c5
 f2
-c1c4
+c1(E)c4
 f2
-e2c5
+e2(E)c5
 c2
 e2
 d3
-Ha1a2c3c4a6
+Ha1a2c3c4(E)a6
 { Bar 25 }
 ||
-Sd1c4
+Sd1(E)c4
 a3
 b3
 d3
@@ -322,11 +330,11 @@ c5
 a5
 { Bar 26 }
 |
-h1d6
+h1(E)(E)d6
 c6
 a6
 c6
-h1d6
+h1(E)(E)d6
 a5
 c5
 e5
@@ -334,7 +342,7 @@ f1a4
 c4
 e4
 a4
-c1e4
+c1(E)e4
 a4
 a4
 c5
@@ -343,13 +351,14 @@ c5
 {^}
 { Stave 9 }
 { Bar 27 }
-Sd1c4
+|
+Sd1(E)c4
 c1
-d1a3
+d1(E)a3
 f1
 Eh1f4
 f3
-Sf1c2e4
+Sf1c2(E)e4
 a2
 c2
 e2
@@ -357,36 +366,37 @@ Ed1f2
 c4
 { Bar 28 }
 |
-Sc1c5
+Sc1(E)c5
 f2
-e2c4
+e2(E)c4
 c2
-e2c5
+e2(E)c5
 f2
 d3
 e2
 Ha1a2c3c4c5a6
 { Bar 29 }
 ||
-Ed1a2c4
+Ed1a2(E)c4
 Sa4
 d5
 Ec5
-d1d5
-c1a4
+d1(E)d5
+c1(E)a4
 Sd5
 c5
 Ea5
-c1c5
+c1(E)c5
 { Bar 30 }
 |
 {^}
 { Stave 10 }
 { Bar 30 }
-a1d5
+|
+a1(E)d5
 Sc5
 a5
-a1d6
+a1(E)(E)d6
 c6
 Ea6
 E.e2a3c5
@@ -395,27 +405,27 @@ Ec1
 a5
 { Bar 31 }
 |
-Sd1d6
+Sd1(E)(E)d6
 d2
 f2
 h2
 d1
 f1
-Eh1d6
-Sf1a5
+Eh1(E)(E)d6
+Sf1(E)a5
 h1
 i1
 h1
-f1a6
+f1(E)(E)a6
 h1
 Ed1
 { Bar 32 }
 |
-Sc1c5
+Sc1(E)c5
 f2
-e2c4
+e2(E)c4
 c2
-e2e4
+e2(E)e4
 f2
 d3
 e2
@@ -425,28 +435,29 @@ Ha1a2c3c4c5a6
 {^}
 { Stave 11 }
 { Bar 33 }
+|
 Ed1
 Sc4
 a4
-Ed1d5
+Ed1(E)d5
 c5
 f1
 Sa4
 d5
-Ef1c2c5
+Ef1c2(E)c5
 a5
 { Bar 34 }
 |
 h1
 Sf4
 e4
-Eh1h5
+Eh1(E)h5
 Sf5
 h5
 Ef1d5
 Sa4
 d5
-Ec1c5
+Ec1(E)c5
 a5
 { Bar 35 }
 |
@@ -454,17 +465,18 @@ Ed1d2f3d6
 f1
 h1
 c5
-f1a4
+f1(E)a4
 Se5
 a4
-Ed1c5
+Ed1(E)c5
 c4
 { Bar 36 }
 |
 {^}
 { Stave 12 }
 { Bar 36 }
-c1c5
+|
+c1(E)c5
 Sb4
 e5
 b4
@@ -489,17 +501,18 @@ Sd5
 a1
 Eb2
 b3
-d1c4
+d1(E)c4
 Sc5
 c1
 Ee2
 a2
-c1a4
+c1(E)a4
 { Bar 39 }
 |
 {^}
 { Stave 13 }
 { Bar 39 }
+|
 Sd6
 d1
 Ed2
@@ -512,7 +525,7 @@ g3
 i1h4
 { Bar 40 }
 |
-h1a2a3h6
+h1a2a3(E)h6
 Sf1
 d1
 c1
@@ -521,7 +534,7 @@ Ec1a2a3b4
 Qa1a2c3c4c5a6
 { Bar 41 }
 ||
-d1a2c4
+d1a2(E)c4
 Ec1
 d1
 Qf1d2a3a4
@@ -530,43 +543,44 @@ l1
 |
 h1d2f3f4d6
 f3
-f1f2g3a5
+f1f2g3(E)a5
 c1a2b4c5
 { Bar 43 }
 |
 {^}
 { Stave 14 }
 { Bar 43 }
-Ed1a2a6
+|
+Ed1a2(E)a6
 f1
-h1d6
+h1(E)(E)d6
 a2
-f1c2c6
+f1c2(E)c6
 e2
-d1f2a6
+d1f2(E)a6
 c2
 { Bar 44 }
 |
-Ec1e2c5
+Ec1e2(E)c5
 d1f2
 c1
-e2c5
-Q.a1a2c3a6
+e2(E)c5
+Q.a1a2c3(E)a6
 Ea1
 { Bar 45 }
 ||
-Qd1a2c4
-Ef1a5
+Qd1a2(E)c4
+Ef1(E)a5
 d1
 Qc1d2d3a4
-Ed1a2b3d6
+Ed1a2b3(E)d6
 c1
 { Bar 46 }
 |
-Qa1b2d5
-Ec1a5
+Qa1b2(E)d5
+Ec1(E)a5
 a1
-E.e2a3c5
+E.e2a3(E)c5
 Sa1
 Ec1
 a5
@@ -575,17 +589,18 @@ a5
 {^}
 { Stave 15 }
 { Bar 47 }
-E.d1d2f3d6
+|
+E.d1d2f3(E)d6
 Sf1
 Eh1
 d1
-f1a5
+f1(E)a5
 h1
-d1a2a6
+d1a2(E)a6
 f1
 { Bar 48 }
 |
-c1a2c5
+c1a2(E)c5
 a1
 d1
 c1

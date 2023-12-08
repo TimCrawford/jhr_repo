@@ -4,13 +4,14 @@
     <pitch>67</pitch>
     <tuning>(-5 -5 -4 -5 -5 -2 -1 -2 -2)</tuning>
 </rules>}
-{ Converted to TabCode .tc by luteconv 1.4.5 }
-{ encoding-date 2022-08-14 }
+{ Converted to TabCode .tc by luteconv 1.4.8 }
+{ encoding-date 2023-12-08 }
 { JD36app. Laminiard - 7F8E9D10C AB16 }
 { GB-Ctc O.16.2, p. 123 }
 
 { Stave 1 }
 { Bar 1 }
+|
 M(3)
 Ed3
 a2
@@ -21,7 +22,7 @@ Sd2.
 Ea1:
 { Bar 3 }
 |
-a1e5
+a1(E)e5
 Qc1d2d3a4
 { Bar 4 }
 |
@@ -35,7 +36,7 @@ Ec4
 |
 c2d3e4(C1:7)
 d2.(C-1:7)
-a1e5
+a1(E)e5
 { Bar 7 }
 |
 d3e4
@@ -43,7 +44,7 @@ a2
 c2a5
 { Bar 8 }
 |
-a2a6
+a2(E)a6
 c5
 c4
 { Bar 9 }
@@ -64,6 +65,7 @@ a3
 {^}
 { Stave 2 }
 { Bar 11 }
+|
 c3
 a6
 E.a3c5(C2:7)
@@ -78,7 +80,7 @@ d3
 |
 d3Xa
 Xa/
-a2Xa//
+a2(E)(E)Xa//
 { Bar 14 }
 |
 E.c2d3c4a5Xa///
@@ -87,7 +89,7 @@ Ea1
 { Bar 15 }
 |
 c2a5
-E.a2a6
+E.a2(E)a6
 Td3.
 a2:
 { Bar 16 }
@@ -115,6 +117,7 @@ a1-5(C-3:7)
 {^}
 { Stave 3 }
 { Bar 21 }
+|
 Ec2a5
 Xa///
 a5
@@ -137,19 +140,19 @@ E.e2a3c5
 Sc1
 { Bar 25 }
 |
-Ea1a6
+Ea1(E)(E)a6
 c5
 c4
 { Bar 26 }
 |
 c1a4
-d2c5
-a1e6
+d2(E)c5
+a1(E)(E)e6
 { Bar 27 }
 |
 Ec2a5
 Xa///
-a2Xa//
+a2(E)(E)Xa//
 { Bar 28 }
 |
 d3Xa/
@@ -160,6 +163,7 @@ c3a6
 {^}
 { Stave 4 }
 { Bar 29 }
+|
 a3c5
 c4e5
 a1
@@ -178,7 +182,7 @@ d2
 |
 a1
 c2
-E.a2a6
+E.a2(E)a6
 Td3
 a2
 { Bar 33 }

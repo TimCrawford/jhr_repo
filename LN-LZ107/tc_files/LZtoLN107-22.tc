@@ -4,25 +4,26 @@
     <pitch>67</pitch>
     <tuning>(-5 -5 -4 -5 -5 -2)</tuning>
 </rules>}
-{ Converted to TabCode .tc by luteconv 1.4.5 }
-{ encoding-date 2022-08-14 }
+{ Converted to TabCode .tc by luteconv 1.4.8 }
+{ encoding-date 2023-12-08 }
 { 42-29. Galliarda - ABC8 7F }
 { D-B 40141, f. 123v }
 
 { Stave 1 }
 { Bar 1 }
+|
 Qd2a3a4Xa
 f1
 l1h2i3a4
 { Bar 2 }
 |
-Q.i1f2h4f6
+Q.i1f2(E)h4(E)f6
 Eh1
 Qf1
 { Bar 3 }
 |
-f1b2d4b6
-d1b2b3d5
+f1b2(E)d4(E)b6
+d1b2b3(E)d5
 b1d2d3a4
 { Bar 4 }
 |
@@ -32,7 +33,7 @@ H.a1c2d3a5
 E.i1f2h4f6
 Sh1
 Ef1g2i3f5
-E.g1d2f4d6
+E.g1d2f4(E)d6
 Sf1
 Ed1b2b3d5
 { Bar 6 }
@@ -42,10 +43,10 @@ d1
 b1d2e3b5
 { Bar 7 }
 |
-E.d1a2b3d6
+E.d1a2b3(E)d6
 Sb1
-Ea1a5
-d2d4
+Ea1(E)a5
+d2(E)d4
 c4
 c2
 { Bar 8 }
@@ -56,6 +57,7 @@ H.d2a3a4
 {^}
 { Stave 2 }
 { Bar 9 }
+|
 Qa1d3a5
 Ef1
 d6
@@ -66,11 +68,11 @@ a6
 Qd2d3a4
 EXa
 a1
-Qb1a4
+Qb1(E)a4
 { Bar 11 }
 |
-a1d5
-d2b5
+a1(E)d5
+d2(E)b5
 Eb3
 d4
 { Bar 12 }
@@ -79,9 +81,9 @@ H.a1c2d3a5
 { Bar 13 }
 |
 Qa1c2d3a5
-Eb1a4
-Qd2b5
-Ea1d5
+Eb1(E)a4
+Qd2(E)b5
+Ea1(E)d5
 { Bar 14 }
 |
 Qb1b2d3b6
@@ -92,14 +94,15 @@ Qd1a2a4d6
 |
 Eb1a4
 a1
-Qd2b5
-Ea1d6
+Qd2(E)b5
+Ea1(E)(E)d6
 d2
 { Bar 16 }
 |
 {^}
 { Stave 3 }
 { Bar 16 }
+|
 H.a1c2d3a5
 { Bar 17 }
 ||
@@ -117,7 +120,7 @@ Qd2
 Eb2
 { Bar 19 }
 |
-E.a2d6
+E.a2(E)d6
 Sb2
 Ed2
 Qa1
@@ -131,7 +134,7 @@ Qa1
 Ed2
 { Bar 21 }
 |
-E.c2d3a5
+E.c2d3(E)a5
 Sd2
 Ea1
 Qb1
@@ -141,7 +144,8 @@ Ea1
 {^}
 { Stave 4 }
 { Bar 22 }
-E.f1a5
+|
+E.f1(E)a5
 Sf1
 Eb1
 Qa1
@@ -152,7 +156,7 @@ E.d2a3a4Xa
 Sa1
 Ec1
 d1a2c4
-a1c2d3a5
+a1c2d3(E)a5
 b3
 { Bar 24 }
 |

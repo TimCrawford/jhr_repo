@@ -4,22 +4,23 @@
     <pitch>67</pitch>
     <tuning>(-5 -5 -4 -5 -5 -2)</tuning>
 </rules>}
-{ Converted to TabCode .tc by luteconv 1.4.5 }
-{ encoding-date 2022-08-14 }
+{ Converted to TabCode .tc by luteconv 1.4.8 }
+{ encoding-date 2023-12-08 }
 { 6. The Gypsies Dance }
 { GB-Lam 603, f. 38v }
 
 { Stave 1 }
 { Bar 1 }
+|
 S.a4a5Xa
 Tc4
 Se4
 a4
-Ed3(Oe:4)Xa
+Ed3(Oe:4)(E)Xa
 a4
 { Bar 2 }
 |
-Sd3a4Xa
+Sd3a4(E)Xa
 e5
 a2a3c5
 d2.
@@ -40,7 +41,7 @@ S.a1a6
 Tc1
 Sd1
 f1
-E.c1d2d3Xa
+E.c1d2d3(E)Xa
 Sc1
 { Bar 5 }
 |
@@ -55,11 +56,12 @@ d6
 {^}
 { Stave 2 }
 { Bar 6 }
+|
 Sc6(C2:7)
 d3-5(C-2:7)
 a2a6
 c2
-Ed2a3a4Xa
+Ed2a3a4(E)Xa
 Sa3
 b3
 { Bar 7 }
@@ -82,7 +84,7 @@ E.a2(Oe:4)d6(C3:5)
 Sa2-5(C-3:7)
 { Bar 10 }
 |
-b3a6
+b3(E)a6
 c4
 d3e5
 b3
@@ -90,7 +92,7 @@ Ea3(Oe:4)a4
 Xa
 { Bar 11 }
 |
-Ed3(Oe:4)a4Xa
+Ed3(Oe:4)a4(E)Xa
 Sd3
 a2
 c2d3a5
@@ -102,10 +104,11 @@ d2-6(C-4:7)
 {^}
 { Stave 3 }
 { Bar 12 }
-Ea1(Oe:4)a6
-c1d2d3Xa
-a1(Oe:4)a5
-d1a2a6
+|
+Ea1(Oe:4)(E)(E)a6
+c1d2d3(E)Xa
+a1(Oe:4)(E)a5
+d1a2(E)a6
 { Bar 13 }
 |
 E.d2a3c5
@@ -120,15 +123,15 @@ E.c2d3c4a5
 Sd2
 a1(Oe:4)
 a5
-a2d6
+a2(E)d6
 c2
 { Bar 15 }
 |
 d2c6
 a1
-c1Xa
+c1(E)(E)Xa
 d1
-E.a1(Oe:4)a5
+E.a1(Oe:4)(E)a5
 Td2
 a1
 { Bar 16 }
@@ -141,8 +144,9 @@ QXa
 {^}
 { Stave 4 }
 { Bar 17 }
+|
 M(3)
-E.d2(Oe:4)a3a4Xa
+E.d2(Oe:4)a3a4(E)Xa
 Sf2
 Ed2
 E.d3(Oe:4)a4Xa
@@ -150,25 +154,25 @@ Sf3
 Ed3
 { Bar 18 }
 |
-a2d6
-d3c6
-b3(Oe:4)a6
+a2(E)d6
+d3(E)c6
+b3(Oe:4)(E)a6
 E.a3(Oe:4)a4Xa
 Tc4
 a3
 Ea4(Oe:4)
 { Bar 19 }
 |
-c1(Oe:4)a4
-a1e5
-d2c5
+c1(Oe:4)(E)a4
+a1(E)e5
+d2(E)c5
 E.c2(Oe:4)a5
 Sd2
 Ea1
 { Bar 20 }
 |
 Ed3c6
-E.a2(Oe:4)a6
+E.a2(Oe:4)(E)a6
 Td3
 a2
 E.c2(Oe:4)a5
@@ -180,6 +184,7 @@ Ed3
 {^}
 { Stave 5 }
 { Bar 21 }
+|
 c6
 a6
 Xa

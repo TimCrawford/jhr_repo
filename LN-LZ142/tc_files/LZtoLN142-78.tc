@@ -4,8 +4,8 @@
     <pitch>67</pitch>
     <tuning>(-5 -5 -4 -5 -5)</tuning>
 </rules>}
-{ Converted to TabCode .tc by luteconv 1.4.5 }
-{ encoding-date 2022-09-26 }
+{ Converted to TabCode .tc by luteconv 1.4.8 }
+{ encoding-date 2023-12-08 }
 { Q26. (Pavan) - AA16BB8 }
 { IRL-Dtc 410/I, pp. 122-123 }
 
@@ -21,13 +21,13 @@ M(C/)
 ]]a1a2c3
 [[c4
 ]]a6
-Qa1a2c3a6
+Qa1a2c3(E)a6
 [[c4
 ]]a3
 { Bar 3 }
 |
 Qa1a2c3c4
-Qc2d3e5
+Qc2d3(E)e5
 Qd2f3a4
 Qa1a2c3c4
 { Bar 4 }
@@ -36,15 +36,15 @@ Qa1a2c3c4
 ]]c2d3
 [[c4
 ]]a5
-[[c2d3a5
+[[c2d3(E)a5
 ]]c3
 [[d3
 ]]a2
 { Bar 5 }
 |
-Qc2d3a5
-Qa2c3e6
-Qc2d3c6
+Qc2d3(E)a5
+Qa2c3(E)e6
+Qc2d3(E)c6
 Qe2a3c5
 { Bar 6 }
 |
@@ -76,10 +76,10 @@ Qc1a2a3b4
 Qa1
 { Bar 9 }
 |
-Qe2a3c5
-Qc2d3a5
-Qa2c3e6
-[[d3c6
+Qe2a3(E)c5
+Qc2d3(E)a5
+Qa2c3(E)e6
+[[d3(E)c6
 ]]b4
 { Bar 10 }
 |
@@ -92,7 +92,7 @@ Qa2a3b4
 { Bar 11 }
 |
 Qa1a2c3c4
-Qa1c2d3a5
+Qa1c2d3(E)a5
 [[d2f3a4
 ]]c2d3
 [[a1a2c3c4
@@ -107,30 +107,30 @@ Qa1c2d3a5
 ]]c2d3
 [[c4
 ]]c1
-[[a1a5
+[[a1(E)a5
 ]]d3
-[[d2c5
+[[d2(E)c5
 ]]c3
 { Bar 13 }
 |
-Qc2d3a5
-Qa2c3e6
-[[c2d3c6
+Qc2d3(E)a5
+Qa2c3(E)e6
+[[c2d3(E)c6
 ]]a2
 [[c2
 ]]e2
 { Bar 14 }
 |
-Qa1a2c3c4a6
-Qc2d3c6
-Qa2c3e6
-[[c2d3a5
+Qa1a2c3c4(E)a6
+Qc2d3(E)c6
+Qa2c3(E)e6
+[[c2d3(E)a5
 ]]c3
 { Bar 15 }
 |
-Qa2a3c5
-Qa1a2c3e6
-Qc2d3a5
+Qa2a3(E)c5
+Qa1a2c3(E)e6
+Qc2d3(E)a5
 [[a2a3c5
 ]]d3
 { Bar 16 }
@@ -139,9 +139,9 @@ Qc2d3a5
 ]]a2c3
 [[c4
 ]]a6
-[[c2d3a5
+[[c2d3(E)a5
 ]]c3
-[[a2a3c5
+[[a2a3(E)c5
 ]]d3
 { Bar 17 }
 |
@@ -153,7 +153,7 @@ Qc2d3a5
 ]]a2c3
 [[c4
 ]]a6
-Qa2c3a6
+Qa2c3(E)a6
 { Bar 18 }
 ||
 [[e5
@@ -162,44 +162,44 @@ Qa2c3a6
 |
 [[a6
 ]]a1a2c3
-[[a1a2c3a6
-]]d3c6
-[[a2e6
+[[a1a2c3(E)a6
+]]d3(E)c6
+[[a2(E)e6
 ]]a6
-[[a2e6
-]]d3c6
+[[a2(E)e6
+]]d3(E)c6
 { Bar 20 }
 |
-[[a1a2c3a6
+[[a1a2c3(E)a6
 ]]c4
-[[a1a2c3a6
+[[a1a2c3(E)a6
 ]]c1
-[[a1a2c3a6
+[[a1a2c3(E)a6
 ]]d2
-[[c2d3a5
-]]a2c3e6
+[[c2d3(E)a5
+]]a2c3(E)e6
 { Bar 21 }
 |
 [[a5
 ]]c2d3
 [[c4
 ]]d2
-[[a1e5
+[[a1(E)e5
 ]]a5
-[[a1e5
-]]d2c5
+[[a1(E)e5
+]]d2(E)c5
 { Bar 22 }
 |
 {^}
 { Stave 5 }
 { Bar 22 }
 |
-[[c2d3a5
+[[c2d3(E)a5
 ]]a2
-Qa2c3e6
-[[b4c6
+Qa2c3(E)e6
+[[b4(E)c6
 ]]c4
-[[e4c6
+[[e4(E)c6
 ]]b4
 { Bar 23 }
 |
@@ -207,7 +207,7 @@ Qa2c3e6
 ]]a1a2c3
 [[c4
 ]]c2
-[[a2c3a6
+[[a2c3(E)a6
 ]]d3
 [[c3c4
 ]]a3b4
@@ -217,17 +217,17 @@ Qa2c3e6
 ]]a6
 [[a2a3b4
 ]]c5
-Ea2e5
+Ea2(E)e5
 [[[e3
 ]]]c3
-[[e3e5
+[[e3(E)e5
 ]]a3
 { Bar 25 }
 |
-Qa2a3c5
-Qa2c3e6
-Qc1c2e3e4c6
-Qc1c2e3e4c6
+Qa2a3(E)c5
+Qa2c3(E)e6
+Qc1c2e3e4(E)c6
+Qc1c2e3e4(E)c6
 { Bar 26 }
 |
 {^}
@@ -247,30 +247,30 @@ Qa2a3c5
 ]]a6
 [[a1a2c3
 ]]c6
-[[a2e6
-]]c3a6
-[[d3c6
-]]a3c5
+[[a2(E)e6
+]]c3(E)a6
+[[d3(E)c6
+]]a3(E)c5
 { Bar 28 }
 |
-[[a1a2c3c4a6
+[[a1a2c3c4(E)a6
 ]]e4
-[[a1c4
-]]c1a4
-[[a1e5
-]]c2a5
-[[d2c5
-]]a2e6
+[[a1(E)c4
+]]c1(E)a4
+[[a1(E)e5
+]]c2(E)a5
+[[d2(E)c5
+]]a2(E)e6
 { Bar 29 }
 |
-[[c2d3a5
+[[c2d3(E)a5
 ]]d2
 [[a1
 ]]d2
-Ed2a3c5
+Ed2a3(E)c5
 [[[c3
 ]]]a3
-[[d2d3c5
+[[d2d3(E)c5
 ]]c3
 { Bar 30 }
 |
@@ -284,34 +284,34 @@ Ed2a3c5
 ]]d2
 [[c2d3
 ]]a5
-[[a2c3e6
+[[a2c3(E)e6
 ]]d3c6
 { Bar 31 }
 |
-[[a2c3a6
+[[a2c3(E)a6
 ]]d3
 [[a2
 ]]b4
 [[e5
 ]]a2
-[[a2e5
+[[a2(E)e5
 ]]e3
 { Bar 32 }
 |
-[[a2a3c5
+[[a2a3(E)c5
 ]]e6
 [[a5
 ]]e5
-[[a2a3c5
+[[a2a3(E)c5
 ]]a5
 [[c5
 ]]a2a3
 { Bar 33 }
 |
-Qa1a2c3a6
-Qa2c3e6
-Qc2d3e5
-[[a2a3c5
+Qa1a2c3(E)a6
+Qa2c3(E)e6
+Qc2d3(E)e5
+[[a2a3(E)c5
 ]]d3
 { Bar 34 }
 |
@@ -323,7 +323,7 @@ Qc2d3e5
 ]]a2c3
 [[c4
 ]]d3
-Qa2c3a6
+Qa2c3(E)a6
 { Bar 35 }
 ||
 [[b4
@@ -333,27 +333,27 @@ Qa2c3a6
 Qa2a3c5
 [[a2a3
 ]]b5
-Qa2a3c5
+Qa2a3(E)c5
 Qa2a3
 { Bar 37 }
 |
-[[a2a3c5
+[[a2a3(E)c5
 ]]a5
-Qa2c3e6
-Qc1c2e3c6
-Qc1c2e3c6
+Qa2c3(E)e6
+Qc1c2e3(E)c6
+Qc1c2e3(E)c6
 { Bar 38 }
 |
 [[a2a3c5
 ]]e5
-[[a2a4
+[[a2(E)a4
 ]]c4
-[[c1c2e4
+[[c1c2(E)e4
 ]]a2
-Qc1c2e4
+Qc1c2(E)e4
 { Bar 39 }
 |
-Qa2a3c5
+Qa2a3(E)c5
 [[a2a3
 ]]b5
 [[a2a3c5
@@ -366,30 +366,30 @@ Qa2a3c5
 { Stave 9 }
 { Bar 40 }
 |
-[[a1a2c3a6
+[[a1a2c3(E)a6
 ]]e4
-[[a1c4
-]]c1a4
-[[a1e5
-]]d2c5
-[[c2a5
-]]a2e6
+[[a1(E)c4
+]]c1(E)a4
+[[a1(E)e5
+]]d2(E)c5
+[[c2(E)a5
+]]a2(E)e6
 { Bar 41 }
 |
-[[c2d3a5
+[[c2d3(E)a5
 ]]d2
-[[c2d3a5
-]]a2c3a6
-[[c2a5
-]]a2c3e6
+[[c2d3(E)a5
+]]a2c3(E)a6
+[[c2(E)a5
+]]a2c3(E)e6
 [[c6
 ]]a6
 { Bar 42 }
 |
 Qa2a3c5
-Qa2c3e6
-Qc2d3a5
-[[a2a3c5
+Qa2c3(E)e6
+Qc2d3(E)a5
+[[a2a3(E)c5
 ]]d3
 { Bar 43 }
 |
@@ -397,7 +397,7 @@ Qc2d3a5
 ]]a2c3
 [[c4
 ]]d3
-Qa2c3a6
+Qa2c3(E)a6
 { Bar 44 }
 ||
 {^}
@@ -412,20 +412,20 @@ Qa2c3a6
 ]]a2a3
 [[b4
 ]]c5
-Qa2a3c5
+Qa2a3(E)c5
 Qa2a3c5
 { Bar 46 }
 |
-[[a2a3c5
+[[a2a3(E)c5
 ]]a5
-Qa2c3e6
-Qc1c2e3c6
-Qc1c2e3c6
+Qa2c3(E)e6
+Qc1c2e3(E)c6
+Qc1c2e3(E)c6
 { Bar 47 }
 |
-[[c1a2c5
+[[c1a2(E)c5
 ]]e5
-[[a2a4
+[[a2(E)a4
 ]]c4
 [[c1c2e3e4
 ]]f3
@@ -437,7 +437,7 @@ Qc1c2e3c6
 ]]a2a3
 [[b4
 ]]c5
-Qa1a2c3a6
+Qa1a2c3(E)a6
 Qa1a2c3
 { Bar 49 }
 |
@@ -445,18 +445,18 @@ Qa1a2c3
 { Stave 11 }
 { Bar 49 }
 |
-Qc2d3a5
-Qd2a3c5
+Qc2d3(E)a5
+Qd2a3(E)c5
 Qd2a3a4
 [[a2c3c4
 ]]d3
 { Bar 50 }
 |
-[[a2a3c5
+[[a2a3(E)c5
 ]]d3
 [[a2c3c4
 ]]d3
-[[a2a3c5
+[[a2a3(E)c5
 ]]e6
 [[a5
 ]]c5
@@ -466,9 +466,9 @@ Qd2a3a4
 ]]a2c3
 [[c4
 ]]a6
-[[c2d3a5
+[[c2d3(E)a5
 ]]c3
-[[a2a3c5
+[[a2a3(E)c5
 ]]d3
 { Bar 52 }
 |
@@ -476,7 +476,7 @@ Qd2a3a4
 ]]a2c3
 [[c4
 ]]a6
-Qa2c3c4a6
+Qa2c3c4(E)a6
 Fc4
 { Bar 53 }
 |

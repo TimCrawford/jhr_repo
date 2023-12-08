@@ -4,13 +4,14 @@
     <pitch>67</pitch>
     <tuning>(-5 -5 -4 -5 -5 -2 -2 -1)</tuning>
 </rules>}
-{ Converted to TabCode .tc by luteconv 1.4.5 }
-{ encoding-date 2022-08-14 }
+{ Converted to TabCode .tc by luteconv 1.4.8 }
+{ encoding-date 2023-12-08 }
 { DB36. Courante Mr Daniel (Bacheler) }
 { GB-Cfm MU MS 689, f. 25v }
 
 { Stave 1 }
 { Bar 1 }
+|
 Ed2
 { Bar 2 }
 |
@@ -19,7 +20,7 @@ d3
 b1d2
 { Bar 3 }
 |
-E.d1f4
+E.d1(E)f4
 Sd3
 Ed1e3
 { Bar 4 }
@@ -30,7 +31,7 @@ Xa
 { Bar 5 }
 |
 Qd2e3d4b5
-Sa1a5
+Sa1(E)a5
 b1
 { Bar 6 }
 |
@@ -55,28 +56,29 @@ a5
 b1d2d3a4
 { Bar 11 }
 |
-E.d1a4d6
+E.d1(E)a4d6
 Sa5
-Ed1b5
+Ed1(E)b5
 { Bar 12 }
 |
 {^}
 { Stave 2 }
 { Bar 12 }
+|
 Qf1d3c4a5
 EXa//
 { Bar 13 }
 |
 Qd2e3d4b5
-Sa1a5
+Sa1(E)a5
 b1
 { Bar 14 }
 |
-Qd1a2a4d6
+Qd1a2(E)a4d6
 Ea1c2d3a5
 { Bar 15 }
 |
-b1d2d3Xa
+b1d2d3(E)Xa
 E.a1d3c4a5
 Sd2
 { Bar 16 }
@@ -92,17 +94,17 @@ Ef1
 { Bar 19 }
 |
 Qf1d2d3a4
-Ed1c4
+Ed1(E)c4
 { Bar 20 }
 |
 E.b1d2d4
 Sc4
-Eb1a4
+Eb1(E)a4
 { Bar 21 }
 |
-d1d5
+d1(E)d5
 a4
-d1b5
+d1(E)b5
 { Bar 22 }
 |
 Qf1d3c4a5
@@ -118,7 +120,8 @@ a5
 {^}
 { Stave 3 }
 { Bar 24 }
-Qd1d2e3d6
+|
+Qd1d2e3(E)d6
 EXa
 { Bar 25 }
 |
@@ -149,18 +152,19 @@ a4
 d2
 { Bar 29 }
 |
-a1d5
+a1(E)d5
 b1
 d1
 a1
-b1b5
+b1(E)b5
 d1
 { Bar 30 }
 |
 {^}
 { Stave 4 }
 { Bar 30 }
-f1a5
+|
+f1(E)a5
 c5
 d5
 a5
@@ -168,11 +172,11 @@ a4
 d5
 { Bar 31 }
 |
-Sb1b5
+Sb1(E)b5
 d5
 a4
 d5
-d2b5
+d2(E)b5
 a5
 { Bar 32 }
 |
@@ -185,7 +189,7 @@ E.a1d3c4a5
 Sd2
 { Bar 34 }
 |
-Qd2d3a4Xa
+Qd2d3a4(E)Xa
 { Bar 35 }
 ||
 Ea4f5
@@ -211,6 +215,7 @@ c4
 {^}
 { Stave 5 }
 { Bar 39 }
+|
 a4b5
 c4
 d4
@@ -222,11 +227,11 @@ d4
 E.b3a4d6
 Ta3
 b3
-Ed3c6
+Ed3(E)c6
 { Bar 41 }
 |
-b3d6
-E.d4a5Xa
+b3(E)d6
+E.d4a5(E)Xa
 Tf4
 d4
 { Bar 42 }
@@ -253,7 +258,8 @@ b1d2
 {^}
 { Stave 6 }
 { Bar 45 }
-d1f4
+|
+d1(E)f4
 Si1
 g1
 f1
@@ -266,27 +272,27 @@ b1
 a1
 { Bar 47 }
 |
-d2b5
+d2(E)b5
 a1
 b1
 d2
-a1a5
+a1(E)a5
 b1
 { Bar 48 }
 |
-Ed1d6
+Ed1(E)(E)d6
 Sf1
 d1
-b1Xa
+b1(E)Xa
 a1
 { Bar 49 }
 |
-Eb1a4
+Eb1(E)a4
 E.a1d3a5
 Sd2
 { Bar 50 }
 |
-Qd2d3a4Xa
+Qd2d3a4(E)Xa
 Ea4
 { Bar 51 }
 |
@@ -296,6 +302,7 @@ Xa
 {^}
 { Stave 7 }
 { Bar 52 }
+|
 f1
 c4
 { Bar 53 }
@@ -317,10 +324,10 @@ d1b2
 |
 f1d4
 a4
-d1d5
+d1(E)d5
 { Bar 57 }
 |
-b1b5
+b1(E)b5
 d2e3
 a5
 { Bar 58 }
@@ -334,29 +341,30 @@ E.a1d3c4a5
 Sd2
 { Bar 60 }
 |
-Qd2d3a4Xa
+Qd2d3a4(E)Xa
 Ed3
 { Bar 61 }
 |
 d3
 Xa
-b3a6
+b3(E)a6
 { Bar 62 }
 |
 {^}
 { Stave 8 }
 { Bar 62 }
-d4b6
+|
+d4(E)b6
 a6
 Xa
 { Bar 63 }
 |
-b3Xb/
+b3(E)Xb/
 d6
-b2d5
+b2(E)d5
 { Bar 64 }
 |
-d3a5
+d3(E)a5
 a4
 d3c4e5
 { Bar 65 }
@@ -375,6 +383,6 @@ E.a1d3c4a5
 Sd2
 { Bar 68 }
 |
-Fd2d3a4Xa
+Fd2d3a4(E)Xa
 { Bar 69 }
 |

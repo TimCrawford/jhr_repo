@@ -4,13 +4,14 @@
     <pitch>64</pitch>
     <tuning>(-4 -3 -4 -5 -5 -2 -2 -1 -2)</tuning>
 </rules>}
-{ Converted to TabCode .tc by luteconv 1.4.5 }
-{ encoding-date 2022-08-14 }
+{ Converted to TabCode .tc by luteconv 1.4.8 }
+{ encoding-date 2023-12-08 }
 { App 2b. (country dance?) - (edeff) AA4B8 }
 { GB-Lbl Eg.2046, f. 50v }
 
 { Stave 1 }
 { Bar 1 }
+|
 M(3)
 Qd3c4a5
 Ed3(Fl4:4)
@@ -26,9 +27,9 @@ QXa///
 Eg1(Fl4:4)
 { Bar 3 }
 |
-Qf1(Fl3:4)Xa
+Qf1(Fl3:4)(E)Xa
 Ed1(Fl1:4).
-Qi1(Fl4:4)Xa///
+Qi1(Fl4:4)(E)Xa///
 Ea1.
 { Bar 4 }
 |
@@ -53,20 +54,21 @@ Eg1(Fl4:4)
 {^}
 { Stave 2 }
 { Bar 7 }
-Qf1(Fl3:4)a4
+|
+Qf1(Fl3:4)(E)a4
 Ed1(Fl1:4).
-Qi1(Fl4:4)a5
+Qi1(Fl4:4)(E)a5
 Ea1
 { Bar 8 }
 |
-Q.d1(Fl4:4)c2(Fl2:4)c3(Fl1:4)a6
+Q.d1(Fl4:4)c2(Fl2:4)c3(Fl1:4)(E)a6
 Q
 Eg1(Fl4:4)
 { Bar 9 }
 |
 Qf1(Oe:5)(Fl3:4)Xa
 Ed1(Fl1:4).
-Qi1(Fl4:4)Xa///
+Qi1(Fl4:4)(E)Xa///
 Ea1.
 { Bar 10 }
 |
@@ -84,13 +86,13 @@ Q.c3(Fl1:4)
 |
 Qd3(Fl4:4)a5
 Ec2(Fl2:4)
-Qa1Xa///
-Eb1(Fl1:4)Xa//
+Qa1(E)Xa///
+Eb1(Fl1:4)(E)Xa//
 { Bar 14 }
 |
-Qd1(Fl2:4)Xa/
-Ef1(Fl4:4)Xa
-E.h1(Fl4:4)a6
+Qd1(Fl2:4)(E)Xa/
+Ef1(Fl4:4)(E)Xa
+E.h1(Fl4:4)(E)(E)a6
 Sf1(Fl1:4):
 Eh1(Fl3:4).
 { Bar 15 }
@@ -98,7 +100,8 @@ Eh1(Fl3:4).
 {^}
 { Stave 3 }
 { Bar 15 }
-Qi1(Fl4:4)a5
+|
+Qi1(Fl4:4)(E)a5
 Ea1.
 E.c2(Oe:5)a6
 Sa2:

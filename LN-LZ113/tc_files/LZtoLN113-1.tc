@@ -4,27 +4,28 @@
     <pitch>67</pitch>
     <tuning>(-5 -5 -4 -5 -5)</tuning>
 </rules>}
-{ Converted to TabCode .tc by luteconv 1.4.5 }
-{ encoding-date 2022-08-14 }
+{ Converted to TabCode .tc by luteconv 1.4.8 }
+{ encoding-date 2023-12-08 }
 { JD23g. Frogge Galliard - AABB16 }
 { D-Hs ND VI 3238, pp. 144-145 }
 
 { Stave 1 }
 { Bar 1 }
+|
 M(3)
 He1a2c4a6
 Qc1e2f3c5
 { Bar 2 }
 |
 Hf2c3e5
-Qe2f3e6
+Qe2f3(E)e6
 { Bar 3 }
 |
 E.c2d3c4a5
 Sa2
 Ec2
 e2
-a1a2c4
+a1a2c4(E)
 a6
 { Bar 4 }
 |
@@ -37,15 +38,15 @@ c2
 Qe2f3
 { Bar 5 }
 |
-Q.e1a2a6
+Q.e1a2(E)a6
 Ef1
 Qh1
 { Bar 6 }
 |
-f1c2c6
+f1c2(E)c6
 Ee6
 e1
-c1a5
+c1(E)a5
 a1
 { Bar 7 }
 |
@@ -60,34 +61,35 @@ c2
 {^}
 { Stave 2 }
 { Bar 8 }
+|
 Q.e2f3e4c5
 Ee2
 f2
 c1
 { Bar 9 }
 |
-He1a2c4a6
+He1a2c4(E)a6
 Qc1e2f3c5
 { Bar 10 }
 |
 Hf2c3e5
-Qe2f3e6
+Qe2f3(E)e6
 { Bar 11 }
 |
 E.c2d3c4a5
 Sa2
 Ec2
 e2
-a1a2c4
+a1a2c4(E)
 a6
 { Bar 12 }
 |
-Q.c1e2c5
+Q.c1e2(E)c5
 Ee1
-Qf1c2c6
+Qf1c2(E)c6
 { Bar 13 }
 |
-e1f2f3e6
+e1f2f3(E)e6
 e2
 Ec1d3a5
 a1
@@ -105,6 +107,7 @@ d3
 {^}
 { Stave 3 }
 { Bar 15 }
+|
 a6
 a1a2c3
 c4
@@ -113,35 +116,36 @@ c3
 a3
 { Bar 16 }
 |
-Qa1a2c3c4
+Qa1a2c3c4(E)
 Ha6
 { Bar 17 }
 ||
-Ee1a2a6
+Ee1a2(E)a6
 Sc1
 e1
 f1
 e1
 c1
 a1
-Ec1c5
+Ec1(E)c5
 e2
 { Bar 18 }
 |
-a1e5(C1:5)
+a1(E)e5(C1:5)
 Se2
 a1
 c1
 a1
 e2-4(C-1:7)
 c2
-Ee2e6
+Ee2(E)e6
 f3
 { Bar 19 }
 |
 {^}
 { Stave 4 }
 { Bar 19 }
+|
 c2a5
 Sd3
 a2
@@ -160,33 +164,34 @@ e2
 c2
 e2
 f2
-Ee2f3
+Ee2f3(E)
 c5
 { Bar 21 }
 |
-e1a6
+e1(E)(E)a6
 Sf2
 h2
 e1
 h2
 e1
 f1
-Eh1
+Eh1(E)(E)
 a6
 { Bar 22 }
 |
 {^}
 { Stave 5 }
 { Bar 22 }
-Sf1c6
+|
+Sf1(E)(E)c6
 c1
 e1
 f1
-e1e6
+e1(E)(E)e6
 a1
 c1
 e1
-c1a5
+c1(E)a5
 a1
 e2
 c2
@@ -214,25 +219,26 @@ c1
 {^}
 { Stave 6 }
 { Bar 25 }
-e1a2a6
+|
+e1a2(E)a6
 Sc1
 e1
 Ea1
 e1
-c1c5
+c1(E)c5
 e2
 { Bar 26 }
 |
-a1e5(C2:5)
+a1(E)e5(C2:5)
 Se2
 a1
 Ec1
 a1-4(C-2:7)
-e2e6
+e2(E)e6
 f3
 { Bar 27 }
 |
-c2a5
+c2(E)a5
 Sa2
 c2
 Ed3
@@ -253,19 +259,20 @@ a2-4(C-3:7)
 {^}
 { Stave 7 }
 { Bar 29 }
-e1e6
+|
+e1(E)(E)e6
 Sh2
 e1
 Ef2
 h1
-f1a5
+f1(E)a5
 Sc1
 e1
 { Bar 30 }
 |
 Ef1
 e1
-Sc1c5
+Sc1(E)c5
 f2
 e2
 c2
@@ -275,7 +282,7 @@ c1
 e2
 { Bar 31 }
 |
-Ea1
+Ea1(E)(E)
 a6
 c4
 Sd2
@@ -289,7 +296,8 @@ a3
 {^}
 { Stave 8 }
 { Bar 32 }
-Qa1a2c3c4
+|
+Qa1a2c3c4(E)
 Ha6
 { Bar 33 }
 ||
@@ -303,7 +311,7 @@ h1
 k1
 { Bar 35 }
 |
-h1a2a6
+h1a2(E)a6
 e1
 a1f2
 { Bar 36 }
@@ -313,9 +321,9 @@ Ec1
 Qe1
 { Bar 37 }
 |
-Q.f1c2a5
+Q.f1c2(E)a5
 Ef1
-e1e2c5
+e1e2(E)c5
 c1
 { Bar 38 }
 |
@@ -327,7 +335,7 @@ g4
 g2
 { Bar 39 }
 |
-Qc1c2e3e4
+Qc1c2e3e4(E)
 Ec6
 f3
 e3
@@ -337,6 +345,7 @@ c3
 {^}
 { Stave 9 }
 { Bar 40 }
+|
 Q.c1c2e3e4
 Ee2
 f2
@@ -348,20 +357,20 @@ Qc1e2f3c5
 { Bar 42 }
 |
 Hf2c3e5
-Qe2f3e6
+Qe2f3(E)e6
 { Bar 43 }
 |
 E.c2d3c4a5
 Sa2
 Ec2
 e2
-a1a2c4
+a1a2c4(E)
 a6
 { Bar 44 }
 |
-Q.c1e2c5
+Q.c1e2(E)c5
 Ee1
-Qf1c2c6
+Qf1c2(E)c6
 { Bar 45 }
 |
 e1f2f3e6
@@ -382,7 +391,8 @@ d3
 {^}
 { Stave 10 }
 { Bar 47 }
-Qa1a2c3c4
+|
+Qa1a2c3c4(E)
 Ea6
 d3
 c3
@@ -403,7 +413,7 @@ e1
 Qf1
 { Bar 50 }
 |
-Ef1a5
+Ef1(E)a5
 Se1
 c1
 a1
@@ -413,7 +423,7 @@ a2
 Qd3
 { Bar 51 }
 |
-Sc3a6
+Sc3(E)a6
 a3
 c3
 d3
@@ -430,7 +440,8 @@ e2
 {^}
 { Stave 11 }
 { Bar 52 }
-Ea1a6
+|
+Ea1(E)(E)a6
 Sc2
 e2
 a1
@@ -443,20 +454,20 @@ c1
 e1
 { Bar 53 }
 |
-Ef1a5
+Ef1(E)a5
 Sd3
 a2
 c2
 e2
 a1
 c1
-Ee1c5
+Ee1(E)c5
 f3
 { Bar 54 }
 |
 Ec1
 d3
-g2e5
+g2(E)e5
 Sh2
 g2
 h2
@@ -468,7 +479,8 @@ g2
 {^}
 { Stave 12 }
 { Bar 55 }
-Ec1
+|
+Ec1(E)(E)
 c6
 e4
 Sf2
@@ -479,7 +491,7 @@ e3
 c3
 { Bar 56 }
 |
-Ec1c2e3
+Ec1c2e3(E)
 c6
 e4
 e2
@@ -487,30 +499,31 @@ f2
 c1
 { Bar 57 }
 ||
-E.e1a2a6
+E.e1a2(E)a6
 Sc1
 a1
 c1
 e1
 a1
-Ec1c5
+Ec1(E)c5
 e2
 { Bar 58 }
 |
-E.a1e5
+E.a1(E)e5
 Se2
 c2
 e2
 a1
 c2
-Ee2e6
+Ee2(E)e6
 f3
 { Bar 59 }
 |
 {^}
 { Stave 13 }
 { Bar 59 }
-E.c2a5
+|
+E.c2(E)a5
 Sa2
 d3
 a2
@@ -520,23 +533,23 @@ Ea1a2c4
 a6
 { Bar 60 }
 |
-E.c1c5
+E.c1(E)c5
 Sf2
 e2
 f2
 c1
 e1
-Ef1c2e4
+Ef1c2(E)e4(E)
 c6
 { Bar 61 }
 |
-Qe1f2f3e6
+Qe1f2f3(E)e6
 e2
 Ec1a5
 d3
 { Bar 62 }
 |
-a1
+a1(E)
 c3
 Se4
 f2
@@ -551,7 +564,8 @@ e2
 {^}
 { Stave 14 }
 { Bar 63 }
-Ea1
+|
+Ea1(E)(E)
 a6
 c4
 Sd2
@@ -562,7 +576,7 @@ c3
 a3
 { Bar 64 }
 |
-Qc4
+Qc4(E)
 Ha6
 { Bar 65 }
 |

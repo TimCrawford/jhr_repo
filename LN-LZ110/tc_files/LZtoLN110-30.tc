@@ -4,14 +4,15 @@
     <pitch>67</pitch>
     <tuning>(-5 -5 -4 -5 -5)</tuning>
 </rules>}
-{ Converted to TabCode .tc by luteconv 1.4.5 }
-{ encoding-date 2022-08-14 }
+{ Converted to TabCode .tc by luteconv 1.4.8 }
+{ encoding-date 2023-12-08 }
 { 8b. Mounsiers Almaine - anon }
 { US-Ws V.b.280, f. 13r }
 
 { Stave 1 }
 { Bar 1 }
-Q.a1a2c3(Oe:5)a6
+|
+Q.a1a2c3(Oe:5)(E)a6
 Ed3.
 Qa1a2c3c4
 Qa1e3e5
@@ -20,10 +21,10 @@ Qa1e3e5
 Qc1e2f3c5
 Qe4
 Qc5
-Qc1(Oe:5)c2a5
+Qc1(Oe:5)c2(E)a5
 { Bar 3 }
 |
-[[e1e6
+[[e1(E)(E)e6
 ]]f1.
 Qh1:
 Qf1c2c6
@@ -36,7 +37,7 @@ Qa6
 Qf1.
 { Bar 5 }
 |
-E.e1(Oe:5)a2a6
+E.e1(Oe:5)a2(E)a6
 Sf1.
 [[h1
 ]]a2.
@@ -54,6 +55,7 @@ Qf2.
 {^}
 { Stave 2 }
 { Bar 7 }
+|
 Qe2f3c5
 [[a1d3
 ]]c3.
@@ -104,6 +106,7 @@ a1
 {^}
 { Stave 3 }
 { Bar 11 }
+|
 [[[e1
 c1.
 e1
@@ -139,6 +142,7 @@ Eh1
 {^}
 { Stave 4 }
 { Bar 13 }
+|
 [[[e1
 h2.
 e1
@@ -176,6 +180,7 @@ a1
 {^}
 { Stave 5 }
 { Bar 15 }
+|
 [[[e1
 a1.
 c1
@@ -213,12 +218,13 @@ Qb4(Oe:5)(C-1:7)
 {^}
 { Stave 6 }
 { Bar 18 }
-Qe1a2a6
+|
+Qe1a2(E)a6
 Qc4(Oe:5)
 Ha6
 { Bar 19 }
 |
-Qc1c2d3c6
+Qc1c2d3(E)c6
 Qf1.
 [[e1c2e5(C2:5)
 ]]c1.
@@ -234,14 +240,14 @@ Qc6
 |
 Q.h1a2a6
 Ef1.
-Qe1(Oe:5)a2a6
+Qe1(Oe:5)a2(E)a6
 [[c1(Oe:5)
 ]]a1.
 { Bar 22 }
 |
 Q.c1a2a3c5
 Ea5
-[[a1a2e6
+[[a1a2(E)e6
 ]]c6
 [[a6
 ]]d2.
@@ -259,12 +265,13 @@ Qa1a2a3c5(C4:7)
 {^}
 { Stave 7 }
 { Bar 24 }
+|
 Qa1a2c3(Oe:5)a6
 Qc4
 Ha6
 { Bar 25 }
 ||
-Ea1a6
+Ea1(E)(E)a6
 [[[e2
 ]]]c2.
 [[[a2
@@ -302,6 +309,7 @@ c1
 {^}
 { Stave 8 }
 { Bar 27 }
+|
 [[[c1
 a1.
 c1
@@ -340,6 +348,7 @@ e1
 {^}
 { Stave 9 }
 { Bar 29 }
+|
 Eh1
 [[[e1
 ]]]f1.
@@ -376,6 +385,7 @@ c2
 {^}
 { Stave 10 }
 { Bar 31 }
+|
 [[[c2
 a2.
 c2
@@ -394,7 +404,7 @@ c1
 ]]]e2.
 { Bar 32 }
 |
-Ea1a6
+Ea1(E)(E)a6
 [[[d2
 ]]]c2.
 [[[a2

@@ -4,13 +4,14 @@
     <pitch>67</pitch>
     <tuning>(-5 -5 -4 -5 -5 -2 -2 -1)</tuning>
 </rules>}
-{ Converted to TabCode .tc by luteconv 1.4.5 }
-{ encoding-date 2022-08-14 }
+{ Converted to TabCode .tc by luteconv 1.4.8 }
+{ encoding-date 2023-12-05 }
 { 1. Prelude Despont }
 { GB-Cfm 689, f. 30v }
 
 { Stave 1 }
 { Bar 1 }
+|
 Ha4
 { Bar 2 }
 |
@@ -20,7 +21,7 @@ f4
 { Bar 3 }
 |
 Qd3(C-2:7)
-d3e5
+d3(E)e5
 { Bar 4 }
 |
 d4f5
@@ -57,6 +58,7 @@ S-4(C10:7)d6
 {^}
 { Stave 2 }
 { Bar 9 }
+|
 Qf4(C11:5)a6
 Ed5
 -5(C-11:7)c6
@@ -81,15 +83,15 @@ Sd3-5(C-16:7)
 a2
 { Bar 13 }
 |
-Eb2(C17:5)a5
+Eb2(C17:5)(E)a5
 -3(C-17:7)d4
 b2(C18:5)c4
 -5(C-18:7)a6
 { Bar 14 }
 |
-a2(C19:5)f4
+a2(C19:5)(E)f4
 -2(C-19:7)a4d6
-d2Xa
+d2(E)(E)Xa
 c4
 { Bar 15 }
 |
@@ -102,6 +104,7 @@ Sc4
 {^}
 { Stave 3 }
 { Bar 16 }
+|
 Qa1d3c4e5
 b1(C21:5)d3(C22:5)a4
 { Bar 17 }
@@ -113,24 +116,24 @@ d3d5(C24:7)
 { Bar 18 }
 |
 b3(C-24:7)
-d1c5
+d1(E)c5
 Qb2(C0:7)d4a5
 { Bar 19 }
 |
 Ec4
 d6
-Qd2a4c6
+Qd2(E)a4(E)c6
 { Bar 20 }
 |
-Ed2(C25:5)a4d6
+Ed2(C25:5)(E)a4d6
 -4(C-25:7)b6
-Qd1(C26:5)a4a6
+Qd1(C26:5)(E)a4(E)a6
 { Bar 21 }
 |
 E-4(C-26:7)e5(C27:5)
 Sb1
 a1-3(C-27:7)
-Eb1Xa
+Eb1(E)(E)(E)Xa
 d2
 { Bar 22 }
 |
@@ -150,9 +153,10 @@ d2
 {^}
 { Stave 4 }
 { Bar 24 }
+|
 a1b3(C-28:7)d5(C29:5)
 b1
-d1(C-29:7)b5(C30:7)
+d1(C-29:7)(E)b5(C30:7)
 d2
 { Bar 25 }
 |
@@ -162,11 +166,11 @@ Qc2d4a5
 { Bar 26 }
 |
 d2
-Ec2c4Xa//
+Ec2c4(E)Xa//
 d1
 { Bar 27 }
 |
-E.b1a4
+E.b1(E)a4
 Ta1
 b1
 Ea1
@@ -176,7 +180,7 @@ c5
 |
 a5
 d2
-Eb2c4
+Eb2(E)c4
 a6
 b2b3c4
 { Bar 29 }
@@ -186,23 +190,24 @@ c6
 Qa2b3a4d6
 { Bar 30 }
 |
-b2b3c4Xa/
+b2b3c4(E)Xa/
 d3d4d5b6
 { Bar 31 }
 |
 {^}
 { Stave 5 }
 { Bar 31 }
+|
 Eb1X-
 Sd1
 b1-5(C0:7)
-Ea1d5X-
+Ea1(E)d5X-
 d3
 { Bar 32 }
 |
 b1b3
 d4
-d1c4d5
+d1(E)c4d5
 b5(C0:7)
 { Bar 33 }
 |
@@ -215,20 +220,20 @@ c2d3f4a5
 { Bar 35 }
 |
 d2d3d4
-Ed2(C31:5)d3c4Xa//
+Ed2(C31:5)d3c4(E)Xa//
 -3(C-31:7)a4
 { Bar 36 }
 |
 -1(C32:7)c2c4a5
 -2(C-32:7)b3
-d2(C33:5)d4Xa
+d2(C33:5)d4(E)Xa
 -3(C-33:7)a4
 { Bar 37 }
 |
 f1(C34:5)
 -3(C-34:7)c4
 f1d4f5(C35:7)
-d1f4(C-35:7)
+d1(E)f4(C-35:7)
 { Bar 38 }
 |
 Eb1(C36:5)d3
@@ -240,6 +245,7 @@ d2(C37:5)e3
 {^}
 { Stave 6 }
 { Bar 39 }
+|
 b1d2e3d4b5
 a5
 d1d2e3d6(C38:7)
@@ -248,13 +254,13 @@ f1d3-5(C-38:7)
 |
 g1d2f4
 a5
-Qb1d2b5
+Qb1d2(E)b5
 { Bar 41 }
 |
 Ed1(C39:5)
 Sa5
 -4(C-39:7)d6
-Qf1d2a4a5c6
+Qf1d2(E)a4a5c6
 { Bar 42 }
 |
 f1d2e3f5d6

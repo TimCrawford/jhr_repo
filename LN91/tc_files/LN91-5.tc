@@ -4,13 +4,14 @@
     <pitch>67</pitch>
     <tuning>(-5 -5 -4 -5 -5 -2)</tuning>
 </rules>}
-{ Converted to TabCode .tc by luteconv 1.4.5 }
-{ encoding-date 2022-08-14 }
+{ Converted to TabCode .tc by luteconv 1.4.8 }
+{ encoding-date 2023-12-08 }
 { 6. Preludium }
 { GB-Cu Add.3056, f. 25r }
 
 { Stave 1 }
 { Bar 1 }
+|
 Hc4
 { Bar 2 }
 |
@@ -22,9 +23,9 @@ d3
 a5
 { Bar 4 }
 |
-Ec3c5
+Ec3(E)c5
 a2
-Qd3e5
+Qd3(E)e5
 { Bar 5 }
 |
 a3a4
@@ -47,7 +48,7 @@ a2
 Qe1a2c4
 { Bar 9 }
 |
-Ef1c2e4
+Ef1c2(E)e4
 e1
 c1
 c4
@@ -63,6 +64,7 @@ c1
 {^}
 { Stave 2 }
 { Bar 11 }
+|
 e1a2c4
 c1
 a1
@@ -95,7 +97,7 @@ a2
 |
 c2d3
 a5
-a2c4e6
+a2(E)c4(E)e6
 a6
 { Bar 17 }
 |
@@ -108,6 +110,7 @@ c4
 {^}
 { Stave 3 }
 { Bar 18 }
+|
 a2a3a4
 Sc3
 d3
@@ -152,28 +155,29 @@ c2c4
 {^}
 { Stave 4 }
 { Bar 24 }
-a2a4
-c2c4
+|
+a2(E)a4
+c2(E)c4
 d2a3
 a2a4
 { Bar 25 }
 |
-c2c4
-d3e5
-a2a4
-c3c5
+c2(E)c4
+d3(E)e5
+a2(E)a4
+c3(E)c5
 { Bar 26 }
 |
-d3e5
-a3a5
-c3c5
-c4e6
+d3(E)e5
+a3(E)a5
+c3(E)c5
+c4(E)e6
 { Bar 27 }
 |
-a3a5
-c3c5
-a3a5
-c3e6
+a3(E)a5
+c3(E)c5
+a3(E)a5
+c3(E)e6
 { Bar 28 }
 |
 Ed3c4c6
@@ -198,6 +202,7 @@ e5
 {^}
 { Stave 5 }
 { Bar 31 }
+|
 c1d2d3a4
 a1
 d2
@@ -206,8 +211,8 @@ c2
 |
 a2c3c4
 a6
-d2d3c6
-a2c4e6
+d2d3(E)c6
+a2(E)c4e6
 { Bar 33 }
 |
 c2d3c4a5
@@ -219,7 +224,7 @@ e5
 a2a3a4
 d3
 a2
-c2c4e5
+c2(E)c4e5
 { Bar 35 }
 |
 d2a3c5
@@ -228,7 +233,7 @@ a2
 d3
 { Bar 36 }
 |
-Ea2c3c4a6
+Ea2c3c4(E)a6
 Sa1
 d2
 Ec2d3c4a5
@@ -239,6 +244,7 @@ d3
 {^}
 { Stave 6 }
 { Bar 37 }
+|
 Ea2c3c4a6
 Sa3
 c3
@@ -266,7 +272,7 @@ c1
 Ee1a2c4
 Sa4
 c4
-Ea1d3e5
+Ea1(E)d3(E)e5
 Sc1
 e1
 { Bar 41 }
@@ -282,10 +288,11 @@ c1
 {^}
 { Stave 7 }
 { Bar 42 }
-Ee1a2c4
+|
+Ee1a2(E)c4
 Sa4
 c4
-Ea1d3e5
+Ea1d3(E)e5
 Sc1
 e1
 { Bar 43 }
@@ -298,10 +305,10 @@ Sa1
 c1
 { Bar 44 }
 |
-Ea1c3e5
+Ea1(E)c3(E)e5
 Sc5
 e5
-Ec2d3a5
+Ec2d3(E)a5
 Sa2
 c2
 { Bar 45 }
@@ -309,7 +316,7 @@ c2
 Ed2a3c5
 Sa5
 c5
-Ea2c4e6
+Ea2(E)c4(E)e6
 Sd3
 a2
 { Bar 46 }
@@ -325,10 +332,11 @@ d3
 {^}
 { Stave 8 }
 { Bar 47 }
+|
 Ea2c4e6
 Sc6
 e6
-Ec3c4a6
+Ec3c4(E)a6
 Sd3
 a2
 { Bar 48 }
@@ -341,7 +349,7 @@ Sc3
 d3
 { Bar 49 }
 |
-Sa1a2c3a6
+Sa1a2c3(E)a6
 c4
 a3
 c3
@@ -364,7 +372,8 @@ e1
 {^}
 { Stave 9 }
 { Bar 51 }
-Ef1c2d3a5
+|
+Ef1c2d3(E)a5
 Se1
 c1
 a1

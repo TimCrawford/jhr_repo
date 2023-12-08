@@ -4,13 +4,14 @@
     <pitch>67</pitch>
     <tuning>(-5 -5 -4 -5 -5 -2)</tuning>
 </rules>}
-{ Converted to TabCode .tc by luteconv 1.4.5 }
-{ encoding-date 2022-08-14 }
+{ Converted to TabCode .tc by luteconv 1.4.8 }
+{ encoding-date 2023-12-08 }
 { 4b. Lushiers Allmaine }
 { GB Cu Dd.5.78.3, f. 75r }
 
 { Stave 1 }
 { Bar 1 }
+|
 M(C/)
 Q.a1c2d3e5
 Ec5
@@ -19,7 +20,7 @@ e6
 Qc1c2d3c6
 { Bar 2 }
 |
-Q.e1a2a6
+Q.e1a2(E)a6
 Ec1
 Qa1
 f1c2e4c6
@@ -39,9 +40,9 @@ Hc1c2e3c6
 |
 Q.a1c2d3e5
 Ec5
-a1a5
+a1(E)a5
 e6
-Qc1c2d3c6
+Qc1c2d3(E)c6
 { Bar 6 }
 |
 He1a2a6
@@ -59,6 +60,7 @@ h2
 {^}
 { Stave 2 }
 { Bar 8 }
+|
 Qe1g2h3e5
 g4
 He1g2h3e5
@@ -77,14 +79,14 @@ e1f2h3
 |
 Q.f1c2e4c6
 Ee1
-c1c5
+c1(E)c5
 f2
 Qe2
 { Bar 12 }
 |
 Q.e1a2c4a6
 Ec1
-a1e6
+a1(E)(E)e6
 e2
 Qc2d3a5
 { Bar 13 }
@@ -105,12 +107,13 @@ a2c4e6
 {^}
 { Stave 3 }
 { Bar 15 }
+|
 Ec2d3a5
 e2
 Qa1c2d3e5
 Ec1a2c5
 a1
-Qc1a2Xa
+Qc1a2(E)(E)Xa
 { Bar 16 }
 |
 Qa1a2c3a6
@@ -150,10 +153,11 @@ c1
 {^}
 { Stave 4 }
 { Bar 22 }
+|
 Qe1a2
 a6
 a2c3c4
-a2e6
+a2(E)e6
 { Bar 23 }
 |
 Ec2d3a5
@@ -183,7 +187,7 @@ Hc1a2a3Xa
 Qa1
 a6
 c2d3a5
-a2e6
+a2(E)e6
 { Bar 28 }
 |
 a1
@@ -195,6 +199,7 @@ Hc3c4c5a6
 {^}
 { Stave 5 }
 { Bar 29 }
+|
 Qf1c2e4c6
 c1
 c1e2f3c5
@@ -242,6 +247,7 @@ e1a2
 {^}
 { Stave 6 }
 { Bar 36 }
+|
 Hc1e2f3e4c5c6Xa
 c1e2f3c5
 { Bar 37 }
@@ -264,7 +270,7 @@ e6
 |
 Qa1c2d3a5
 e1a2a6
-Ec1a2Xa
+Ec1a2(E)(E)Xa
 a1
 Qc1a2c5
 { Bar 40 }

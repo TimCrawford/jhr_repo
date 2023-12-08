@@ -4,13 +4,14 @@
     <pitch>67</pitch>
     <tuning>(-5 -5 -4 -5 -5)</tuning>
 </rules>}
-{ Converted to TabCode .tc by luteconv 1.4.5 }
-{ encoding-date 2022-08-14 }
+{ Converted to TabCode .tc by luteconv 1.4.8 }
+{ encoding-date 2023-12-08 }
 { 1c. The Spanish pavin (John Johnson?) }
 { GB-Lam 602, f. 3v }
 
 { Stave 1 }
 { Bar 1 }
+|
 E.d3c4a5
 Sb2.
 Ea2(Oe:4)
@@ -23,9 +24,9 @@ a6
 a3.
 { Bar 3 }
 |
-c3(Oe:4)a6
+c3(Oe:4)(E)a6
 d3.
-a2c4
+a2(E)c4
 c3.
 { Bar 4 }
 |
@@ -35,19 +36,19 @@ Eb2
 a2.
 { Bar 5 }
 |
-d3a5
+d3(E)a5
 a3.
 b3
 d3.
 { Bar 6 }
 |
-a2d6
+a2(E)d6
 b3(Oe:4)
 a4
 d2.
 { Bar 7 }
 |
-d2d6
+d2(E)d6
 b2.
 a2(Oe:4)
 d3.
@@ -56,7 +57,8 @@ d3.
 {^}
 { Stave 2 }
 { Bar 8 }
-a2d6
+|
+a2(E)d6
 b3(Oe:4).
 a4
 d2.
@@ -68,14 +70,14 @@ b2(Oe:4)
 a2.
 { Bar 10 }
 |
-E.b2(Oe:4)d3a5
+E.b2(Oe:4)d3(E)a5
 Sd2.
 Ea1:
 Sd2
 b2.
 { Bar 11 }
 |
-Ed2a4
+Ed2(E)a4
 b2(Oe:4)
 a2(Oe:4)
 d3
@@ -89,26 +91,27 @@ a3.
 |
 c3(Oe:4)c4
 d3.
-a2a6
+a2(E)a6
 c3(Oe:4).
 { Bar 14 }
 |
 E.d3c4a5
 Sa2.
 Ec2
-d2c5
+d2(E)c5
 { Bar 15 }
 |
 {^}
 { Stave 3 }
 { Bar 15 }
-a1e5
-c1d3a4
+|
+a1(E)e5
+c1(E)d3a4
 a1a2d3c4
 c3(Oe:4).
 { Bar 16 }
 |
-c2(Oe:4)d3a5
+c2(Oe:4)d3(E)a5
 c4
 Qa5
 { Bar 17 }
@@ -146,7 +149,8 @@ e1.
 {^}
 { Stave 4 }
 { Bar 20 }
-Ef1a5
+|
+Ef1(E)a5
 Sd1
 c1.
 a1
@@ -188,6 +192,7 @@ d3.
 {^}
 { Stave 5 }
 { Bar 24 }
+|
 b3
 a3.
 b3
@@ -231,6 +236,7 @@ d3.
 {^}
 { Stave 6 }
 { Bar 28 }
+|
 c3
 a3.
 c4

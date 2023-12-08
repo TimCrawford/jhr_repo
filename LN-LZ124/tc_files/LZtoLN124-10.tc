@@ -4,13 +4,14 @@
     <pitch>65</pitch>
     <tuning>(-3 -5 -4 -3 -5 -2 -2 -1 -2 -2 -1 -2)</tuning>
 </rules>}
-{ Converted to TabCode .tc by luteconv 1.4.5 }
-{ encoding-date 2022-08-14 }
+{ Converted to TabCode .tc by luteconv 1.4.8 }
+{ encoding-date 2023-12-08 }
 { G8b. Gigue Angloise - 11-course baroque lute (dfedf) }
 { A-GO II, f. 89r }
 
 { Stave 1 }
 { Bar 1 }
+|
 M(3)
 Qd3(Of:5)(Fl2:4)a6
 Ed3.
@@ -18,7 +19,7 @@ Ed3.
 |
 E.d3(Of:5)Xa//
 Sa2
-Ec2(Fl2:4)X4
+Ec2(Fl2:4)(E)(E)X4
 { Bar 3 }
 |
 E.a2a3b4(C1:67)Xa///
@@ -66,6 +67,7 @@ Ea2-4(C-2:7)
 {^}
 { Stave 2 }
 { Bar 13 }
+|
 E.d3(Of:5)a6
 Sc3.
 Ea3Xa/
@@ -83,7 +85,7 @@ Ec5
 Q.a3e4(Ob:6)
 { Bar 17 }
 ||
-Qc1c2d6(Fl3:4)
+Qc1c2(E)d6(Fl3:4)
 Ec1
 { Bar 18 }
 |
@@ -92,7 +94,7 @@ Sa1.
 Ec2(Fl2:4)d6(Fl3:4)
 { Bar 19 }
 |
-E.a2c3Xa
+E.a2c3(E)Xa
 [[[d3(Fl3:4)
 c3(Fl2:4)(C4:67)Xa///
 ]]]a3(C-4:7)
@@ -118,7 +120,8 @@ Ec2.
 {^}
 { Stave 3 }
 { Bar 24 }
-Q.c2c3d4c5
+|
+Q.c2c3d4c5(E)
 { Bar 25 }
 ||
 Qc1(Fl1:4)c2(Fl2:4)(C6:67)d6(Fl3:4)
@@ -127,7 +130,7 @@ Ec1-3(C-6:7)
 |
 E.c1a2c6
 Sa1
-Ec2d6
+Ec2(E)d6
 { Bar 27 }
 |
 Qa2(Ob:6)Xa
@@ -150,7 +153,7 @@ Ed4(Oa1:8)Xa//
 { Bar 31 }
 |
 Qa3e4(Ob:6)a6
-Ec5
+Ec5(E)
 { Bar 32 }
 |
 Fa3e4(Ob:6)c5a6

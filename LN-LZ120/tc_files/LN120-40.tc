@@ -4,13 +4,14 @@
     <pitch>67</pitch>
     <tuning>(-5 -5 -4 -5 -5)</tuning>
 </rules>}
-{ Converted to TabCode .tc by luteconv 1.4.5 }
-{ encoding-date 2022-08-14 }
+{ Converted to TabCode .tc by luteconv 1.4.8 }
+{ encoding-date 2023-12-08 }
 { P2. (Pepper is Black) - A8B8CC8x4 }
 { IRL-Dm Z.3.2.13, pp. 44-45 }
 
 { Stave 1 }
 { Bar 1 }
+|
 M(3)
 Ed3
 { Bar 2 }
@@ -21,7 +22,7 @@ Ed3
 |
 [[a1c2d3
 a5
-]]a2c3a6
+]]a2c3(E)a6
 { Bar 4 }
 |
 E.c2d3c4a5
@@ -62,6 +63,7 @@ a1
 {^}
 { Stave 2 }
 { Bar 11 }
+|
 [[c2d3c4
 a5
 ]]a2c3c4
@@ -69,7 +71,7 @@ a5
 |
 [[c2d3c4a5
 d3
-]]a2c3a6
+]]a2c3(E)a6
 { Bar 13 }
 |
 [[c2d3a5
@@ -106,15 +108,16 @@ d5
 |
 [[d5
 a1b2b3
-]]c1a4
+]]c1(E)a4
 { Bar 21 }
 |
 {^}
 { Stave 3 }
 { Bar 21 }
+|
 E.d1a2c4
 Sc1
-Ea1c2d3a5
+Ea1c2d3(E)a5
 { Bar 22 }
 |
 E.c1d2d3a4
@@ -159,6 +162,7 @@ c1a4
 {^}
 { Stave 4 }
 { Bar 30 }
+|
 [[d2d3a4
 a1b3
 ]]c1d3
@@ -180,14 +184,14 @@ d3
 Ea2c3c4
 { Bar 34 }
 ||
-[[c2a5
+[[c2(E)a5
 d3
 ]]a2c3
 { Bar 35 }
 |
 [[c2d3a5
 a1
-]]a2c3a6
+]]a2c3(E)a6
 { Bar 36 }
 |
 Ec2d3a5
@@ -206,14 +210,15 @@ Ec2a5
 {^}
 { Stave 5 }
 { Bar 38 }
-[[[d2c5
+|
+[[[d2(E)c5
 c2
 d2
 ]]]a1
-Ec1a4
+Ec1(E)a4
 { Bar 39 }
 |
-[[[d1d6
+[[[d1(E)(E)d6
 c2
 d2
 ]]]a2
@@ -230,7 +235,7 @@ a1b3
 ]]d2a3
 { Bar 42 }
 ||
-[[[c2a5
+[[[c2(E)a5
 a2
 c2
 ]]]d2
@@ -242,7 +247,7 @@ a1b3
 ]]d2a3
 { Bar 44 }
 |
-[[[c2a5
+[[[c2(E)a5
 a2
 c2
 ]]]d2
@@ -252,6 +257,7 @@ Ec2
 {^}
 { Stave 6 }
 { Bar 45 }
+|
 [[[d3
 a2
 c2
@@ -298,6 +304,7 @@ Ea1
 {^}
 { Stave 7 }
 { Bar 52 }
+|
 [[[b2d5
 d2
 a1
@@ -340,6 +347,7 @@ b1d2
 {^}
 { Stave 8 }
 { Bar 58 }
+|
 [[[a1d5
 d2
 b2
@@ -380,6 +388,7 @@ f1
 {^}
 { Stave 9 }
 { Bar 63 }
+|
 [[[f1
 d1
 c1
@@ -392,7 +401,7 @@ Sd1
 Ec1d2d3
 { Bar 65 }
 |
-[[a1e5
+[[a1(E)e5
 d2a3c5
 ]]a2c3c4
 { Bar 66 }
@@ -409,7 +418,7 @@ c4
 |
 E.c2d3c4a5
 Sd2
-Ea2c3a6
+Ea2c3(E)a6
 { Bar 69 }
 |
 [[c2d3c4a5
@@ -426,7 +435,8 @@ Ed3
 {^}
 { Stave 10 }
 { Bar 71 }
-[[[a1d6
+|
+[[[a1(E)(E)d6
 d2
 c2
 ]]]a2
@@ -448,7 +458,7 @@ f1
 Ee1f2f3c4
 { Bar 74 }
 ||
-[[f1c2a5
+[[f1c2(E)a5
 d1a2
 ]]c1d3
 { Bar 75 }
@@ -471,7 +481,8 @@ a4
 {^}
 { Stave 11 }
 { Bar 78 }
-[[[d2a4
+|
+[[[d2(E)a4
 c2
 d2
 ]]]a1
@@ -512,22 +523,23 @@ b2
 {^}
 { Stave 12 }
 { Bar 84 }
+|
 [[a1b2d5
 d1
-]]c1a4
+]]c1(E)a4
 { Bar 85 }
 |
 [[d1a2c4
 d2
-]]a2c3a6
+]]a2c3(E)a6
 { Bar 86 }
 |
 [[c1d2d3a4
 f1
-]]d1c4
+]]d1(E)c4
 { Bar 87 }
 |
-E.c1d2c5
+E.c1d2(E)c5
 Sf4
 Ea1c2d3
 { Bar 88 }
@@ -560,6 +572,7 @@ Ed1
 {^}
 { Stave 13 }
 { Bar 92 }
+|
 Ea1b2b3d5
 [[[c4
 ]]]a3
@@ -577,7 +590,7 @@ Ea1b2d5
 b2
 a2
 d3
-a2d6
+a2(E)d6
 ]]]d3
 { Bar 95 }
 |
@@ -605,6 +618,7 @@ Ec1d2d3a4
 {^}
 { Stave 14 }
 { Bar 98 }
+|
 [[a1c2d3a5
 f1
 ]]h1
@@ -631,7 +645,7 @@ Ef2h3h4
 |
 [[d2d3a4
 c1
-]]d1c4
+]]d1(E)c4
 { Bar 103 }
 |
 [[c1e4
@@ -644,7 +658,7 @@ f2
 ]]c1d3
 { Bar 105 }
 |
-[[a1e5
+[[a1(E)e5
 d2d3c5
 ]]c3
 { Bar 106 }
@@ -652,6 +666,7 @@ d2d3c5
 {^}
 { Stave 15 }
 { Bar 106 }
+|
 [[c2d3c4a5
 ]]a1
 [[[c4
@@ -660,7 +675,7 @@ d2d3c5
 |
 [[c2d3c4a5
 a5
-]]a2c3a6
+]]a2c3(E)a6
 { Bar 108 }
 |
 [[c2d3c4a5
@@ -690,7 +705,7 @@ f1g2
 ]]d1f2
 { Bar 113 }
 |
-E.b1d2a4
+E.b1d2(E)a4
 Sa1b2
 Ed2f3f4
 { Bar 114 }
@@ -698,6 +713,7 @@ Ed2f3f4
 {^}
 { Stave 16 }
 { Bar 114 }
+|
 Ea1b2b3d5
 [[[c4
 ]]]a3
@@ -723,7 +739,7 @@ a1b2
 ]]d1a2
 { Bar 118 }
 |
-[[c1d2a4
+[[c1d2(E)a4
 d1f2
 ]]f1h2
 { Bar 119 }
@@ -745,7 +761,8 @@ d2f3
 {^}
 { Stave 17 }
 { Bar 122 }
-[[a1d5
+|
+[[a1(E)d5
 b3
 ]]d3
 { Bar 123 }
@@ -771,7 +788,7 @@ Sa1b3
 Ec1d3
 { Bar 127 }
 |
-[[[a1d6
+[[[a1(E)(E)d6
 d2
 c2
 ]]]a2

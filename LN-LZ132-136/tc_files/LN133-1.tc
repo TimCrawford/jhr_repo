@@ -4,13 +4,14 @@
     <pitch>67</pitch>
     <tuning>(-5 -5 -4 -5 -5 -2)</tuning>
 </rules>}
-{ Converted to TabCode .tc by luteconv 1.4.5 }
-{ encoding-date 2022-08-14 }
+{ Converted to TabCode .tc by luteconv 1.4.8 }
+{ encoding-date 2023-12-08 }
 { HU15. (In Peascod Time) - 7F 5x16bars }
 { GB-Cu Dd.2.11, f. 54r }
 
 { Stave 1 }
 { Bar 1 }
+|
 M(3)
 Qd2d3a4
 Qd2d3a4
@@ -43,7 +44,7 @@ Qc1b2d3a5
 Qc1e2e4c5
 { Bar 7 }
 |
-Qa1a2c3a6
+Qa1a2c3(E)a6
 [[c4
 ]]d3
 [[c3
@@ -60,6 +61,7 @@ Qa1a2c3a6
 {^}
 { Stave 2 }
 { Bar 9 }
+|
 Qd1a2a4d6
 [[a4
 ]]b2
@@ -70,9 +72,9 @@ Qd1a2a4d6
 [[b3d6
 ]]d3
 [[a2
-]]c2a5
-[[d2c5
-]]a1e5
+]]c2(E)a5
+[[d2(E)c5
+]]a1(E)e5
 { Bar 11 }
 |
 Qc1d2d3a4
@@ -84,16 +86,16 @@ Qc1d2d3a4
 |
 [[a4
 ]]c4
-[[a3Xa
+[[a3(E)Xa
 ]]b3a6
-[[d3c6
-]]a2d6
+[[d3(E)c6
+]]a2(E)d6
 { Bar 13 }
 |
 E.c2d3c4a5
 Sd2
 [[a1
-]]c1d2d3c6
+]]c1d2d3(E)c6
 [[a1a2c4d6
 ]]a5
 { Bar 14 }
@@ -101,6 +103,7 @@ Sd2
 {^}
 { Stave 3 }
 { Bar 14 }
+|
 [[[d2b3c5
 a3
 c4
@@ -140,6 +143,7 @@ Ed3
 {^}
 { Stave 4 }
 { Bar 18 }
+|
 Qd2d3a4
 Qa1d2d3a5
 [[c2
@@ -167,7 +171,7 @@ E.d1a2b3a6
 Sa3
 [[b3
 ]]c4
-[[c1d2d3c6
+[[c1d2d3(E)c6
 ]]c2
 { Bar 23 }
 |
@@ -182,7 +186,8 @@ Sa3
 {^}
 { Stave 5 }
 { Bar 24 }
-E.a1a2c3a6
+|
+E.a1a2c3(E)a6
 Sd3
 [[a2
 ]]c2d3
@@ -209,9 +214,9 @@ Sd3
 [[b3d6
 ]]d3
 [[a2
-]]c2a5
+]]c2(E)a5
 [[d2c5
-]]a1e5
+]]a1(E)e5
 { Bar 28 }
 |
 [[c1d2d3
@@ -225,18 +230,19 @@ Sd3
 {^}
 { Stave 6 }
 { Bar 29 }
+|
 [[a4
 ]]c4
-[[a3Xa
+[[a3(E)Xa
 ]]b3a6
-[[d3c6
-]]a2d6
+[[d3(E)c6
+]]a2(E)d6
 { Bar 30 }
 |
 [[c2a5
 ]]d2c5
-[[a1e5
-]]c1a4
+[[a1(E)e5
+]]c1(E)a4
 [[d1a2c4
 ]]c2
 { Bar 31 }
@@ -270,6 +276,7 @@ a3
 {^}
 { Stave 7 }
 { Bar 33 }
+|
 Q.a4
 { Bar 34 }
 ||
@@ -315,6 +322,7 @@ Qh1f2f4a6
 {^}
 { Stave 8 }
 { Bar 40 }
+|
 [[d1a2c4d6
 ]]a1c2
 [[c1d2a5
@@ -358,6 +366,7 @@ Qh1f2f4a6
 {^}
 { Stave 9 }
 { Bar 45 }
+|
 [[f1d2f5
 ]]d3
 [[a3a4
@@ -395,7 +404,8 @@ Ea1c2
 {^}
 { Stave 10 }
 { Bar 49 }
-Ed2Xa
+|
+Ed2(E)(E)Xa
 [[[b2
 ]]]a2
 [[[d3
@@ -434,7 +444,8 @@ a1
 {^}
 { Stave 11 }
 { Bar 53 }
-Ed2Xa
+|
+Ed2(E)(E)Xa
 [[[c2
 ]]]a2
 [[[d3
@@ -451,17 +462,17 @@ a3
 a3
 b3
 ]]]d3
-[[[a2d6
+[[[a2(E)d6
 c2
 d2
 ]]]a2
-[[[c2a5
+[[[c2(E)a5
 d2
 a1
 ]]]c2
 { Bar 55 }
 |
-Ed2Xa
+Ed2(E)(E)Xa
 [[[f1
 ]]]d1
 [[[c1
@@ -477,6 +488,7 @@ b3
 {^}
 { Stave 12 }
 { Bar 56 }
+|
 Eb3a6
 [[[h1
 ]]]f1
@@ -518,6 +530,7 @@ d3
 {^}
 { Stave 13 }
 { Bar 59 }
+|
 [[a1a2c3
 ]]a6
 [[c4
@@ -559,6 +572,7 @@ Ec1
 {^}
 { Stave 14 }
 { Bar 63 }
+|
 [[f1
 ]]e4
 Ed2
@@ -599,6 +613,7 @@ a3
 {^}
 { Stave 15 }
 { Bar 67 }
+|
 Q.a4
 { Bar 68 }
 ||
@@ -640,7 +655,7 @@ Qf1e2d3c6
 |
 [[d1a2a4d6
 ]]c2
-[[c1d2a5
+[[c1d2(E)a5
 ]]a1c2
 [[e2e4c5
 ]]d3
@@ -649,6 +664,7 @@ Qf1e2d3c6
 {^}
 { Stave 16 }
 { Bar 75 }
+|
 [[a1a2c3
 ]]a6
 [[c4
@@ -692,6 +708,7 @@ Qf1e2d3c6
 {^}
 { Stave 17 }
 { Bar 80 }
+|
 [[f1
 ]]d3
 [[d1a2
@@ -703,12 +720,12 @@ Qf1e2d3c6
 [[c2d3
 ]]d2
 [[a1c2d3a5
-]]f1d2d3c6
+]]f1d2d3(E)c6
 [[d1a2a4d6
 ]]c2
 { Bar 82 }
 |
-[[c1d2d3Xa
+[[c1d2d3(E)Xa
 ]]d1a2
 Ef1c2c4a5
 [[[d1

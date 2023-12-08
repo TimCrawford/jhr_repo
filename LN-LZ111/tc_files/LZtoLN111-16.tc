@@ -4,13 +4,14 @@
     <pitch>67</pitch>
     <tuning>(-5 -5 -4 -5 -5 -2 -2 -1 -2)</tuning>
 </rules>}
-{ Converted to TabCode .tc by luteconv 1.4.5 }
-{ encoding-date 2022-08-14 }
+{ Converted to TabCode .tc by luteconv 1.4.8 }
+{ encoding-date 2023-12-08 }
 { 30i. A Corranto }
 { GB-Ctc O.16.2, pp. 126-125 }
 
 { Stave 1 }
 { Bar 1 }
+|
 Ed3
 { Bar 2 }
 |
@@ -45,7 +46,7 @@ Sa2
 Eb3a6
 { Bar 8 }
 |
-E.a3(Oe:4)Xa
+E.a3(Oe:4)(E)Xa
 Sc4
 Ea3
 { Bar 9 }
@@ -58,13 +59,14 @@ c1
 {^}
 { Stave 2 }
 { Bar 10 }
-E.a1(Oe:4)a6
+|
+E.a1(Oe:4)(E)(E)a6
 Sc1
-Ed2d3c6
+Ed2d3(E)c6
 { Bar 11 }
 |
 d6
-E.c2(Oe:4)a5
+E.c2(Oe:4)(E)a5
 Ta2
 c2
 { Bar 12 }
@@ -80,7 +82,7 @@ Qd2d3a4
 Ed3
 { Bar 15 }
 |
-E.d3Xa
+E.d3(E)Xa
 Sb3
 a3
 b3
@@ -99,7 +101,7 @@ a4
 Xa
 { Bar 18 }
 |
-d2d3a4Xa
+d2d3a4(E)Xa
 Sa1
 d2
 c2
@@ -109,6 +111,7 @@ a2
 {^}
 { Stave 3 }
 { Bar 19 }
+|
 Sc2
 a5
 d2
@@ -151,8 +154,9 @@ c6
 {^}
 { Stave 4 }
 { Bar 24 }
+|
 d2-5(C0:7)
-c2a5
+c2(E)a5
 d2
 a1
 c1
@@ -189,7 +193,7 @@ a5
 d3c6
 { Bar 32 }
 |
-E.b3(Oe:4)a6
+E.b3(Oe:4)(E)a6
 Ta3
 b3
 Sd3
@@ -199,6 +203,7 @@ b3
 {^}
 { Stave 5 }
 { Bar 33 }
+|
 Ea3(Oe:4)
 Xa
 Sc2
@@ -215,27 +220,27 @@ Xa///
 d2c5
 { Bar 36 }
 |
-Ea1(Oe:4)e5
+Ea1(Oe:4)(E)e5
 d3.
-c1a4
+c1(E)a4
 { Bar 37 }
 |
 E.d1a2c4
 Sc1
-Ea1e5
+Ea1(E)e5
 { Bar 38 }
 |
-E.c1Xa
+E.c1(E)Xa
 SXa/
-Ed1Xa//
+Ed1(E)Xa//
 { Bar 39 }
 |
 E.f1Xa///
 Sd1
-Ec1a4
+Ec1(E)a4
 { Bar 40 }
 |
-E.a1a6
+E.a1(E)(E)a6
 Sc1
 Ed2d3c6
 { Bar 41 }
@@ -249,6 +254,7 @@ c2
 {^}
 { Stave 6 }
 { Bar 42 }
+|
 Ed2d3
 a4
 Xa
@@ -293,6 +299,7 @@ c6
 {^}
 { Stave 7 }
 { Bar 49 }
+|
 b3
 a6
 a3
@@ -301,7 +308,7 @@ d3
 b3
 { Bar 50 }
 |
-a3Xa
+a3(E)Xa
 b3
 d3
 a2
@@ -333,6 +340,7 @@ a4
 {^}
 { Stave 8 }
 { Bar 54 }
+|
 d1
 c4(C7:5)
 a2
@@ -375,6 +383,7 @@ Ec2
 {^}
 { Stave 9 }
 { Bar 59 }
+|
 d2d3a4
 a4
 Xa

@@ -4,13 +4,14 @@
     <pitch>67</pitch>
     <tuning>(-5 -5 -4 -5 -5 -5)</tuning>
 </rules>}
-{ Converted to TabCode .tc by luteconv 1.4.5 }
-{ encoding-date 2022-08-14 }
+{ Converted to TabCode .tc by luteconv 1.4.8 }
+{ encoding-date 2023-12-05 }
 { JD44e. Untitled - 7D AA10BB8CC12 }
 { GB-Cu Nn.6.36, f. 1r }
 
 { Stave 1 }
 { Bar 1 }
+|
 M(3)
 Ea1
 e1
@@ -31,7 +32,7 @@ a1
 |
 Qh1a6
 f1c2a5
-e1a6
+e1(E)(E)a6
 { Bar 5 }
 |
 c1a2a3c5
@@ -58,6 +59,7 @@ a6
 {^}
 { Stave 2 }
 { Bar 9 }
+|
 E.e6
 Sa5
 Ec1a2c5(C1:5)
@@ -99,10 +101,11 @@ a1.
 {^}
 { Stave 3 }
 { Bar 15 }
-Se1a6
+|
+Se1(E)(E)a6
 f1.
 Eh1
-Sc1a5
+Sc1(E)a5
 e1.
 Ef1
 Sa1a6
@@ -110,7 +113,7 @@ c1.
 Ee1
 { Bar 16 }
 |
-Ec1a2a3Xa
+Ec1a2a3(E)Xa
 Sa1
 c1.
 Ee1
@@ -135,7 +138,7 @@ Sh1
 f1.
 Eh1
 f1.
-Se1a6
+Se1(E)(E)a6
 f1.
 Eh1
 { Bar 20 }
@@ -143,9 +146,10 @@ Eh1
 {^}
 { Stave 4 }
 { Bar 20 }
+|
 f1c2a5
 e1
-E.c1a2a3Xa
+E.c1a2a3(E)Xa
 Ta1
 c1.
 e1
@@ -188,6 +192,7 @@ e1
 {^}
 { Stave 5 }
 { Bar 26 }
+|
 c5(C2:5)
 c1e2f3
 E.e4
@@ -209,9 +214,9 @@ e1
 f1.
 { Bar 29 }
 |
-Eh1a6
+Eh1(E)(E)a6
 a2.
-f1c2c6
+f1c2(E)c6
 e2.
 e1f2a6
 c2.
@@ -228,6 +233,7 @@ c2.(C-3:7)
 {^}
 { Stave 6 }
 { Bar 31 }
+|
 Qc1e2f3c5
 EXa
 { Bar 32 }
@@ -255,7 +261,7 @@ f1.
 |
 Ee1
 c1
-Se1a6
+Se1(E)(E)a6
 f1
 Eh1
 f1
@@ -265,6 +271,7 @@ e1
 {^}
 { Stave 7 }
 { Bar 35 }
+|
 E.c1(Oe:5)a2a3Xa
 Ta1
 c1
@@ -306,11 +313,12 @@ a6
 {^}
 { Stave 8 }
 { Bar 38 }
-Qf1c6
-Ee1e6
+|
+Qf1(E)(E)c6
+Ee1(E)(E)e6
 Sc1
 e1
-Ec1a5
+Ec1(E)a5
 a1
 { Bar 39 }
 |
@@ -351,6 +359,7 @@ Q.e1(Oe:5)a2a6
 {^}
 { Stave 9 }
 { Bar 45 }
+|
 Eh1
 E.g1a3
 Sh1.
@@ -368,14 +377,14 @@ Q.c1(Oe:5)a2Xa
 { Bar 48 }
 |
 Ec1.
-E.a1e5
+E.a1(E)e5
 Se1
 E.c1e3
 Sa1.
 { Bar 49 }
 |
 Q.c1(Oe:5)a2a3Xa
-Eh1e6
+Eh1(E)(E)e6
 Qf1a5
 { Bar 50 }
 |
@@ -397,12 +406,13 @@ Sa3
 {^}
 { Stave 10 }
 { Bar 52 }
+|
 Ea1a2c3a6
 Hc4(Oe:5)
 E
 { Bar 53 }
 ||
-Q.a2e6
+Q.a2(E)e6
 Ed2.
 c2a5
 Sd3
@@ -444,6 +454,7 @@ Ek1
 {^}
 { Stave 11 }
 { Bar 58 }
+|
 Hh1(Oe:5)a2a3Xa
 Qf1.
 { Bar 59 }
@@ -464,7 +475,7 @@ e1
 c1.
 a1
 e2.
-Ea1e5
+Ea1(E)e5
 Sc1
 e1
 f1
@@ -474,7 +485,7 @@ a1
 { Bar 61 }
 |
 Qc1(Oe:5)a2a3Xa
-Sa2e6(C5:5)
+Sa2(E)e6(C5:5)
 c2.
 e2
 a2.-5(C-5:7)
@@ -487,7 +498,8 @@ e2.
 {^}
 { Stave 12 }
 { Bar 62 }
-a1e5(C6:5)
+|
+a1(E)e5(C6:5)
 c1.
 e1
 a1.-4(C-6:7)

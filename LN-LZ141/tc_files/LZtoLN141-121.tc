@@ -4,13 +4,14 @@
     <pitch>67</pitch>
     <tuning>(-5 -5 -4 -5 -5)</tuning>
 </rules>}
-{ Converted to TabCode .tc by luteconv 1.4.5 }
-{ encoding-date 2022-08-14 }
+{ Converted to TabCode .tc by luteconv 1.4.8 }
+{ encoding-date 2023-12-08 }
 { B32. Boufons - AA4 }
 { IRL-Dtc 410/I, p. 3 }
 
 { Stave 1 }
 { Bar 1 }
+|
 M(C/)
 E.a2b3c4
 Sa2b3
@@ -27,18 +28,18 @@ a3
 b3
 ]]]d3
 [[a2b3c4
-]]d3d5
+]]d3(E)d5
 E.a2a3b4c5
 Sa2a3b4
 [[c5
 ]]a2a3b4c5
 { Bar 3 }
 |
-[[[a2b3d6
+[[[a2b3(E)(E)d6
 a3
 b3
 ]]]d3
-[[a2b3d6
+[[a2b3(E)(E)d6
 ]]a2b3
 E.d2d3a4
 Sd2d3
@@ -49,14 +50,15 @@ Sd2d3
 {^}
 { Stave 2 }
 { Bar 4 }
+|
 [[a2b3c4
-]]d3a5
-[[a2a3c5
+]]d3(E)a5
+[[a2a3(E)c5
 ]]b4
-E.a2c3a6
+E.a2c3(E)(E)a6
 Sa2c3
 [[c4
-]]a2c3a6
+]]a2c3(E)(E)a6
 { Bar 5 }
 ||
 [[[a1a2b3c4
@@ -73,7 +75,7 @@ a2
 ]]c1d2d3a4
 { Bar 6 }
 |
-[[[a2b3c4a6
+[[[a2b3c4(E)a6
 a3
 b3
 ]]]d3
@@ -90,7 +92,8 @@ Sc1a2a3
 {^}
 { Stave 3 }
 { Bar 7 }
-[[[a2b3d6
+|
+[[[a2b3(E)(E)d6
 a3
 b3
 ]]]d3
@@ -109,8 +112,8 @@ c1
 [[c1d2d3a4
 ]]a1a2b3c4
 [[a1c2d3a5
-]]e2a3c5
-[[a1a2c3a6
+]]e2a3(E)c5
+[[a1a2c3(E)(E)a6
 ]]a1a2c3
 Ec4
 Fa1a2c3a6

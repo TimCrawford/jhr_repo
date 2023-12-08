@@ -4,26 +4,27 @@
     <pitch>67</pitch>
     <tuning>(-5 -5 -4 -5 -5 -5)</tuning>
 </rules>}
-{ Converted to TabCode .tc by luteconv 1.4.5 }
-{ encoding-date 2022-08-14 }
+{ Converted to TabCode .tc by luteconv 1.4.8 }
+{ encoding-date 2023-12-05 }
 { JD44h. Darbois Galliard Johan Doulandt - 7D AA10BB8CC12 }
 { D-Hs ND VI 3238, p. 142 }
 
 { Stave 1 }
 { Bar 1 }
+|
 M(3)
 Ea1
 e1
 f1
 { Bar 2 }
 |
-Q.h1a2a6
+Q.h1a2(E)a6
 Ea1
 e1
 f1
 { Bar 3 }
 |
-Q.h1a2a6
+Q.h1a2(E)a6
 Eh1
 e1
 a1
@@ -31,7 +32,7 @@ a1
 |
 Qh1a2a3a6
 f1a3a4
-e1a2a6
+e1a2(E)a6
 { Bar 5 }
 |
 c1a2a3c5
@@ -39,39 +40,40 @@ HXa
 { Bar 6 }
 |
 Qc1a2a3c5
-Ec1a2a3Xa
+Ec1a2a3(E)Xa
 Qc1a2a3c5
-Ec1c2e3c6
+Ec1c2e3(E)c6
 { Bar 7 }
 |
 Q.c1e2f3c5
 Ef1
-E.e1a6
+E.e1(E)(E)a6
 Tc1
 e1
 { Bar 8 }
 |
-E.f1c2a5
+E.f1c2(E)a5
 Sc5
 Ee5
 b4
-e1a2c4
+e1a2c4(E)
 a6
 { Bar 9 }
 |
 {^}
 { Stave 2 }
 { Bar 9 }
+|
 E.e6
 Sa5
-E.c1a2c5
+E.c1a2(E)c5
 Sa1
 Ee1
 c1
 { Bar 10 }
 |
 E.a6
-Sa1a2c3
+Sa1a2c3(E)
 E.c4
 Sd3
 Ec3
@@ -87,7 +89,7 @@ e1
 h1
 { Bar 13 }
 |
-Q.h1a6
+Q.h1(E)(E)a6
 Sc2
 e2
 a1
@@ -96,7 +98,7 @@ e1
 f1
 { Bar 14 }
 |
-Q.h1a2a6
+Q.h1a2(E)a6
 Sh1
 h1
 Ee1
@@ -106,13 +108,14 @@ a1
 {^}
 { Stave 3 }
 { Bar 15 }
+|
 Se1a6
 f1
 Eh1
-Sc1a4
+Sc1(E)a4
 e1
 Ef1
-Sa1a6
+Sa1(E)(E)a6
 c1
 Ee1
 { Bar 16 }
@@ -129,20 +132,20 @@ a2
 Qc1a2a3c5
 EXa
 Qc1
-Ec1c2e3c6
+Ec1c2e3(E)c6
 { Bar 18 }
 |
 Q.c1e2f3c5
 Ef1
-Qe1a2a6
+Qe1a2(E)a6
 { Bar 19 }
 |
-Sf1a5
+Sf1(E)a5
 h1
 Ek1
 h1
 f1
-Se1a6
+Se1(E)(E)a6
 f1
 Eh1
 { Bar 20 }
@@ -150,9 +153,10 @@ Eh1
 {^}
 { Stave 4 }
 { Bar 20 }
-f1c2a5
+|
+f1c2(E)a5
 e1
-E.c1a2a3c5
+E.c1a2a3(E)c5
 Ta1
 c1
 e1
@@ -165,7 +169,7 @@ a1
 c1
 { Bar 21 }
 |
-E.e1a6
+E.e1(E)(E)a6
 Sa1
 Eh1
 e1
@@ -186,7 +190,7 @@ Qf1d2a3
 { Bar 25 }
 |
 a4
-E.e1a2a6
+E.e1a2(E)a6
 Sh1
 Ef1
 e1
@@ -195,6 +199,7 @@ e1
 {^}
 { Stave 5 }
 { Bar 26 }
+|
 E.c5
 Sc1e2f3
 E.e4
@@ -210,15 +215,15 @@ e1
 f1
 { Bar 28 }
 |
-Q.h1a2a6
+Q.h1a2(E)a6
 Ef1
-e1a2a6
+e1a2(E)a6
 f1
 { Bar 29 }
 |
-Eh1e6
+Eh1(E)(E)e6
 a2
-f1c2c6
+f1c2(E)c6
 e2
 e1f2a6
 c2
@@ -235,6 +240,7 @@ Sc2
 {^}
 { Stave 6 }
 { Bar 31 }
+|
 c1e2f3c5
 QXa
 { Bar 32 }
@@ -262,7 +268,7 @@ f1
 |
 Ee1
 c1
-Se1a6
+Se1(E)(E)a6
 f1
 Eh1
 f1
@@ -272,6 +278,7 @@ e1
 {^}
 { Stave 7 }
 { Bar 35 }
+|
 E.c1a2a3c5
 Ta1
 c1
@@ -304,18 +311,19 @@ h1
 f1
 e1
 f1
-Eh1
+Eh1(E)
 a6
 { Bar 38 }
 |
 {^}
 { Stave 8 }
 { Bar 38 }
-Qf1c6
+|
+Qf1(E)(E)c6
 Ee6
 Sc1
 e1
-Ec1a5
+Ec1(E)a5
 a1
 { Bar 39 }
 |
@@ -337,7 +345,7 @@ Qc1e2f3c5
 HXa
 { Bar 41 }
 ||
-Q.a2e6
+Q.a2(E)e6
 Ed2
 Q.c2d3a5
 { Bar 42 }
@@ -351,6 +359,7 @@ Qc1
 {^}
 { Stave 9 }
 { Bar 43 }
+|
 Ea1a2c3a6
 Hc4
 E
@@ -358,7 +367,7 @@ E
 |
 Q.c1e2f3c5
 Ef1
-Q.e1a2a6
+Q.e1a2(E)a6
 { Bar 45 }
 |
 Eh1
@@ -367,30 +376,30 @@ Sh1
 Qk1
 { Bar 46 }
 |
-Hh1a2a3Xa
+Hh1a2a3(E)Xa
 E
 Ef1
 { Bar 47 }
 |
-Q.e1a2a6
+Q.e1a2(E)a6
 Ee1
-Q.c1a2c5
+Q.c1a2(E)c5
 { Bar 48 }
 |
 Ec1
-a1e5
+a1(E)e5
 e1
 c1e3
 a1
 { Bar 49 }
 |
 Q.c1a2a3c5
-Eh1e6
-Qf1c2a5
+Eh1(E)(E)e6
+Qf1c2(E)a5
 { Bar 50 }
 |
-e1a2a6
-E.c1a2a3c5
+e1a2(E)a6
+E.c1a2a3(E)c5
 Sa1
 Ee1
 c1
@@ -399,6 +408,7 @@ c1
 {^}
 { Stave 10 }
 { Bar 51 }
+|
 a6
 a1a2c3
 c4
@@ -407,11 +417,11 @@ c3
 a3
 { Bar 52 }
 |
-Qa1a2c3a6
+Qa1a2c3(E)a6
 Hc4
 { Bar 53 }
 ||
-Q.a2e6
+Q.a2(E)e6
 Ed2
 c2d3a5
 Sd3
@@ -435,7 +445,7 @@ Hc4
 |
 Q.c1a2a3c5
 Ef1
-e1a6
+e1(E)(E)a6
 Sf2
 h2
 { Bar 57 }
@@ -443,6 +453,7 @@ h2
 {^}
 { Stave 11 }
 { Bar 57 }
+|
 e1
 f1
 Eh1
@@ -454,19 +465,19 @@ h1
 Ek1
 { Bar 58 }
 |
-Hh1a2a3Xa
+Hh1a2a3(E)Xa
 E
 Ef1
 { Bar 59 }
 |
-Ee1a2a6
+Ee1a2(E)a6
 Sc1
 e1
 f1
 e1
 c1
 a1
-Ec1a2c5
+Ec1a2(E)c5
 Sa1
 c1
 { Bar 60 }
@@ -475,7 +486,7 @@ e1
 c1
 a1
 e2
-Ea1e5
+Ea1(E)e5
 Sc1
 e1
 f1
@@ -487,22 +498,23 @@ a1
 {^}
 { Stave 12 }
 { Bar 61 }
+|
 Qc1a2a3c5
-Sa2e6
+Sa2(E)e6
 c2
 e2
 a2
-c2a5
+c2(E)a5
 a2
 c2
 e2
 { Bar 62 }
 |
-a1e5
+a1(E)e5
 c1
 e1
 a1
-Eh1a2a3Xa
+Eh1a2a3(E)Xa
 Sf1
 e1
 c1
@@ -518,7 +530,7 @@ E.c3
 Sa3
 { Bar 64 }
 |
-Qa1a2c3a6
+Qa1a2c3(E)a6
 Fc4
 { Bar 65 }
 |

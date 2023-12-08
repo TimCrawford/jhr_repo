@@ -2,16 +2,17 @@
     <title>10. Prelude 5</title>
     <notation>french</notation>
     <pitch>67</pitch>
-    <tuning>(-5 -5 -4 -5 -5)</tuning>
+    <tuning>(-5 -5 -4 -5 -5 -2)</tuning>
 </rules>}
-{ Converted to TabCode .tc by luteconv 1.4.5 }
-{ encoding-date 2022-08-14 }
+{ Converted to TabCode .tc by luteconv 1.4.8 }
+{ encoding-date 2023-12-05 }
 { 10. Prelude 5 }
 { Attaingnant 1529, f. 9r }
 
 { Stave 1 }
 { Bar 1 }
-Qa1c4a6
+|
+Qa1(E)c4(E)a6
 Ec1
 d1.
 f1
@@ -43,6 +44,7 @@ c4.
 {^}
 { Stave 2 }
 { Bar 2 }
+|
 Qa2a4d6
 Ec4
 a3.
@@ -51,15 +53,14 @@ d3.
 a2
 b2.
 d2
-a1.
-c1
+a1.c4(Of:4)
 d1.
 { Bar 3 }
 |
 Qc1d3a4
 d1b3c4
-a1b3d6
-d5
+a1b3(E)d6
+_3d5
 { Bar 4 }
 |
 Ed2a4c5
@@ -70,11 +71,11 @@ Qd1a2c4
 c1d3a4
 { Bar 5 }
 |
-Ec5
+E_3c5
 d1.
 Qa1b3d5
 d2a3c5
-Ed5
+E_3d5
 a1.
 Qb2c4a5
 { Bar 6 }
@@ -82,6 +83,7 @@ Qb2c4a5
 {^}
 { Stave 3 }
 { Bar 6 }
+|
 H.a2a4d6
 Ec4
 a3.
@@ -114,13 +116,13 @@ Ea2
 b2.
 d2
 a1.
-c1
-d1.
+c1d3(Of:4).
 { Bar 10 }
 |
 {^}
 { Stave 4 }
 { Bar 10 }
+|
 Qc1d3a4
 Ea3
 b3.
@@ -142,39 +144,40 @@ c1.
 Qd1a2c4
 Ec4
 a4.
-Qd1c4
-c5
+Qd1(E)c4
+_3c5
 { Bar 13 }
 |
 c1d3a4
 Ea4
-d5
+_3d5
 Qc1a4
-a5
+_3a5
 { Bar 14 }
 |
 a1b3d5
-Ed5
-c5.
+E_3d5
+_3c5.
 Qa1d5
-d6
+_4d6
 { Bar 15 }
 |
 {^}
 { Stave 5 }
 { Bar 15 }
+|
 d2a3c5
-Ec5
-a5.
+E_3c5
+_3a5.
 Qd2a3c5
-c6
+_4c6
 { Bar 16 }
 |
 Qb2c4a5
-Ea5
+E_3a5
 d6
 Qb2c4a5
-a6
+_4a6
 { Bar 17 }
 |
 H.a2a4d6
@@ -186,8 +189,7 @@ b3
 a3.
 { Bar 18 }
 |
-a1b3d5
-b1.
+a1b3d5Xb
 d1
 b1.
 a1
@@ -196,7 +198,7 @@ b2
 a2.
 { Bar 19 }
 |
-c1a4
+c1(E)a4
 d1.
 f1
 d1.
@@ -209,6 +211,7 @@ d2.
 {^}
 { Stave 6 }
 { Bar 20 }
+|
 Hc2c4a5
 Ed3
 a2.

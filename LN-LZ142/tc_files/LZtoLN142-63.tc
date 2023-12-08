@@ -4,8 +4,8 @@
     <pitch>67</pitch>
     <tuning>(-5 -5 -4 -5 -5)</tuning>
 </rules>}
-{ Converted to TabCode .tc by luteconv 1.4.5 }
-{ encoding-date 2022-09-26 }
+{ Converted to TabCode .tc by luteconv 1.4.8 }
+{ encoding-date 2023-12-08 }
 { Q18. Pazamezo b dur - AA16 }
 { IRL-Dtc 410/I, pp. 134-135 }
 
@@ -22,7 +22,7 @@ M(C/)
 [[d3
 ]]d1.
 Qc1d2d3a4
-Qa1c2d3a5
+Qa1c2d3(E)a5
 { Bar 3 }
 |
 Ec1d2d3a4
@@ -41,7 +41,7 @@ a1
 ]]]c1.
 { Bar 4 }
 |
-Ed1a2b3d6
+Ed1a2b3(E)d6
 [[[a4
 ]]]a3.
 [[[b3
@@ -62,15 +62,15 @@ b3
 { Stave 2 }
 { Bar 5 }
 |
-Ed1a2b3d6
+Ed1a2b3(E)d6
 [[[a4
 ]]]a3.
 [[b3
-]]d3c6
-[[a2d6
-]]c2a5
-[[d2c5
-]]a1e5
+]]d3(E)c6
+[[a2(E)d6
+]]c2(E)a5
+[[d2(E)c5
+]]a1(E)e5
 { Bar 6 }
 |
 Ec1d2d3a4
@@ -80,7 +80,7 @@ Ec1d2d3a4
 a1.
 c1
 ]]]d1.
-Ef1a4
+Ef1(E)a4
 [[[a3
 ]]]b3.
 [[[d3
@@ -92,12 +92,12 @@ a3
 Ec1d2d3a4
 [[[a1
 ]]]c1.
-[[a1e5
+[[a1(E)e5
 ]]d3
-Ed2a3c5
+Ed2a3(E)c5
 [[[c2
 ]]]d2
-[[a1c3
+[[a1(E)c3
 ]]d2
 { Bar 8 }
 |
@@ -105,7 +105,7 @@ Ed2a3c5
 { Stave 3 }
 { Bar 8 }
 |
-Ec2d3a5
+Ec2d3(E)a5
 [[[d3
 ]]]a2
 [[[c2.
@@ -122,14 +122,14 @@ c2
 ]]]a2.
 { Bar 9 }
 |
-Ea1c2d3a5
+Ea1c2d3(E)a5
 [[[d3
 ]]]a2
 [[[c2
 d2
 a1
 ]]]c1
-Ea1c2d3a5
+Ea1c2d3(E)a5
 [[[d2
 ]]]c2
 [[[a2
@@ -149,7 +149,7 @@ Ec1d2d3a4
 a1
 c1
 ]]]d1
-[[f1a4
+[[f1(E)a4
 ]]c1
 [[d1a2b3c4
 ]]c2
@@ -162,19 +162,19 @@ Ec1d2d3a4
 a1.
 c1
 ]]]d1.
-[[c1d3a4
+[[c1(E)d3a4
 ]]d2a3
-[[a1b3
-]]c1d3
+[[a1(E)b3
+]]c1(E)d3
 { Bar 12 }
 |
-Ed1a2b3d6
+Ed1a2b3(E)d6
 [[[a4
 ]]]a3.
 Eb3
 [[[b3
 ]]]d3.
-Ea2d6
+Ea2(E)d6
 [[[a2
 ]]]b2.
 [[[d2
@@ -187,7 +187,7 @@ a2
 { Stave 5 }
 { Bar 13 }
 |
-Ed1a2b3d6
+Ed1a2b3(E)d6
 [[[a4
 ]]]a3.
 [[[b3
@@ -207,24 +207,24 @@ c1
 Ec1d2d3a4
 [[[a1
 ]]]c1.
-E.a1e5
+E.a1(E)e5
 Sd3
-Ed2a3c5
+Ed2a3(E)c5
 [[[c2
 ]]]d2
-[[a1c3
+[[a1(E)c3
 ]]d2.
 { Bar 15 }
 |
-Ec2d3a5
+Ec2d3(E)a5
 [[[a2
 ]]]c2.
-Ed2c6
+Ed2(E)c6
 [[[c2
 ]]]d2.
-[[a1d6
+[[a1(E)(E)d6
 ]]d2
-Ec2d3a5
+Ec2d3(E)a5
 [[[a2
 ]]]c2.
 { Bar 16 }
@@ -240,7 +240,7 @@ Ec1d2d3a4
 a1
 c1
 ]]]d1
-Ef1a4
+Ef1(E)a4
 [[[a3
 ]]]b3
 [[[d3
@@ -267,7 +267,7 @@ Qc1d2d3a4
 d1.
 c1
 ]]]a1.
-[[c1a4
+[[c1(E)a4
 ]]f1.
 [[[c1
 ]]]d1.
@@ -284,7 +284,7 @@ Ef1
 d1.
 c1
 ]]]a1.
-Ec1a4
+Ec1(E)a4
 [[[d2
 ]]]b2.
 [[[d2
@@ -293,26 +293,26 @@ a2
 ]]]d3.
 { Bar 21 }
 |
-[[a2d6
+[[a2(E)d6
 ]]b3
 [[[d2
 b2
 a2
 ]]]d3.
-[[a2d6
+[[a2(E)d6
 ]]d2
 [[[a2
 ]]]b2.
 Ed2
 { Bar 22 }
 |
-[[a2d6
+[[a2(E)d6
 ]]b3
 [[[d2
 b2
 a2
 ]]]d3.
-Ea2d6
+Ea2(E)d6
 [[[d2
 ]]]c2.
 [[[d2
@@ -331,7 +331,7 @@ c1
 d1.
 c1
 ]]]a1.
-[[c1a4
+[[c1(E)a4
 ]]f1.
 [[[c1
 ]]]d1.
@@ -353,13 +353,13 @@ c2
 ]]]a2.
 { Bar 25 }
 |
-[[a1c2d3a5
+[[a1c2d3(E)a5
 ]]d3.
 [[[a1
 d2.
 c2
 ]]]a2.
-[[c2d3a5
+[[c2d3(E)a5
 ]]a1.
 [[[c2
 ]]]d2.
@@ -370,13 +370,13 @@ Ea1
 { Stave 9 }
 { Bar 26 }
 |
-[[c2d3a5
+[[c2d3(E)a5
 ]]d3.
 [[[a1
 d2
 c2
 ]]]a2
-Ec2d3a5
+Ec2d3(E)a5
 [[[a2
 ]]]c2
 [[[d2
@@ -391,7 +391,7 @@ Ec1d2d3a4
 [[[c1
 ]]]d1.
 Ef1
-Ec1a4
+Ec1(E)a4
 [[[f1
 ]]]d1.
 [[[f1
@@ -410,7 +410,7 @@ Ec1d2d3a4
 [[[c1
 ]]]d1.
 Ef1
-Ec1a4
+Ec1(E)a4
 [[[d2
 ]]]b2.
 [[[d2
@@ -419,13 +419,13 @@ a2
 ]]]d3.
 { Bar 29 }
 |
-Ea2d6
+Ea2(E)d6
 [[[b3
 ]]]d3.
 [[[a2
 ]]]b2.
 Ed2
-Ea2d6
+Ea2(E)d6
 [[[d2
 ]]]b2.
 [[[d2
@@ -438,13 +438,13 @@ a2
 { Stave 11 }
 { Bar 30 }
 |
-Ea2d6
+Ea2(E)d6
 [[[b3
 ]]]d3.
 [[[a2
 ]]]b2.
 Ed2
-Ea2d6
+Ea2(E)d6
 [[[d2
 ]]]c2.
 [[[d2
@@ -459,7 +459,7 @@ Ec1d2d3a4
 [[[c1
 ]]]d1.
 Ef1
-Ec1a4
+Ec1(E)a4
 [[[a1
 ]]]d2.
 [[[a1
@@ -472,13 +472,13 @@ c2
 { Stave 12 }
 { Bar 32 }
 |
-Ec2d3a5
+Ec2d3(E)a5
 [[[d3
 ]]]a2.
 [[[c2
 ]]]d2.
 Ea1
-Ec2d3a5
+Ec2d3(E)a5
 [[[a2
 ]]]c2.
 [[[d2
@@ -493,7 +493,7 @@ Ec1d2d3a4
 [[[c1
 ]]]d1
 Ef1
-Ec1a4
+Ec1(E)a4
 [[[d3
 ]]]b3.
 [[[d3

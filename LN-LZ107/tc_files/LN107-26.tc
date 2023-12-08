@@ -4,13 +4,14 @@
     <pitch>67</pitch>
     <tuning>(-5 -5 -4 -5 -5)</tuning>
 </rules>}
-{ Converted to TabCode .tc by luteconv 1.4.5 }
-{ encoding-date 2022-08-14 }
+{ Converted to TabCode .tc by luteconv 1.4.8 }
+{ encoding-date 2023-12-08 }
 { 42-2. A Galliard made by I(ohn) D(owland) - orpharion - A8B9C8 }
 { Barley 1596, sig. B4v }
 
 { Stave 1 }
 { Bar 1 }
+|
 Ed3c4a5
 a2.
 b2
@@ -19,17 +20,17 @@ f1
 c5
 { Bar 2 }
 |
-Q.d1b2d5(C1:5)
+Q.d1b2(E)d5(C1:5)
 Eb1
 a1
 d2-4(C-1:7)
 { Bar 3 }
 |
-a1b2d5(C2:5)
+a1b2(E)d5(C2:5)
 d1.-4(C-2:7)
-c1d6(C3:5)
+c1(E)(E)d6(C3:5)
 a1.-5(C-3:7)
-d2d3a5
+d2d3(E)a5
 b2
 { Bar 4 }
 |
@@ -42,7 +43,7 @@ Qa1a2c3
 |
 Ea6
 d1a2c4
-a1b2d3a5
+a1b2d3(E)a5
 b1d2d3
 a4
 d2f3f4
@@ -51,7 +52,8 @@ d2f3f4
 {^}
 { Stave 2 }
 { Bar 6 }
-Q.a1b2d5(C4:5)
+|
+Q.a1b2(E)d5(C4:5)
 Ed2.(C-4:7)
 b2(Oe:4)d3d4(C5:7)
 Sa2
@@ -77,14 +79,14 @@ E.a1a2c3c4
 Sd3
 Ec3(Oe:4)
 a4
-a1d3d5
-c3c5
+a1d3(E)d5
+c3(E)c5
 { Bar 10 }
 |
 a5
 a1b2d3
-a2c3a6
-b2d3a5
+a2c3(E)a6
+b2d3(E)a5
 a1
 c1.
 { Bar 11 }
@@ -92,13 +94,14 @@ c1.
 {^}
 { Stave 3 }
 { Bar 11 }
-Q.d1a2b3d6
-Ea1d5
+|
+Q.d1a2b3(E)d6
+Ea1(E)d5
 b2d3d4
 d2.
 { Bar 12 }
 |
-Q.a1a2c4a6
+Q.a1a2(E)c4(E)a6
 Ee2.
 a1
 c1.
@@ -106,26 +109,26 @@ c1.
 |
 a6
 d1a2c4
-a1b2d3a5
+a1b2d3(E)a5
 b1d2d3
 a4
 d2f3f4
 { Bar 14 }
 |
-Q.a1b2d5
-Ed1c4
-b1a4
+Q.a1b2(E)d5
+Ed1(E)c4
+b1(E)a4
 a2.
 { Bar 15 }
 |
-Qa1b2d5
-E.f1f2d4
+Qa1b2(E)d5
+E.f1f2(E)d4
 Sf2.
 Ed2
 h1.
 { Bar 16 }
 |
-Qe1a2a6
+Qe1a2(E)a6
 Ea1
 h1.
 e1
@@ -135,11 +138,12 @@ a1.
 {^}
 { Stave 4 }
 { Bar 17 }
+|
 Qa1a2c3(Oe:4)a6
 Hc4
 { Bar 18 }
 ||
-E.a1c4d5(C6:5)
+E.a1(E)c4d5(C6:5)
 Sa3.
 Eb3
 d3(C-6:7)
@@ -147,7 +151,7 @@ d5
 b3.
 { Bar 19 }
 |
-Qa1b2d5(C7:7)
+Qa1b2(E)d5(C7:7)
 Ea2
 d3.(C-7:7)
 d5
@@ -180,20 +184,21 @@ d2.
 {^}
 { Stave 5 }
 { Bar 23 }
+|
 a1a2c3(Oe:4)
 Sa6
 d2.
 Eb2d3
 d2.
-a2a6
+a2(E)a6
 c3(Oe:4)
 { Bar 24 }
 |
-E.c2d3a5
-Sd2c5
-Ea1e5
-c1(Oe:4)a4
-d2c5
+E.c2d3(E)a5
+Sd2(E)c5
+Ea1(E)e5
+c1(Oe:4)(E)a4
+d2(E)c5
 c3.
 { Bar 25 }
 |

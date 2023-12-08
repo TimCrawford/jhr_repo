@@ -4,13 +4,14 @@
     <pitch>67</pitch>
     <tuning>(-5 -5 -4 -5 -5 -2 -3)</tuning>
 </rules>}
-{ Converted to TabCode .tc by luteconv 1.4.5 }
-{ encoding-date 2022-08-14 }
+{ Converted to TabCode .tc by luteconv 1.4.8 }
+{ encoding-date 2023-12-08 }
 { 20. Monsieur Tuenhuijsen - Courante Venetijs }
 { Schele, p. 90 i }
 
 { Stave 1 }
 { Bar 1 }
+|
 Ed1
 { Bar 2 }
 |
@@ -23,7 +24,7 @@ Qb1b2d3d4
 Eb6
 { Bar 4 }
 |
-Qd2b3
+Qd2b3(E)
 Ed6
 { Bar 5 }
 |
@@ -32,13 +33,13 @@ Xa/
 b2b3
 { Bar 6 }
 |
-E.a1d5
+E.a1(E)d5
 Sd2.
 a1
 b1.
 { Bar 7 }
 |
-E.d1c4
+E.d1(E)(E)c4
 Sb1
 d1
 f1
@@ -51,7 +52,7 @@ k1
 { Bar 9 }
 |
 El1
-E.f1f5
+E.f1(E)f5
 Ti2
 f1
 { Bar 10 }
@@ -59,6 +60,7 @@ f1
 {^}
 { Stave 2 }
 { Bar 10 }
+|
 Qi2
 Ef4
 { Bar 11 }
@@ -67,7 +69,7 @@ Ed6
 Qd2f3
 { Bar 12 }
 |
-E.a1d5
+E.a1(E)d5
 Sd2.
 a1
 b1.
@@ -79,25 +81,25 @@ Sf1
 d1.
 { Bar 14 }
 |
-Eb1a4
+Eb1(E)(E)a4
 a2
 Sd1
 b1.
 { Bar 15 }
 |
-Ea1d5
+Ea1(E)d5
 d3
 Sb1
 a1.
 { Bar 16 }
 |
-Ed2c5
+Ed2(E)(E)c5
 b3.
 Sa1
 d2.
 { Bar 17 }
 |
-Eb2a5
+Eb2(E)(E)a5
 a3.
 Sd2
 b2.
@@ -106,13 +108,14 @@ b2.
 {^}
 { Stave 3 }
 { Bar 18 }
-Ea2d6
+|
+Ea2(E)d6
 c4
 Sb2
 a2.
 { Bar 19 }
 |
-Ed3b6
+Ed3(E)(E)b6
 a4
 Sd2
 b2.
@@ -134,13 +137,13 @@ Qb2b3
 Ei1
 { Bar 24 }
 |
-E.i1f2g3Xa/
+E.i1f2g3(E)Xa/
 Sh1
 Ef1
 { Bar 25 }
 |
-E.d1c4
-Sc1
+E.d1(E)(E)c4
+Sc1(E)
 Ee4
 { Bar 26 }
 |
@@ -151,50 +154,51 @@ d4
 |
 c4
 d1
-b1a4
+b1(E)(E)a4
 { Bar 28 }
 |
 {^}
 { Stave 4 }
 { Bar 28 }
+|
 d5
 a1
 b2
 { Bar 29 }
 |
-d2c5
+d2(E)(E)c5
 b3
 d2
 { Bar 30 }
 |
-E.b2a5
+E.b2(E)(E)a5
 Sd3
 a2
 b2.
 { Bar 31 }
 |
-Sa2d6
+Sa2(E)d6
 d3.
 a2
 b3.
 Ed2
 { Bar 32 }
 |
-Sb2a5
+Sb2(E)(E)a5
 a2.
 b2
 d3.
 Ea1
 { Bar 33 }
 |
-Sd2c5
+Sd2(E)(E)c5
 b2.
 d2
 b3.
 Eb1
 { Bar 34 }
 |
-Sa1Xa/
+Sa1(E)(E)(E)Xa/
 d2.
 a1
 b2.
@@ -204,21 +208,22 @@ Ef1
 {^}
 { Stave 5 }
 { Bar 35 }
-Sb1Xa
+|
+Sb1(E)(E)(E)Xa
 a1.
 b1
 d2.
 Ed1
 { Bar 36 }
 |
-Sa1a6
+Sa1(E)(E)a6
 d2.
 a1
 b2.
 Eb1
 { Bar 37 }
 |
-Sd2b6
+Sd2(E)b6
 b2.
 E.a2a4d6
 Td3

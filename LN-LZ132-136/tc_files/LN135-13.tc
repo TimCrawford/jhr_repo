@@ -4,13 +4,14 @@
     <pitch>67</pitch>
     <tuning>(-5 -5 -4 -5 -5)</tuning>
 </rules>}
-{ Converted to TabCode .tc by luteconv 1.4.5 }
-{ encoding-date 2022-08-14 }
+{ Converted to TabCode .tc by luteconv 1.4.8 }
+{ encoding-date 2023-12-08 }
 { JJ3b. The Flatt Pauen Jo Johnson - AABBCC4 }
 { GB-Cu Dd.2.11, f. 87r }
 
 { Stave 1 }
 { Bar 1 }
+|
 M(C/)
 Q.a1b2d3c4a5
 Ed2.
@@ -26,14 +27,14 @@ a2.
 b2
 ]]]d2.
 Qa1(Oe:4)a2e6
-Qa1a2c3(Oe:4)a6
+Qa1a2c3(Oe:4)(E)a6
 { Bar 3 }
 |
 E.a1b2d3a5
-Sd1.
+Sd1.(E)
 [[b1d3a4
-]]d1.
-Ea1(Oe:4)a6
+]]d1.(E)
+Ea1(Oe:4)(E)(E)a6
 [[[d2
 ]]]b2
 [[[a2
@@ -58,14 +59,15 @@ Qa5
 {^}
 { Stave 2 }
 { Bar 5 }
+|
 Qa1b2d3a5
 [[c4
 ]]d2.
-[[[b2(Oe:4)a5
+[[[b2(Oe:4)(E)a5
 d3
 a2
 ]]]b2
-[[[a2a6
+[[[a2(E)a6
 d3.
 a2
 ]]]c3.
@@ -93,11 +95,12 @@ Qa1a2c4(Oe:4)a6
 {^}
 { Stave 3 }
 { Bar 7 }
+|
 [[[a1b2d3a5
 d2
 a1
 ]]]d1
-[[[[b1a4
+[[[[b1(E)a4
 a1.
 b1
 ]]]]d1.
@@ -105,7 +108,7 @@ b1
 a1.
 d2
 ]]]]b2.
-Sa2(Oe:4)a6
+Sa2(Oe:4)(E)a6
 [[[[d2
 ]]]]b2.
 [[[[a2
@@ -125,7 +128,8 @@ d2
 {^}
 { Stave 4 }
 { Bar 8 }
-[[[[c2a5
+|
+[[[[c2(E)a5
 a2
 d3
 ]]]]c3
@@ -169,6 +173,7 @@ Qd1a2c4
 {^}
 { Stave 5 }
 { Bar 11 }
+|
 [[c1(Oe:4)a2c5(C1:7)
 ]]a1.-5(C-1:7)
 [[a1b3d5(C2:7)
@@ -203,14 +208,14 @@ Ed2b3d6(C4:5)
 a2.
 b2
 ]]]]d2.-5(C-4:7)
-Sa1d5(C5:5)
+Sa1(E)d5(C5:5)
 [[[[d2
 ]]]]b2.
 [[[[a2
 b2.
 d2
 ]]]]a1.-4(C-5:7)
-Sd2d6(C6:5)
+Sd2(E)d6(C6:5)
 [[[[b2
 ]]]]a2.
 [[[[d3
@@ -222,6 +227,7 @@ b2
 {^}
 { Stave 6 }
 { Bar 14 }
+|
 Sb2(Oe:4)a5
 [[[[d3
 ]]]]c3
@@ -236,7 +242,7 @@ Sa1
 d3
 c3
 ]]]]a3
-[[[[c3a6
+[[[[c3(E)a6
 a3
 c3
 ]]]]d3
@@ -257,13 +263,14 @@ c1
 {^}
 { Stave 7 }
 { Bar 15 }
+|
 [[c1(Oe:4)a2c5
 ]]a1.
-[[[a1d5(C7:5)
+[[[a1(E)d5(C7:5)
 c1.
 d1
 ]]]a1.-4(C-7:7)
-[[[c1c5
+[[[c1(E)c5
 f2
 e2
 ]]]c2
@@ -277,7 +284,7 @@ c2
 ]]]]e2
 { Bar 16 }
 |
-Sa1a6
+Sa1(E)(E)a6
 [[[[d2
 ]]]]b2
 [[[[a2
@@ -292,7 +299,7 @@ d2
 d3
 c3
 ]]]]a3
-[[a2c3a6
+[[a2c3(E)a6
 ]]c4
 Qa6
 { Bar 17 }
@@ -300,6 +307,7 @@ Qa6
 {^}
 { Stave 8 }
 { Bar 17 }
+|
 [[a1b2d5
 ]]a1b2
 Qb1d2d3a4
@@ -336,7 +344,7 @@ Ed3a5
 a2
 c2
 ]]]]d2
-Sa1a5
+Sa1(E)a5
 [[[[d2
 ]]]]b2
 [[[[d2
@@ -356,6 +364,7 @@ b2
 {^}
 { Stave 9 }
 { Bar 21 }
+|
 Sa1d5(C11:5)
 [[[[d2
 ]]]]b2.
@@ -363,7 +372,7 @@ Sa1d5(C11:5)
 b2.
 d2
 ]]]]a1.-4(C-11:7)
-[[[b1a4
+[[[b1(E)a4
 d1.
 b1(Oe:4)
 ]]]a1
@@ -374,13 +383,13 @@ Sd2b3d6(C12:5)
 a2.
 b2
 ]]]]d2.-5(C-12:7)
-[[[a1d5
+[[[a1(E)d5
 d2.
 b2(Oe:4)
 ]]]a2.
 { Bar 22 }
 |
-Sb2a5
+Sb2(E)a5
 [[[[d3
 ]]]]c3
 [[[[d3
@@ -401,6 +410,7 @@ Eb2d3a5
 {^}
 { Stave 10 }
 { Bar 23 }
+|
 [[[[d2a4
 b2
 d2
@@ -417,7 +427,7 @@ d2
 d3
 c3
 ]]]]a3
-[[[[c3a6
+[[[[c3(E)a6
 a3
 c3
 ]]]]d3

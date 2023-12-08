@@ -4,13 +4,14 @@
     <pitch>67</pitch>
     <tuning>(-5 -5 -4 -5 -5 -2 -2 -1 -2)</tuning>
 </rules>}
-{ Converted to TabCode .tc by luteconv 1.4.5 }
-{ encoding-date 2022-08-14 }
+{ Converted to TabCode .tc by luteconv 1.4.8 }
+{ encoding-date 2023-12-08 }
 { 50a. Almaine by Robert Kindersley - 7F10C ABCC8 }
 { GB-Lbl Add.38539, f. 4r }
 
 { Stave 1 }
 { Bar 1 }
+|
 Ed2.
 { Bar 2 }
 |
@@ -31,8 +32,8 @@ Ef1a4
 Ed1a2a4d6
 S.c1(Oe:4)c2a5
 Ta1.
-S.d2c5
-Ta1e5
+S.d2(E)c5
+Ta1(E)e5
 Ec1(Oe:4)a4
 { Bar 5 }
 |
@@ -42,17 +43,18 @@ Ec1(Oe:4)a4
 ]]f1.
 { Bar 6 }
 |
-E.c1(Oe:4)d2d3Xa
+E.c1(Oe:4)d2d3(E)Xa
 Sa1.
 [[[d2:
 b2.
-a2d6
+a2(E)d6
 ]]]c6
 { Bar 7 }
 |
 {^}
 { Stave 2 }
 { Bar 7 }
+|
 E.d1a2c4(C1:5)a6
 Sc1.
 [[[a1(Oe:4):(C-1:7)
@@ -61,10 +63,10 @@ c2(Oe:4)a5
 ]]]d6
 { Bar 8 }
 |
-[[[d2c6
-]]]a1a6
+[[[d2(E)c6
+]]]a1(E)(E)a6
 Ec1(Oe:4)d2d3Xa
-[[[a1a5
+[[[a1(E)a5
 ]]]d2.
 Ea1c2(Oe:4)d3
 { Bar 9 }
@@ -97,6 +99,7 @@ Sa2:-5(C-2:7)
 {^}
 { Stave 3 }
 { Bar 11 }
+|
 S.d3a4Xa
 Ta2.
 [[[[b3
@@ -121,7 +124,7 @@ d3.(C-3:7)
 a2a5
 ]]]]c2.
 [[[d2c5
-]]]a1e5
+]]]a1(E)(E)e5
 Sc1(Oe:4)a4
 [[[[a1
 ]]]]c1.
@@ -130,7 +133,8 @@ Sc1(Oe:4)a4
 {^}
 { Stave 4 }
 { Bar 13 }
-S.a1(Oe:4)a5
+|
+S.a1(Oe:4)(E)a5
 Td2.
 [[[[c2
 d2.
@@ -158,13 +162,14 @@ c1
 a1.
 d2
 ]]]]b2.
-[[[a2d6
+[[[a2(E)d6
 ]]]c6
 { Bar 15 }
 |
 {^}
 { Stave 5 }
 { Bar 15 }
+|
 S.d1a2a6
 Tc1.
 [[[[d1
@@ -179,12 +184,12 @@ a1
 ]]]d6
 { Bar 16 }
 |
-[[[d2c6
-]]]a1a6
-Sc1Xa
+[[[d2(E)c6
+]]]a1(E)(E)a6
+Sc1(E)Xa
 [[[[d1:
 ]]]]c1.
-[[[a1(Oe:4)a5
+[[[a1(Oe:4)(E)a5
 ]]]d2.
 Ea1c2(Oe:4)d3
 { Bar 17 }
@@ -206,6 +211,7 @@ Qa4(Oe:4)
 {^}
 { Stave 6 }
 { Bar 18 }
+|
 [[a1d3c4a5
 ]]c2(Oe:4).
 [[d3a4c6
@@ -221,7 +227,7 @@ Qa4(Oe:4)
 [[a1d3c4e5
 ]]c2(Oe:4)a5
 [[[d2a3c5
-]]]a1e5
+]]]a1(E)e5
 Ec1(Oe:4)a4
 { Bar 21 }
 |
@@ -235,25 +241,26 @@ Ec1(Oe:4)d2d3Xa
 S.d2a4
 Tb2.
 Ea2b3a4d6
-S.d1a6
+S.d1(E)a6
 Tc1.
 { Bar 23 }
 |
 Ea1d3c4a5
-S.c2(Oe:4)Xa///
+S.c2(Oe:4)(E)(E)Xa///
 Ta2.
 Ed3a4c6
-S.c1(Oe:4)Xa
+S.c1(Oe:4)(E)Xa
 Ta1.
 { Bar 24 }
 |
 {^}
 { Stave 7 }
 { Bar 24 }
+|
 [[[d2b3a4d6
 ]]]a1.
-Ec1(Oe:4)Xa
-[[[a1a5
+Ec1(Oe:4)(E)Xa
+[[[a1(E)a5
 ]]]d2.
 Ea1c2(Oe:4)d3Xa///
 { Bar 25 }
@@ -292,6 +299,7 @@ Sd1:-5(C-6:7)
 {^}
 { Stave 8 }
 { Bar 28 }
+|
 Sa1(Oe:4):
 [[[[e5(C7:5)
 ]]]]a1.
@@ -299,7 +307,7 @@ Sc2(Oe:4):(C-7:7)
 [[[[a5
 ]]]]c2.
 [[[d2c5
-]]]a1e5
+]]]a1(E)e5
 Ec1(Oe:4)a4
 { Bar 29 }
 |
@@ -339,7 +347,8 @@ a6
 {^}
 { Stave 9 }
 { Bar 31 }
-S.a1(Oe:4)a5
+|
+S.a1(Oe:4)(E)a5
 Tc1.
 [[[[a1
 d2.
@@ -353,19 +362,19 @@ c1(Oe:4):
 ]]]]a1.-6(C0:7)
 { Bar 32 }
 |
-[[[[d2d6(C9:5)
+[[[[d2(E)d6(C9:5)
 c2.
 a2:
 ]]]]c2.-5(C-9:7)
-[[[[d2Xa
+[[[[d2(E)(E)Xa
 a1.
 c1:
 ]]]]d1.
-[[[[a1a5
+[[[[a1(E)a5
 d2.
 a1:
 ]]]]c1
-S.a1(Oe:4)Xa///
+S.a1(Oe:4)(E)Xa///
 [[[[[d2
 ]]]]]a1.
 { Bar 33 }

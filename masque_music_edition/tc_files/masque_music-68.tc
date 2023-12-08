@@ -4,13 +4,14 @@
     <pitch>67</pitch>
     <tuning>(-5 -5 -4 -5 -5 -2 -2 -3)</tuning>
 </rules>}
-{ Converted to TabCode .tc by luteconv 1.4.5 }
-{ encoding-date 2022-08-14 }
+{ Converted to TabCode .tc by luteconv 1.4.8 }
+{ encoding-date 2023-12-08 }
 { 61. An Almaine Robert Jhonson - 7F9C AB8 }
 { GB-Cu GB-Cu Dd.4.22, f. 10r }
 
 { Stave 1 }
 { Bar 1 }
+|
 Ea1.
 { Bar 2 }
 |
@@ -40,12 +41,12 @@ Ed3c4a5
 [[[c1c2a3
 ]]]e1.
 Ef1:
-Ee1(Oe:4)c4
+Ee1(Oe:4)(E)c4
 [[[c1.
 ]]]f2
 { Bar 6 }
 |
-Ef1e4
+Ef1(E)e4
 [[[e5
 ]]]a4
 Ee1(Oa1:6)c4
@@ -56,21 +57,22 @@ Ee1(Oa1:6)c4
 {^}
 { Stave 2 }
 { Bar 7 }
+|
 Ec1(Oe:4)a4
 [[[a5
 ]]]c5
-Ea1e5
+Ea1(E)e5
 [[[e6
 ]]]a5
 { Bar 8 }
 |
-[[[d2c5
+[[[d2(E)c5
 f2.
 c1:
 ]]]e1.
-[[[f1c6
+[[[f1(E)(E)c6
 ]]]e6
-Ec2(Oe:4)a5
+Ec2(Oe:4)(E)a5
 { Bar 9 }
 |
 [[a2d3c4a6
@@ -89,7 +91,7 @@ Ea1a2c3
 Ec2d3(C2:5)
 [[[d2
 ]]]a1.(C-2:7)
-Ec1a3
+Ec1(E)a3
 [[[c4
 ]]]a4(Oe:4)
 { Bar 12 }
@@ -97,7 +99,8 @@ Ec1a3
 {^}
 { Stave 3 }
 { Bar 12 }
-Ea1d3e5(C3:5)
+|
+Ea1d3(E)e5(C3:5)
 [[[c1(Oe:4):
 ]]]e1.
 Ef1:-5(C-3:7)
@@ -105,7 +108,7 @@ Ef1:-5(C-3:7)
 ]]]a5
 { Bar 13 }
 |
-Ea2e6(C4:5)
+Ea2(E)e6(C4:5)
 [[[c3(Oe:4)
 ]]]d3.
 Ea2:-6(C-4:7)
@@ -117,7 +120,7 @@ Ea5
 [[[f1(Oe:4):
 ]]]h1.
 Ek1:
-[[[h1(Oa1:6)Xa//
+[[[h1(Oa1:6)(E)Xa//
 ]]]f1.
 { Bar 15 }
 |
@@ -129,7 +132,7 @@ Ed2:(C5:5)
 ]]]c2(Oe:4).
 { Bar 16 }
 |
-[[a2c3a6
+[[a2c3(E)a6
 ]]c2d3
 [[a2d3c4
 ]]c3(Oe:4).
