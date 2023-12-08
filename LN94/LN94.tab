@@ -1,4 +1,6 @@
--R9-c-N
+-R9
+-c
+-N
 -p
 p
 { }
@@ -39,24 +41,38 @@ x  a
 x  c
 1  de
 b
-x    ex  c
-2  d  cx     ex    ax    c
+x    e
+x  c
+2  d  c
+x     e
+x    a
+x    c
 b
 x  c e
-3exc
+3e
+xc
 xe
 x f
 xc
 xe
-xf ax  cx  dx a
+xf a
+x  c
+x  d
+x a
 x c
 x d
 xa
 xc
 b
-1ecxbxcax  d e
+1ec
+xb
+xca
+x  d e
 b
-3 a ax  dx  cx  a
+3 a a
+x  d
+x  c
+x  a
 x  d
 x  c
 x  a
@@ -64,42 +80,78 @@ x  c
 
 4!
 1  de
-2  c ex  d
-b3cdf cx    e
+2  c e
+x  d
+b
+3cdf c
+x    e
 x    c
 x    a
 x    c
-x    ex   ax   c2ccdexexfcde3e
+x    e
+x   a
+x   c
+2ccde
+xe
+xfcde
+3e
 xc
 b
-2acdx    a
+2acd
+x    a
 x a  c
-x    ex  aax   cx  de
+x    e
+x  aa
+x   c
+x  de
 3  a
 x  c
-b2  aa
-3  dx  cx  ax  cx  dx a
-1acc ex  d
 b
-3cdf cx fxcxe2fc e c3e
+2  aa
+3  d
+x  c
+x  a
+x  c
+x  d
+x a
+1acc e
+x  d
+b
+3cdf c
+x f
+xc
+xe
+2fc e c
+3e
 xf
 
 4!
 3h
 xf
 xe
-x hxa c e
+x h
+xa c e
 x e
 xa
 xc
 b
-1ea cx     a
-2     cx  dx a   e
-3  dx a
+1ea c
+x     a
+2     c
+x  d
+x a   e
+3  d
+x a
 b
-1 cd ax da cxa c ex  d
+1 cd a
+x da c
+xa c e
+x  d
 b
-2c aaxfxeaxc
+2c aa
+xf
+xea
+xc
 3a   e
 x  d
 x a
@@ -113,32 +165,52 @@ b
 x   c
 3  a
 x  c
-2  aax  cc
+2  aa
+x  cc
 3  a
 x  c
-2    ex  d
+2    e
+x  d
 b
 
-b2   ax ax  cc
-3  dx  c
-1  de
-2 ax   b
 b
-3 accxaxc
+2   a
+x a
+x  cc
+3  d
+x  c
+1  de
+2 a
+x   b
+b
+3 acc
+xa
+xc
 xa
 x d
 x c
 x a
 x c
 1 da c
-2 cx a
+2 c
+x a
 b
-1 cd  cxc1. cc e2e
+1 cd  c
+xc
+1. cc e
+2e
 b
 1f a
-2cx  dxa cx  d
+2c
+x  d
+xa c
+x  d
 1 df
-bx ca ax da c3a c ex  d
+b
+x ca a
+x da c
+3a c e
+x  d
 x a
 x c
 x d
@@ -153,32 +225,53 @@ b
 x c
 2 d
 x    c
-x cd  cx     ex    ax    c
+x cd  c
+x     e
+x    a
+x    c
 b
 3a c e
 x  a
 x   c
 x  a
-x  cx  d
+x  c
+x  d
 x a
 x c
 2 d  c
-3  cx  a
+3  c
+x  a
 2 ac
 3  a
 x  c
-b1 cdxa
-2fxe  cxa   exc
-bxea cxf
+b
+1 cd
+xa
+2f
+xe  c
+xa   e
+xc
+b
+xea c
+xf
 1hf g a
-3f ax  cx  dx axacdx exaxc
+3f a
+x  c
+x  d
+x a
+xacd
+x e
+xa
+xc
 b
 
 b
 1ea c
-2  dx    e
+2  d
+x    e
 x  aa
-xc1  d  c
+xc
+1  d  c
 b
 2  c e
 3  a
@@ -203,13 +296,23 @@ x a
 1 cd
 x    a
 b
-2    cx dxa   ex   a3aaccx  ax   cx  a
+2    c
+x d
+xa   e
+x   a
+3aacc
+x  a
+x   c
+x  a
 x  c
 x  d
 x a
 x c
 b
-1 da cxc2 cc e3e
+1 da c
+xc
+2 cc e
+3e
 xc
 xe
 x f
@@ -217,25 +320,41 @@ xc
 xe
 b
 
-b2fc e c3cxexf
+b
+2fc e c
+3c
+xe
+xf
 xe
 xc
 x f
 1ea
 xac
 b
-2cdxexfcx exefxf
+2cd
+xe
+xfc
+x e
+xef
+xf
 1cdf c
-bxccc ex gxc aa
-2ax    e
 b
-3 da cx  c
+xccc e
+x g
+xc aa
+2a
+x    e
+b
+3 da c
+x  c
 x  a
 x   c
 x  a
 x  c
 x  d
-x a1 cd  cxc
+x a
+1 cd  c
+xc
 b
 3ea
 xc
@@ -244,8 +363,10 @@ x d
 xa
 x d
 x c
-x a1f d
-2eaxc
+x a
+1f d
+2ea
+xc
 b
 
 b
@@ -260,17 +381,21 @@ x    c
 x    e
 x  d c
 x    a
-b3    c
+b
+3    c
 x  d
 x  c
 x  a
 2  d c
 x  c
 1  d a
-2ax    e
+2a
+x    e
 b
-1c   cxc  b
-3ea c axc
+1c   c
+xc  b
+3ea c a
+xc
 xa
 x e
 xa
@@ -278,29 +403,38 @@ xc
 xe
 xf
 b
-2hx f
+2h
+x f
 xfh
-3hxf
-1efx  d e
+3h
+xf
+1ef
+x  d e
 b
-2 a ax  c
-x  dx ax c
+2 a a
+x  c
+x  d
+x a
+x c
 x  d
 x a
 x c
 b
 
-b2 da c
+b
+2 da c
 3  c
 x  a
 x  d
 x  c
 x  a
-x  c1 cd a
+x  c
+1 cd a
 2a
 3c
 xe
-bxf d
+b
+xf d
 xe
 xc
 xa
@@ -310,22 +444,41 @@ xa
 xc
 2ea
 3  a
-x  c1acd
+x  c
+1acd
 b
-2    ex cx a ax  dx c  e
-3  ax  cx  dx  c
-4  dx  cx  ax   c
+2    e
+x c
+x a a
+x  d
+x c  e
+3  a
+x  c
+x  d
+x  c
+4  d
+x  c
+x  a
+x   c
 b
-2  aax  cx  dx a
+2  aa
+x  c
+x  d
+x a
 
 4!
-2 cd e3  c
+2 cd e
+3  c
 x  a
 x  d
 x  c
 x  a
 x  c
-b1 cdexc2f aa3c
+b
+1 cde
+xc
+2f aa
+3c
 xe
 xf
 xe
@@ -347,9 +500,16 @@ b
 x     e
 x    a
 x    c
-x  d ex  cx  ax   c
-bx  aacx  c
-1  dce2 daac3  c
+x  d e
+x  c
+x  a
+x   c
+b
+x  aac
+x  c
+1  dce
+2 daac
+3  c
 x  a
 x  d
 x  c
@@ -358,28 +518,48 @@ x  c
 b
 
 b
-2 cdca3 d
+2 cdca
+3 d
 x c
 x a
 x  d
 x  c
-x  a1  cc a
-2 ax c
-bx da cx cx  d  cx ax cd ax dxax c
-bx da cx c
-1 cdca2c aa3 a
+x  a
+1  cc a
+2 a
+x c
+b
+x da c
+x c
+x  d  c
+x a
+x cd a
+x d
+xa
+x c
+b
+x da c
+x c
+1 cdca
+2c aa
+3 a
 x  d
 x c
 x a
 x  d
 x a
 b
-2acc ex   ax   cx    e
-1fcdexea c
+2acc e
+x   a
+x   c
+x    e
+1fcde
+xea c
 b
 x cde
 xc
-x ccdexe
+x ccde
+xe
 b
 Yeccde
 b
@@ -388,151 +568,367 @@ B
 {1b. Fantasia di Iulio abondante/Scotto 1548, sigs. F2v-F3r}
 B
 b
-0  cx  d
+0  c
+x  d
 b
-1    ex  c.
-2  d  cx     ex    ax    c
+1    e
+x  c.
+2  d  c
+x     e
+x    a
+x    c
 b
-1  c exe
-2f ax  c.x  dx a.
+1  c e
+xe
+2f a
+x  c.
+x  d
+x a.
 b
-1ecxbxcax  d e
+1ec
+xb
+xca
+x  d e
 b
-2 a ax  d.x  cx  a.
+2 a a
+x  d.
+x  c
+x  a.
 1  d
-2  c ex  d.
-bxcdf cx    ex   ax   cxccdexexfcdexc.
+2  c e
+x  d.
 b
-1acdx    a
-2    cx   a.x   c.x    e
+xcdf c
+x    e
+x   a
+x   c
+xccde
+xe
+xfcde
+xc.
 b
-
-b2  aa
-3  dx  c.x  ax  c.x  dx a.
-1acc ex  d.
-b
-2cdf cx f.xcxexfc e cxexa c exc
-b
-1ea cx     a
-2     cx  d.x ax     e
-b
-1 cd ax da cxa c ex  d.
-b
-2c aaxfxeaxc
-1acd ax   c
-b
-2  d.x    e
-1  aax  cc
-2    ex  d.
-bx   ax a.x  cc
-3  dx  c.
-1  de
-2 ax   b
+1acd
+x    a
+2    c
+x   a.
+x   c.
+x    e
 b
 
 b
-1 accxaxc
-2 da c
-3 cx d.
+2  aa
+3  d
+x  c.
+x  a
+x  c.
+x  d
+x a.
+1acc e
+x  d.
 b
-1 cd  cxcx cc exe
-b
-xf a
-2cx  dxa cx  d
-1 df
-bx cax da cxa c ex  d
-bxc aa
-2 d.x    cx cd  cx     ex    ax    c
-b
-1a c ex  d.
-2 d.x  a
-1 ac
-b2 cdxa
-1fxe  c2a   exc
-b
-
-b2ea cxf
-1hf g a
-3f ax  c.x  dx a.xacdx exaxc
+2cdf c
+x f.
+xc
+xe
+xfc e c
+xe
+xa c e
+xc
 b
 1ea c
-2  d.x    e
-1  a cx  d  c
+x     a
+2     c
+x  d.
+x a
+x     e
+b
+1 cd a
+x da c
+xa c e
+x  d.
+b
+2c aa
+xf
+xea
+xc
+1acd a
+x   c
+b
+2  d.
+x    e
+1  aa
+x  cc
+2    e
+x  d.
+b
+x   a
+x a.
+x  cc
+3  d
+x  c.
+1  de
+2 a
+x   b
+b
+
+b
+1 acc
+xa
+xc
+2 da c
+3 c
+x d.
+b
+1 cd  c
+xc
+x cc e
+xe
+b
+xf a
+2c
+x  d
+xa c
+x  d
+1 df
+b
+x ca
+x da c
+xa c e
+x  d
+b
+xc aa
+2 d.
+x    c
+x cd  c
+x     e
+x    a
+x    c
+b
+1a c e
+x  d.
+2 d.
+x  a
+1 ac
+b
+2 cd
+xa
+1f
+xe  c
+2a   e
+xc
+b
+
+b
+2ea c
+xf
+1hf g a
+3f a
+x  c.
+x  d
+x a.
+xacd
+x e
+xa
+xc
+b
+1ea c
+2  d.
+x    e
+1  a c
+x  d  c
 b
 2  c e
-3  ax  c.x  dx  c.
-4  dx  c.x  ax  c.
-1  d  cx c.
-bx dax acx cdx    a
+3  a
+x  c.
+x  d
+x  c.
+4  d
+x  c.
+x  a
+x  c.
+1  d  c
+x c.
 b
-2    cx d.xa   ex   axaaccx  d.x ax c.
+x da
+x ac
+x cd
+x    a
 b
-1 da cxcx cc exe
-bxfc e cxc.xeaxac
+2    c
+x d.
+xa   e
+x   a
+xaacc
+x  d.
+x a
+x c.
+b
+1 da c
+xc
+x cc e
+xe
+b
+xfc e c
+xc.
+xea
+xac
 b
 
 b
-2cdxexfcx exefxf
+2cd
+xe
+xfc
+x e
+xef
+xf
 1cdf c
-bxccc ex g.xc aa
-2ax    e
 b
-1 da cx acx cd  cxc
-bxeaxacxf d
-2eaxc
+xccc e
+x g.
+xc aa
+2a
+x    e
+b
+1 da c
+x ac
+x cd  c
+xc
+b
+xea
+xac
+xf d
+2ea
+xc
 b
 1ac
-2  d.x    e
-1 a ax  cc
+2  d.
+x    e
+1 a a
+x  cc
 b
 2  de
-3  ax  c.x  dx  a.x  cx  d.
+3  a
+x  c.
+x  d
+x  a.
+x  c
+x  d.
 1  cc
-2ax    e
+2a
+x    e
 b
-1c   cxc  b
-2ea c axf
+1c   c
+xc  b
+2ea c a
+xf
 1h
-bx f
+b
+x f
 2fh
-3hxf
-1efx  d e
+3h
+xf
+1ef
+x  d e
 b
 
 b
-2 a ax  d.x  cx  a.
-1 cc ex  d.
-bx da cx acx cd axf
-bxcxeaxacdx da c
+2 a a
+x  d.
+x  c
+x  a.
+1 cc e
+x  d.
 b
-2    ex c.x a ax  d.x  c e
-3  ax  c.x  dx  c.
-4  dx  c.x  ax   c.
+x da c
+x ac
+x cd a
+xf
 b
-2  aax  c.x  dx a.
-1 cd ex  c.
-bx cdexcxf aaxc
+xc
+xea
+xacd
+x da c
 b
-2a c ex d.
-1 cd ax da cx ac
+2    e
+x c.
+x a a
+x  d.
+x  c e
+3  a
+x  c.
+x  d
+x  c.
+4  d
+x  c.
+x  a
+x   c.
+b
+2  aa
+x  c.
+x  d
+x a.
+1 cd e
+x  c.
+b
+x cde
+xc
+xf aa
+xc
+b
+2a c e
+x d.
+1 cd a
+x da c
+x ac
 b
 
 b
-2 cd  cx     ex    ax    cx  d ex  c.x  ax   c
-bx  aacx  c.
-1  dx daacx  c.
+2 cd  c
+x     e
+x    a
+x    c
+x  d e
+x  c.
+x  a
+x   c
 b
-x ddcax c.x  cc a
-2 ax c.
-bx da cx c.x  d  cx a.x cd ax d.xax c.
-bx da cx c.
-1 cdcaxc aax a.
+x  aac
+x  c.
+1  d
+x daac
+x  c.
 b
-2acc ex   ax   cx    e
-1fcdexea c
+x ddca
+x c.
+x  cc a
+2 a
+x c.
+b
+x da c
+x c.
+x  d  c
+x a.
+x cd a
+x d.
+xa
+x c.
+b
+x da c
+x c.
+1 cdca
+xc aa
+x a.
+b
+2acc e
+x   a
+x   c
+x    e
+1fcde
+xea c
 b
 0ccde
-1 ccdexe
+1 ccde
+xe
 b
 Yeccde
 b
@@ -542,122 +938,284 @@ B
 B
 b
 0 c
-1 ax  c
-bx  dex  dx  ccx    e
-bx   ef
-xf2ex   cxa d ex  c.
-bxc dax   cx  dex  c.
+1 a
+x  c
+b
+x  de
+x  d
+x  cc
+x    e
+b
+x   ef
+xf
+2e
+x   c
+xa d e
+x  c.
+b
+xc da
+x   c
+x  de
+x  c.
 1 cd
-2  d.x   e
+2  d.
+x   e
 b
 1  cc
-2ax cd
+2a
+x cd
 1 df
 2  de
-3  fx  d.
+3  f
+x  d.
 b
-1  ccxaxcxf a
+1  cc
+xa
+xc
+xf a
 b
-2  cxa
+2  c
+xa
 1a d
-2 df cx    ex   ax   c
+2 df c
+x    e
+x   a
+x   c
 b
 
-b2  dex c.x dx acx cdxaxcxf a
-bxea cx  c.x  dx a.xacx    ex   ax   c
-bx  de
-3  ax  cx  dx  c
-4  dx  cx  ax   c
-2  aax a.x a.
-3  dx a.
 b
-1 cc exa
-2c  axexf axc
+2  de
+x c.
+x d
+x ac
+x cd
+xa
+xc
+xf a
+b
+xea c
+x  c.
+x  d
+x a.
+xac
+x    e
+x   a
+x   c
+b
+x  de
+3  a
+x  c
+x  d
+x  c
+4  d
+x  c
+x  a
+x   c
+2  aa
+x a.
+x a.
+3  d
+x a.
+b
+1 cc e
+xa
+2c  a
+xe
+xf a
+xc
 b
 1ea c
-2cx   e
-1c c exb
+2c
+x   e
+1c c e
+xb
 b
 
-b1c d  cx c.
-2    ex  d.x a ax  d.
-bx  cc
-3  dx  c.x  dx  c.
-4  dx  c.x  ax  c.
-2  dex  c.x  dx a.
 b
-1 cdx  d e
-2 a ax  d.
+1c d  c
+x c.
+2    e
+x  d.
+x a a
+x  d.
+b
+x  cc
+3  d
+x  c.
+x  d
+x  c.
+4  d
+x  c.
+x  a
+x  c.
+2  de
+x  c.
+x  d
+x a.
+b
+1 cd
+x  d e
+2 a a
+x  d.
 1  cc
-bxc d axa
+b
+xc d a
+xa
 2f
-3  ax  c.x  dx a.x cx e.
+3  a
+x  c.
+x  d
+x a.
+x c
+x e.
 b
-1efxh
-2   exfxfx   a
+1ef
+xh
+2   e
+xf
+xf
+x   a
 b
-1   cxexf   ax  d
+1   c
+xe
+xf   a
+x  d
 b
 
-b1 a.x cd ax da cx cd e
 b
-2 aaax  d.x  cx  a.
-1  c ex c.
-bx  d  cx c.x da cx  c.
-bx cd axaxf de
-2 a.x  d
+1 a.
+x cd a
+x da c
+x cd e
 b
-1ec cx a.
-2  d exa
+2 aaa
+x  d.
+x  c
+x  a.
+1  c e
+x c.
+b
+x  d  c
+x c.
+x da c
+x  c.
+b
+x cd a
+xa
+xf de
+2 a.
+x  d
+b
+1ec c
+x a.
+2  d e
+xa
 1c da
 b
-2 d  cx  a.
+2 d  c
+x  a.
 1 ac c
-2 cd axaxcxe
-bxfc  ax    cx    ex   axea cx c.x ax  cc
+2 cd a
+xa
+xc
+xe
+b
+xfc  a
+x    c
+x    e
+x   a
+xea c
+x c.
+x a
+x  cc
 b
 
-b2  dex     cx    ax    cx  c e
-3  ax  c.x  dx  c.
-4  dx  c.x  ax  c.
+b
+2  de
+x     c
+x    a
+x    c
+x  c e
+3  a
+x  c.
+x  d
+x  c.
+4  d
+x  c.
+x  a
+x  c.
 b
 1  de
-2     cxc
+2     c
+xc
 1.a c e
 2  d.
 b
 1 df c
-2   ex  d.
-1  ccxa
+2   e
+x  d.
+1  cc
+xa
 b
-2f axexcxa dx df cx  d.x  cx   e
-bx  ccxax d.x  fx cdxa1f
+2f a
+xe
+xc
+xa d
+x df c
+x  d.
+x  c
+x   e
+b
+x  cc
+xa
+x d.
+x  f
+x cd
+xa
+1f
 b
 
 b
 2h
-x   gxk  hx     f
+x   g
+xk  h
+x     f
 1h  gh
-2fc ex  d.
+2fc e
+x  d.
 b
 1ea c
-2     axh
+2     a
+xh
 1fc  a
-2  dx  c.
+2  d
+x  c.
 b
 1c da
-2fx   e
+2f
+x   e
 1ea c
-2  dexc
+2  de
+xc
 b
 1  c e
 2e
-3cxe
-1f  e cxc
-bxfx     cxfx  c  b
+3c
+xe
+1f  e c
+xc
 b
-2c d  cx     ex    ax    c
-1 c dexe
+xf
+x     c
+xf
+x  c  b
+b
+2c d  c
+x     e
+x    a
+x    c
+1 c de
+xe
 b
 Yec de
 b
@@ -668,128 +1226,313 @@ p
 B
 b
 0f
-1cxd
-bxfdxcxdax c
-bxcdxacdx  a
-2aabx d.
+1c
+xd
 b
-1 cd axax   ac
-2   cex  d.
+xfd
+xc
+xda
+x c
 b
-1  aaxc
-2f aaxdxcxa
-bxcddax   c
+xcd
+xacd
+x  a
+2aab
+x d.
+b
+1 cd a
+xa
+x   ac
+2   ce
+x  d.
+b
+1  aa
+xc
+2f aa
+xd
+xc
+xa
+b
+xcdda
+x   c
 1  de
-2  bcx  d.x ax c.
+2  bc
+x  d.
+x a
+x c.
 b
 
 b
-1 dfxh
-2f axdxcxa d
+1 df
+xh
+2f a
+xd
+xc
+xa d
 b
 1 df c
-2  d exa
-1cd ax  d
+2  d e
+xa
+1cd a
+x  d
 b
 2 a.
-3  dx  b.x  dx  b. x  ax  b.
+3  d
+x  b.
+x  d
+x  b. 
+x  a
+x  b.
 2  da
-3   ex   c.x   ex   c.
-4   ex   c.x   ax    e.
+3   e
+x   c.
+x   e
+x   c.
+4   e
+x   c.
+x   a
+x    e.
 b
 1   ac
-2    a.x     c
-1    cdx   c
-bx  de cxc
-2aab  dx d.
+2    a.
+x     c
+1    cd
+x   c
+b
+x  de c
+xc
+2aab  d
+x d.
 1 cdca
 b
 
 b
-2 d  cx c.x  d  cx a.x cdcax d
+2 d  c
+x c.
+x  d  c
+x a.
+x cdca
+x d
 1aab  a
 b
-2     cx   a.
-1    cdx     axa   e
+2     c
+x   a.
+1    cd
+x     a
+xa   e
 b
 1cd a
-2  d.x   c
-1  dex  ff
+2  d.
+x   c
+1  de
+x  ff
 b
-2 d.x   ex   cx   ax abc
-3 cx a.x dx c.
-4 dx c.x ax c.
-b
-1cddaxda c
-2  bxcxacdx df
-b
-1acdx    ax da cx  c
-b
-
-b1 cd  cxc
-2f aa
-3dxcxax d.x cx a.
-b
-1acdx    ax    c
-2 d.x    e
-b
-1cd a
-x  dx a.x  bc
-b
-2  dax  b.x  ax   c.x   acx   c.
+2 d.
 x   e
-3   cx   a.
+x   c
+x   a
+x abc
+3 c
+x a.
+x d
+x c.
+4 d
+x c.
+x a
+x c.
 b
-1   cax c.
-2 dax  bx cdxa.
-bxcddaxd.xfxc.xdabcx   ex abx  d
+1cdda
+xda c
+2  b
+xc
+xacd
+x df
+b
+1acd
+x    a
+x da c
+x  c
 b
 
-b2 dfx f.xcx dfx cdx d.xax c
-bx df cx    ex   ax   c
-1ccfex  e
 b
-2 dfecxa.xcx dxaab  dx  ax d cx   a
-bx d ca
-3 cx a.x dx c.
-4 dx c.x ax c.
-1 d ax  d
-bx a.x d ax c c
-2  d.x   e
+1 cd  c
+xc
+2f aa
+3d
+xc
+xa
+x d.
+x c
+x a.
+b
+1acd
+x    a
+x    c
+2 d.
+x    e
+b
+1cd a
+x  d
+x a.
+x  bc
+b
+2  da
+x  b.
+x  a
+x   c.
+x   ac
+x   c.
+x   e
+3   c
+x   a.
+b
+1   ca
+x c.
+2 da
+x  b
+x cd
+xa.
+b
+xcdda
+xd.
+xf
+xc.
+xdabc
+x   e
+x ab
+x  d
 b
 
-b2 abx c.x d
-3 cx a.
-1 cdxf
-bxdffc
+b
+2 df
+x f.
+xc
+x df
+x cd
+x d.
+xa
+x c
+b
+x df c
+x    e
+x   a
+x   c
+1ccfe
+x  e
+b
+2 dfec
+xa.
+xc
+x d
+xaab  d
+x  a
+x d c
+x   a
+b
+x d ca
+3 c
+x a.
+x d
+x c.
+4 d
+x c.
+x a
+x c.
+1 d a
+x  d
+b
+x a.
+x d a
+x c c
+2  d.
+x   e
+b
+
+b
+2 ab
+x c.
+x d
+3 c
+x a.
+1 cd
+xf
+b
+xdffc
 2  de
-3  fx  d
-2 abxax cdxa
-bxcddaxdxfxc
-1dabcxcdde
+3  f
+x  d
+2 ab
+xa
+x cd
+xa
 b
-2  bx c.
+xcdda
+xd
+xf
+xc
+1dabc
+xcdde
+b
+2  b
+x c.
 1aa
 2ccfe
-3  ex  c.x  fx  e.
-4  fx  e.x  cx  e.
+3  e
+x  c.
+x  f
+x  e.
+4  f
+x  e.
+x  c
+x  e.
 b
 1cdf
-2    cxdxfxc
+2    c
+xd
+xf
+xc
 1fc e c
 b
 
-b1acd
-2    axcxda c axcx dfxac
-bxcdf cx f.x dx c.
-1. dfec
-3 cx a.
 b
-2  d  cx a.x cdcax d.xaab  ax d.x cdx ab
-bx  dex     cx da cx  b
+1acd
+2    a
+xc
+xda c a
+xc
+x df
+xac
+b
+xcdf c
+x f.
+x d
+x c.
+1. dfec
+3 c
+x a.
+b
+2  d  c
+x a.
+x cdca
+x d.
+xaab  a
+x d.
+x cd
+x ab
+b
+x  de
+x     c
+x da c
+x  b
 x ddca
-3 cx a.x dx c.
-4 dx c.x ax c.
+3 c
+x a.
+x d
+x c.
+4 d
+x c.
+x a
+x c.
 b
 Y ddef
 b
@@ -799,127 +1542,314 @@ B
 B
 b
 0h
-1cxf
-bxaxdxcaxh
+1c
+xf
+b
+xa
+xd
+xca
+xh
 b
 2f a
-3dxc
-2a dxc
+3d
+xc
+2a d
+xc
 1d  c
-2  bxh
+2  b
+xh
 b
-1f ax a cxdx df c
+1f a
+x a c
+xd
+x df c
 b
 2  da
-3  ax  b.x  dx  b.
-4  dx  b.x  ax  b.
+3  a
+x  b.
+x  d
+x  b.
+4  d
+x  b.
+x  a
+x  b.
 2 bd a
-3 ax  d.
-2  b dxa d
-bx    cxa
-1c  bxd  c a
-2axc
+3 a
+x  d.
+2  b d
+xa d
+b
+x    c
+xa
+1c  b
+xd  c a
+2a
+xc
 b
 
-b2dxf
+b
+2d
+xf
 1h  f a
-2f   ax    cxf   dx   a
-bxda cx  axd bx  d
+2f   a
+x    c
+xf   d
+x   a
+b
+xda c
+x  a
+xd b
+x  d
 1cdf
-2    cx    e
-bx   ax   cx  dex ac
+2    c
+x    e
+b
+x   a
+x   c
+x  de
+x ac
 1acd
-2    axc
+2    a
+xc
 b
 1da c
-2cx    cx    dxa1a d
-bx ef cxcxcxab
-bxdaxc
-2  dxax dx c.
+2c
+x    c
+x    d
+xa
+1a d
+b
+x ef c
+xc
+xc
+xab
+b
+xda
+xc
+2  d
+xa
+x d
+x c.
 b
 
 b
-1 abx     d
-2    ax c.
+1 ab
+x     d
+2    a
+x c.
 1 ef c
-bxa b dxa dx ef cxc
-bxd    axa bx  dx ef c
-bxa b  axhxdxa d
 b
-2f axdxcxa
-1 dfx    c
-bx  d e
-2 aabx  d.
-1  bcx a
+xa b d
+xa d
+x ef c
+xc
+b
+xd    a
+xa b
+x  d
+x ef c
+b
+xa b  a
+xh
+xd
+xa d
+b
+2f a
+xd
+xc
+xa
+1 df
+x    c
+b
+x  d e
+2 aab
+x  d.
+1  bc
+x a
 b
 
-b1 cd axaxc da
-2  b.x    c
 b
-1  d ex a a
-2   cx  d.x  bx  a.
+1 cd a
+xa
+xc da
+2  b.
+x    c
 b
-1 abcxa
+1  d e
+x a a
+2   c
+x  d.
+x  b
+x  a.
+b
+1 abc
+xa
 2 cd a
-3ax d.x c x a
-4  dx  b.x  ax   c.
+3a
+x d.
+x c 
+x a
+4  d
+x  b.
+x  a
+x   c.
 b
-2  aax  b.x  dx  a.
-1  b  dx a.
+2  aa
+x  b.
+x  d
+x  a.
+1  b  d
+x a.
 b
-2 cdx    a
+2 cd
+x    a
 1 ea c
-2a b  ax     cx     dx    a
+2a b  a
+x     c
+x     d
+x    a
 b
-1 ef cxcxfxacd
+1 ef c
+xc
+xf
+xacd
 b
 
-b1d bcx a.
-2  d.x    e
+b
+1d bc
+x a.
+2  d.
+x    e
 1  aa
 b
-2  bcx  d.x ax c.x dfxaxcxd
-bxf
-3  ax  c.x  dx a.
-4 cx a.x cx d.
-1dfx dff
+2  bc
+x  d.
+x a
+x c.
+x df
+xa
+xc
+xd
+b
+xf
+3  a
+x  c.
+x  d
+x a.
+4 c
+x a.
+x c
+x d.
+1df
+x dff
 b
 2d bc
-3  dx  b.x  dx  b.
-4  dx  b.x  ax  b.
-1c dax  de
-bx  ffxdxd
+3  d
+x  b.
+x  d
+x  b.
+4  d
+x  b.
+x  a
+x  b.
+1c da
+x  de
+b
+x  ff
+xd
+xd
 2f aa
-3dxf
+3d
+xf
 b
 
 b
-1h  f dxf  ef
-2    cx d.
+1h  f d
+xf  ef
+2    c
+x d.
 1a b d
-bx cd ax   ex a   dx d.
-bxaxc dxdaxc
 b
-2f dxdxcxax dfx  g.x  fx  d.
-bx  bcxa
-1a d axa a cx e
-bxa  c axdx  bxa d
-bx dfxhxcxf a
+x cd a
+x   e
+x a   d
+x d.
+b
+xa
+xc d
+xda
+xc
+b
+2f d
+xd
+xc
+xa
+x df
+x  g.
+x  f
+x  d.
+b
+x  bc
+xa
+1a d a
+xa a c
+x e
+b
+xa  c a
+xd
+x  b
+xa d
+b
+x df
+xh
+xc
+xf a
 b
 
-b1acd
-2    axcxda c
-3  dx  b
-2  aax  b.
 b
-x  dx    ax a.x  abx  bc
-3  ax  b.x  dx  b.
-4  dx  b.x  ax   c.
+1acd
+2    a
+xc
+xda c
+3  d
+x  b
+2  aa
+x  b.
 b
-2  aax  b.x  dx a.xacd
-3    ax d.xaxcxdxf
+x  d
+x    a
+x a.
+x  ab
+x  bc
+3  a
+x  b.
+x  d
+x  b.
+4  d
+x  b.
+x  a
+x   c.
 b
-2h  fx   fx    hxhxfx    ax  a  hxh
+2  aa
+x  b.
+x  d
+x a.
+xacd
+3    a
+x d.
+xa
+xc
+xd
+xf
+b
+2h  f
+x   f
+x    h
+xh
+xf
+x    a
+x  a  h
+xh
 b
 Yhf g a
 b
@@ -929,181 +1859,441 @@ B
 B
 b
 0f
-1cxh
-bxfdx dx  fxdf
+1c
+xh
+b
+xfd
+x d
+x  f
+xdf
 b
 2cd
-3dxcxdxc
-4dxcxax d
-1acdx  d
-bxfcaxca ax  dxcdf c
-bxdabc
-2dddaxc
-1acd a
-2 d.x     c
-bxa    dx d.x cdca
-3 dx c.
-2 da cx  c.x  dx a.
+3d
+xc
+xd
+xc
+4d
+xc
+xa
+x d
+1acd
+x  d
 b
-1acdx    a
-2  aax  b.x  dx  a.
+xfca
+xca a
+x  d
+xcdf c
+b
+xdabc
+2ddda
+xc
+1acd a
+2 d.
+x     c
+b
+xa    d
+x d.
+x cdca
+3 d
+x c.
+2 da c
+x  c.
+x  d
+x a.
+b
+1acd
+x    a
+2  aa
+x  b.
+x  d
+x  a.
 b
 
 b
-1  b cx  aa
-2cx  axa bx  d
-b
-1 dfxacd
-2c aaxdxfxc
-b
-1dabc
-2dddaxcxacdx d.xax c.
+1  b c
+x  aa
+2c
+x  a
+xa b
+x  d
 b
 1 df
-2acdx    ax  aax   cx  dex   a
-bx  bc
-3  dx  b.x  dx  b.
-4  dx  b.x  ax  b.
+xacd
+2c aa
+xd
+xf
+xc
+b
+1dabc
+2ddda
+xc
+xacd
+x d.
+xa
+x c.
+b
+1 df
+2acd
+x    a
+x  aa
+x   c
+x  de
+x   a
+b
+x  bc
+3  d
+x  b.
+x  d
+x  b.
+4  d
+x  b.
+x  a
+x  b.
 2  de
-3  ax  b.x  dx  b.
-4  dx  b.x  ax   c.
+3  a
+x  b.
+x  d
+x  b.
+4  d
+x  b.
+x  a
+x   c.
 b
 
 b
-1  defxfxhxf
+1  def
+xf
+xh
+xf
 b
-2 dxdxcxaxcdxdxfxc
+2 d
+xd
+xc
+xa
+xcd
+xd
+xf
+xc
 b
-1daxc
-2  dxa
+1da
+xc
+2  d
+xa
 1c
 b
-2  bxc
-1axcdax c.
-bx dfax  dx  bacx  a
-bx   c d
-2   ex   c
-1  de cxc
+2  b
+xc
+1a
+xcda
+x c.
 b
-2f aaxdxaxcxda cxcx d  cxa
-bxcddax   cx   ex  b.
+x dfa
+x  d
+x  bac
+x  a
+b
+x   c d
+2   e
+x   c
+1  de c
+xc
+b
+2f aa
+xd
+xa
+xc
+xda c
+xc
+x d  c
+xa
+b
+xcdda
+x   c
+x   e
+x  b.
 
-4!2acd ax d.xaxc
-bxda   ax     cx     dx    axca acxax daax  b
-bx cdca
-3 dx c.x dx c.
-4 dx c.x ax c.
-2 dfec
-3 cx d.x fx d.
-4 fx d.x cx  f.
+4!
+2acd a
+x d.
+xa
+xc
 b
-1 cde cxc
-2fx    axda acx    e
-bxcddaxf.xdaxc.xacdx    ax  b cx   ce
+xda   a
+x     c
+x     d
+x    a
+xca ac
+xa
+x daa
+x  b
+b
+x cdca
+3 d
+x c.
+x d
+x c.
+4 d
+x c.
+x a
+x c.
+2 dfec
+3 c
+x d.
+x f
+x d.
+4 f
+x d.
+x c
+x  f.
+b
+1 cde c
+xc
+2f
+x    a
+xda ac
+x    e
+b
+xcdda
+xf.
+xda
+xc.
+xacd
+x    a
+x  b c
+x   ce
 b
 
 b
 2  aa
-xf.1hd f d
+xf.
+1hd f d
 2fc ca
-xd.1ac
+xd.
+1ac
 b
 xcd a
-2  d.x   a
+2  d.
+x   a
 1 a a
-2  b.x   c
-bx  de
-3  ax  b.x  dx  b.
-4  dx  b.x  ax   c.
+2  b.
+x   c
+b
+x  de
+3  a
+x  b.
+x  d
+x  b.
+4  d
+x  b.
+x  a
+x   c.
 1  aa
-2  d.x    e
+2  d.
+x    e
 b
 1 aaac
-2 d.x  b
+2 d.
+x  b
 1  dca
 2 cd
-3 dx c.
+3 d
+x c.
 b
-2 abc axa.xa.
-3 dx c.
-1 df cxc
+2 abc a
+xa.
+xa.
+3 d
+x c.
+1 df c
+xc
 b
 
 b
-2f aaxd.xcdda
-3axc.
-2dabcxc.xcdda
-3ax d.
+2f aa
+xd.
+xcdda
+3a
+xc.
+2dabc
+xc.
+xcdda
+3a
+x d.
 b
-1aabcxacxcdf c
-2fx     c
-bx    axaxdx     axdx     cx     dx    a
+1aabc
+xac
+xcdf c
+2f
+x     c
+b
+x    a
+xa
+xd
+x     a
+xd
+x     c
+x     d
+x    a
 b
 1cdf c
-2  d.x   e
+2  d.
+x   e
 1f aa
-2acdx    a
-bxda c
-3     ax     c.x     dx    a.x    cx    e.
-2  defx  a.x  bcx  a.
+2acd
+x    a
+b
+xda c
+3     a
+x     c.
+x     d
+x    a.
+x    c
+x    e.
+2  def
+x  a.
+x  bc
+x  a.
 b
 
-b2fc caxcxdaxcxacdx a.x dax c.
-bx ab  a
-3   cx  a.x  bx  d.x ax c.
+b
+2fc ca
+xc
+xda
+xc
+xacd
+x a.
+x da
+x c.
+b
+x ab  a
+3   c
+x  a.
+x  b
+x  d.
+x a
+x c.
 2 d  c
-3  bx  d.x ax c.x dxa
+3  b
+x  d.
+x a
+x c.
+x d
+xa
 b
-2cddaxax dax  bx ddca
-3 cx a.x dx c.
-4 dx c.x ax c.
+2cdda
+xa
+x da
+x  b
+x ddca
+3 c
+x a.
+x d
+x c.
+4 d
+x c.
+x a
+x c.
 b
-1 ddexf
-2hd f dxkxlh h lxh
+1 dde
+xf
+2hd f d
+xk
+xlh h l
+xh
 b
 
 b
-1kf h fxfxhxf aa
+1kf h f
+xf
+xh
+xf aa
 b
 2hd f d
-3dxfxhxd
-4fxdxfxh
+3d
+xf
+xh
+xd
+4f
+xd
+xf
+xh
 2f aa
-3dxcxax d.x cx a.
+3d
+xc
+xa
+x d.
+x c
+x a.
 b
-1acdx    a
+1acd
+x    a
 2dffc
-3cxdxfxd
-4fxdxcx f
+3c
+xd
+xf
+xd
+4f
+xd
+xc
+x f
 b
-1 df cxcx cd  cxc
+1 df c
+xc
+x cd  c
+xc
 b
-2acd ax d.xaxc
+2acd a
+x d.
+xa
+xc
 1da   a
-2cx     c
-bxaab  dx d.
+2c
+x     c
+b
+xaab  d
+x d.
 1 cdca
 
-4!1 da cx ac
-bx cd  c
-2cx     e
+4!
+1 da c
+x ac
+b
+x cd  c
+2c
+x     e
 1.acd a
 2c
 b
 1dff  a
-2cxac
+2c
+xac
 1 df c
-2cx    e
-bxcdda
-2acx df
-1acdx    a
+2c
+x    e
 b
-2    cx   a.x   cex  d.x  aax  d.
+xcdda
+2ac
+x df
+1acd
+x    a
+b
+2    c
+x   a.
+x   ce
+x  d.
+x  aa
+x  d.
 1 dff d
 b
 2 ddca
-3 cx a.x dx c.
-4 dx c.x ax c.
+3 c
+x a.
+x d
+x c.
+4 d
+x c.
+x a
+x c.
 Y ddef
 b
 B
@@ -1112,73 +2302,190 @@ B
 {6. Fantasia Prima di Giulio dal Pestrino/Gardano 1587, sig. A2r}
 B
 b
-0 ax d
+0 a
+x d
 b
-1 dx dxaxc
+1 d
+x d
+xa
+xc
 b
 0d
-1   cxa.
-bx  bx d.x ax  d
-bx  fx d.
-2  gxa.xcxa.
+1   c
+xa.
 b
-1da  cxc.x   axcd
-bx   axac c
-2  ax d.x ab
-3 cx a.
+x  b
+x d.
+x a
+x  d
 b
-1 c cx  dex ab  ax   c
+x  f
+x d.
+2  g
+xa.
+xc
+xa.
+b
+1da  c
+xc.
+x   a
+xcd
+b
+x   a
+xac c
+2  a
+x d.
+x ab
+3 c
+x a.
+b
+1 c c
+x  de
+x ab  a
+x   c
 b
 
-b1  a cx  b.x  ax    c
-bx  aax   cx  de
-2 dx   a
 b
-1 c cx  dex abx     a
+1  a c
+x  b.
+x  a
+x    c
 b
-2     dx  d.x ax    ax d  cxa.x dx    e
-bx  aax  b.x  dx   c
-1 cdex da c
-bx c ex  e.x    cx a.
-bx dxaab  axca ccx   b
-bxda c a
-2dax    c
-1cd axaa c
+x  aa
+x   c
+x  de
+2 d
+x   a
+b
+1 c c
+x  de
+x ab
+x     a
+b
+2     d
+x  d.
+x a
+x    a
+x d  c
+xa.
+x d
+x    e
+b
+x  aa
+x  b.
+x  d
+x   c
+1 cde
+x da c
+b
+x c e
+x  e.
+x    c
+x a.
+b
+x d
+xaab  a
+xca cc
+x   b
+b
+xda c a
+2da
+x    c
+1cd a
+xaa c
 b
 
-b1 cdex da cx ab  d
-2 ba ax   c
 b
-1 aabcx   cx aa cx   b
-bx abc axa.x ixf.
-bxhx ax dxdf
-bxfhxhi
-2fhxd.xdf
-3cxa
+1 cde
+x da c
+x ab  d
+2 ba a
+x   c
 b
-1c dx efxabxc d
+1 aabc
+x   c
+x aa c
+x   b
 b
-2  fx e.
+x abc a
+xa.
+x i
+xf.
+b
+xh
+x a
+x d
+xdf
+b
+xfh
+xhi
+2fh
+xd.
+xdf
+3c
+xa
+b
+1c d
+x ef
+xab
+xc d
+b
+2  f
+x e.
 1aab  d
-2  a ax   c
-3 e ecx c.x fx e.
+2  a a
+x   c
+3 e ec
+x c.
+x f
+x e.
 b
-1aab  axdaxcd axaf f
+1aab  a
+xda
+xcd a
+xaf f
 b
 
 b
-2   ex d.x cffx a.
-1 c ex  e.
-bx    c
-2 a.x    c
-1  d ex a a
-bx cdex da cxaabcxc aa
-bx cdex da cxaabcxc aa
-bxa bcx cdex da cxaabc
-bxcddaxdabcxabb dxc d a
+2   e
+x d.
+x cff
+x a.
+1 c e
+x  e.
 b
-2 bb dxa.xa bcx  d.
-1aaa cx e.
+x    c
+2 a.
+x    c
+1  d e
+x a a
+b
+x cde
+x da c
+xaabc
+xc aa
+b
+x cde
+x da c
+xaabc
+xc aa
+b
+xa bc
+x cde
+x da c
+xaabc
+b
+xcdda
+xdabc
+xabb d
+xc d a
+b
+2 bb d
+xa.
+xa bc
+x  d.
+1aaa c
+x e.
 b
 Yaac  a
 b
@@ -1188,67 +2495,244 @@ B
 B
 b
 0h
-1hxh
+1h
+xh
 b
 1.a
-2c.xdxf.
+2c.
+xd
+xf.
 1h
-bx f
-2hxf.xdfxc.
+b
+x f
+2h
+xf.
+xdf
+xc.
 1df
-bx   h
-2i.x  fx  gx  ixhfxf.
-bx fxd.xcxa.
-1ddfxc.
 b
-2 dfxa.xc fx d.xdf cx   exaabx  d
+x   h
+2i.
+x  f
+x  g
+x  i
+xhf
+xf.
 b
-
-b2 dfxh.xdfgxf.xhefxf.x ix h.
-bx if hx h.x ixf.xhf fhxf.xhx    h
-bxif h fx     hx     ix    fx    hxhxf ix  h
-bxhifx    hx   fx   hx  fxdfxcexac
-bxcefxh.x    hx   ex   fxa.x i  hxf.
-bxhx   cxa   dx  d.
-3    cx  a.
-2a bx    cx ea
+x f
+xd.
+xc
+xa.
+1ddf
+xc.
 b
-
-2aab  ax     cxa  c dx    ax    cx  a.x  a.x  abc
-bx   cdx  b.x bdx    ax aa  hxh.xdfgxffgh
-bxhf fhxf.xdf
-3cxa.
-2 efx c.xaa  cx e.
-bxa  cx a.x a.x a cx   cdx  a.x  b dx  d.
-bx a  cx c.x dxa   exc  axa.xcx    c
-b
-
-b2da c axccd  cx dff dxaab  axca acxd.xcxac
-bx dfx   ax c cx  dex abxabdxa dex d.
-bx bbcx a.x a cdx  d.x  bacx  ax a   dx   c
-bx  a  cx   cxf    cx   bxda c axh  fxdfgxi  h
-bxh   hxhixfhxdfxcdfxha fx  h hxgh e
+2 df
+xa.
+xc f
+x d.
+xdf c
+x   e
+xaab
+x  d
 b
 
-b2hd fx f.xfhxdfxc fx d.x cdx ab
-bx  dexf.xff cxd.
-3   axc.
-2dax   axc d
-bxda
-3     dx    a
-2    cxa b
-3    cx  a.
-2a bx    cx ea
+b
+2 df
+xh.
+xdfg
+xf.
+xhef
+xf.
+x i
+x h.
+b
+x if h
+x h.
+x i
+xf.
+xhf fh
+xf.
+xh
+x    h
+b
+xif h f
+x     h
+x     i
+x    f
+x    h
+xh
+xf i
+x  h
+b
+xhif
+x    h
+x   f
+x   h
+x  f
+xdf
+xce
+xac
+b
+xcef
+xh.
+x    h
+x   e
+x   f
+xa.
+x i  h
+xf.
+b
+xh
+x   c
+xa   d
+x  d.
+3    c
+x  a.
+2a b
+x    c
+x ea
+b
+
+2aab  a
+x     c
+xa  c d
+x    a
+x    c
+x  a.
+x  a.
+x  abc
+b
+x   cd
+x  b.
+x bd
+x    a
+x aa  h
+xh.
+xdfg
+xffgh
+b
+xhf fh
+xf.
+xdf
+3c
+xa.
+2 ef
+x c.
+xaa  c
+x e.
+b
+xa  c
+x a.
+x a.
+x a c
+x   cd
+x  a.
+x  b d
+x  d.
+b
+x a  c
+x c.
+x d
+xa   e
+xc  a
+xa.
+xc
+x    c
+b
+
+b
+2da c a
+xccd  c
+x dff d
+xaab  a
+xca ac
+xd.
+xc
+xac
+b
+x df
+x   a
+x c c
+x  de
+x ab
+xabd
+xa de
+x d.
+b
+x bbc
+x a.
+x a cd
+x  d.
+x  bac
+x  a
+x a   d
+x   c
+b
+x  a  c
+x   c
+xf    c
+x   b
+xda c a
+xh  f
+xdfg
+xi  h
+b
+xh   h
+xhi
+xfh
+xdf
+xcdf
+xha f
+x  h h
+xgh e
+b
+
+b
+2hd f
+x f.
+xfh
+xdf
+xc f
+x d.
+x cd
+x ab
+b
+x  de
+xf.
+xff c
+xd.
+3   a
+xc.
+2da
+x   a
+xc d
+b
+xda
+3     d
+x    a
+2    c
+xa b
+3    c
+x  a.
+2a b
+x    c
+x ea
 b
 1aab  a
-2   cx   a
+2   c
+x   a
 1 bb d
-2a.x    c
+2a.
+x    c
 b
-1abd ax   cx    axaaf  e
+1abd a
+x   c
+x    a
+xaaf  e
 b
 0abd a
-1aac  ax   c
+1aac  a
+x   c
 b
 Yaac  a
 b
@@ -1259,57 +2743,158 @@ B
 B
 b
 0c
-1cxc
-bxexa
-2f axe.xcxa.
+1c
+xc
 b
-1cx  cxc dx  a
+xe
+xa
+2f a
+xe.
+xc
+xa.
 b
-2 axa.x dx c.x dfx  f
+1c
+x  c
+xc d
+x  a
+b
+2 a
+xa.
+x d
+x c.
+x df
+x  f
 1  f
-bx  dex c.x dx  c
-bx cdx  de
-2 a  cx c.x dxa.
 b
-1cx    cxef cx    e
+x  de
+x c.
+x d
+x  c
 b
-2fcdex   cx   ax    ex   axc.x    ex    c
+x cd
+x  de
+2 a  c
+x c.
+x d
+xa.
+b
+1c
+x    c
+xef c
+x    e
+b
+2fcde
+x   c
+x   a
+x    e
+x   a
+xc.
+x    e
+x    c
 b
 
 b
-1   cexa ex df cx   e
-bx acx   cx cd
-2a.x  c
-bxfcax e.
+1   ce
+xa e
+x df c
+x   e
+b
+x ac
+x   c
+x cd
+2a.
+x  c
+b
+xfca
+x e.
 1ef c
-2 cdexc.xc.x    c
+2 cde
+xc.
+xc.
+x    c
 b
-1 cc exb.x cd  c
-2c.x     e
-bx    ax a.x cx da cxa  cex  d.x d  cx  f.
+1 cc e
+xb.
+x cd  c
+2c.
+x     e
 b
-1 cdex affx cfe
-2  ex   c
+x    a
+x a.
+x c
+x da c
+xa  ce
+x  d.
+x d  c
+x  f.
 b
-1c  axcaxe  cxac
-bxfcaxcd  cxaa c
-2  d exa.
+1 cde
+x aff
+x cfe
+2  e
+x   c
+b
+1c  a
+xca
+xe  c
+xac
+b
+xfca
+xcd  c
+xaa c
+2  d e
+xa.
 b
 
-b2cd ax    cxaa cx    e
+b
+2cd a
+x    c
+xaa c
+x    e
 1 df c
-2c.x     e
-bxac  ax     cx    cex     ax    ax   ax   cx    c
+2c.
+x     e
 b
-1   cex    ax  defxc.
-bxef cx    e
-2fcdex    fxeffcx    e
-bxc defx    cxa   ex     fx df cxc.xc.x    e
-bx df cxc.x cc exb.
+xac  a
+x     c
+x    ce
+x     a
+x    a
+x   a
+x   c
+x    c
+b
+1   ce
+x    a
+x  def
+xc.
+b
+xef c
+x    e
+2fcde
+x    f
+xeffc
+x    e
+b
+xc def
+x    c
+xa   e
+x     f
+x df c
+xc.
+xc.
+x    e
+b
+x df c
+xc.
+x cc e
+xb.
 1  def
-2cx    b
+2c
+x    b
 b
-1ddf cxcca b
+1ddf c
+xcca b
 0cdf c
 b
 Ycce  c
@@ -1321,53 +2906,194 @@ B
 B
 b
 0a
-1 cx d
-bxax  dxc.x  a
+1 c
+x d
 b
-2a cx d.x cdx a.x cx  cx  axa.
-bx dax c.xc.x  cx  dx c.
+xa
+x  d
+xc.
+x  a
+b
+2a c
+x d.
+x cd
+x a.
+x c
+x  c
+x  a
+xa.
+b
+x da
+x c.
+xc.
+x  c
+x  d
+x c.
 1f.
-bx a c
-2exc.xa   ex  d.
+b
+x a c
+2e
+xc.
+xa   e
+x  d.
 1c  a
 b
-2   cxa.x dax   cx dax  cx cdx    a
+2   c
+xa.
+x da
+x   c
+x da
+x  c
+x cd
+x    a
 b
 1 a c
-2  c.x   a
+2  c.
+x   a
 1a   e
-2 cdx    a
+2 cd
+x    a
 b
 
-b2 d  cx  c.x  ax    ax a   ex   cxf    cx   b
-bx     axf.xe  cx c.xcd ax    cx    exa d
-bx d  cx  c.x  ax   cex   acx d.xc.x    c
-bx   cxf.xex   cx  dx a.x cx   c
-bx  axe.xfx  c.x  dx  c cx   cex  ab
+b
+2 d  c
+x  c.
+x  a
+x    a
+x a   e
+x   c
+xf    c
+x   b
+b
+x     a
+xf.
+xe  c
+x c.
+xcd a
+x    c
+x    e
+xa d
+b
+x d  c
+x  c.
+x  a
+x   ce
+x   ac
+x d.
+xc.
+x    c
+b
+x   c
+xf.
+xe
+x   c
+x  d
+x a.
+x c
+x   c
+b
+x  a
+xe.
+xf
+x  c.
+x  d
+x  c c
+x   ce
+x  ab
 b
 
-b2  ccx  a.x  cx  d ex  aax a.x  d
-3  cx  a.
 b
-2a  cex d.x ax cax d  cx  d.x  ax  cc
-bx  dex   cx  aax   cex da cx c.x  d  cx a   e
-bx c  ax  c.x   cx  abx  ccxa.x ax cd
-bx dfxa.xcx  cx cdxa.xfxce
+2  cc
+x  a.
+x  c
+x  d e
+x  aa
+x a.
+x  d
+3  c
+x  a.
+b
+2a  ce
+x d.
+x a
+x ca
+x d  c
+x  d.
+x  a
+x  cc
+b
+x  de
+x   c
+x  aa
+x   ce
+x da c
+x c.
+x  d  c
+x a   e
+b
+x c  a
+x  c.
+x   c
+x  ab
+x  cc
+xa.
+x a
+x cd
+b
+x df
+xa.
+xc
+x  c
+x cd
+xa.
+xf
+xce
 b
 
-b2ea c3   ax    e.x    cxc.x dxa.
-2c  ax  d.x  ax ac
-bx cdx   ex   cx c.x a axc.xa   exf.
-bx a cxe.x  dexc.x    e
-3a.x   b
+b
+2ea c
+3   a
+x    e.
+x    c
+xc.
+x d
+xa.
+2c  a
+x  d.
+x  a
+x ac
+b
+x cd
+x   e
+x   c
+x c.
+x a a
+xc.
+xa   e
+xf.
+b
+x a c
+xe.
+x  de
+xc.
+x    e
+3a.
+x   b
 2aa c
-3 d.x    c
+3 d.
+x    c
 b
-2 cdex   c
-3 aaax  d.x  ax  c.
+2 cde
+x   c
+3 aaa
+x  d.
+x  a
+x  c.
 2  de
-3f.x   a
-2 a cxe.
+3f.
+x   a
+2 a c
+xe.
 b
 Yfcd a
 b
@@ -1376,89 +3102,218 @@ B
 {10. Fantasia Seconda del ditto (Giulio dal Pestrino)/Gardano 1587, sig. A2v}
 B
 b
-0cxd
+0c
+xd
 b
-1 axc.x bxa.
-bx h  g
-2  fx  d
+1 a
+xc.
+x b
+xa.
+b
+x h  g
+2  f
+x  d
 1  bc
-2a.x  d
+2a.
+x  d
 b
-1 a bxc.
-2d  cx a.x  dx  b.
+1 a b
+xc.
+2d  c
+x a.
+x  d
+x  b.
 b
-1  dex c.x  f c
-2 d.x  d
+1  de
+x c.
+x  f c
+2 d.
+x  d
 b
-1  bcdxa dx a  cxc  b
-bxd    ax  bcxc  ax a.
+1  bcd
+xa d
+x a  c
+xc  b
+b
+xd    a
+x  bc
+xc  a
+x a.
 b
 
-b1   cx b.x  dex     c
-bx a   dx a cx c  ax  a.
-bx  bcx a.x cx    b
-bx    c
-2 abx  d
-1 dfxd.
 b
-2fx   ax   cx   e
-1hd fx f.
-bx hx  ix i  hx  f.
-bx  hx     f
-2 d ax b.x ax  d.
+1   c
+x b.
+x  de
+x     c
+b
+x a   d
+x a c
+x c  a
+x  a.
+b
+x  bc
+x a.
+x c
+x    b
+b
+x    c
+2 ab
+x  d
+1 df
+xd.
+b
+2f
+x   a
+x   c
+x   e
+1hd f
+x f.
+b
+x h
+x  i
+x i  h
+x  f.
+b
+x  h
+x     f
+2 d a
+x b.
+x a
+x  d.
 b
 
 b
-1  bcx a.x cx    a
-bx d  cx  b.
-2 bd ax  b.x  ax   c
+1  bc
+x a.
+x c
+x    a
 b
-1   acx  b.x   cdx  d.
-bx  fecx f.
+x d  c
+x  b.
+2 bd a
+x  b.
+x  a
+x   c
+b
+1   ac
+x  b.
+x   cd
+x  d.
+b
+x  fec
+x f.
 2    c
-3 ex c.x fx e.
-4 fx e.x cx e.
+3 e
+x c.
+x f
+x e.
+4 f
+x e.
+x c
+x e.
 b
 1a bcd
-2d.x    c
-1    axf a
-bxhd fx     dx fg axf.
-bx a a hx   fx   h
-2  gx   f
+2d.
+x    c
+1    a
+xf a
+b
+xhd f
+x     d
+x fg a
+xf.
+b
+x a a h
+x   f
+x   h
+2  g
+x   f
 b
 
 b
-1  dex d.x  d
-2ax  b.
-b
-1c  ax ax cdx  de
-bx df cxh.xkx   h
-b
-2l  kxk.xhx l.
-1 i  hx     a
-bx     cx  d.x a   d
-2d.x c
+1  de
+x d.
+x  d
+2a
+x  b.
 b
 1c  a
-2 ax  d.x  bc
-3  ax  b.x  dx  b.
-4  dx  b.x  ax  b.
+x a
+x cd
+x  de
+b
+x df c
+xh.
+xk
+x   h
+b
+2l  k
+xk.
+xh
+x l.
+1 i  h
+x     a
+b
+x     c
+x  d.
+x a   d
+2d.
+x c
+b
+1c  a
+2 a
+x  d.
+x  bc
+3  a
+x  b.
+x  d
+x  b.
+4  d
+x  b.
+x  a
+x  b.
 b
 
 b
-1  dex c.x df c
-2  d exa.
-bxc  axd.xfxc.
-1d  cx a.
-bx cx  dxcd ax  d
-bx  fx   fx   h
-2  gx   f
+1  de
+x c.
+x df c
+2  d e
+xa.
 b
-1  dex e.xax  bc
-bx bdx    a
-2    cxa bx  ax   c
+xc  a
+xd.
+xf
+xc.
+1d  c
+x a.
 b
-1aaa cx e.
+x c
+x  d
+xcd a
+x  d
+b
+x  f
+x   f
+x   h
+2  g
+x   f
+b
+1  de
+x e.
+xa
+x  bc
+b
+x bd
+x    a
+2    c
+xa b
+x  a
+x   c
+b
+1aaa c
+x e.
 Yaac  a
 b
 B
@@ -1468,109 +3323,311 @@ p
 B
 b
 0c
-1cxc
-bxax cx dxa
-bxc
-2 axa.x dx c.x dx  f
-bx  dx c.
-1  ax abx cd
+1c
+xc
 b
-2 dfx c.x dxa.xcaxe.
+xa
+x c
+x d
+xa
+b
+xc
+2 a
+xa.
+x d
+x c.
+x d
+x  f
+b
+x  d
+x c.
+1  a
+x ab
+x cd
+b
+2 df
+x c.
+x d
+xa.
+xca
+xe.
 1fca
-bxef cxff  exca bxef c
 b
-2fcaxexc3  cx  a.
-1  cxa.
+xef c
+xff  e
+xca b
+xef c
+b
+2fca
+xe
+xc
+3  c
+x  a.
+1  c
+xa.
 b
 
 b
 2 da
-3 cx a.
-2 dax c.
+3 c
+x a.
+2 da
+x c.
 1 d  c
-2  fx  d.
-bx  f cx cx dx    cx c  ax   c
+2  f
+x  d.
+b
+x  f c
+x c
+x d
+x    c
+x c  a
+x   c
 1  de c
 b
-2 a   ex   c
-3 c  ax  c.x  ax   c.
-2   acx  a.x   cx   a
-bx    ec
-3  ex  c.x  fx  e.
-4  fx  e.x  cx  e.
+2 a   e
+x   c
+3 c  a
+x  c.
+x  a
+x   c.
+2   ac
+x  a.
+x   c
+x   a
+b
+x    ec
+3  e
+x  c.
+x  f
+x  e.
+4  f
+x  e.
+x  c
+x  e.
 1 aa c
-2c.x   c
+2c.
+x   c
 b
 
-b2c ax  cxc dx a
-1acx cde
 b
-2 dx   exac cx    exc  ax  d.xa  cx d.
-bx c ex  dx  dx  dex  ccx    exc  ax   c
-bxf axexcx   cx   axc.xd  cx f.
+2c a
+x  c
+xc d
+x a
+1ac
+x cde
+b
+2 d
+x   e
+xac c
+x    e
+xc  a
+x  d.
+xa  c
+x d.
+b
+x c e
+x  d
+x  d
+x  de
+x  cc
+x    e
+xc  a
+x   c
+b
+xf a
+xe
+xc
+x   c
+x   a
+xc.
+xd  c
+x f.
 b
 1ccfe
-2  ex   c
-1 d acx  a
-bx   cxc  a
-2a   ex  d.
+2  e
+x   c
+1 d ac
+x  a
+b
+x   c
+xc  a
+2a   e
+x  d.
 1 df c
 b
 
-b1 cde
-2  c.x   cxc aacx   cxc ax    c
-bxc   ax  a.xe    ex   d
-1f    cx   e
-bx acx cex df cxc.
-bxexg axh  g
-2    hxf.
 b
-1effcxccd ax    cxbcc e
+1 cde
+2  c.
+x   c
+xc aac
+x   c
+xc a
+x    c
 b
-2c  ax   cx   ax    e
-1    cx     c
-bx    cdx   cx   a c
-2    exa.
+xc   a
+x  a.
+xe    e
+x   d
+1f    c
+x   e
+b
+x ac
+x ce
+x df c
+xc.
+b
+xe
+xg a
+xh  g
+2    h
+xf.
+b
+1effc
+xccd a
+x    c
+xbcc e
+b
+2c  a
+x   c
+x   a
+x    e
+1    c
+x     c
+b
+x    cd
+x   c
+x   a c
+2    e
+xa.
 b
 
 b
-1cxe  cxf ax  c
+1c
+xe  c
+xf a
+x  c
 b
-2  dx d.x cx ac
-1  dex    f
-bx  ccx  ee
-2 affx  dx  fx c.
+2  d
+x d.
+x c
+x ac
+1  de
+x    f
 b
-1 dx   ax c cx  ee
-bx df cx   ex   fx c c
-bx dax abx cd  cx d.
+x  cc
+x  ee
+2 aff
+x  d
+x  f
+x c.
 b
-2     dx c.
-1 a cx     cx ce
+1 d
+x   a
+x c c
+x  ee
+b
+x df c
+x   e
+x   f
+x c c
+b
+x da
+x ab
+x cd  c
+x d.
+b
+2     d
+x c.
+1 a c
+x     c
+x ce
 b
 
-b1 df cxc.xdxaab
-bxccaxcdf c
-2acc ex d.x c  bx  a.
 b
-1 dc cx cdcex  defx ac c
-bx cd ax dd  c
-2 ab  dx   a
+1 df c
+xc.
+xd
+xaab
+b
+xcca
+xcdf c
+2acc e
+x d.
+x c  b
+x  a.
+b
+1 dc c
+x cdce
+x  def
+x ac c
+b
+x cd a
+x dd  c
+2 ab  d
+x   a
 1 abc a
 b
-2     cx  a.x   cx   ax   cexa.x dx ca
-bx d  cx  a.x    ax     ex  d  cxf.xe  cxc  a
+2     c
+x  a.
+x   c
+x   a
+x   ce
+xa.
+x d
+x ca
+b
+x d  c
+x  a.
+x    a
+x     e
+x  d  c
+xf.
+xe  c
+xc  a
 b
 
-b2a d ex  c.x  ax   cx da cx  d.x  c
+b
+2a d e
+x  c.
+x  a
+x   c
+x da c
+x  d.
+x  c
 x   e
-bxa  cex    cx    ax     ex     cx  d.x dx     e
-bx c  ax  d.
-1aab  ax dd  c
-2 cx   c
-bx   acx   c.x  ax     axccf  c
-3  ex  c.x  fx  e.
-4  fx  e.x  cx  e.
+b
+xa  ce
+x    c
+x    a
+x     e
+x     c
+x  d.
+x d
+x     e
+b
+x c  a
+x  d.
+1aab  a
+x dd  c
+2 c
+x   c
+b
+x   ac
+x   c.
+x  a
+x     a
+xccf  c
+3  e
+x  c.
+x  f
+x  e.
+4  f
+x  e.
+x  c
+x  e.
 b
 Ycef c
 b
@@ -1580,128 +3637,389 @@ B
 B
 b
 0e
-1exc
-bxecxa.x cx eg
+1e
+xc
 b
-2 cxa.x ex c.
-1 e gx  f.
-bx   gx eefx  fgx e.
+xec
+xa.
+x c
+x eg
 b
-2  dx e.x c
-3  cx  a.
+2 c
+xa.
+x e
+x c.
+1 e g
+x  f.
+b
+x   g
+x eef
+x  fg
+x e.
+b
+2  d
+x e.
+x c
+3  c
+x  a.
 2 ehg
-3  gx  e.
-2 ehgx  g.
-bx fc exc.x fx e.x f  ex  c.
+3  g
+x  e.
+2 ehg
+x  g.
+b
+x fc e
+xc.
+x f
+x e.
+x f  e
+x  c.
 1 ec d
 b
 
 b
-2    ex f.x edex c.x acxe.xe.x   d
-bxf ax   dxf a
-3  cx  a.
-2 bcxe.xcx egg
+2    e
+x f.
+x ede
+x c.
+x ac
+xe.
+xe.
+x   d
 b
-1 fh exexfxeef
+xf a
+x   d
+xf a
+3  c
+x  a.
+2 bc
+xe.
+xc
+x egg
 b
-2 cdxc.xc.
-3 fxc.
-2eecxg.xh  gx f.
-bxf axe.xcxacx efx c.x c.x     c
-bx     ex c.x     ex bcx c  ex  d.x  cx   d
+1 fh e
+xe
+xf
+xeef
+b
+2 cd
+xc.
+xc.
+3 f
+xc.
+2eec
+xg.
+xh  g
+x f.
+b
+xf a
+xe.
+xc
+xac
+x ef
+x c.
+x c.
+x     c
+b
+x     e
+x c.
+x     e
+x bc
+x c  e
+x  d.
+x  c
+x   d
 b
 
-b2  dex     cx  d ax    cx  c ex   cx   bx    e
 b
-3    dex    e.x    dx    b.x    ex    d.
-4    ex    d.x    bx    d.
-2    efx   cx  ax  cd
-bx  de cx c.xc.xe  dxf  ex     cx    efx   bc
-bxe   ex   cx   bx    ex    cexhxexfh e
-bxefhxeefxacdxc.xeecxc.xacx eg
+2  de
+x     c
+x  d a
+x    c
+x  c e
+x   c
+x   b
+x    e
+b
+3    de
+x    e.
+x    d
+x    b.
+x    e
+x    d.
+4    e
+x    d.
+x    b
+x    d.
+2    ef
+x   c
+x  a
+x  cd
+b
+x  de c
+x c.
+xc.
+xe  d
+xf  e
+x     c
+x    ef
+x   bc
+b
+xe   e
+x   c
+x   b
+x    e
+x    ce
+xh
+xe
+xfh e
+b
+xefh
+xeef
+xacd
+xc.
+xeec
+xc.
+xac
+x eg
 b
 
 b
-1 fh ex   gx   ex  cc
+1 fh e
+x   g
+x   e
+x  cc
 b
-2  abxc.xaa cex  e.x ef cx   ex   ex  d.
-bx  ccex f.x e  cx  c.x cd axf.x ffcxe.
-bx cdex     cxf.xccde
-1efh ex    e
-bx f gx e e
-2  cx e.
+2  ab
+xc.
+xaa ce
+x  e.
+x ef c
+x   e
+x   e
+x  d.
+b
+x  cce
+x f.
+x e  c
+x  c.
+x cd a
+xf.
+x ffc
+xe.
+b
+x cde
+x     c
+xf.
+xccde
+1efh e
+x    e
+b
+x f g
+x e e
+2  c
+x e.
 1 c c
 b
-2   ex e.
+2   e
+x e.
 1 bc
-2 cdx  c.x   ex   d
+2 cd
+x  c.
+x   e
+x   d
 b
 
-b2   ex  d.x  cx   ex  cdx c.xbc
-3 exb.
 b
-2ccaxe.xf
-3exc.
-2eacxc.x acxa.
-bx dax c.x c.x   cx c ax a.x a.
-3  dx a.
+2   e
+x  d.
+x  c
+x   e
+x  cd
+x c.
+xbc
+3 e
+xb.
+b
+2cca
+xe.
+xf
+3e
+xc.
+2eac
+xc.
+x ac
+xa.
+b
+x da
+x c.
+x c.
+x   c
+x c a
+x a.
+x a.
+3  d
+x a.
 b
 1  d e
-2  c.x    cx  c ax  a.x  a.
-3     ex     c.
+2  c.
+x    c
+x  c a
+x  a.
+x  a.
+3     e
+x     c.
 b
 2 a   e
-3   dx   b.x   ex   d.
-4   ex   d.x   bx   d.
-1  de cxf.
-bxe   ex f.xcaxe.
+3   d
+x   b.
+x   e
+x   d.
+4   e
+x   d.
+x   b
+x   d.
+1  de c
+xf.
+b
+xe   e
+x f.
+xca
+xe.
 b
 
 b
-3acx e.x cx e.xax c.x exa.
+3ac
+x e.
+x c
+x e.
+xa
+x c.
+x e
+xa.
 1 ec
 2     e
-3 cx e.
+3 c
+x e.
 b
 1 fc e
-2 ex c.
-1 fcx e.
+2 e
+x c.
+1 fc
+x e.
 b
-2  cx b.
-3 cdx e.xax c.
-2 e ex c.x bc
-3  ex b.
+2  c
+x b.
+3 cd
+x e.
+xa
+x c.
+2 e e
+x c.
+x bc
+3  e
+x b.
 b
-2 cdxa.xa.
+2 cd
+xa.
+xa.
 x  d
 x ac
 xa.
 xa.
-3 ex c.
+3 e
+x c.
 b
 
 b
-2 eax c.x c.x   cxcb bx c.xc  bx b.
-bx fc ex c.x fxc.xex  c.x ecx c.
-bx acx  d.x  cx  abx    ex   c.xexf.
-bxh  gx     ex    cxa e exc  bx a.x  cx  de
-bx acxa.
-3fcax a.x cx e.
-2efhx    ex     hx     f 
+2 ea
+x c.
+x c.
+x   c
+xcb b
+x c.
+xc  b
+x b.
+b
+x fc e
+x c.
+x f
+xc.
+xe
+x  c.
+x ec
+x c.
+b
+x ac
+x  d.
+x  c
+x  ab
+x    e
+x   c.
+xe
+xf.
+b
+xh  g
+x     e
+x    c
+xa e e
+xc  b
+x a.
+x  c
+x  de
+b
+x ac
+xa.
+3fca
+x a.
+x c
+x e.
+2efh
+x    e
+x     h
+x     f 
 b
 
-b2ea c ex  d.x  cxcaabxa  cex    cx    ax     e
-bxc d  cx   ex  d.x     cx  ccexe.x cdxc.
-bx acxa
-3  cxexcxax eax c.
-2 c cx   bx b.
+b
+2ea c e
+x  d.
+x  c
+xcaab
+xa  ce
+x    c
+x    a
+x     e
+b
+xc d  c
+x   e
+x  d.
+x     c
+x  cce
+xe.
+x cd
+xc.
+b
+x ac
+xa
+3  c
+xe
+xc
+xa
+x ea
+x c.
+2 c c
+x   b
+x b.
 b
 1 c  e
-2  c.x    c
+2  c.
+x    c
 1   cef
-2 c.x     e
+2 c.
+x     e
 b
-1 cde cx ccde
+1 cde c
+x ccde
 0 cde c
 b
 Y ccde
@@ -1713,67 +4031,215 @@ B
 B
 b
 0f
-1dxcd
-bxf.x cxdaxcd
-bxa dx c.
-2 abx c
-1cda
-bxa d
-2 c.x  b
-1 daaxf
-bxa  ce
-2   acx  b.x  aax d.x    ax c.
+1d
+xcd
 b
-1 aaax  d.x  dce
-2    ax  a.
+xf.
+x c
+xda
+xcd
+b
+xa d
+x c.
+2 ab
+x c
+1cda
+b
+xa d
+2 c.
+x  b
+1 daa
+xf
+b
+xa  ce
+2   ac
+x  b.
+x  aa
+x d.
+x    a
+x c.
+b
+1 aaa
+x  d.
+x  dce
+2    a
+x  a.
 b
 
-b2  bacx  a.x  a.x    ax a   d
-3   cx   a
+b
+2  bac
+x  a.
+x  a.
+x    a
+x a   d
+3   c
+x   a
 2   c
-3     cx     a.
+3     c
+x     a.
 b
 1  aa  a
-2 dxf.xdax cxcdx a
-bxacx axa dx  bx  aacx  b.x  dcax a.
-bx cd ax d  cxa d ex  b.xcddaxf  exdcbcxcdda
+2 d
+xf.
+xda
+x c
+xcd
+x a
+b
+xac
+x a
+xa d
+x  b
+x  aac
+x  b.
+x  dca
+x a.
+b
+x cd a
+x d  c
+xa d e
+x  b.
+xcdda
+xf  e
+xdcbc
+xcdda
 b
 1acd a
-2f  ex d.xd  cx c.xcd ax  d
+2f  e
+x d.
+xd  c
+x c.
+xcd a
+x  d
 b
 
 b
-1  bcxf aax  d ex  b c
-bx daax cdca
-2 ab  dx  d.x  bx   c
-bx  a   ax  b.x  dx a.x cd ax dxa d ex  b.
-bxc daxa.x dde  ax  b.x  dca
-3 cx a.x dx c.
-4 dx c.x ax c.
+1  bc
+xf aa
+x  d e
+x  b c
 b
-1 dde  ax  d.x  bx  aa
+x daa
+x cdca
+2 ab  d
+x  d.
+x  b
+x   c
+b
+x  a   a
+x  b.
+x  d
+x a.
+x cd a
+x d
+xa d e
+x  b.
+b
+xc da
+xa.
+x dde  a
+x  b.
+x  dca
+3 c
+x a.
+x d
+x c.
+4 d
+x c.
+x a
+x c.
+b
+1 dde  a
+x  d.
+x  b
+x  aa
 b
 
-b1  d.x    ex  b c
-2  aax      a
-bx     dx    ax    cxf   ex   axd.xcxfd e.
-bxda cx c.xcd axf a
-3da cx  d.x ax c.
-2cd ax    e
-bx  b cx  aaxf.x cxdaxcd ax  dx   e
-bx  bcx  aaxc.x  dxa bx daa cx     axd.
+b
+1  d.
+x    e
+x  b c
+2  aa
+x      a
+b
+x     d
+x    a
+x    c
+xf   e
+x   a
+xd.
+xc
+xfd e.
+b
+xda c
+x c.
+xcd a
+xf a
+3da c
+x  d.
+x a
+x c.
+2cd a
+x    e
+b
+x  b c
+x  aa
+xf.
+x c
+xda
+xcd a
+x  d
+x   e
+b
+x  bc
+x  aa
+xc.
+x  d
+xa b
+x daa c
+x     a
+xd.
 b
 
-b2cdd   ax  dex abx df
+b
+2cdd   a
+x  de
+x ab
+x df
 1acd
-2cd axf a
-bxd  cx c.xcd ax  d  cx     ax  b.x  aa  axc.
-bxa dx c.x dffxfddexddbcx c.
+2cd a
+xf a
+b
+xd  c
+x c.
+xcd a
+x  d  c
+x     a
+x  b.
+x  aa  a
+xc.
+b
+xa d
+x c.
+x dff
+xfdde
+xddbc
+x c.
 1cdda
 b
-2a dcex d.x ddefx      ax  dca
-3 cx a.x dx c.
-4 dx c.x ax c.
+2a dce
+x d.
+x ddef
+x      a
+x  dca
+3 c
+x a.
+x d
+x c.
+4 d
+x c.
+x a
+x c.
 b
 Y dda  a
 b
@@ -1783,81 +4249,260 @@ B
 B
 b
 1.f
-2d.xcxd.xfxc.
+2d.
+xc
+xd.
+xf
+xc.
 b
 1da
-2c.x  dx ax c.xcdx a
+2c.
+x  d
+x a
+x c.
+xcd
+x a
 b
 1ac
 x d
-2c.x cxcax  d
-bx  bxd.xcd
-3ax d.
+2c.
+x c
+xca
+x  d
+b
+x  b
+xd.
+xcd
+3a
+x d.
 1a d
-2 cx  b.
-bxf ax  bxc dx  a
-1aabxcd e
+2 c
+x  b.
+b
+xf a
+x  b
+xc d
+x  a
+1aab
+xcd e
 b
 
 b
-3aabx d.x cx a.x cdx d.xax c
+3aab
+x d.
+x c
+x a.
+x cd
+x d.
+xa
+x c
 1 dfa
-2  d.x    e
+2  d.
+x    e
 b
-x df cx    ex daax    cx   cex  d.xf aax   c
-bx  dexfxdaxcd a
+x df c
+x    e
+x daa
+x    c
+x   ce
+x  d.
+xf aa
+x   c
+b
+x  de
+xf
+xda
+xcd a
 1acd a
-2 dde  ax    a
-bx    cx   cex  aax  b cx   cex  d.x  aax  b.
-bx  dx  a ax  b cx da
-
-4!2 ab  dx c.x dx ab  d
+2 dde  a
+x    a
 b
-1 cd a
-2 d    axf dxdax cxcdx a
-bxacx axa dx  bxc ax   cx  dex d.
-bx abx c.x dx abx cdxa.
-1hd f
+x    c
+x   ce
+x  aa
+x  b c
+x   ce
+x  d.
+x  aa
+x  b.
 b
-2acdxf.x ffcxd
-1 cde
-2f.x c
-b
-
-b2cdxd.xfcxcdxdax cxcd
-3ax d.
-b
-1a d
-2 c.x  bxf dex  b.x  dxf aa
-bxd bcx  dxcdfax  d.x d  cx  b.x ca ax   c
-bx ab cx c.x dx abx ca ax   cx da
-3   cx   a.
-b
-2   ca
-3 cx a.x dx c.
-4 dx c.x ax c.
+x  d
+x  a a
+x  b c
+x da
 
 4!
-1 d ax  d
-bx  fxf dxh  fxf a
+2 ab  d
+x c.
+x d
+x ab  d
 b
-3d bx  d.x a.x c
-1cdxax cd
-bx dfxacdxcd axac c
-bx dfx cdx a cx  c.
-bx  dex  d a
-2  b cx    ex  aax    c
-bx   cex    cx    ax  b.x  aax  b.x  dx  aa
+1 cd a
+2 d    a
+xf d
+xda
+x c
+xcd
+x a
+b
+xac
+x a
+xa d
+x  b
+xc a
+x   c
+x  de
+x d.
+b
+x ab
+x c.
+x d
+x ab
+x cd
+xa.
+1hd f
+b
+2acd
+xf.
+x ffc
+xd
+1 cde
+2f.
+x c
 b
 
-b2 ab  dx c.x dx a   d
+b
+2cd
+xd.
+xfc
+xcd
+xda
+x c
+xcd
+3a
+x d.
+b
+1a d
+2 c.
+x  b
+xf de
+x  b.
+x  d
+xf aa
+b
+xd bc
+x  d
+xcdfa
+x  d.
+x d  c
+x  b.
+x ca a
+x   c
+b
+x ab c
+x c.
+x d
+x ab
+x ca a
+x   c
+x da
+3   c
+x   a.
+b
+2   ca
+3 c
+x a.
+x d
+x c.
+4 d
+x c.
+x a
+x c.
+
+4!
+1 d a
+x  d
+b
+x  f
+xf d
+xh  f
+xf a
+b
+3d b
+x  d.
+x a.
+x c
+1cd
+xa
+x cd
+b
+x df
+xacd
+xcd a
+xac c
+b
+x df
+x cd
+x a c
+x  c.
+b
+x  de
+x  d a
+2  b c
+x    e
+x  aa
+x    c
+b
+x   ce
+x    c
+x    a
+x  b.
+x  aa
+x  b.
+x  d
+x  aa
+b
+
+b
+2 ab  d
+x c.
+x d
+x a   d
 1 cd a
-2 dd   ax  b.
-bxf aax    exf  axd.xcd ax   cx   ax c.
-bx abcxc.xax   axa  cex a.x  dx  b c
-bx  a ax d ax d ccx   ax   ca
-3 c.x ax d.x c
-4 d.x cx a.x c
+2 dd   a
+x  b.
+b
+xf aa
+x    e
+xf  a
+xd.
+xcd a
+x   c
+x   a
+x c.
+b
+x abc
+xc.
+xa
+x   a
+xa  ce
+x a.
+x  d
+x  b c
+b
+x  a a
+x d a
+x d cc
+x   a
+x   ca
+3 c.
+x a
+x d.
+x c
+4 d.
+x c
+x a.
+x c
 b
 Y dda  a
 b
@@ -1868,82 +4513,235 @@ p
 B
 b
 0 d
-1 dxa.
-bxcx d
-2f dxd.xcxa.
+1 d
+xa.
 b
-1c dx axacx  d
+xc
+x d
+2f d
+xd.
+xc
+xa.
 b
-2 dxa.xcxd.xfx c.x ax  d.
-bx axd.xcxa.xcd ax c.x ax  d.
-bx a ax  d.
-1  bcx  dex   a
+1c d
+x a
+xac
+x  d
+b
+2 d
+xa.
+xc
+xd.
+xf
+x c.
+x a
+x  d.
+b
+x a
+xd.
+xc
+xa.
+xcd a
+x c.
+x a
+x  d.
+b
+x a a
+x  d.
+1  bc
+x  de
+x   a
 b
 
 b
-2 abxa.x d
-3 cx a.
+2 ab
+xa.
+x d
+3 c
+x a.
 1 dd a
-2 cx a.
-bx cd ax dxax    c
+2 c
+x a.
+b
+x cd a
+x d
+xa
+x    c
 1a d e
-3    ax  b.x  ax   c.
-b2  aax  d.x  b cx  a.x   cex   a.x   cefx  a.
-bx  bc ax  d.x aba dx c.
-1 ddefx  f
-bxac
-2  dx  b
-1c ax dfa
-bxac cxfc cex  aax  b c
+3    a
+x  b.
+x  a
+x   c.
+b
+2  aa
+x  d.
+x  b c
+x  a.
+x   ce
+x   a.
+x   cef
+x  a.
+b
+x  bc a
+x  d.
+x aba d
+x c.
+1 ddef
+x  f
+b
+xac
+2  d
+x  b
+1c a
+x dfa
+b
+xac c
+xfc ce
+x  aa
+x  b c
 b
 
-b1  d ex     fx   acx a.
-bx c cx  de
-2 d ax c.x a ex  d.
 b
-1 a ax  bcx  dex d.
-bxaabx cdxcd axda
-bx   axc dxda   dx    a
-bx     cx    cdx     fx    e
+1  d e
+x     f
+x   ac
+x a.
 b
-x   acx d.
+x c c
+x  de
+2 d a
+x c.
+x a e
+x  d.
+b
+1 a a
+x  bc
+x  de
+x d.
+b
+xaab
+x cd
+xcd a
+xda
+b
+x   a
+xc d
+xda   d
+x    a
+b
+x     c
+x    cd
+x     f
+x    e
+b
+x   ac
+x d.
 2    a
-3 cx a.
-2 cx     d
+3 c
+x a.
+2 c
+x     d
 b
-1     cx d acd
-x     axa   e
-b
-
-b1cdda
-2 cx a ax  d ex  b.x  a ax   c
-b
-1   acx  b.x   cdx  d.
-bx  fecx d.x abc
-2d.x c
-bxcd ax   c.x  ax  b.
-1  dx     c
-b
-2    cdx    a.x    cx    e.x   ax    c.x   cex     f
-bx   ac
-3  cx  a.x  dx  c.
-4  dx  c.x  ax  c.
-2  d ax  b.xf ax   c
+1     c
+x d acd
+x     a
+xa   e
 b
 
-b2f aaxdaxc daxaabx  dex d.x dbcx   a
+b
+1cdda
+2 c
+x a a
+x  d e
+x  b.
+x  a a
+x   c
+b
+1   ac
+x  b.
+x   cd
+x  d.
+b
+x  fec
+x d.
+x abc
+2d.
+x c
+b
+xcd a
+x   c.
+x  a
+x  b.
+1  d
+x     c
+b
+2    cd
+x    a.
+x    c
+x    e.
+x   a
+x    c.
+x   ce
+x     f
+b
+x   ac
+3  c
+x  a.
+x  d
+x  c.
+4  d
+x  c.
+x  a
+x  c.
+2  d a
+x  b.
+xf a
+x   c
+b
+
+b
+2f aa
+xda
+xc da
+xaab
+x  de
+x d.
+x dbc
+x   a
 b
 1  bc
-2 c.x  dx daax  dx  dx    e
+2 c.
+x  d
+x daa
+x  d
+x  d
+x    e
 b
-1 d  cx db
-2    ax dax d ccx   a
-bx   ca
-3 cx a.x dx c.
-4 dx c.x ax c.
-2 d acx c.x ax    a
+1 d  c
+x db
+2    a
+x da
+x d cc
+x   a
 b
-1 ab  dx  d  cx ab  dxd.
+x   ca
+3 c
+x a.
+x d
+x c.
+4 d
+x c.
+x a
+x c.
+2 d ac
+x c.
+x a
+x    a
+b
+1 ab  d
+x  d  c
+x ab  d
+xd.
 b
 Ycdda
 b
@@ -1953,76 +4751,285 @@ p
 B
 b
 0a
-1ax c
-bx exaxcx a
-bxex  cxc dx a
-bxac
-2f.x ax  dx axfcx e
-bx fxexc dxax efx f.x ex c.
-bx ex  fxa dx  cx  dx c.
+1a
+x c
+b
+x e
+xa
+xc
+x a
+b
+xe
+x  c
+xc d
+x a
+b
+xac
+2f.
+x a
+x  d
+x a
+xfc
+x e
+b
+x f
+xe
+xc d
+xa
+x ef
+x f.
+x e
+x c.
+b
+x e
+x  f
+xa d
+x  c
+x  d
+x c.
 1 ef
-bxa  cx a.x a cx  d e
+b
+xa  c
+x a.
+x a c
+x  d e
 b
 
 b
-2 a bxc.
-3e  cx f.xcxe.
-2fcaxeacxccdxa.
-bx ef cx c.x exaxc   cx  f.
+2 a b
+xc.
+3e  c
+x f.
+xc
+xe.
+2fca
+xeac
+xccd
+xa.
+b
+x ef c
+x c.
+x e
+xa
+xc   c
+x  f.
 1aa c e
 b
-2 ca ax   cxaaa cx e.xa  cex  d.x aa gxh.
-bx     hxf.xefxc.xeax  d.xa cx   c
-bx   ex e.xef cx efx cdxc.xa cx cd
+2 ca a
+x   c
+xaaa c
+x e.
+xa  ce
+x  d.
+x aa g
+xh.
+b
+x     h
+xf.
+xef
+xc.
+xea
+x  d.
+xa c
+x   c
+b
+x   e
+x e.
+xef c
+x ef
+x cd
+xc.
+xa c
+x cd
 b
 
-b2 acxa.xa dex   cx  dex e.
+b
+2 ac
+xa.
+xa de
+x   c
+x  de
+x e.
 1 e.
 b
-2 c cx ax ax   bx a cex  d.
+2 c c
+x a
+x a
+x   b
+x a ce
+x  d.
 1  d.
 b
-2  c cx  a.x  a.x    ax a   ex   cx  d  cx     a
-bx  d  cx   bxfx   bxea c a
+2  c c
+x  a.
+x  a.
+x    a
+x a   e
+x   c
+x  d  c
+x     a
+b
+x  d  c
+x   b
+xf
+x   b
+xea c a
 xc.
-3acc exe.xcxa.
+3acc e
+xe.
+xc
+xa.
 b
-2 ef cxaa c e
-xacd ax ea c
-1aac  axh.
+2 ef c
+xaa c e
+xacd a
+x ea c
+1aac  a
+xh.
 b
 
-b1kxhex fxfha
-bxef gxcef cxa c ex cde
-bx ef cxaa c exacd axcede
-bxeffc
-2   ex  d.
-1 acx cd a
 b
-2    cx e.x  ax  c.
-1 cdxc.
-bxeax   c
-2  dexc.x  f cx e.
-bxa   ex  c.
+1k
+xhe
+x f
+xfha
+b
+xef g
+xcef c
+xa c e
+x cde
+b
+x ef c
+xaa c e
+xacd a
+xcede
+b
+xeffc
+2   e
+x  d.
+1 ac
+x cd a
+b
+2    c
+x e.
+x  a
+x  c.
+1 cd
+xc.
+b
+xea
+x   c
+2  de
+xc.
+x  f c
+x e.
+b
+xa   e
+x  c.
 1ccd  c
-2 ac  exa.xa.x    a
+2 ac  e
+xa.
+xa.
+x    a
 b
 
-b2    cxa.x dx  cx cdexe.xfx  c
-bxccdex  c.x  dx e.xac  exc.xex   b
-bx   cx a.x cxa d ex e  cx  ax  cx     a
-bx  d  cx a.x cx     ex cd ax e.xax    c
-bxa c ex    cxacd axccd  cx cc exa.xaac  ex    a
+b
+2    c
+xa.
+x d
+x  c
+x cde
+xe.
+xf
+x  c
+b
+xccde
+x  c.
+x  d
+x e.
+xac  e
+xc.
+xe
+x   b
+b
+x   c
+x a.
+x c
+xa d e
+x e  c
+x  a
+x  c
+x     a
+b
+x  d  c
+x a.
+x c
+x     e
+x cd a
+x e.
+xa
+x    c
+b
+xa c e
+x    c
+xacd a
+xccd  c
+x cc e
+xa.
+xaac  e
+x    a
 b
 
-b2  a cx d.x ax df cx cdexf.xcxfcde
-bxeffcx f.x cx fe ex e  cx  f.x  cx  f c
-bx  d  cx cd ax     cx cd ax ac  axh.xexh.
-bxf   axe.xc d axa cx ea cxcxeff  axea c e
-bxccd axa cxa a ex   c
+b
+2  a c
+x d.
+x a
+x df c
+x cde
+xf.
+xc
+xfcde
+b
+xeffc
+x f.
+x c
+x fe e
+x e  c
+x  f.
+x  c
+x  f c
+b
+x  d  c
+x cd a
+x     c
+x cd a
+x ac  a
+xh.
+xe
+xh.
+b
+xf   a
+xe.
+xc d a
+xa c
+x ea c
+xc
+xeff  a
+xea c e
+b
+xccd a
+xa c
+xa a e
+x   c
 x  fec
-3 ex c.x fx e.
-4 fx e.x cx e.
+3 e
+x c.
+x f
+x e.
+4 f
+x e.
+x c
+x e.
 b
 Yaacc a
 b
@@ -2035,91 +5042,242 @@ b
 0   c
 1 a
 2   c
-3   bx    e.
+3   b
+x    e.
 b
-2 a  cx    bx a  c
-3  dx  c.
-2c a cx    exc  b
-3ax e.
+2 a  c
+x    b
+x a  c
+3  d
+x  c.
+2c a c
+x    e
+xc  b
+3a
+x e.
 b
-2ac  ex    cxac  a
-3     ex     c.
-2aac  ax   b.x   c
-3   bx    e
+2ac  e
+x    c
+xac  a
+3     e
+x     c.
+2aac  a
+x   b.
+x   c
+3   b
+x    e
 b
-2cdf cx  d.x  cx  abxa  cex    cxa   e
-3 ex c.
+2cdf c
+x  d.
+x  c
+x  ab
+xa  ce
+x    c
+xa   e
+3 e
+x c.
 b
 
 b
 2 ea c
-3  cx  a.
-2  cxa d exc  bx a.x c c
-3 ax  d.
+3  c
+x  a.
+2  c
+xa d e
+xc  b
+x a.
+x c c
+3 a
+x  d.
 b
-2  ccxh.x hhexg.xh  gx    h
-3fcaxe.xcxa.
+2  cc
+xh.
+x hhe
+xg.
+xh  g
+x    h
+3fca
+xe.
+xc
+xa.
 b
-2 ef cxc.xe
-3c exa.
-2 ef cx  d.x  cx  ab
-bx  ccx a.x     a
-3     cx     e.
-2    ax   c.x   bx    e
+2 ef c
+xc.
+xe
+3c e
+xa.
+2 ef c
+x  d.
+x  c
+x  ab
+b
+x  cc
+x a.
+x     a
+3     c
+x     e.
+2    a
+x   c.
+x   b
+x    e
 b
 
-b2   bcxc.xa  cx efx c e
-3  ex  c.x  fx  e.
-4  fx  e.x  cx  e.
 b
-2 ef cx c.x exa e exca b
-3ax e.
-2 cdex   c
-bx  abx a.
-3    cx    a.x     ex     c.
-2     ex    c.x    efx   bc
-bx   cex  c.x cex    ex ef c
-3 cx a.
-2 c cx  de
+2   bc
+xc.
+xa  c
+x ef
+x c e
+3  e
+x  c.
+x  f
+x  e.
+4  f
+x  e.
+x  c
+x  e.
+b
+2 ef c
+x c.
+x e
+xa e e
+xca b
+3a
+x e.
+2 cde
+x   c
+b
+x  ab
+x a.
+3    c
+x    a.
+x     e
+x     c.
+2     e
+x    c.
+x    ef
+x   bc
+b
+x   ce
+x  c.
+x ce
+x    e
+x ef c
+3 c
+x a.
+2 c c
+x  de
 b
 
-b2 acx   cx  c.
-3   bx    e.
-2  a cx  cx  d ex     c
-bx a   e
-3   cx  a.x  c  ax  e.x a   ex c.x ea cxa.
-xcxa   exca bxe.xfcdex e.
 b
-2efh exeef  exacc exccd  cx efecxc.xa cce
-3 ex c.
+2 ac
+x   c
+x  c.
+3   b
+x    e.
+2  a c
+x  c
+x  d e
+x     c
+b
+x a   e
+3   c
+x  a.
+x  c  a
+x  e.
+x a   e
+x c.
+x ea c
+xa.
+xc
+xa   e
+xca b
+xe.
+xfcde
+x e.
+b
+2efh e
+xeef  e
+xacc e
+xccd  c
+x efec
+xc.
+xa cce
+3 e
+x c.
 b
 2 aab
-3c.x    e.x    cx    a.x     ex     c
+3c.
+x    e.
+x    c
+x    a.
+x     e
+x     c
 
 4!
-2ea c ex     axf    cx a b
-bxe  c ax a.
-3 c  ax e.xa   ex c.
+2ea c e
+x     a
+xf    c
+x a b
+b
+xe  c a
+x a.
+3 c  a
+x e.
+xa   e
+x c.
 2 e  c
-3  a.x    ax a   ex  d.x a   ex  c.
+3  a.
+x    a
+x a   e
+x  d.
+x a   e
+x  c.
 b
 2  d  c
-3f.x     ax     cx     e.xf   ax     c
+3f.
+x     a
+x     c
+x     e.
+xf   a
+x     c
 2ea c e
-3     ax    c.x    efx   bcx   cex    ef
+3     a
+x    c.
+x    ef
+x   bc
+x   ce
+x    ef
 b
-2   bcxc.
-3 exa.xcax e.xafx e.
+2   bc
+xc.
+3 e
+xa.
+xca
+x e.
+xaf
+x e.
 x ef
-4 cx a.
-2 c cx  ee
+4 c
+x a.
+2 c c
+x  ee
 b
 
 -l "3 in"
-b2 ac
-3   cx    cxa  cex   bxa  cx    ex ef cxc.
+b
+2 ac
+3   c
+x    c
+xa  ce
+x   b
+xa  c
+x    e
+x ef c
+xc.
 2aaf  e
-3 cd axa.
+3 cd a
+xa.
 2 ea c
 b
 Yaacc a
@@ -2129,48 +5287,122 @@ B
 p
 {18. Fantasia decimaterza del detto (Giulio dal Pestrino)/Gardano 1587, sig. C1v}
 B
-b1.a
-2 e.xaxc.xexa.
+b
+1.a
+2 e.
+xa
+xc.
+xe
+xa.
 b
 1ca
-2ex  e.x ax c.xcex a
+2e
+x  e.
+x a
+x c.
+xce
+x a
 b
-1acx efx cax  ee
-bx  c
-2 a.x  axa  cx  axa cx   c
-bxc  bx a.
-1aa cxa dex e e
-bx c c a
-2 a.x     cx a c ex    ax    cx     e
+1ac
+x ef
+x ca
+x  ee
+b
+x  c
+2 a.
+x  a
+xa  c
+x  a
+xa c
+x   c
+b
+xc  b
+x a.
+1aa c
+xa de
+x e e
+b
+x c c a
+2 a.
+x     c
+x a c e
+x    a
+x    c
+x     e
 b
 
 b
-2 c  ax   c
+2 c  a
+x   c
 1aa c e
 xf    c
 x   b
-b2e    ax   cxc   axa cx e  cx  a.
+b
+2e    a
+x   c
+xc   a
+xa c
+x e  c
+x  a.
 1aa c e
 b
-2 ca ax   cxaaa cx e.
-1aac  ax    c
-bx    cx    cex    efx   bc
-bx   cex  ccx  a.x   b
-bx   cxh.xh.xhf g
+2 ca a
+x   c
+xaaa c
+x e.
+1aac  a
+x    c
+b
+x    c
+x    ce
+x    ef
+x   bc
+b
+x   ce
+x  cc
+x  a.
+x   b
+b
+x   c
+xh.
+xh.
+xhf g
 b
 
-b1kf h
-2hefxf.xe  cx f.xccdxaac
 b
-x  dx c.
-1 ef cxa   ex   c
-bx   ex acx cd
-2 e  cx  f.
+1kf h
+2hef
+xf.
+xe  c
+x f.
+xccd
+xaac
 b
-1a d exca b
-2ea cx     ax     cxea c e
-bxccd axa cxa a ex   c
-1aaa cx e.
+x  d
+x c.
+1 ef c
+xa   e
+x   c
+b
+x   e
+x ac
+x cd
+2 e  c
+x  f.
+b
+1a d e
+xca b
+2ea c
+x     a
+x     c
+xea c e
+b
+xccd a
+xa c
+xa a e
+x   c
+1aaa c
+x e.
 b
 Yaacc a
 b
@@ -2198,84 +5430,135 @@ x  a
 x  c
 1  de
 b
-1    ex  c
-2  d  cx     ex    ax    c
+1    e
+x  c
+2  d  c
+x     e
+x    a
+x    c
 b
 x  c e
-3exc
+3e
+xc
 xe
 x f
 xc
 xe
 b
-xf ax  cx  dx a
+xf a
+x  c
+x  d
+x a
 x c
 x d
 xa
 xc
 b
-1ecxbxcax  d e
+1ec
+xb
+xca
+x  d e
 b
 
 b
-3 a ax  dx  cx  a
+3 a a
+x  d
+x  c
+x  a
 x  d
 x  c
 x  a
 x  c
 b
 1  de
-2  c ex  d
-b3cdf cx    e
+2  c e
+x  d
+b
+3cdf c
+x    e
 x    c
 x    a
 x    c
-x    ex   ax   c
-b2ccdexexfcde3e
+x    e
+x   a
+x   c
+b
+2ccde
+xe
+xfcde
+3e
 xc
 b
-2acdx    a
+2acd
+x    a
 x a  c
-x    ex  aax   cx  de
+x    e
+x  aa
+x   c
+x  de
 3  c
 x  a
 1  cc
 xa
 b
 
-b2  aa
-3  dx  cx  ax  cx  dx a
-1acc ex  d
 b
-3cdf cx f
+2  aa
+3  d
+x  c
+x  a
+x  c
+x  d
+x a
+1acc e
+x  d
+b
+3cdf c
+x f
 x d
 x c
 x c
-x fxcxe
-b2fc e c3e
+x f
+xc
+xe
+b
+2fc e c
+3e
 xf
 xh
 xf
 xe
 x h
-bxa c e
-x ex c
+b
+xa c e
+x e
+x c
 x a
 x c
 x e
 xa
 xc
 b
-1ea cx     a
+1ea c
+x     a
 b
-2     cx  dx a   e
-3  dx a
+2     c
+x  d
+x a   e
+3  d
+x a
 b
 
 b
-1 cd ax da cxa c ex  d
+1 cd a
+x da c
+xa c e
+x  d
 b
-2c aaxfxeaxc
+2c aa
+xf
+xea
+xc
 b
 3a   e
 x  d
@@ -2292,19 +5575,28 @@ b
 2  a
 x  c
 1  aa
-b2  cc
+b
+2  cc
 3  a
 x  c
-2    ex  d
-bx   ax ax  cc
-3  dx  c
+2    e
+x  d
+b
+x   a
+x a
+x  cc
+3  d
+x  c
 b
 1  de
-2 ax   b
+2 a
+x   b
 b
 
 b
-3 accxaxc
+3 acc
+xa
+xc
 xa
 x d
 x c
@@ -2312,14 +5604,25 @@ x a
 x c
 b
 1 da c
-2 cx a
+2 c
+x a
 b
-1 cd  cxc2. cc e3e
+1 cd  c
+xc
+2. cc e
+3e
 b
 1f a
-2cx  d3a cx  d
+2c
+x  d
+3a c
+x  d
 1 df
-bx ca ax da cxa c e2c  a
+b
+x ca a
+x da c
+xa c e
+2c  a
 x a
 3  d
 x a
@@ -2337,34 +5640,55 @@ x    c
 b
 
 b
-2 cd  cx     ex    ax    c
+2 cd  c
+x     e
+x    a
+x    c
 b
 3a c e
 x  a
 x   c
 x  a
-x  cx  d
+x  c
+x  d
 x a
 x c
 b
 2 d  c
-3  cx  a
+3  c
+x  a
 2 ac
 3  a
 x  c
-b1 cdxa
-2fxe  cxa   exc
-bxea cxf
+b
+1 cd
+xa
+2f
+xe  c
+xa   e
+xc
+b
+xea c
+xf
 1hf g a
-3f ax  cx  dx axacdx exaxc
+3f a
+x  c
+x  d
+x a
+xacd
+x e
+xa
+xc
 b
 1ea c
-2  dx    e
+2  d
+x    e
 b
 
 b
 2  aa
-xc1 a  c
+xc
+1 a  c
 b
 2    e
 x  d
@@ -2387,22 +5711,36 @@ x  c
 1  d  c
 x c
 b
-2    cx dxa   ex   a3aaccx  ax   cx  a
+2    c
+x d
+xa   e
+x   a
+3aacc
+x  a
+x   c
+x  a
 x  c
 x  d
 x a
 x c
 b
-1 da cxc
+1 da c
+xc
 b
 
-b2 cc e3e
+b
+2 cc e
+3e
 xc
 xe
 x f
 xc
 xe
-b2fc e c3cxexf
+b
+2fc e c
+3c
+xe
+xf
 xe
 xc
 x f
@@ -2416,12 +5754,22 @@ b
 1ea
 xac
 b
-2cdxexfcx exefxf
+2cd
+xe
+xfc
+x e
+xef
+xf
 1cdf c
-bxccc ex gxc aa
-2ax    e
 b
-3 da cx  c
+xccc e
+x g
+xc aa
+2a
+x    e
+b
+3 da c
+x  c
 x  a
 x   c
 x  a
@@ -2430,7 +5778,9 @@ x  d
 x a
 b
 
-b1 cd  cxc
+b
+1 cd  c
+xc
 3ea
 xc
 xa
@@ -2439,10 +5789,13 @@ xa
 x d
 x c
 x a
-b2ac
+b
+2ac
 3 a
-x  d1f d
-2eaxc
+x  d
+1f d
+2ea
+xc
 xac
 3    e
 x   a
@@ -2455,7 +5808,8 @@ b
 x    e
 x  d c
 x    a
-b3    c
+b
+3    c
 x  d
 x  c
 x  a
@@ -2463,12 +5817,15 @@ x  a
 x  c
 b
 1  d a
-2ax    e
+2a
+x    e
 b
 
 b
-1c   cxc  b
-3ea c axc
+1c   c
+xc  b
+3ea c a
+xc
 xa
 x e
 xa
@@ -2476,30 +5833,39 @@ xc
 xe
 xf
 b
-2hx f
+2h
+x f
 xfh
-3hxf
-1efx  d e
+3h
+xf
+1ef
+x  d e
 b
-3 a ax  c
-x  dx ax c
+3 a a
+x  c
 x  d
 x a
 x c
-b2 da c
+x  d
+x a
+x c
+b
+2 da c
 3  c
 x  a
 x  d
 x  c
 x  a
 x  c
-b1 cd a
+b
+1 cd a
 2a
 3c
 xe
 b
 
-b3f d
+b
+3f d
 xe
 xc
 xa
@@ -2510,7 +5876,8 @@ xc
 b
 2ea
 3  a
-x  c1acd
+x  c
+1acd
 b
 2ca
 3e
@@ -2525,29 +5892,50 @@ x aaa
 x ccc
 x da c
 b
-2    ex cx a ax  dx c  e
-3  ax  cx  dx  c
-4  dx  cx  ax   c
+2    e
+x c
+x a a
+x  d
+x c  e
+3  a
+x  c
+x  d
+x  c
+4  d
+x  c
+x  a
+x   c
 b
-2  aax  cx  dx a
+2  aa
+x  c
+x  d
+x a
 b
 
 b
-2 cd e3  c
+2 cd e
+3  c
 x  a
 x  d
 x  c
 x  a
 x  c
-b1 cdexc
-b2f aa3c
+b
+1 cde
+xc
+b
+2f aa
+3c
 xe
 xf
 xe
 xc
 xa
 b
-1cd  c2a c ex d1 c c
+1cd  c
+2a c e
+x d
+1 c c
 x cd a
 x da c
 x ac
@@ -2556,9 +5944,16 @@ b
 x     e
 x    a
 x    c
-x  d ex  cx  ax   c
-bx  aacx  c
-1  dce2 daac3  c
+x  d e
+x  c
+x  a
+x   c
+b
+x  aac
+x  c
+1  dce
+2 daac
+3  c
 x  a
 x  d
 x  c
@@ -2567,31 +5962,1519 @@ x  c
 b
 
 b
-2 cdca3 d
+2 cdca
+3 d
 x c
 x a
 x  d
 x  c
 x  a
-b1  cc a
-2 ax cx da cx cx  d  cx ax cd ax dxax c
-bx da cx c
-1 cdca2c aa3 a
+b
+1  cc a
+2 a
+x c
+x da c
+x c
+x  d  c
+x a
+x cd a
+x d
+xa
+x c
+b
+x da c
+x c
+1 cdca
+2c aa
+3 a
 x  d
 x c
 x a
 x  d
 x a
 b
-2acc ex   ax   cx    e
-1fcdexea c
+2acc e
+x   a
+x   c
+x    e
+1fcde
+xea c
 b
 x cde
 xc
-1 ccdexe
+1 ccde
+xe
 b
 Yeccde
 b
 B
 e
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+xx
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
