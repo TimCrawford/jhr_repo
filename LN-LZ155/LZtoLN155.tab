@@ -148,45 +148,127 @@ B
 B
 b
 Sc
-2# c  ax d2#axc2#ax d2# cx a
+2# c  a
+x d
+2#a
+xc
+2#a
+x d
+2# c
+x a
 bQ
-1 cd1    a1 cd
-2# dxabQ
-2#c  axd2#cxa2# dx c2# ax  d
+1 cd
+1    a
+1 cd
+2# d
+xa
 bQ
-1 ac1     a1 ac
-2# ax cbQ
-2# d  cx-Qa2# dx c2# a   dx c2# dxa
+2#c  a
+xd
+2#c
+xa
+2# d
+x c
+2# a
+x  d
+bQ
+1 ac
+1     a
+1 ac
+2# a
+x c
+bQ
+2# d  c
+x-Qa
+2# d
+x c
+2# a   d
+x c
+2# d
+xa
 bQ
 
 bQ
-2# c  ax d2# cx a
-2#  d ax a2# cx dbQ
-2#a    axc2#dx d
-1 cd1 acbQ
-1  dca1  d1   c1    a
+2# c  a
+x d
+2# c
+x a
+2#  d a
+x a
+2# c
+x d
+bQ
+2#a    a
+xc
+2#d
+x d
+1 cd
+1 ac
+bQ
+1  dca
+1  d
+1   c
+1    a
 b
 bQ
 1f   a
-2#hxf2#hxf2#excbQ
+2#h
+xf
+2#h
+xf
+2#e
+xc
+bQ
 1e    a
-2#fxe2#fxe2#cxa
+2#f
+xe
+2#f
+xe
+2#c
+xa
 bQ
 
 bQ
-2#c  axe2#fxe2#exc2#ax d
+2#c  a
+xe
+2#f
+xe
+2#e
+xc
+2#a
+x d
 bQ
-1 cd1    a1    a
-2# ax cbQ
-2# d  cxa2#cxa2# dx c2# ax  d
+1 cd
+1    a
+1    a
+2# a
+x c
 bQ
-1 ac1     Qa1 aQc
-2# Qcx QdbQ
-2#ax Qd2# Qcx Qa
-1 c1 a
+2# d  c
+xa
+2#c
+xa
+2# d
+x c
+2# a
+x  d
+bQ
+1 ac
+1     Qa
+1 aQc
+2# Qc
+x Qd
+bQ
+2#a
+x Qd
+2# Qc
+x Qa
+1 c
+1 a
 bQ
 1Q  dcQa
-1  Qd1   Qc
+1  Qd
+1   Qc
 Y    Qa
 b
 B
@@ -810,27 +892,51 @@ B
 BX
 bX
 Sc
-2# cd ax a
-3# cx ax cx e
+2# cd a
+x a
+3# c
+x a
+x c
+x e
 b
 1a  c a
-2#a  cx     a
-b2c da
-3#axc3#dxcxax d
+2#a  c
+x     a
+b
+2c da
+3#a
+xc
+3#d
+xc
+xa
+x d
 b
 1a  c a
-2#a  cx     a
+2#a  c
+x     a
 bb
-2# c  ax d2#ax c
+2# c  a
+x d
+2#a
+x c
 b
-2# d ax c
-3# dx cx ax  d
+2# d a
+x c
+3# d
+x c
+x a
+x  d
 b
-2# a   ax  a
-3#  dx  cx  ax  c
+2# a   a
+x  a
+3#  d
+x  c
+x  a
+x  c
 b
 1  dca
-2  dcY    a
+2  dc
+Y    a
 b
 B
 
@@ -840,28 +946,52 @@ BX
 bX
 Sc
 1fc  a
-2#fcx    a
+2#fc
+x    a
 b
 1fc  a
-2#fcx    a
+2#fc
+x    a
 b
 2Qc da
-3#axc3#dxcxax d
+3#a
+xc
+3#d
+xc
+xa
+x d
 b
 1 cd a
-2# cdx    a
-bb2c da
-3#axc3#dxcxax d
+2# cd
+x    a
+bb
+2c da
+3#a
+xc
+3#d
+xc
+xa
+x d
 b
 2 cd a
 3# a
-x c3# dx cx ax  d
+x c
+3# d
+x c
+x a
+x  d
 b
 2 ac  a
-3#  dx a3# cx ax  dx  c
+3#  d
+x a
+3# c
+x a
+x  d
+x  c
 b
 1  dca
-2  dcY    a
+2  dc
+Y    a
 b
 B
 
@@ -1051,82 +1181,164 @@ bX
 Sc
 1 dda
 b
-2# ddax c.2# dxa.
+2# dda
+x c.
+2# d
+xa.
 1bdda
-2#ax d.
-b2#acd ax a.2# cx d.
-1acd a1fcd a
-b1dabc1abb d
-1bdda
-2#ax d.
-b2#acd ax a.2# cx d.
-1acd a
-bbX1acd a
+2#a
+x d.
 b
-2# ddax c.2# dxa.2#bxa.2#bxd.
+2#acd a
+x a.
+2# c
+x d.
+1acd a
+1fcd a
+b
+1dabc
+1abb d
+1bdda
+2#a
+x d.
+b
+2#acd a
+x a.
+2# c
+x d.
+1acd a
+bbX
+1acd a
+b
+2# dda
+x c.
+2# d
+xa.
+2#b
+xa.
+2#b
+xd.
 b
 
 b
-1f dd1   a
+1f dd
+1   a
 1dabc
-2#bxa.
+2#b
+xa.
 b
-1bdda1 dbac1    a1acd.
+1bdda
+1 dbac
+1    a
+1acd.
 b
 0 dda
-1 dd.1   a
+1 dd.
+1   a
 b
 bQ
-2# ddax c.2# dxa.2#bxa.2#bxd.
+2# dda
+x c.
+2# d
+xa.
+2#b
+xa.
+2#b
+xd.
 b
-1f dd1   a
+1f dd
+1   a
 1dabc
-2#bxa.
+2#b
+xa.
 b
-1bdda1 dbac1    a1acd.
+1bdda
+1 dbac
+1    a
+1acd.
 b
 1 dda
-1 dd.1   a
+1 dd.
+1   a
 bbX
 S3
 1 dda
 b
 
 b
-2# ddax c.2# dxa.
+2# dda
+x c.
+2# d
+xa.
 1bdda
-b0acd a1fdaa
-b1dabc1abb d
+b
+0acd a
+1fdaa
+b
+1dabc
+1abb d
 1bdda
-b1acd a1   c.1acd a
+b
+1acd a
+1   c.
+1acd a
 b
 bQ
-2# ddax c.2# dxa.1bdda
-b
-0acd a1fdaa
-b1dabc1abb d
+2# dda
+x c.
+2# d
+xa.
 1bdda
-b1acd a1   c1acd a
+b
+0acd a
+1fdaa
+b
+1dabc
+1abb d
+1bdda
+b
+1acd a
+1   c
+1acd a
 bQ
 b
 
 b
 bQ
 1bdda
-2# dxa.2#bxd.
+2# d
+xa.
+2#b
+xd.
 b
-1f dd1   a1dabc
-b1bdda
-2#ax d.
-1acd a
-b1 dda
-2# dx c.2# dxa.
+1f dd
+1   a
+1dabc
 b
 1bdda
-2# dxa.2#bxd.
-b1f dd1   a1dabc
-b1bdda
-2#ax d.
+2#a
+x d.
+1acd a
+b
+1 dda
+2# d
+x c.
+2# d
+xa.
+b
+1bdda
+2# d
+xa.
+2#b
+xd.
+b
+1f dd
+1   a
+1dabc
+b
+1bdda
+2#a
+x d.
 1acd a
 bQ
 Y dda
@@ -1139,18 +1351,61 @@ BX
 bX
 Sc
 1 d a
-bQ2# d ax c2# dxa2#b daxa2#bxdbQ2#a b dx  a2#  bx  d
+bQ
+2# d a
+x c
+2# d
+xa
+2#b da
+xa
+2#b
+xd
+bQ
+2#a b d
+x  a
+2#  b
+x  d
 1a b d
-1QQa Qb QdbQ1b da1d bc
-2#b daxa2#bx d
-bQ0ac  a
-1ac1    a
+1QQa Qb Qd
+bQ
+1b da
+1d bc
+2#b da
+xa
+2#b
+x d
+bQ
+0ac  a
+1ac
+1    a
 bb
 
 -l " 6 in"
 bb
-2# d ax c2# dxa2#b daxa2#bxd
-bQ1f da1    f1f da1d bcbQ2#b daxa2#bx d2#   cax d2# ax cbQY d a
+2# d a
+x c
+2# d
+xa
+2#b da
+xa
+2#b
+xd
+bQ
+1f da
+1    f
+1f da
+1d bc
+bQ
+2#b da
+xa
+2#b
+x d
+2#   ca
+x d
+2# a
+x c
+bQ
+Y d a
 b
 B
 
@@ -1356,41 +1611,119 @@ xd
 xa
 b
 1b da
-2#ax d
+2#a
+x d
 1 c  a
-2# dx c
-b2# d ax  d2# dx c
-1 dda1 dd
+2# d
+x c
 b
-2#b daxa2#bxd2#b daxa2#d
+2# d a
+x  d
+2# d
+x c
+1 dda
+1 dd
+b
+2#b da
+xa
+2#b
+xd
+2#b da
+xa
+2#d
 xb
 b
 
-b2#a b dx  a2#  bx  d2#a b dxd2#bxa
+b
+2#a b d
+x  a
+2#  b
+x  d
+2#a b d
+xd
+2#b
+xa
 b
 1b da
-2#ax d
+2#a
+x d
 1 c  a
-2# dx c
-b2# d ax  d2# dx c
-1 dda1 dd
+2# d
+x c
 b
-bQ1b d  b1b d  b
-2#     bx     d2#    ax    c
-b2#a b dx  a2#  bx  d2#a b dxd2#bxa
+2# d a
+x  d
+2# d
+x c
+1 dda
+1 dd
+b
+bQ
+1b d  b
+1b d  b
+2#     b
+x     d
+2#    a
+x    c
+b
+2#a b d
+x  a
+2#  b
+x  d
+2#a b d
+xd
+2#b
+xa
 b
 
-b2#b daxa2# dx b2#    ax d2# cx a
-b2#ac  ax a2# cx d
-1ac  a1ac
 b
-1b d  b1b d  b
-2#     bx     d2#    ax    c
-b2#a b dx  a2#  bx  d2#a b dxd2#bxa
-b1b da2#ax d1ac  a2# dx cb
+2#b da
+xa
+2# d
+x b
+2#    a
+x d
+2# c
+x a
+b
+2#ac  a
+x a
+2# c
+x d
+1ac  a
+1ac
+b
+1b d  b
+1b d  b
+2#     b
+x     d
+2#    a
+x    c
+b
+2#a b d
+x  a
+2#  b
+x  d
+2#a b d
+xd
+2#b
+xa
+b
+1b da
+2#a
+x d
+1ac  a
+2# d
+x c
+b
 
-b2# d ax  d2# dx c
-1 ddabb
+b
+2# d a
+x  d
+2# d
+x c
+1 dda
+bb
 S3
 1   a
 b
@@ -1408,132 +1741,196 @@ b
 2a b
 1    d
 b
-1a b1    d1a b
+1a b
+1    d
+1a b
 b
 1.a b d
 2a b
 1    d
-b1a b1    d1 d
+b
+1a b
+1    d
+1 d
 b
 
 b
 1. cd a
 2 cd
 1    a
-b1 cd1    a1 cd
+b
+1 cd
+1    a
+1 cd
 bQ
 1.b da
 2a
 1b
-b1b d1   a1b d
+b
+1b d
+1   a
+1b d
 b
 1.a b d
 2a b
 1    d
-b1a b1    d1a b
+b
+1a b
+1    d
+1a b
 b
 1.b da
 2a
 1 d
-b1 c  a1 d1 c
+b
+1 c  a
+1 d
+1 c
 b
 
 b
 1. dda
 2 dd
 1   a
-b1 dd1   a1 dd
+b
+1 dd
+1   a
+1 dd
 b
 1.b da
 2a
 1b
-b1b d1   a1b d
+b
+1b d
+1   a
+1b d
 b
 1.a b d
 2a b
 1    d
-b1a b1    d1a b
+b
+1a b
+1    d
+1a b
 b
 1.b da
 2a
 1 d
-b1 c  a1 d1 c
+b
+1 c  a
+1 d
+1 c
 b
 
 b
 1. dda
 2 dd
 1   a
-b1 dd1   a1 dd
+b
+1 dd
+1   a
+1 dd
 b
 bQ
 1.fd a
 2fd
 1   a
 b
-1fd1d1b  a
+1fd
+1d
+1b  a
 b
 1.a b d
 2a b
 1    d
-b1a b1    d1a b
+b
+1a b
+1    d
+1a b
 bQ
 1.b da
 2a
 1b
-b1ac1    a1 d
+b
+1ac
+1    a
+1 d
 b
 
 b
 1. cd a
 2 cd
 1    a
-b1 cd1    a1 cd
+b
+1 cd
+1    a
+1 cd
 b
 1.fd a
 2fd
 1   a
 b
-1fd1d1b  a
+1fd
+1d
+1b  a
 b
 1.a b d
 2a b
 1    d
-b1a b1    d1a b
+b
+1a b
+1    d
+1a b
 b
 1.b da
 2a
 1 d
-b1 c  a1 d1 c
+b
+1 c  a
+1 d
+1 c
 b
 1. dda
 2 dd
 1   a
 b
 
-b1 dd1   a1 dd
+b
+1 dd
+1   a
+1 dd
 b
 1.b da
 2a
 1b
-b1b d1   a1b d
+b
+1b d
+1   a
+1b d
 b
 1.a b d
 2a b
 1    d
 b
-1a b1f
+1a b
+1f
 1d
 b
 1.b da
 2a
 1 d
-b1 c  a1 d1 c
+b
+1 c  a
+1 d
+1 c
 b
 1. dda
 2 dd
 1   a
-b1 dd1   aY dd
+b
+1 dd
+1   a
+Y dd
 b
 B
 
@@ -2640,7 +3037,10 @@ bQ
 1   a
 bQ
 1c da
-2#dxc.2#ax d.
+2#d
+xc.
+2#a
+x d.
 bQ
 1.a d a
 2a d
@@ -2674,7 +3074,10 @@ bQ
 bQ
 1a   a
 2#a
-x d.2# cx abQ
+x d.
+2# c
+x a
+bQ
 Y dda
 b
 B
@@ -2684,152 +3087,239 @@ B
 b
 Sc
 1. dda
-2 c.2# ax c.2# dxa.
+2 c.
+2# a
+x c.
+2# d
+xa.
 b
 0c da
-1a bc1da c
-b1c da1a b d1 da c1 b ca
+1a bc
+1da c
+b
+1c da
+1a b d
+1 da c
+1 b ca
 b
 0 a a d
 1 ab  d
-2# cx d.
+2# c
+x d.
 b
-1aabc1 dda1 c ca1 a a d
+1aabc
+1 dda
+1 c ca
+1 a a d
 b
 0  dca
-1  dc.1    a
+1  dc.
+1    a
 b
 bQ
 1. dda
-2 c.2# ax c.2# dxa.
+2 c.
+2# a
+x c.
+2# d
+xa.
 b
 
 b
 0c da
-1a bc1da c
-b1c da1a b d1 da c1 b ca
+1a bc
+1da c
+b
+1c da
+1a b d
+1 da c
+1 b ca
 b
 0 ab  d
 1 ab  d
-2# cx d.
+2# c
+x d.
 b
-1aabc1 dda1 c ca1 a a d
+1aabc
+1 dda
+1 c ca
+1 a a d
 b
 0  dca
-1  dc.1    a
+1  dc.
+1    a
 b
-bQ1.f d a
+bQ
+1.f d a
 2d.
-1c1f d a
+1c
+1f d a
 b
 1.dab  d
 2c.
-1a1dab  d
+1a
+1dab  d
 b
 
-b1c da
-2#ax d.
+b
+1c da
+2#a
+x d.
 1 cd a
-2# ax c.
+2# a
+x c.
 b
 1 dda
-2# cx a.2#  dx  b.2#  ax   c.
+2# c
+x a.
+2#  d
+x  b.
+2#  a
+x   c.
 b
 0 dda
-1 dd.1   a
+1 dd.
+1   a
 b
 bQ
 1.f d a
 2d.
-1c1f d a
+1c
+1f d a
 b
 1.dab  d
 2c.
-1a1dab  d
-b1c da
-2#ax d.
+1a
+1dab  d
+b
+1c da
+2#a
+x d.
 1 cd a
-2# ax c.
+2# a
+x c.
 b
 1 dda
-2# cx a.2#  dx  b.2#  ax   c.
+2# c
+x a.
+2#  d
+x  b.
+2#  a
+x   c.
 b
 
 b
 0 dda
 1 dd
 bQ
-bQ1b da
+bQ
+1b da
 bX
-1a b d1 b ca1 dda1 a a d
+1a b d
+1 b ca
+1 dda
+1 a a d
 b
 0 cd a
-1 cd.1    a
+1 cd.
+1    a
 b
 1.f d a
 2d.
-1c1f d a
+1c
+1f d a
 b
 1.dab  d
 2c.
-1a1dab  d
-b1c da
-2#ax d.
+1a
+1dab  d
+b
+1c da
+2#a
+x d.
 1 cd a
-2# ax c.
+2# a
+x c.
 bX
 0 dda
 1 dd
 bQ
-bQ1b da
+bQ
+1b da
 b
 
 b
-1a b d1 b ca1 dda1 a a d
+1a b d
+1 b ca
+1 dda
+1 a a d
 b
 0 cd a
-1 cd.1    a
+1 cd.
+1    a
 b
 1.f d a
 2d.
-1c1f d a
+1c
+1f d a
 b
 1.dab  d
 2c.
-1a1dab  d
-b1c da
-2#ax d.
+1a
+1dab  d
+b
+1c da
+2#a
+x d.
 1 cd a
-2# ax c.
+2# a
+x c.
 b
 0 dda
 1 dd
 bQ
-bQ1a b d
-bX1b da1 d.1b da1 d.
+bQ
+1a b d
+bX
+1b da
+1 d.
+1b da
+1 d.
 b
 
-b1b da1 d.
+b
+1b da
+1 d.
 0a b d
 b
 1  dca
-2# ax c.
+2# a
+x c.
 0 dda
 b
 1 c ca
-2# ax c.
+2# a
+x c.
 0 dda
 b
-bQ1b da1 d.1b da1 d.
-b1b da1 d.
+bQ
+1b da
+1 d.
+1b da
+1 d.
+b
+1b da
+1 d.
 0a b d
 b
 1  dca
-2# ax c.
+2# a
+x c.
 0 dda
 b
 1 c ca
-2# ax c.
+2# a
+x c.
 Ycdda
 bb
 S3
@@ -2839,20 +3329,40 @@ S3
 b
 
 b
-2#a bcx d.2#axc.2#dxa.
+2#a bc
+x d.
+2#a
+xc.
+2#d
+xa.
 b
 1.c da
 2d.
 1c da
 b
-2#a bcx d.2#axc.2#dxa.
+2#a bc
+x d.
+2#a
+xc.
+2#d
+xa.
 b
 0c da
 1a bc
 b
 2# dda
-xa.2# dx b.2# ax  d.
-b2# ab  dx  a.2#  bx  d.2# ax  d.
+xa.
+2# d
+x b.
+2# a
+x  d.
+b
+2# ab  d
+x  a.
+2#  b
+x  d.
+2# a
+x  d.
 b
 1. aba d
 2  d.
@@ -2860,11 +3370,25 @@ b
 b
 
 b
-2#ab  dx a.2# bx d.2#axc.
-b2#dxc.2#ax d.2# cx a.
+2#ab  d
+x a.
+2# b
+x d.
+2#a
+xc.
+b
+2#d
+xc.
+2#a
+x d.
+2# c
+x a.
 b
 1 cdca
-2#  dx a.2# cx d.
+2#  d
+x a.
+2# c
+x d.
 b
 1. c ca
 2 a.
@@ -2876,32 +3400,63 @@ bQ
 1c
 b
 1f d a
-1e.1f d a
+1e.
+1f d a
 b
 1.dab  d
 2c.
 1a
 b
 2#a bc
-x d.2#axc.2#dxa.
+x d.
+2#a
+xc.
+2#d
+xa.
 b
 
-b2#c daxd.2#cxa.2# dx c.
+b
+2#c da
+xd.
+2#c
+xa.
+2# d
+x c.
 b
 1 da c
-2# c cax d.2#ax c.
+2# c ca
+x d.
+2#a
+x c.
 b
 1 dda
-3# cx a.x  dx  b.3#  dx  b.x  ax   c.
+3# c
+x a.
+x  d
+x  b.
+3#  d
+x  b.
+x  a
+x   c.
 b
 0 dda
 bQ
 bQ
 1b da
-bX1a b d1a.1 da c
-b1 c ca1 c.1 a a d
-b1  dca
-2#  ax  c.2#  dx a.
+bX
+1a b d
+1a.
+1 da c
+b
+1 c ca
+1 c.
+1 a a d
+b
+1  dca
+2#  a
+x  c.
+2#  d
+x a.
 b
 
 b
@@ -2913,40 +3468,74 @@ b
 1c
 b
 1f d a
-1e.1f d a
+1e.
+1f d a
 b
 1.dab  d
 2c.
 1a
 b
 2#a bc
-x d.2#axc.2#dxa.
-b2#c daxd.2#cxa.2# dx c.
+x d.
+2#a
+xc.
+2#d
+xa.
+b
+2#c da
+xd.
+2#c
+xa.
+2# d
+x c.
 b
 1 da c
-2# c cax d.2#ax c.
+2# c ca
+x d.
+2#a
+x c.
 b
 
 b
 1 dda
-3# cx a.x  dx  b.3#  dx  b.x  ax   c.
+3# c
+x a.
+x  d
+x  b.
+3#  d
+x  b.
+x  a
+x   c.
 b
 0 dda
 bQ
 bQ
 1b da
-bX1a b d1a.1 daa
-b1 c ca1 c.1 a a d
-b1  dca
-2#  ax  c.2#  dx a.
+bX
+1a b d
+1a.
+1 daa
+b
+1 c ca
+1 c.
+1 a a d
+b
+1  dca
+2#  a
+x  c.
+2#  d
+x a.
 b
 0  dca
 1  dca
-b1.f d a
+b
+1.f d a
 2d.
 1c
 b
-1f d Qa1e.1f d a
+1f d Qa
+1e.
+1f d a
 b
 
 b
@@ -2954,14 +3543,35 @@ b
 2c.
 1a
 b
-2#a bcx d.2#axc.2#dxa.
-b2#c daxd.2#cxa.2# dx c.
+2#a bc
+x d.
+2#a
+xc.
+2#d
+xa.
+b
+2#c da
+xd.
+2#c
+xa.
+2# d
+x c.
 b
 1 da c
-2# c cax d.2#ax c.
+2# c ca
+x d.
+2#a
+x c.
 b
 1 dda
-3# cx a.x  dx  b.3#  dx  b.x  ax   c.
+3# c
+x a.
+x  d
+x  b.
+3#  d
+x  b.
+x  a
+x   c.
 b
 0 dda
 bQ
@@ -2986,10 +3596,23 @@ b
 2 d.
 1 b
 b
-2#ab  dx d.2#axc.2#dxa.
-b1c da
-2#ax d.2# cx d.
-b2#ax d.2# cx a.
+2#ab  d
+x d.
+2#a
+xc.
+2#d
+xa.
+b
+1c da
+2#a
+x d.
+2# c
+x d.
+b
+2#a
+x d.
+2# c
+x a.
 1 cdca
 b
 0 dda
@@ -3015,11 +3638,23 @@ b
 2 d.
 1 b
 b
-2#ab  dx d.2#axc.2#dxa.
+2#ab  d
+x d.
+2#a
+xc.
+2#d
+xa.
 b
 1c da
-2#ax d.2# cx d.
-b2#ax d.2# cx a.
+2#a
+x d.
+2# c
+x d.
+b
+2#a
+x d.
+2# c
+x a.
 1 c ca
 b
 1.cdda
@@ -3035,154 +3670,241 @@ B
 b
 Sc
 2# dda
-x c.3# ax c.x dxa.
+x c.
+3# a
+x c.
+x d
+xa.
 b
 1cdda
-2#aabcxdabc
-b2#cddaxa b d2# da cx bdca
+2#aabc
+xdabc
+b
+2#cdda
+xa b d
+2# da c
+x bdca
 b
 1 aba d
 2 aba d
-3# cx d.
+3# c
+x d.
 b
-2#aabcx dda2# cdcax aba d
+2#aabc
+x dda
+2# cdca
+x aba d
 b
 1  dca
-2#  dc.x    a
+2#  dc.
+x    a
 b
 bQ
 2# dda
-x c.3# ax c.x dxa.
+x c.
+3# a
+x c.
+x d
+xa.
 b
 
 b
 2cdda
 3#a
 xc.
-2#aabcxdabc
-b2#cddaxa b d2# da cx bdca
+2#aabc
+xdabc
+b
+2#cdda
+xa b d
+2# da c
+x bdca
 b
 1 aba d
 2 aba d
-3# cx d.
+3# c
+x d.
 b
-2#aabcx dda2# cdcax aba d
+2#aabc
+x dda
+2# cdca
+x aba d
 b
 1  dca
-2#  dc.x    a
+2#  dc.
+x    a
 b
-bQ2.f d a
+bQ
+2.f d a
 3d
-2#cxf d a
+2#c
+xf d a
 b
 2.dab  d
 3c.
-2#axdab  d
+2#a
+xdab  d
 b
 
-b2cdda
-3#ax d.
+b
+2cdda
+3#a
+x d.
 2acd a
-3# ax c
+3# a
+x c
 b
 2 dda
-3# cx a.3#  dx  b.x  ax   c.
+3# c
+x a.
+3#  d
+x  b.
+x  a
+x   c.
 b
 1 dda
-2# dd.x   a
+2# dd.
+x   a
 b
 bQ
 2.f d a
 3d.
-2#cxf d a
+2#c
+xf d a
 b
 2@dab  d
 3c.
-2#axdab  d
-bQ2cdda
-3#ax d.
+2#a
+xdab  d
+bQ
+2cdda
+3#a
+x d.
 2 cd a
-3# ax c
+3# a
+x c
 b
 2 dda
-3# cx a3#  dx  bx  ax   c
+3# c
+x a
+3#  d
+x  b
+x  a
+x   c
 b
 
 b
 1 dda
 2 dd
 bQ
-bQ2bdda
+bQ
+2bdda
 bX
-2#a b dx bdca2# ddax aba d
+2#a b d
+x bdca
+2# dda
+x aba d
 b
 1 cdca
-2# cdc.x    a
+2# cdc.
+x    a
 b
 2.f d a
 3d
-2#cxf d a
+2#c
+xf d a
 b
 2@dab  d
 2c.
-2#axdab  d
-bQ2cdda
-3#ax d.
+2#a
+xdab  d
+bQ
+2cdda
+3#a
+x d.
 2 cd a
-3# ax c.
+3# a
+x c.
 bX
 1Q dda
 2 dd
 bQ
-bQ2bdda
+bQ
+2bdda
 b
 
 b
-2#a b dx bdca2# ddax aba d
+2#a b d
+x bdca
+2# dda
+x aba d
 b
 1 cdca
-2# cdc.x    a
+2# cdc.
+x    a
 b
 2@f d a
 3Qd
-2#cxf d a
+2#c
+xf d a
 b
 2@dab  d
 3c.
-2#axdab  d
-b2cdda
-3#ax d
+2#a
+xdab  d
+b
+2cdda
+3#a
+x d
 2 cd a
-3# ax c.
+3# a
+x c.
 b
 1 dda
 2 dd
 bQ
-bQ2a b d
-bX2#bddax d2#bddax d
+bQ
+2a b d
+bX
+2#bdda
+x d
+2#bdda
+x d
 b
 
-b2#bddax d.
+b
+2#bdda
+x d.
 1a b d
 b
 2  dca
-3# ax c
+3# a
+x c
 1 dda
 b
 2 cdca
-3# ax c
+3# a
+x c
 1 dda
 b
-bQ2#bddax d2#bddax d.
-b2#bddax d
+bQ
+2#bdda
+x d
+2#bdda
+x d.
+b
+2#bdda
+x d
 1a b d
 b
 2  dca
-3# ax c
+3# a
+x c
 1 dda
 b
 2 cdca
-3# ax c
+3# a
+x c
 1cdda
 bb
 S3
@@ -3192,20 +3914,40 @@ S3
 b
 
 b
-2#aabcx d2#axc2#dxa
+2#aabc
+x d
+2#a
+xc
+2#d
+xa
 b
 1.cdda
 2c
 1cdda
 b
-2#aabcx d2#axc2#dxa
+2#aabc
+x d
+2#a
+xc
+2#d
+xa
 b
 0cdda
 1aabc
 b
 2# dda
-xa2# dx b2# ax  d
-b2# aba dx  a.2#  bx  d.2# ax  d.
+xa
+2# d
+x b
+2# a
+x  d
+b
+2# aba d
+x  a.
+2#  b
+x  d.
+2# a
+x  d.
 b
 1. aba d
 2  d.
@@ -3213,11 +3955,25 @@ b
 b
 
 b
-2#ab  dx a2# bx d2#axc.
-b2#dab  dxc2#Qax d2# cx a
+2#ab  d
+x a
+2# b
+x d
+2#a
+xc.
+b
+2#dab  d
+xc
+2#Qa
+x d
+2# c
+x a
 b
 1 cdca
-2#  dx a2# cx d
+2#  d
+x a
+2# c
+x d
 b
 1. cdca
 2 a
@@ -3229,17 +3985,28 @@ bQ
 1c
 b
 1f d a
-1e1f d a
+1e
+1f d a
 b
 1.dab  d
 2c
 1a
 b
 2#aabc
-x d2#axc2#dxa
+x d
+2#a
+xc
+2#d
+xa
 b
 
-b2#cddaxd2#cxa2# dx c
+b
+2#cdda
+xd
+2#c
+xa
+2# d
+x c
 b
 1Q QdQa Qc
 2# Qc QcQa
@@ -3263,10 +4030,20 @@ b
 bQ
 bQ
 1bdda
-bX1a b d1a1 daa
-b1 cdca1 c.1 aba d
-b1  dca
-2#  ax  c.2#  dx a.
+bX
+1a b d
+1a
+1 daa
+b
+1 cdca
+1 c.
+1 aba d
+b
+1  dca
+2#  a
+x  c.
+2#  d
+x a.
 b
 
 b
@@ -3278,40 +4055,74 @@ b
 1c
 b
 1f d a
-1e1f d a
+1e
+1f d a
 b
 1@dab  d
 2c
 1a
 b
 2#aabc
-x d2#axc2#dxa
-b2#cddaxd2#cxa2# dx c
+x d
+2#a
+xc
+2#d
+xa
+b
+2#cdda
+xd
+2#c
+xa
+2# d
+x c
 b
 1 da c
-2# cdcax d2#ax c
+2# cdca
+x d
+2#a
+x c
 b
 
 b
 1 dda
-3# cx ax  dx  b3#  dx  bx  ax   c
+3# c
+x a
+x  d
+x  b
+3#  d
+x  b
+x  a
+x   c
 b
 0 dda
 bQ
 bQ
 1bdda
-bX1a b d1a1 daa
-b1 cdca1 c1 aba d
-b1  dca
-2#  ax  c2#  dx a
+bX
+1a b d
+1a
+1 daa
+b
+1 cdca
+1 c
+1 aba d
+b
+1  dca
+2#  a
+x  c
+2#  d
+x a
 b
 0  dca
 1  dca
-b1.f d a
+b
+1.f d a
 2d
 1c
 b
-1f d a1e1f d a
+1f d a
+1e
+1f d a
 b
 
 b
@@ -3319,14 +4130,35 @@ b
 2c
 1a
 b
-2#aabcx d2#axc2#dxa
-b2#cddaxd2#cxa2# dx c
+2#aabc
+x d
+2#a
+xc
+2#d
+xa
+b
+2#cdda
+xd
+2#c
+xa
+2# d
+x c
 b
 1 da c
-2# cdcax d2#ax c
+2# cdca
+x d
+2#a
+x c
 b
 1 dda
-3# cx ax  dx  b3#  dx  bx  ax   c
+3# c
+x a
+x  d
+x  b
+3#  d
+x  b
+x  a
+x   c
 b
 0 dda
 bQ
@@ -3351,10 +4183,23 @@ b
 2 d
 1ab  d
 b
-2#ab  dx d2#axc2#dxa
-b1cdda
-2#ax d2# cx a
-b2# cdcax a2# cx d
+2#ab  d
+x d
+2#a
+xc
+2#d
+xa
+b
+1cdda
+2#a
+x d
+2# c
+x a
+b
+2# cdca
+x a
+2# c
+x d
 2#a
 x c
 b
@@ -3369,92 +4214,238 @@ bX
 Sc
 1 ab  d
 b
-2#  b  +dx  a.2#  bx  d.2# ax  d.2#  bx  a.
-b2# ab  +dx  a.2#  bx  d.2# ax c.2# dxa.
+2#  b  +d
+x  a.
+2#  b
+x  d.
+2# a
+x  d.
+2#  b
+x  a.
+b
+2# ab  +d
+x  a.
+2#  b
+x  d.
+2# a
+x c.
+2# d
+xa.
 b
 1c +da
-2# ax c.2# dxa.2#cxd.
+2# a
+x c.
+2# d
+xa.
+2#c
+xd.
 b
 0c da
-1c +d1   a
-b1a bc1     a1a +b1   c.
+1c +d
+1   a
+b
+1a bc
+1     a
+1a +b
+1   c.
 b
 
-b1a bc1d  c1c da1a   e
+b
+1a bc
+1d  c
+1c da
+1a   e
 b
 0 ea c
-1 +ea1    c
+1 +ea
+1    c
 b
-0 ea c0 ea c
-b
-bQ
-2# ab  +dx  a.2#  bx  d.2# ax  d.2#  bx  a.
-b2#     +dx  a2#  bx  d2# ax c2# dxa
-b
-1c da
-2# ax c.2# dxa.2#cxd.
-b
-0c da
-1c d1   a
-b
-
-b1d bc1c da1a +b d1    a
-b1  a +c1a1  a +c1 e
-b
-0a  c a
-1a  c1     a
-b
-0a  c a0a  c a
+0 ea c
+0 ea c
 b
 bQ
-2#     +dx  a.2#  bx  d.2# ax  d.2#  bx  a.
-b2#     +dx  a.2#  bx  d.2# ax c.2# dxa.
+2# ab  +d
+x  a.
+2#  b
+x  d.
+2# a
+x  d.
+2#  b
+x  a.
+b
+2#     +d
+x  a
+2#  b
+x  d
+2# a
+x c
+2# d
+xa
+b
+1c da
+2# a
+x c.
+2# d
+xa.
+2#c
+xd.
+b
+0c da
+1c d
+1   a
+b
+
+b
+1d bc
+1c da
+1a +b d
+1    a
+b
+1  a +c
+1a
+1  a +c
+1 e
+b
+0a  c a
+1a  c
+1     a
+b
+0a  c a
+0a  c a
+b
+bQ
+2#     +d
+x  a.
+2#  b
+x  d.
+2# a
+x  d.
+2#  b
+x  a.
+b
+2#     +d
+x  a.
+2#  b
+x  d.
+2# a
+x c.
+2# d
+xa.
 b
 
 b
 1c da
-2# ax c.2# dxa.2#cxd.
+2# a
+x c.
+2# d
+xa.
+2#c
+xd.
 b
 0c da
-1-+c d1   a
-b1d bc1c da1a b d1    a
-b1 ea c1a1  a +c1 e
+1-+c d
+1   a
+b
+1d bc
+1c da
+1a b d
+1    a
+b
+1 ea c
+1a
+1  a +c
+1 e
 b
 0a  c a
-1a  c1     a
+1a  c
+1     a
 b
 0Qa  c a
 bbX
 S3
 1 ab  d
 b
-2#     +dx  a.2#  bx  d.2# ax  d.b
+2#     +d
+x  a.
+2#  b
+x  d.
+2# a
+x  d.
+b
 
-b2# ab  +dx  a.2#  bx  d.2# ax c.b
+b
+2# ab  +d
+x  a.
+2#  b
+x  d.
+2# a
+x c.
+b
 1c da
-2# ax c.2# dxa.b
+2# a
+x c.
+2# d
+xa.
+b
 1c da
 1 d
-1c +dQab1a bc1     a1a bcb1d bc1c da1a   e
+1c +dQa
+b
+1a bc
+1     a
+1a bc
+b
+1d bc
+1c da
+1a   e
 b
 1 ea c
-1 +ea1    c
+1 +ea
+1    c
 b
 1 ea +c
-1 a1 ea c
+1 a
+1 ea c
 bQ
 b
 
 b
 bQ
-2#     +dx  a.2#  bx  d.2# ax  d.b2# ab  +dx  a.2#  bx  d.2# ax c.b
+2#     +d
+x  a.
+2#  b
+x  d.
+2# a
+x  d.
+b
+2# ab  +d
+x  a.
+2#  b
+x  d.
+2# a
+x c.
+b
 1c da
-2# ax c.2# dxa.b
+2# a
+x c.
+2# d
+xa.
+b
 1cd a
-1cd1  d
-b1d bc1c da1a   eb1 ea c1a1 ea cb
+1cd
+1  d
+b
+1d bc
+1c da
+1a   e
+b
+1 ea c
+1a
+1 ea c
+b
 1a  c a
-1a  c1     a
+1a  c
+1     a
 b
 Ya  c a
 b
@@ -3470,86 +4461,143 @@ b
 1.cdda
 2d.
 1cdda
-b1 daac1abb d1cdda
+b
+1 daac
+1abb d
+1cdda
 b
 1.da a Qd
 2dab.
 1     Qd
-b1da a Qd
-2#da a.x     Qd
+b
+1da a Qd
+2#da a.
+x     Qd
 1cdda
 b
-2#abb dx  a.
-3#  bx  a.x  bx  d.
+2#abb d
+x  a.
+3#  b
+x  a.
+x  b
+x  d.
 1abb d
-b1abb d1 daa
-3#ax d.x cx a.
+b
+1abb d
+1 daa
+3#a
+x d.
+x c
+x a.
 b
 
 b
 1. cdca
 2 cdc.
 1    a
-b1 cdca
-2# cdcx    a
+b
+1 cdca
+2# cdc
+x    a
 1 cdca
 b
 1.cdda
 2    e.
 1cdda
-b1 daac1abb d1cdda
+b
+1 daac
+1abb d
+1cdda
 b
 1.da a Qd
 2dab.
 1     Qd
-b1da a Qd
-2#da a.x     Qd
+b
+1da a Qd
+2#da a.
+x     Qd
 1cddQa
 b
 
 b
-2#abb dx  a.
-3#  bx  a.x  bx  d.
+2#abb d
+x  a.
+3#  b
+x  a.
+x  b
+x  d.
 1abb d
-b1 daa
-3#   cax d.x cx a.
+b
+1 daa
+3#   ca
+x d.
+x c
+x a.
 2# d
 x c.
 b
 1. daa
 2 da.
 1      Qa
-b1 cdca
+b
+1 cdca
 bQ
 bQ
-2#  dx a.2# cx d.
-bX2#abb dx  a.
-3#  bx  a.x  bx  d.
+2#  d
+x a.
+2# c
+x d.
+bX
+2#abb d
+x  a.
+3#  b
+x  a.
+x  b
+x  d.
 1abb d
-b1 daa
-3#   cax d.x cx a.
-2# dx c.
+b
+1 daa
+3#   ca
+x d.
+x c
+x a.
+2# d
+x c.
 b
 
 b
 1. daa
 2 da.
 1   Qa
-b1 daa  Qa
-3# cx a.x  dx  b.3#  dx  b.x  ax   c.
 b
-1 daa1      Qa1 daa
+1 daa  Qa
+3# c
+x a.
+x  d
+x  b.
+3#  d
+x  b.
+x  a
+x   c.
+b
+1 daa
+1      Qa
+1 daa
 b
 bQ
 1.fdaa
 2fda.
 1      Qa
-b1cdda1dabc1fdaa
+b
+1cdda
+1dabc
+1fdaa
 b
 1.ha a Qd
 2ha a.
 1     Qd
-b1ha a Qd
+b
+1ha a Qd
 2#ha a.
 x     Qd
 1fdaa
@@ -3559,27 +4607,39 @@ b
 1.dabc
 2f de
 1dabc
-b1cdda1abb d1 daac
+b
+1cdda
+1abb d
+1 daac
 b
 1 cdca
-2#  dx a.
-3# cx a.x cx d.
+2#  d
+x a.
+3# c
+x a.
+x c
+x d.
 b
 1 cdca
-2# cdc.x    a
+2# cdc.
+x    a
 1 cdca
 b
 1.fdaa
 2fda.
 1      Qa
-b1cdda1dabc1fdaa
+b
+1cdda
+1dabc
+1fdaa
 b
 1.ha a Qd
 2ha a.
 1     Qd
 b
 
-b1ha a Qd
+b
+1ha a Qd
 2#ha a.
 x     Qd
 1fdaa
@@ -3589,14 +4649,26 @@ b
 1abb d
 b
 1 daa
-3#   cax d.x cx a.
-2# dx c.
+3#   ca
+x d.
+x c
+x a.
+2# d
+x c.
 b
 1. daa
 2 da.
 1      Qa
-b1 daa
-3# cx a.x  dx  b.3#  dx  b.x  ax   c.
+b
+1 daa
+3# c
+x a.
+x  d
+x  b.
+3#  d
+x  b.
+x  a
+x   c.
 b
 Y dde  Qa
 b
@@ -4040,87 +5112,325 @@ bX
 Sc
 2Q  dca
 b
-3#  dcax bx bx b3#  dcax bx bx b
-b3#  bacdx dx dx d3#  bacdx dx dx d
-b3# bbcdxa
-xaxa3# bbcdxaxaxa
-b3# bbcdxaxaxa3# bbcdxaxaxa
-b3# bdcax ax bx d3#axcxdxa
+3#  dca
+x b
+x b
+x b
+3#  dca
+x b
+x b
+x b
+b
+3#  bacd
+x d
+x d
+x d
+3#  bacd
+x d
+x d
+x d
+b
+3# bbcd
+xa
+xa
+xa
+3# bbcd
+xa
+xa
+xa
+b
+3# bbcd
+xa
+xa
+xa
+3# bbcd
+xa
+xa
+xa
+b
+3# bdca
+x a
+x b
+x d
+3#a
+xc
+xd
+xa
 b
 
-b3#bxax dx b3# dx bx ax  d
-b3#  cccax acx  cx ac3#  cccax acx  cx ac
 b
-3#  cccax acx  cx ac3#  cccax acx  cx ac
+3#b
+xa
+x d
+x b
+3# d
+x b
+x a
+x  d
 b
-bQ3#  dcax bx bx b3#  dcax bx bx b
-b3#  bacdx dx dx d3#  bacdx dx dx d
+3#  ccca
+x ac
+x  c
+x ac
+3#  ccca
+x ac
+x  c
+x ac
 b
-
-b3# bbcdxa
-xaxa3# bbcdxaxaxa
-b3# bbcdxaxaxa3# bbcdxaxaxa
-b3# bdcax ax bx d3#axcxdxa
-b3#bxax dx b3# dx bx ax  d
-b
-3#  cccax acx  cx ac3#  cccax acx  cx ac
-b
-
-b
-3#  cccax acx  cx ac3#  cccax acx  cx ac
+3#  ccca
+x ac
+x  c
+x ac
+3#  ccca
+x ac
+x  c
+x ac
 b
 bQ
-3# bdcaxaxaxa3# bdcaxaxaxa
-b3# bdcaxaxaxa3# bdcaxaxaxa
-b3#     dx abx   ax ab3#     dx abx   ax ab
-b3#     dx abx   ax ab3#     dx abx   ax ab
+3#  dca
+x b
+x b
+x b
+3#  dca
+x b
+x b
+x b
+b
+3#  bacd
+x d
+x d
+x d
+3#  bacd
+x d
+x d
+x d
+b
+
+b
+3# bbcd
+xa
+xa
+xa
+3# bbcd
+xa
+xa
+xa
+b
+3# bbcd
+xa
+xa
+xa
+3# bbcd
+xa
+xa
+xa
+b
+3# bdca
+x a
+x b
+x d
+3#a
+xc
+xd
+xa
+b
+3#b
+xa
+x d
+x b
+3# d
+x b
+x a
+x  d
+b
+3#  ccca
+x ac
+x  c
+x ac
+3#  ccca
+x ac
+x  c
+x ac
+b
+
+b
+3#  ccca
+x ac
+x  c
+x ac
+3#  ccca
+x ac
+x  c
+x ac
+b
+bQ
+3# bdca
+xa
+xa
+xa
+3# bdca
+xa
+xa
+xa
+b
+3# bdca
+xa
+xa
+xa
+3# bdca
+xa
+xa
+xa
+b
+3#     d
+x ab
+x   a
+x ab
+3#     d
+x ab
+x   a
+x ab
+b
+3#     d
+x ab
+x   a
+x ab
+3#     d
+x ab
+x   a
+x ab
 b
 
 b
 2 bd a
-3# dxa3#bxax dx b
-b3# dx bx ax  d3# ax  d
-x  ax  c
-b3#   cax  dx  dx  d3#   cax  dx  dx  d
+3# d
+xa
+3#b
+xa
+x d
+x b
+b
+3# d
+x b
+x a
+x  d
+3# a
+x  d
+x  a
+x  c
+b
+3#   ca
+x  d
+x  d
+x  d
+3#   ca
+x  d
+x  d
+x  d
 b
 1@  dca
 bb
 S3
 2Q  dca
 b
-2# bdcax b2# bx b1 bdcab2# dbacdx d2# dx d1 dbacdb
-
-b2#abbcdxa
-2#axa1abbcdb2#abbcdxa2#axa1abbcdb2#abbcdxa2#axa1abbcdb2# dbacdx d2# dx d1 dbacdb
-2# bdcax b2# bx b
+2# bdca
+x b
+2# b
+x b
 1 bdca
 b
-2# bdcax b2# bx b
+2# dbacd
+x d
+2# d
+x d
+1 dbacd
+b
+
+b
+2#abbcd
+xa
+2#a
+xa
+1abbcd
+b
+2#abbcd
+xa
+2#a
+xa
+1abbcd
+b
+2#abbcd
+xa
+2#a
+xa
+1abbcd
+b
+2# dbacd
+x d
+2# d
+x d
+1 dbacd
+b
+2# bdca
+x b
+2# b
+x b
+1 bdca
+b
+2# bdca
+x b
+2# b
+x b
 1 bdca
 bb
-2#abbcdxa2#axa
+2#abbcd
+xa
+2#a
+xa
 1abbcd
 b
 
 b
-2#abbcdxa2#axa
+2#abbcd
+xa
+2#a
+xa
 1abbcd
 b
-2# dbacdx d2# dx d
-1 dbacd
-b2# dbacd
-x d2# dx d
+2# dbacd
+x d
+2# d
+x d
 1 dbacd
 b
-2#  dcax b2# dx b2# ax  d
-b2# acccax a2# ax a
+2# dbacd
+x d
+2# d
+x d
+1 dbacd
+b
+2#  dca
+x b
+2# d
+x b
+2# a
+x  d
+b
+2# accca
+x a
+2# a
+x a
 1 accca
 b
-2#  dcax  d2#  dx  d
+2#  dca
+x  d
+2#  d
+x  d
 1  dca
 b
 2#  dca
-x  d2#  d
+x  d
+2#  d
 x  d
 1  dca
 bQ
@@ -4128,13 +5438,22 @@ b
 
 b
 bQ
-2#abbcdxa2#axa
+2#abbcd
+xa
+2#a
+xa
 1abbcd
 b
-2#abbcdxa2#axa
+2#abbcd
+xa
+2#a
+xa
 1abbcd
 bQ
-2# dbacdx d2# dxa
+2# dbacd
+x d
+2# d
+xa
 1c
 b
 0daba d
@@ -4143,13 +5462,22 @@ b
 0abbcd
 1 dbacd
 b
-2#  dcax b2# ax  d
+2#  dca
+x b
+2# a
+x  d
 1 aQccca
 b
-2#  dcax  d2#  dx  d
+2#  dca
+x  d
+2#  d
+x  d
 1  dca
 b
-2#  dcax  d2#  dx  d
+2#  dca
+x  d
+2#  d
+x  d
 Y  dca
 b
 B
@@ -4388,10 +5716,18 @@ S3
 2 a.
 1 c
 b
-2# ddax c.2# dxa.
+2# dda
+x c.
+2# d
+xa.
 1 dda
 b
-2#aac  ax  d.2# ax c.2# dxa.
+2#aac  a
+x  d.
+2# a
+x c.
+2# d
+xa.
 b
 1. c ca
 2 d.
@@ -4402,10 +5738,18 @@ bQ
 2 a.
 1 c
 b
-2# ddax c.2# dxa.
+2# dda
+x c.
+2# d
+xa.
 1 dda
 b
-2#aac  ax  d.2# ax c.2# dxa.
+2#aac  a
+x  d.
+2# a
+x c.
+2# d
+xa.
 b
 1. c ca
 2 d.
@@ -4415,13 +5759,20 @@ b
 
 b
 bQ
-1Q c ca1Q  d.
+1Q c ca
+1Q  d.
 1 dda
 bQ
-1Qaac  a1Qa.
+1Qaac  a
+1Qa.
 1 cdca
 bQ
-2# ddax c.2# ax c.2# dxa.
+2# dda
+x c.
+2# a
+x c.
+2# d
+xa.
 bQ
 0@caa c
 b
@@ -4430,9 +5781,12 @@ bQ
 2a.
 1c
 b
-2#aac  axc.2#a
+2#aac  a
+xc.
+2#a
 x d.
-2# cx a.
+2# c
+x a.
 b
 1. c ca
 2  d.
@@ -4441,10 +5795,17 @@ b
 0@  dca
 bQ
 bQ
-2#aac  axc.2#ax d.2# cx a.bQ
+2#aac  a
+xc.
+2#a
+x d.
+2# c
+x a.
+bQ
 
 bQ
-1Q  dca1Q   c.
+1Q  dca
+1Q   c.
 1  dca
 bQ
 0aac  a
@@ -4466,13 +5827,21 @@ b
 bQ
 bQ
 1c.
-bX1Qaa   a1Q c.
+bX
+1Qaa   a
+1Q c.
 1c.
 bQ
-1Qaa   a1Q c.
+1Qaa   a
+1Q c.
 1c.
 b
-2#aac  axc.2#ax d.2# cx a.
+2#aac  a
+xc.
+2#a
+x d.
+2# c
+x a.
 bQ
 0  dca
 1  dca
@@ -4975,7 +6344,8 @@ Y  dca
 bb
 S3
 1Qab  d
-1ab1    d
+1ab
+1    d
 bQ
 2#    d
 x a
@@ -4983,22 +6353,32 @@ x a
 x d
 1ab  d
 bQ
-2#     dx  a
-2#  bx  d2# ax b
+2#     d
+x  a
+2#  b
+x  d
+2# a
+x b
 bQ
 1Q db  d
 1 db
 1     d
 bQ
 1. bd a
-2 a1Q  d
-bQ1 bd a2# a
+2 a
+1Q  d
+bQ
+1 bd a
+2# a
 x  d
 2#  b
 x  a
 bQ
 1aa   a
-2# bx a2# bx d
+2# b
+x a
+2# b
+x d
 bQ
 
 bQ
@@ -5007,22 +6387,40 @@ bQ
 1     a
 bQ
 1Qab  d
-1ab1    d
+1ab
+1    d
 bQ
-2#    dx a2# bx d
+2#    d
+x a
+2# b
+x d
 1ab  d
 bQ
-2#     dx  a2#  bx  d2# ax b
+2#     d
+x  a
+2#  b
+x  d
+2# a
+x b
 bQ
 1Q db  d
-1 db1     dbQ
-1@ bd a
-2 a1Q  d
+1 db
+1     d
 bQ
-2# ab  ax  d2#  cx  a2#  dx  c
+1@ bd a
+2 a
+1Q  d
+bQ
+2# ab  a
+x  d
+2#  c
+x  a
+2#  d
+x  c
 bQ
 1Q  dca
-1  dc1    a
+1  dc
+1    a
 bQ
 Y  dca
 b
@@ -5034,30 +6432,56 @@ B
 b
 Sc
 1  dca
-1abQ
+1a
+bQ
 2# ea c
-x a3# cx ax cx e
+x a
+3# c
+x a
+x c
+x e
 bQ
-2#a ccx c2# exabQ
-2#c daxa2#cxe
+2#a cc
+x c
+2# e
+xa
+bQ
+2#c da
+xa
+2#c
+xe
 bQ
 bQ
-1c da1a cc
-bQ1 ea c
-2#a c ex    abQ
+1c da
+1a cc
+bQ
+1 ea c
+2#a c e
+x    a
+bQ
 2a a c
-3# ex c
-2#a a cx e
+3# e
+x c
+2#a a c
+x e
 bQ
 0a  c a
 bb
-1   c1eabQ
-1c da1c da
+1   c
+1ea
+bQ
+1c da
+1c da
 bQ
 
 bQ
 2a cc
-3#cxe3#fxexcxa
+3#c
+xe
+3#f
+xe
+xc
+xa
 bQ
 bQ
 1 ea c
@@ -5065,18 +6489,33 @@ bbX
 1
 1c da
 bQ
-2#c daxa2#cxebQ
-2#c dax   c2#   ax    e
+2#c da
+xa
+2#c
+xe
+bQ
+2#c da
+x   c
+2#   a
+x    e
 bQ
 1ea  c
-2#fc  axcbQ
-2#fcxea2#c daxa c
+2#fc  a
+xc
 bQ
-1 ea c1a c e
+2#fc
+xea
+2#c da
+xa c
+bQ
+1 ea c
+1a c e
 bQ
 2a a c
-3# ex c
-2#a a cx e
+3# e
+x c
+2#a a c
+x e
 Ya  c a
 b
 B
@@ -5378,160 +6817,379 @@ Sc
 2#  a
 x  b
 bQ
-1  da2#      Qa
+1  da
+2#      Qa
 x Qa
 2#  Qd
 x  Qb
-3#  dx  bx  ax   c
+3#  d
+x  b
+x  a
+x   c
 b
-1  aa1      Qa1  aa
-3#  bx  ax  bx  d
+1  aa
+1      Qa
+1  aa
+3#  b
+x  a
+x  b
+x  d
 b
 1 a   Qd
-2#  d  Qcx a2#  b  Qax  a2#   cx   a
+2#  d  Qc
+x a
+2#  b  Qa
+x  a
+2#   c
+x   a
 b
-1 c ca1  d1 c ca
-2#  ax  b
+1 c ca
+1  d
+1 c ca
+2#  a
+x  b
 b
 1  da
-2#      Qax a2#  dx  b
-3#  dx  bx  ax   c
+2#      Qa
+x a
+2#  d
+x  b
+3#  d
+x  b
+x  a
+x   c
 b
 
 b
 1  aa
-2# ax  d
-3#  bx  ax  bx  d
-2#  bcx  aa
-b2# c cax  d2# d acx  Qb
-3#   cQax d
-x cx a
-2# dx c
+2# a
+x  d
+3#  b
+x  a
+x  b
+x  d
+2#  bc
+x  aa
+b
+2# c ca
+x  d
+2# d ac
+x  Qb
+3#   cQa
+x d
+x c
+x a
+2# d
+x c
 bX
-1 daa1      Qa1 daa
+1 daa
+1      Qa
+1 daa
 b
 bQ
-3#cxaxcxe
+3#c
+xa
+xc
+xe
 b
-1f aa1      Qa
-2#f aaxd
-3#fxdxcxa
+1f aa
+1      Qa
+2#f aa
+xd
+3#f
+xd
+xc
+xa
 b
-1c da1      Qa1c da
-2#dxf
+1c da
+1      Qa
+1c da
+2#d
+xf
 b
 
 b
-1-Qha f1f aa
-2#da cxc
-3#ax dx cx a
+1-Qha f
+1f aa
+2#da c
+xc
+3#a
+x d
+x c
+x a
 b
-1ac  a1  d1ac  a
-2#cxe
+1ac  a
+1  d
+1ac  a
+2#c
+xe
 b
-1f aa1      Qa
-2#f aaxd2#c  axa   e
-b2#c daxa2#cxf2#da  cxc
-3#ax d
-x cx a
+1f aa
+1      Qa
+2#f aa
+xd
+2#c  a
+xa   e
 b
-2# c cax  d2# d acx  Qb3#   cax dx cx a
-2# dx c
+2#c da
+xa
+2#c
+xf
+2#da  c
+xc
+3#a
+x d
+x c
+x a
+b
+2# c ca
+x  d
+2# d ac
+x  Qb
+3#   ca
+x d
+x c
+x a
+2# d
+x c
 bX
-1 daa1      Qa1 daa
+1 daa
+1      Qa
+1 daa
 b
 bQ
-3#  ax   cx  ax  b
+3#  a
+x   c
+x  a
+x  b
 b
 
 b
-2#  dx  b2#  dx a2#  dx  b
-3#  dx  bx  ax   c
+2#  d
+x  b
+2#  d
+x a
+2#  d
+x  b
+3#  d
+x  b
+x  a
+x   c
 b
-1  aa1      Qa
-2#  aax  b2#  dx a
+1  aa
+1      Qa
+2#  aa
+x  b
+2#  d
+x a
 b
-1c da1d bc
-2#da  cxc2#ax d
+1c da
+1d bc
+2#da  c
+xc
+2#a
+x d
 b
-1ac  a1  d1ac  a
-3#  ax  bx  dx a
+1ac  a
+1  d
+1ac  a
+3#  a
+x  b
+x  d
+x a
 b
-2#  dax  b
-3#  dx  bx  dx a
+2#  da
+x  b
+3#  d
+x  b
+x  d
+x a
 2  da
-3# bx a
-3#  dx  bx  ax   c
+3# b
+x a
+3#  d
+x  b
+x  a
+x   c
 b
 
 b
 1  aa
-2# abx  de2#  bcx  aa2#   cex   ac
-b2# c cax  d2# d  cx  b
-3#   cax dx cx a
-2# dx c
+2# ab
+x  de
+2#  bc
+x  aa
+2#   ce
+x   ac
+b
+2# c ca
+x  d
+2# d  c
+x  b
+3#   ca
+x d
+x c
+x a
+2# d
+x c
 bX
-1 daa1      Qa1 daa
+1 daa
+1      Qa
+1 daa
 b
 bQ
-2#fxd
-b2#c  axd
-3#cxax dx c
+2#f
+xd
+b
+2#c  a
+xd
+3#c
+xa
+x d
+x c
 1 daa
-2#fxd
+2#f
+xd
 bQ
-2#c  a  Qaxa2# dx c
+2#c  a  Qa
+xa
+2# d
+x c
 1 daa
-2#dxf
+2#d
+xf
 b
 
 b
-1-Qha f1f a   Qa
-2#da cxc
-3#ax dx cx a
+1-Qha f
+1f a   Qa
+2#da c
+xc
+3#a
+x d
+x c
+x a
 b
-1ac  a1  d1ac  a
-2#fxd
-b2#c     Qaxa
-3#cxaxcxd
-2#c  ax d  c2#a   exc  a
-b2#da cxa2#d  cxc  a2#a   ex d  c2# c  ax a   Qc
-b2# c cax  d2# d  cx  b
-3#   cax dx cx a
-2# dx c
+1ac  a
+1  d
+1ac  a
+2#f
+xd
+b
+2#c     Qa
+xa
+3#c
+xa
+xc
+xd
+2#c  a
+x d  c
+2#a   e
+xc  a
+b
+2#da c
+xa
+2#d  c
+xc  a
+2#a   e
+x d  c
+2# c  a
+x a   Qc
+b
+2# c ca
+x  d
+2# d  c
+x  b
+3#   ca
+x d
+x c
+x a
+2# d
+x c
 b
 
 b
-1 daa1      Qa1 daa1      Qa
+1 daa
+1      Qa
+1 daa
+1      Qa
 bX
-2#c     Qaxa
-3# dxaxcxd
-2#c  ax d  c2#a   exc  a
-b2#d  cxa2#d  cxc  a2#a   ex d  c2# c  ax a   Qc
-b2# c cax  d2# d acx  Qb
-3#   cax dx cx a3# dx cx ax c
+2#c     Qa
+xa
+3# d
+xa
+xc
+xd
+2#c  a
+x d  c
+2#a   e
+xc  a
 b
-1 daa1      Qa1 daabbX
+2#d  c
+xa
+2#d  c
+xc  a
+2#a   e
+x d  c
+2# c  a
+x a   Qc
+b
+2# c ca
+x  d
+2# d ac
+x  Qb
+3#   ca
+x d
+x c
+x a
+3# d
+x c
+x a
+x c
+b
+1 daa
+1      Qa
+1 daa
+bbX
 S3
-2#  ax  b
+2#  a
+x  b
 b
 
 b
 1  da
-2#      Qax  b
-3#  dx  bx  ax  b
+2#      Qa
+x  b
+3#  d
+x  b
+x  a
+x  b
 b
-1  da1      Qa
-2#  bx  a
+1  da
+1      Qa
+2#  b
+x  a
 b
 1  bc
-2#    dx  a2#  bx  d
+2#    d
+x  a
+2#  b
+x  d
 b
-1  bc1    d
-2#  ax  b
-b1  da1      Qa1  d
-b1  bc
-2#    cx  a2#   cx   a
+1  bc
+1    d
+2#  a
+x  b
+b
+1  da
+1      Qa
+1  d
+b
+1  bc
+2#    c
+x  a
+2#   c
+x   a
 b
 1 c ca
 2#  d
@@ -5542,81 +7200,164 @@ x c
 x d
 b
 1 c ca
-1  d2#  ax  b
+1  d
+2#  a
+x  b
 b
 
 b
 1  da
-2#  dax      Qa
-3#  dx  bx  ax  b
+2#  da
+x      Qa
+3#  d
+x  b
+x  a
+x  b
 b
 1  da
-2#      Qax  d2#  bx  a
+2#      Qa
+x  d
+2#  b
+x  a
 b
 1  bc
-2#    dx  a2#  bx  d
+2#    d
+x  a
+2#  b
+x  d
 b
-1  bc1    d1  b
-b1  aa
-2#   cx  a2#  bx  a
-b2#   cx   a2#    ax   c2# dx c
+1  bc
+1    d
+1  b
+b
+1  aa
+2#   c
+x  a
+2#  b
+x  a
+b
+2#   c
+x   a
+2#    a
+x   c
+2# d
+x c
 b
 1 dda
-2#      Qax c
-3# dx cx ax c
+2#      Qa
+x c
+3# d
+x c
+x a
+x c
 b
-1 daa1      Qa
+1 daa
+1      Qa
 bQ
 bQ
-2#cxe
+2#c
+xe
 b
 
-b1f aa
-2#      Qax-Qe
-3#fxexcxe
+b
+1f aa
+2#      Qa
+x-Qe
+3#f
+xe
+xc
+xe
 bX
-1f a1      Qa
-2#dxc
+1f a
+1      Qa
+2#d
+xc
 b
 1d  c
-2#    dx   a2#   cx    d
+2#    d
+x   a
+2#   c
+x    d
 b
-1d  c1    d
-2#cxe
+1d  c
+1    d
+2#c
+xe
 b
-1f aa1      Qa1f aa
-b1d  c
-2#   axc2#ax d
+1f aa
+1      Qa
+1f aa
+b
+1d  c
+2#   a
+xc
+2#a
+x d
 b
 1ac  a
-2#  dx a
-3# cx ax cx d
+2#  d
+x a
+3# c
+x a
+x c
+x d
 b
-1ac  a1  d
-2#cxe
+1ac  a
+1  d
+2#c
+xe
 b
 
 b
 1f aa
-2#      Qaxe
-3#fxexcxe
+2#      Qa
+xe
+3#f
+xe
+xc
+xe
 bX
 1f aa
-2#      Qaxf2#dxc
+2#      Qa
+xf
+2#d
+xc
 b
 1d  c
-2#    dx   a2#   cx    d
+2#    d
+x   a
+2#   c
+x    d
 b
-1d  c1    d
-2#fxd
-b2#c  axa2#dxc2#ax d
-b2# cx a2#    ax   c2# dx c
+1d  c
+1    d
+2#f
+xd
+b
+2#c  a
+xa
+2#d
+xc
+2#a
+x d
+b
+2# c
+x a
+2#    a
+x   c
+2# d
+x c
 b
 1 dda
-2#      Qax c
-3# dx cx ax c
+2#      Qa
+x c
+3# d
+x c
+x a
+x c
 b
-1 daa1      Qa
+1 daa
+1      Qa
 Y daa
 b
 B
@@ -10438,73 +12179,142 @@ B
 b
 Sc
 1aabc
-2# exa2#cxa2# ex c
+2# e
+xa
+2#c
+xa
+2# e
+x c
 bQ
 1 ea c
-2# cx e2#aabcx c2# exa
+2# c
+x e
+2#aabc
+x c
+2# e
+xa
 bQ
 0cdda
-1cdda1aabc
+1cdda
+1aabc
 bQ
 0 ea c
-2#aabcx c2# exa
+2#aabc
+x c
+2# e
+xa
 bQ
 1cdda
-2#cxa
-1c da1aabcbQ
+2#c
+xa
+1c da
+1aabc
+bQ
 
 bQ
-1 ea c1c da
-2#a b dxd2#c d axa
+1 ea c
+1c da
+2#a b d
+xd
+2#c d a
+xa
 bQ
 0 ea c
-1 ea1    c
+1 ea
+1    c
 bQ
 Y ea c
 bb
-2#dabcx  a2#  bx  d
-1da c1  bbQ
-1cdda
-1h  f1f a1   a
+2#dabc
+x  a
+2#  b
+x  d
+1da c
+1  b
 bQ
-2#dabcx  a2#  bx  d
-1da c1  bbQ
+1cdda
+1h  f
+1f a
+1   a
+bQ
+2#dabc
+x  a
+2#  b
+x  d
+1da c
+1  b
+bQ
 
 bQ
-1c da1h  f1f a1   a
+1c da
+1h  f
+1f a
+1   a
 bQ
-2#d bcx  a2#  bx  d2#da cx  d2# a
+2#d bc
+x  a
+2#  b
+x  d
+2#da c
+x  d
+2# a
 x c
 bQ
-1cd  c1 d a
-2#a   dxd2#c dxa
+1cd  c
+1 d a
+2#a   d
+xd
+2#c d
+xa
 bQ
-0Q ea c1 ea1    c
+0Q ea c
+1 ea
+1    c
 bQ
 Y ea c
 bbX
-1Qc dabQ
-2#f daxd2#fxd
+1Qc da
+bQ
+2#f da
+xd
+2#f
+xd
 1cd a
-2#cd ax c
+2#cd a
+x c
 bQ
 
 bQ
 1ha f
-2#hxf a
-1df c1h   hbQ
+2#h
+xf a
+1df c
+1h   h
+bQ
 1fcd
-2#fcxd
-2#cd axa2# dx c
+2#fc
+xd
+2#cd a
+xa
+2# d
+x c
 bQ
 1ha f
-2#hxf
-1df c1h   QhbQ
-1fcd
-2#fxda
-1c da1a bc
+2#h
+xf
+1df c
+1h   Qh
 bQ
-2#a a cx c2#ax e
+1fcd
+2#f
+xda
+1c da
+1a bc
+bQ
+2#a a c
+x c
+2#a
+x e
 Yaabc a
 b
 B
@@ -11347,38 +13157,81 @@ bX
 Sc
 1f d a
 b
-2#c daxd.2#cxa.
-1 dda1f d a
+2#c da
+xd.
+2#c
+xa.
+1 dda
+1f d a
 b
-2#cddaxd.2#cxa.
-1 dda1f da
-b1ha f1f da1dabc1cdda
+2#cdda
+xd.
+2#c
+xa.
+1 dda
+1f da
+b
+1ha f
+1f da
+1dabc
+1cdda
 b
 1.acd a
 2acd
-1    a1acd a
+1    a
+1acd a
 b
-2#cddaxa.2# dx c.2# dxa.2#cx d.
+2#cdda
+xa.
+2# d
+x c.
+2# d
+xa.
+2#c
+x d.
 b
 
 b
-1dab  d1  b1dab  d1f.
+1dab  d
+1  b
+1dab  d
+1f.
 b
-1cdda2#ax d.2#acd ax d.2#ax c.
+1cdda
+2#a
+x d.
+2#acd a
+x d.
+2#a
+x c.
 b
 1. dda
 2 dd
-1   a1 dda
+1   a
+1 dda
 b
-2#cddaxa2# dx c2# ax  d2#  b
+2#cdda
+xa
+2# d
+x c
+2# a
+x  d
+2#  b
 x  a
 b
-1dab  d1  b1dab  d1f d a
+1dab  d
+1  b
+1dab  d
+1f d a
 b
 
 b
-1cdda1 dba d
-2#acd ax d.2#ax c.
+1cdda
+1 dba d
+2#acd a
+x d.
+2#a
+x c.
 b
 1. dda
 2 dd
@@ -11387,53 +13240,146 @@ bbX
 S3
 1f d a
 b
-2#cddaxa.2#cxd.2#cxa.
+2#cdda
+xa.
+2#c
+xd.
+2#c
+xa.
 b
-1 dd1   a1f d a
+1 dd
+1   a
+1f d a
 b
-2#cddaxa.2#cxd.2#cxa.
+2#cdda
+xa.
+2#c
+xd.
+2#c
+xa.
 b
 
 b
-1 dd1   a1f da
-b1ha f
-2#fxh.
+1 dd
+1   a
 1f da
-b1dabc1f.1cdda
+b
+1ha f
+2#f
+xh.
+1f da
+b
+1dabc
+1f.
+1cdda
 b
 1.acd a
 2acd
 1    a
-b1acd a1   c1acd a
 b
-2#cddaxa.2#cxd.2#cxa.
-b2#cddaxa.2# dx c.2# ax  d.
+1acd a
+1   c
+1acd a
+b
+2#cdda
+xa.
+2#c
+xd.
+2#c
+xa.
+b
+2#cdda
+xa.
+2# d
+x c.
+2# a
+x  d.
 b
 
 b
-1dab  d1dab1     d
-b1dab  d1  b1f d a
+1dab  d
+1dab
+1     d
 b
-2#cddaxa.2#dxc.2#ax d.
-b2#acd ax d.2# c
-x a.2# dx c.
+1dab  d
+1  b
+1f d a
+b
+2#cdda
+xa.
+2#d
+xc.
+2#a
+x d.
+b
+2#acd a
+x d.
+2# c
+x a.
+2# d
+x c.
 b
 1. dda
 2 dd
 1   a
-b1 dda1  d1 dda
 b
-2#cddaxa.2#cxd.2#cxa.
+1 dda
+1  d
+1 dda
+b
+2#cdda
+xa.
+2#c
+xd.
+2#c
+xa.
 b
 
-b2#cddaxa.2# dx c.2# ax  d.
-b2#dab  dx  a.2#  bx  d.2# ax  d.
-b2# aba dx  d.2# ax c.2# dxa.
-b2#cddaxa.2#dxc.2#ax d.
-b2#acd ax d.2# cx a.2# dx c.
-b2# ddax c.2# dxa.2#cxa.
 b
-1 ddY   a
+2#cdda
+xa.
+2# d
+x c.
+2# a
+x  d.
+b
+2#dab  d
+x  a.
+2#  b
+x  d.
+2# a
+x  d.
+b
+2# aba d
+x  d.
+2# a
+x c.
+2# d
+xa.
+b
+2#cdda
+xa.
+2#d
+xc.
+2#a
+x d.
+b
+2#acd a
+x d.
+2# c
+x a.
+2# d
+x c.
+b
+2# dda
+x c.
+2# d
+xa.
+2#c
+xa.
+b
+1 dd
+Y   a
 b
 B
 
@@ -15214,69 +17160,182 @@ BX
 bX
 S3
 1cdda
-b1cdda
-2# dxa.2#cxd.
-b2#fxd.2#cddaxd.2#axc.
+b
+1cdda
+2# d
+xa.
+2#c
+xd.
+b
+2#f
+xd.
+2#cdda
+xd.
+2#a
+xc.
 b
 1dab  d
-3#cxa.x dx c.3# dx c.x ax  d.
+3#c
+xa.
+x d
+x c.
+3# d
+x c.
+x a
+x  d.
 b
-1 aba d1  b1abb d
-b1abb d
-3#  dx a.x bx d.3#ax d.x-Qaxb.
+1 aba d
+1  b
+1abb d
+b
+1abb d
+3#  d
+x a.
+x b
+x d.
+3#a
+x d.
+x-Qa
+xb.
 b
 1abb d
 2 daac
-3#  ax  c.3#  dx a.x cx d.
+3#  a
+x  c.
+3#  d
+x a.
+x c
+x d.
 b
 
 b
 1acd a
-2#  dx a.2# cx d.
+2#  d
+x a.
+2# c
+x d.
 b
-1acd a1   c
-bbX1cdda
-b1cdda
-2# dxa.2#cxd.
-b2#cddaxa.2# dx b.2# ax  d.
+1acd a
+1   c
+bbX
+1cdda
+b
+1cdda
+2# d
+xa.
+2#c
+xd.
+b
+2#cdda
+xa.
+2# d
+x b.
+2# a
+x  d.
 b
 1 aba d
-2#   cx  a.2#  bx  d.
+2#   c
+x  a.
+2#  b
+x  d.
 b
-1 aba d1  b1cdda
+1 aba d
+1  b
+1cdda
 b
 
 b
-2#a b dxc.2#dxc.2#ax d.
+2#a b d
+xc.
+2#d
+xc.
+2#a
+x d.
 b
-3#ax d.x cx a.3#    ax d.x cx a.3# cx d.xax c.
+3#a
+x d.
+x c
+x a.
+3#    a
+x d.
+x c
+x a.
+3# c
+x d.
+xa
+x c.
 b
 1 dda
-3# bx a.x  dx  b.3#  dx  b.x  ax   c.
+3# b
+x a.
+x  d
+x  b.
+3#  d
+x  b.
+x  a
+x   c.
 b
-1   a1 ddbQ
+1   a
+1 dd
+bQ
 bQ
 1cdda
-bX1cdda
-2# dxa.2#cxd.
-b2#cxa.
-2#cddax d.2#axc.
+bX
+1cdda
+2# d
+xa.
+2#c
+xd.
+b
+2#c
+xa.
+2#cdda
+x d.
+2#a
+xc.
 b
 
 b
 1dab  d
-3#cxa.x dx b.3# dx b.x ax  d
+3#c
+xa.
+x d
+x b.
+3# d
+x b.
+x a
+x  d
 b
-1 aba d1  b1cdda
-b1abb d1abb1 db c
-b1 db  d
+1 aba d
+1  b
+1cdda
+b
+1abb d
+1abb
+1 db c
+b
+1 db  d
 2 c ca
-3# ax c.3# dx c.x ax c.
+3# a
+x c.
+3# d
+x c.
+x a
+x c.
 b
 1 dda
-3# dxa.xcxd.3#fxd.xcxa.
+3# d
+xa.
+xc
+xd.
+3#f
+xd.
+xc
+xa.
 b
-1cdda1 d1cdda
+1cdda
+1 d
+1cdda
 b
 bQ
 Ycdda
@@ -15289,73 +17348,130 @@ BX
 bX
 S3
 1aac  a
-b1aac  a
-2#   cx  d.
-1aac
-b1aac  a1aac1aac  a
-b1acd a
-2#  dx a.2# cx d.
-b
-1acd a1  d1cdda
-b1cdda
-2#   axa.
-1cdd
-b1cdda1aac  a1 cdca
-b
-
-b1 aabc
-2# aabx    a2#    cx    e
-b
-1 aabc1 aab
-bbX1aac  a
 b
 1aac  a
-2#   cx  d.
+2#   c
+x  d.
 1aac
-b1aac  a2#aac  a
+b
+1aac  a
+1aac
+1aac  a
+b
+1acd a
+2#  d
+x a.
+2# c
+x d.
+b
+1acd a
+1  d
+1cdda
+b
+1cdda
+2#   a
+xa.
+1cdd
+b
+1cdda
+1aac  a
+1 cdca
+b
+
+b
+1 aabc
+2# aab
+x    a
+2#    c
+x    e
+b
+1 aabc
+1 aab
+bbX
+1aac  a
+b
+1aac  a
+2#   c
+x  d.
+1aac
+b
+1aac  a
+2#aac  a
 x d.
 2# c
 x a.
-b1acd a
-2#  dx a.2# cx d.
 b
-1acd a1  d1aac  a
+1acd a
+2#  d
+x a.
+2# c
+x d.
+b
+1acd a
+1  d
+1aac  a
 b
 
 b
 1. aabc
 2    a.
 1  c  e
-b1  d a
-2# aabcx    e
-1 aabc
-b1aac  a
-2#   cx  a.2#  cx  d.
 b
-1aac  a1   c
-bQ
-bQ1aac  a
-bX1aac  a
-2#   cx  d.
+1  d a
+2# aabc
+x    e
+1 aabc
+b
 1aac  a
-b1   a1    e1    c
+2#   c
+x  a.
+2#  c
+x  d.
+b
+1aac  a
+1   c
+bQ
+bQ
+1aac  a
+bX
+1aac  a
+2#   c
+x  d.
+1aac  a
+b
+1   a
+1    e
+1    c
 b
 
-b1acd a
-2#  dx a.2# cx d.
 b
-1acd a1  d1aac  a
+1acd a
+2#  d
+x a.
+2# c
+x d.
+b
+1acd a
+1  d
+1aac  a
 b
 1. aa c
 2    a
 1  c  e
-b1  d a
-2# aa cx    e.
-1 aa c
-b1aac  a
-2#   cx  a.2#  cx  d.
 b
-1aac  a1   c
+1  d a
+2# aa c
+x    e.
+1 aa c
+b
+1aac  a
+2#   c
+x  a.
+2#  c
+x  d.
+b
+1aac  a
+1   c
 Yaac  a
 b
 B
@@ -15367,47 +17483,101 @@ bX
 Sc
 1 a
 b
-2#ab  dx a.2# bx d
-1ab1a   d
-b1b da1a bc1a dd1 d
-b1aa c1     a
-2#dxb.2#ax d
+2#ab  d
+x a.
+2# b
+x d
+1ab
+1a   d
 b
-1aa c1     a1ab c1 d d
+1b da
+1a bc
+1a dd
+1 d
 b
-2# b cx a.2# bx d.
-1ab1a   d
-b1 d d1 b c1   a d1 a
+1aa c
+1     a
+2#d
+xb.
+2#a
+x d
+b
+1aa c
+1     a
+1ab c
+1 d d
+b
+2# b c
+x a.
+2# b
+x d.
+1ab
+1a   d
+b
+1 d d
+1 b c
+1   a d
+1 a
 b
 
-b1 b c1 b  d
-2#   ax b.2#  dx a.
+b
+1 b c
+1 b  d
+2#   a
+x b.
+2#  d
+x a.
 b
 Y bb d
 bb
 0ab  d
-1ab1    d
-b1ab  d
-2#bxa.2# dx b.2# ax  d.
+1ab
+1    d
 b
-1 ab  d1 ab1   a1     d
+1ab  d
+2#b
+xa.
+2# d
+x b.
+2# a
+x  d.
+b
+1 ab  d
+1 ab
+1   a
+1     d
 b
 0 ab  d
-1a    a1 d  c
-b1 b  a
-2# ax b.2# dx b.2# ax  d.
+1a    a
+1 d  c
+b
+1 b  a
+2# a
+x b.
+2# d
+x b.
+2# a
+x  d.
 b
 
 b
-1 ac  a1  d  c1  d  a1  c.
-b1  d a1  d.1   c1    a
+1 ac  a
+1  d  c
+1  d  a
+1  c.
+b
+1  d a
+1  d.
+1   c
+1    a
 b
 Y  dca
 bbX
 S3
 1 a
 b
-1 bb d1    d
+1 bb d
+1    d
 1 a   d
 b
 1 bb d
@@ -15479,143 +17649,310 @@ B
 B
 b
 Sc
-2#    d!+x a.2# bx d.
-1 b cd1 a a d
+2#    d!+
+x a.
+2# b
+x d.
+1 b cd
+1 a a d
 b
-2#    d!+x a.2# bx d.
-1 b cd1 a a
-b1aa c1     a
-2#   d!+xa.2# bx d.
+2#    d!+
+x a.
+2# b
+x d.
+1 b cd
+1 a a
 b
-1aa c1     a1aa c1 d.
+1aa c
+1     a
+2#   d!+
+xa.
+2# b
+x d.
 b
-2#    d!+x a.2# bx d.2#axc.2#dxc.
+1aa c
+1     a
+1aa c
+1 d.
 b
-1a b d1 b c1   a1 a
-b1abbcd
-2#dxb.2#dxb.2#ax d.
+2#    d!+
+x a.
+2# b
+x d.
+2#a
+xc.
+2#d
+xc.
+b
+1a b d
+1 b c
+1   a
+1 a
+b
+1abbcd
+2#d
+xb.
+2#d
+xb.
+2#a
+x d.
 b
 
 b
 1.abbcd
 2 d.
-1 b1    d
+1 b
+1    d
 bb
-2#    dx a.2# bx d.2# bx d.2#axc.
+2#    d
+x a.
+2# b
+x d.
+2# b
+x d.
+2#a
+xc.
 b
-1d bc1    d1d bc1b da
-b1a b d1 da c1 b ca
-2# ax  d.
+1d bc
+1    d
+1d bc
+1b da
+b
+1a b d
+1 da c
+1 b ca
+2# a
+x  d.
 b
 0 aba d
-1 aba1     d
+1 aba
+1     d
 b
 0 aba d
-1a b d1 da c
+1a b d
+1 da c
 b
-2# bdcax d.2# bx a.2#  dx a.
+2# bdca
+x d.
+2# b
+x a.
+2#  d
+x a.
 1 bdca
 b
 
 b
-2#bxa.2# dx b.2# ax  d.
+2#b
+xa.
+2# d
+x b.
+2# a
+x  d.
 1 accca
 b
 0  dca
-1  d1    a
+1  d
+1    a
 b
 1  dca
-2#  dx  c.2#  dx  c.2#  dx a.
-bbQ2#    dx a.2# bx d.2# bx d.2#axc.
+2#  d
+x  c.
+2#  d
+x  c.
+2#  d
+x a.
+b
+bQ
+2#    d
+x a.
+2# b
+x d.
+2# b
+x d.
+2#a
+xc.
 bQ
 1d bc
-1    d1d bc1b da
-b1a b d1 da c1 b ca
-3# dx b.x ax  d.
+1    d
+1d bc
+1b da
+b
+1a b d
+1 da c
+1 b ca
+3# d
+x b.
+x a
+x  d.
 b
 0 aba d
-1 aba1     d
+1 aba
+1     d
 b
 
 b
 0 aba d
-1a b d1 da c
+1a b d
+1 da c
 b
-2# bdcax d.2# bx a.2#  dx a.
+2# bdca
+x d.
+2# b
+x a.
+2#  d
+x a.
 1 bdca
 b
-2#bxa.2# dx b.2# ax  d.
+2#b
+xa.
+2# d
+x b.
+2# a
+x  d.
 1 accca
 b
 0  dca
-1  d1    a
+1  d
+1    a
 b
 Y  dca
 bb
 S3
-2#    d!+x a.2# bx d.
-1 b cdb
-1 a a d1 b cd1 a a
-b1aa c2#   d!+xa.2# bx d.
+2#    d!+
+x a.
+2# b
+x d.
+1 b cd
+b
+1 a a d
+1 b cd
+1 a a
+b
+1aa c
+2#   d!+
+xa.
+2# b
+x d.
 b
 
 b
-1aa c1     a2#aa cx d.
+1aa c
+1     a
+2#aa c
+x d.
 b
-2#    d!+x a.2# bx d.1 b cdb
-1 b c1   a1 a
-b1abbcd
-2#dxb.2#ax d.
+2#    d!+
+x a.
+2# b
+x d.
+1 b cd
+b
+1 b c
+1   a
+1 a
+b
+1abbcd
+2#d
+xb.
+2#a
+x d.
 b
 1.abbcd
 2 d.
 1 b
 bb
-2#    d!+x a.2# bx d.2#axc.
+2#    d!+
+x a.
+2# b
+x d.
+2#a
+xc.
 b
-1d bc1    d1b da
-b1a b d1 da c1 b ca
+1d bc
+1    d
+1b da
+b
+1a b d
+1 da c
+1 b ca
 b
 
 b
 1 aba d
-1 ab1   a
+1 ab
+1   a
 b
 1 abacd
-1a b d1 da c
+1a b d
+1 da c
 b
-2# bdcax d.2# bx a.1  dca
+2# bdca
+x d.
+2# b
+x a.
+1  dca
 b
-2#bxa.2# dx b.1 accca
+2#b
+xa.
+2# d
+x b.
+1 accca
 b
 1  dca
-1  d1  dca
+1  d
+1  dca
 b
 1  dca
-2#  dx  c.2#  dx a.
-bbQ2#    dx a.2# bx d.2#axc
+2#  d
+x  c.
+2#  d
+x a.
+b
+bQ
+2#    d
+x a.
+2# b
+x d.
+2#a
+xc
 b
 
 b
 1d bc
-1    d1b da
-b1a b d2# dx b
-2# ax  d.
+1    d
+1b da
+b
+1a b d
+2# d
+x b
+2# a
+x  d.
 b
 1 aba d
-1 ab1   a
+1 ab
+1   a
 b
 1 abacd
-1a b d1 da c
+1a b d
+1 da c
 b
-2# bdcax d.2# bx a.1  dca
+2# bdca
+x d.
+2# b
+x a.
+1  dca
 b
-2#bxa.3# d
-x b.x ax  d.
+2#b
+xa.
+3# d
+x b.
+x a
+x  d.
 1 accca
 b
 1  dca
-1  d1  dca
+1  d
+1  dca
 b
 Y  dca
 b
@@ -15627,69 +17964,131 @@ bX
 Sc
 1 a
 b
-2#ab  dx a.2# bx d.
-1ab1a   d
-b1b da1a bc1  dd1 d
+2#ab  d
+x a.
+2# b
+x d.
+1ab
+1a   d
+b
+1b da
+1a bc
+1  dd
+1 d
 b
 0aa c
-1aa c1     a
+1aa c
+1     a
 b
 0aa c
-1ab c1 d d
+1ab c
+1 d d
 b
-2# b cx a.2# bx d.
-1ab1a   d
-b1 d d1 b c1   a d1 a
+2# b c
+x a.
+2# b
+x d.
+1ab
+1a   d
+b
+1 d d
+1 b c
+1   a d
+1 a
 b
 
-b1 b c1 b  d1  b1 a
+b
+1 b c
+1 b  d
+1  b
+1 a
 b
 Y b  d
 bb
 0ab  d
-1ab1    d
-b1ab  d
-2#cxa.2# dx b.2# ax  d.
+1ab
+1    d
+b
+1ab  d
+2#c
+xa.
+2# d
+x b.
+2# a
+x  d.
 b
 0 ab  d
-1 ab  d1   a
+1 ab  d
+1   a
 b
 0 ab  d
-1a    a1 d  c
-b1 b  a
-2# dx b.2# d  ax b.2# ax  d.
+1a    a
+1 d  c
+b
+1 b  a
+2# d
+x b.
+2# d  a
+x b.
+2# a
+x  d.
 b
 
 b
-1 ac  a1  d a
-2#  c  ax  d.2#  ax  c.
+1 ac  a
+1  d a
+2#  c  a
+x  d.
+2#  a
+x  c.
 b
 0  d a
-1  d a1   c
+1  d a
+1   c
 b
 Y  dca
 b
 bQ
 0ab  d
-1ab1    d
-b1ab  d
-2#cxa.2# dx b.2# ax  d.
+1ab
+1    d
+b
+1ab  d
+2#c
+xa.
+2# d
+x b.
+2# a
+x  d.
 b
 0 ab  d
-1 ab  d1   a
+1 ab  d
+1   a
 b
 0 ab  d
-1a    a1 d  c
-b1 b  a
-2# ax b.2# d  ax b.2# ax  d.
+1a    a
+1 d  c
+b
+1 b  a
+2# a
+x b.
+2# d  a
+x b.
+2# a
+x  d.
 b
 
 b
-1 ac  a1  d a
-2#  c  ax  d.2#  ax  c.
+1 ac  a
+1  d a
+2#  c  a
+x  d.
+2#  a
+x  c.
 b
 0  d a
-1  d a1   c
+1  d a
+1   c
 b
 Y  dca
 bb
@@ -15707,11 +18106,20 @@ b
 b
 1aa c
 2 d d
-b2# b cx    dx d d
-b2# b cx    dx a a
+b
+2# b c
+x    d
+x d d
+b
+2# b c
+x    d
+x a a
 b
 
-b2# b  dx  bx a.
+b
+2# b  d
+x  b
+x a.
 b
 1@ b  d
 bb
@@ -15721,12 +18129,29 @@ b
 1ab  d
 2ab  d
 b
-2#ab  dx dx b.
-b2# ab  dx ab.x   a
-b2# ab  dxax d.
-b2# b  ax ax  d.
-b2# ac  ax  dx  c.
-b2#  d ax  d.x   c
+2#ab  d
+x d
+x b.
+b
+2# ab  d
+x ab.
+x   a
+b
+2# ab  d
+xa
+x d.
+b
+2# b  a
+x a
+x  d.
+b
+2# ac  a
+x  d
+x  c.
+b
+2#  d a
+x  d.
+x   c
 b
 
 b
@@ -15741,12 +18166,29 @@ b
 1ab  d
 2ab  d
 b
-2#ab  dx dx b.
-b2# ab  dx ab.x   a
-b2# ab  dxax d.
-b2# b  ax ax  d.
-b2# ac  ax  dx  c.
-b2#  d ax  d.x   c
+2#ab  d
+x d
+x b.
+b
+2# ab  d
+x ab.
+x   a
+b
+2# ab  d
+xa
+x d.
+b
+2# b  a
+x a
+x  d.
+b
+2# ac  a
+x  d
+x  c.
+b
+2#  d a
+x  d.
+x   c
 b
 Y  dca
 b
@@ -15759,141 +18201,324 @@ b
 Sc
 3@abb d
 4Q a
-4# bx ax bx d
-3#axbxdxa
+4# b
+x a
+x b
+x d
+3#a
+xb
+xd
+xa
 b
-2#b  axa  c
-3# b dx a
-4# bx ax bx d
+2#b  a
+xa  c
+3# b d
+x a
+4# b
+x a
+x b
+x d
 b
 1aabc
-2#aabx   c
+2#aab
+x   c
 bb
-3#   dxax dx b3# ax bx dxa
-bQ3#   dxax dx b
+3#   d
+xa
+x d
+x b
+3# a
+x b
+x d
+xa
+bQ
+3#   d
+xa
+x d
+x b
 3. b d
-4 a4# bx ax bx d
+4 a
+4# b
+x a
+x b
+x d
 b
 
 b
 1aabc
-2#aabx   c
+2#aab
+x   c
 bb
-3# b cx a
-4# bx a
-x bx d
-2# b cx d d
-b2#a bx b c
-3#   ax    dx   ax    c
+3# b c
+x a
+4# b
+x a
+x b
+x d
+2# b c
+x d d
+b
+2#a b
+x b c
+3#   a
+x    d
+x   a
+x    c
 b
 1 bb d
-2# bbx    d
+2# bb
+x    d
 bb
 3 bdca
-4# dxa4#bxax dxa4#bxax dx b4# dx bx ax  d
+4# d
+xa
+4#b
+xa
+x d
+xa
+4#b
+xa
+x d
+x b
+4# d
+x b
+x a
+x  d
 b
-2# bdcax  daac2#  dccax  c
+2# bdca
+x  daac
+2#  dcca
+x  c
 bQ
 
 bQ
 1 cdca
-2# cdcx    a
+2# cdc
+x    a
 bb
-3# b cx a
-4# bx ax bx d
-3#ax dx bx a
+3# b c
+x a
+4# b
+x a
+x b
+x d
+3#a
+x d
+x b
+x a
 bQ
-3# bx ax  dx  b4#  dx  bx  ax   c
-3#  bx  a
+3# b
+x a
+x  d
+x  b
+4#  d
+x  b
+x  a
+x   c
+3#  b
+x  a
 b
 1 aba d
-2# abax     d
+2# aba
+x     d
 bQ
 bQ
-3# b cx a
-4# bx ax bx d
-2# b cx a a
-b2#  d dx  b c2#  d dx  aa
+3# b c
+x a
+4# b
+x a
+x b
+x d
+2# b c
+x a a
+b
+2#  d d
+x  b c
+2#  d d
+x  aa
 bQ
 1 aba d
-2# abax     d
+2# aba
+x     d
 bQ
 b
 
 b
 bQ
-3# aba dx  ax  bx  d
+3# aba d
+x  a
+x  b
+x  d
 1 aba d
 bQ
-2# abax     d
-3#  dx  bx  dx a
+2# aba
+x     d
+3#  d
+x  b
+x  d
+x a
 b
 1 bbcd
-2# bbcx    d
+2# bbc
+x    d
 bQ
 bQ
-3#  dx  bx  dx a
+3#  d
+x  b
+x  d
+x a
 1ab  d
 b
-2#b dxa b
-3# bx ax bx d
+2#b d
+xa b
+3# b
+x a
+x b
+x d
 bQ
 1aabc
-2#aabx   c
+2#aab
+x   c
 bQ
 b
 
 b
 bQ
 3 bdca
-4# dxa4#bxax dxa4#bxax dx b4# dx bx ax  d
+4# d
+xa
+4#b
+xa
+x d
+xa
+4#b
+xa
+x d
+x b
+4# d
+x b
+x a
+x  d
 bQ
-2# a ax  da2#  dcx  c
+2# a a
+x  da
+2#  dc
+x  c
 b
 1f d
-2#f dx    abQ
+2#f d
+x    a
 bQ
-2#dbxd2# bxdb
-b2#b dxa b
-3# b dx ax bx d
+bQ
+2#db
+xd
+2# b
+xdb
+b
+2#b d
+xa b
+3# b d
+x a
+x b
+x d
 b
 1aabc
-2#aabx   c
+2#aab
+x   c
 bQ
 b
 
 b
 bQ
-3# aba dx  ax  bx  d
-2# abax     d
-b2#   dax   c d2#     cx d a
+3# aba d
+x  a
+x  b
+x  d
+2# aba
+x     d
+b
+2#   da
+x   c d
+2#     c
+x d a
 b
 1aa c a
-2#   cx     a
+2#   c
+x     a
 b
 bQ
-4#ab  dx ax bx d4#axbxdxa4#bxax dx b4# ax bx dxa
-b3#bxax dx b4# dx ax bx a
-3# bx d
+4#ab  d
+x a
+x b
+x d
+4#a
+xb
+xd
+xa
+4#b
+xa
+x d
+x b
+4# a
+x b
+x d
+xa
+b
+3#b
+xa
+x d
+x b
+4# d
+x a
+x b
+x a
+3# b
+x d
 b
 
 b
 1aabc
-2#aabx   c
+2#aab
+x   c
 b
 bQ
-3# b cx ax bx d
-2# b cx d dbQ
-2#a bx b c2# dddx ab
+3# b c
+x a
+x b
+x d
+2# b c
+x d d
+bQ
+2#a b
+x b c
+2# ddd
+x ab
 b
 1ab  d
-2#abx    d
+2#ab
+x    d
 bQ
 bQ
 3ab  a
-4# dxa4#bxax dxa4#bxax dx b4# dx bx ax  d
+4# d
+xa
+4#b
+xa
+x d
+xa
+4#b
+xa
+x d
+x b
+4# d
+x b
+x a
+x  d
 bQ
-2# a ax  da2#  dcx  cc
+2# a a
+x  da
+2#  dc
+x  cc
 b
 Y cdca
 b
@@ -16209,127 +18834,274 @@ bX
 S3
 2 daa
 b
-1 c ca1 daa1a b d1c da
-b1da   d2#da.x     d
-1da   d1c da
-b1a b d
-2#a b.x    d2 daa
-3#dxc.3#a
-x d.x cx a.b
 1 c ca
-2# c c.x    a
-1 c ca1 daa
-b1 c ca1 daa1a b d1c da
-b
-2#da   dxf.2#da   dxc da2#a b dx daa2# c cax a a d
-b
-
-b
-1 c ca1 daa2 d ca
-3# cx a.
-2# d cax c ca
-b
 1 daa
-2# da.x   a
-1 daa
-bQ
-bQ1c da
-bX1a b d
-2#a b.x    d2 daa
-3#dxc.3#ax d.x cx a.
+1a b d
+1c da
 b
-1 c ca
-2# c c.x    a
-1 c ca1c da
-b1a b d
-2#a b.x    d
+1da   d
+2#da.
+x     d
+1da   d
+1c da
+b
+1a b d
+2#a b.
+x    d
 2 daa
-3#dxc.3#ax d.x cx a.
+3#d
+xc.
+3#a
+x d.
+x c
+x a.
+b
+1 c ca
+2# c c.
+x    a
+1 c ca
+1 daa
+b
+1 c ca
+1 daa
+1a b d
+1c da
+b
+2#da   d
+xf.
+2#da   d
+xc da
+2#a b d
+x daa
+2# c ca
+x a a d
 b
 
 b
 1 c ca
-2# c c.x    a
-1 c ca1c da
-b1c da1 da c1a b d1c da
-b
-2#da   dxf.2#da   dxc da2#a b dx daa2# c cax a a d
-b
-1  da c1 da c
+1 daa
 2 d ca
-3# cx a.
-2# d cax c ca
-bX
+3# c
+x a.
+2# d ca
+x c ca
+b
 1 daa
-2# da.x   a
+2# da.
+x   a
 1 daa
 bQ
-bQ1c da
+bQ
+1c da
+bX
+1a b d
+2#a b.
+x    d
+2 daa
+3#d
+xc.
+3#a
+x d.
+x c
+x a.
+b
+1 c ca
+2# c c.
+x    a
+1 c ca
+1c da
+b
+1a b d
+2#a b.
+x    d
+2 daa
+3#d
+xc.
+3#a
+x d.
+x c
+x a.
 b
 
-b1c da1 da c1a b d1c da
 b
-2#da   dxf.2#ha fxf de2#da cxc da2#a b dx daa
-b2# c cax a a d2#  da cx da c2 d ca
-3# cx a.
-2# d cax c ca
+1 c ca
+2# c c.
+x    a
+1 c ca
+1c da
+b
+1c da
+1 da c
+1a b d
+1c da
+b
+2#da   d
+xf.
+2#da   d
+xc da
+2#a b d
+x daa
+2# c ca
+x a a d
+b
+1  da c
+1 da c
+2 d ca
+3# c
+x a.
+2# d ca
+x c ca
+bX
+1 daa
+2# da.
+x   a
+1 daa
+bQ
+bQ
+1c da
+b
+
+b
+1c da
+1 da c
+1a b d
+1c da
+b
+2#da   d
+xf.
+2#ha f
+xf de
+2#da c
+xc da
+2#a b d
+x daa
+b
+2# c ca
+x a a d
+2#  da c
+x da c
+2 d ca
+3# c
+x a.
+2# d ca
+x c ca
 b
 1 daa
-2# da.x   a
-1 daa1f de
-b1ha f
-2#hax   f.2#f dexd.
-3#fxd.xcxa.
+2# da.
+x   a
+1 daa
+1f de
+b
+1ha f
+2#ha
+x   f.
+2#f de
+xd.
+3#f
+xd.
+xc
+xa.
 b
 
 b
 1c da
-2#c dx   a.
-1c da1f de
-b1ha f
-2#hax   f2#f dexd.
-3#fxd.xcxa.
+2#c d
+x   a.
+1c da
+1f de
+b
+1ha f
+2#ha
+x   f
+2#f de
+xd.
+3#f
+xd.
+xc
+xa.
 b
 1c da
-2#c d.x   a
+2#c d.
+x   a
 1c da
 bQ
-bQ1f de
+bQ
+1f de
 bX
-2#da cxf de2#da cxc da2#a b dx daa2# c cax a a d
+2#da c
+xf de
+2#da c
+xc da
+2#a b d
+x daa
+2# c ca
+x a a d
 b
 1 c ca
-2# c c.x    a
-1 c ca1f de
+2# c c.
+x    a
+1 c ca
+1f de
 b
 
 b
-2#da cxf de2#da cxc da2#a b dx daa2# c cax a a d
+2#da c
+xf de
+2#da c
+xc da
+2#a b d
+x daa
+2# c ca
+x a a d
 b
 1 c ca
-2# c c.x    a
-1 c ca1 a a d
+2# c c.
+x    a
+1 c ca
+1 a a d
 b
-3#  d ax  c.x  dx a.
-2# c cax d.2 d ca
-3# cx a.
-2# d cax c ca
+3#  d a
+x  c.
+x  d
+x a.
+2# c ca
+x d.
+2 d ca
+3# c
+x a.
+2# d ca
+x c ca
 b
 1 daa
-2# da.x   a
-1 daa1 daa
+2# da.
+x   a
+1 daa
+1 daa
 b
-3#  d ax  c.x  dx a.
-2# c cax d.2 d ca
-3# cx a.
-2# d cax c.
+3#  d a
+x  c.
+x  d
+x a.
+2# c ca
+x d.
+2 d ca
+3# c
+x a.
+2# d ca
+x c.
 b
 
 b
 1 daa
-2# da.x   a
-2 daa3# c
-x a.3#  dx  c.x  ax   c.
+2# da.
+x   a
+2 daa
+3# c
+x a.
+3#  d
+x  c.
+x  a
+x   c.
 b
 Y daa
 bbX
@@ -16486,51 +19258,136 @@ B
 B
 b
 Sc
-0Qacd a1acd1    a
+0Qacd a
+1acd
+1    a
 b
-2#ac  ax d.2#axc.2#ax d.2# cx a.
-b2# cd ax a.2# cx d.2#ax d.2# cx a.
+2#ac  a
+x d.
+2#a
+xc.
+2#a
+x d.
+2# c
+x a.
 b
-1 cdc1    a1 cdc1    a
+2# cd a
+x a.
+2# c
+x d.
+2#a
+x d.
+2# c
+x a.
 b
-2# ea cx c.2# exa.
-1c da1a c e
-b1a a c
-2# ex c.
-1a a c1 e
+1 cdc
+1    a
+1 cdc
+1    a
+b
+2# ea c
+x c.
+2# e
+xa.
+1c da
+1a c e
+b
+1a a c
+2# e
+x c.
+1a a c
+1 e
 b
 
-b1aac  a
-2# ex c.2# ax  d.2#  cx  a.
+b
+1aac  a
+2# e
+x c.
+2# a
+x  d.
+2#  c
+x  a.
 b
 Yaac  a
 b
 bQ
 1.aa c
 2aa
-1   c1da c
-b1c da1c da1a bc1a bc
+1   c
+1da c
 b
-2# ea cxa.2#cxe.2#cxa.2# ex c.
+1c da
+1c da
+1a bc
+1a bc
 b
-1 ea1    c1 ea1    c
+2# ea c
+xa.
+2#c
+xe.
+2#c
+xa.
+2# e
+x c.
 b
-2#c daxa.2#cxe.2#fxd.2#cxa.
+1 ea
+1    c
+1 ea
+1    c
+b
+2#c da
+xa.
+2#c
+xe.
+2#f
+xd.
+2#c
+xa.
 b
 
 b
 1c da
-2#dxc.2#ax d.2# cx a.
-b2# cd ax a.2# cx d.2#ax d.2# cx a.
+2#d
+xc.
+2#a
+x d.
+2# c
+x a.
 b
-1 cdc1    a1 cdc1    a
+2# cd a
+x a.
+2# c
+x d.
+2#a
+x d.
+2# c
+x a.
 b
-2# ea cx c2# exa.
-1c da1a c e
-b1a a c2# ex c.
-1a a c1 e
-b1aac  a
-2# ex c.2# ax  d.2#  cx  a.
+1 cdc
+1    a
+1 cdc
+1    a
+b
+2# ea c
+x c
+2# e
+xa.
+1c da
+1a c e
+b
+1a a c
+2# e
+x c.
+1a a c
+1 e
+b
+1aac  a
+2# e
+x c.
+2# a
+x  d.
+2#  c
+x  a.
 b
 Yaac  a
 b
@@ -16546,10 +19403,18 @@ bQ
 0 daa
 bQ
 2#a b d
-x  a2#  bx  d
-1a b d1 daabQ
-1 c ca1 d ac
-2#   cax d2# ax c
+x  a
+2#  b
+x  d
+1a b d
+1 daa
+bQ
+1 c ca
+1 d ac
+2#   ca
+x d
+2# a
+x c
 bQ
 0 dda
 1
@@ -16561,30 +19426,44 @@ bX
 0 daa
 bQ
 2#a b d
-x  a2#  bx  d
+x  a
+2#  b
+x  d
 1a b d
-1 daabQ
-1 c ca1 d ac
-2#   cax d2# ax c
-bX
-0 dda
-1
-bQ
-bQ
-1c dabQ
-
-bQ
-1a bc1a   d
 1 daa
-2#  b cx d
+bQ
+1 c ca
+1 d ac
+2#   ca
+x d
+2# a
+x c
+bX
+0 dda
+1
+bQ
+bQ
+1c da
+bQ
+
+bQ
+1a bc
+1a   d
+1 daa
+2#  b c
+x d
 bQ
 0 cd a
 1
 bQ
 bQ
-1c dabX
-1a bc1a   d1 daa
-2#  b cx d
+1c da
+bX
+1a bc
+1a   d
+1 daa
+2#  b c
+x d
 bQ
 0 cd a
 1
@@ -16592,15 +19471,28 @@ bQ
 bQ
 1a b d
 bX
-2#a b dx  a2#  bx  d
+2#a b d
+x  a
+2#  b
+x  d
 1a b d
-2#    dx    c
+2#    d
+x    c
 bQ
-1c d a1da   d
-2#daxc d2#a b  dx dabQ
-2# c cax  d
+1c d a
+1da   d
+2#da
+xc d
+2#a b  d
+x da
+bQ
+2# c ca
+x  d
 1 d ac
-2#   cax d2# ax c
+2#   ca
+x d
+2# a
+x c
 bQ
 
 bQ
@@ -16610,15 +19502,27 @@ bQ
 bQ
 1a b d
 bX
-2#a b dx  a2#  bx  d
+2#a b d
+x  a
+2#  b
+x  d
 1a b d
-2#    dx    c
+2#    d
+x    c
 bQ
-1c d a1da   d
-2#daxc d2#a b  dx dabQ
-2# c cax  d
+1c d a
+1da   d
+2#da
+xc d
+2#a b  d
+x da
+bQ
+2# c ca
+x  d
 1 d ac
-3#   cax dx a
+3#   ca
+x d
+x a
 x c
 2# d
 x c
@@ -16628,12 +19532,19 @@ bbX
 S3
 1 d a
 bQ
-2#c daxa2#cxd
-1c dabQ
+2#c da
+xa
+2#c
+xd
+1c da
+bQ
 
 bQ
 1 daa
-2#a b dx d2#axc
+2#a b d
+x d
+2#a
+xc
 bQ
 0da   d
 1da   d
@@ -16641,8 +19552,13 @@ bQ
 0da   d
 1c da
 bQ
-1a bc1    d1 daabQ
-1 db  d1   ca1 c
+1a bc
+1    d
+1 daa
+bQ
+1 db  d
+1   ca
+1 c
 bQ
 0 dda
 1 dda
@@ -16651,10 +19567,17 @@ bQ
 1 d a
 bQ
 bQ
-2#c daxa2#cxd
-1c dabQ
+2#c da
+xa
+2#c
+xd
+1c da
+bQ
 1 daa
-2#a b dx d2#axc
+2#a b d
+x d
+2#a
+xc
 bQ
 0da   d
 1da   d
@@ -16664,8 +19587,12 @@ bQ
 0da   d
 1c da
 bQ
-1a bc1    d1 daabQ
-1 db  d1   ca
+1a bc
+1    d
+1 daa
+bQ
+1 db  d
+1   ca
 1 c
 bQ
 0 dda
@@ -16678,12 +19605,17 @@ bQ
 0 c ca
 1 daa
 bQ
-2#a b dx  a
+2#a b d
+x  a
 2#  b
 x  d
-1a b dbQ
+1a b d
+bQ
 1 daa
-2#   cax d2# ax c
+2#   ca
+x d
+2# a
+x c
 bQ
 0 dda
 1 daa
@@ -16692,30 +19624,49 @@ bQ
 0 c ca
 1 daa
 bQ
-2#a b dx  a2#  bx  d
-1a b dbQ
+2#a b d
+x  a
+2#  b
+x  d
+1a b d
+bQ
 
 bQ
 1 daa
-2#   cax d2# ax c
+2#   ca
+x d
+2# a
+x c
 bQ
 0 dda
 1 d a
 bQ
 bQ
-2#c daxa2#cxd
-1c dabQ
+2#c da
+xa
+2#c
+xd
+1c da
+bQ
 1 daa
-2#a b dx d2#axc
+2#a b d
+x d
+2#a
+xc
 bQ
 0da   d
 1da   d
 bQ
 0da   d
-1c dabQ
-1a bc1    d
-1 daabQ
-1 db  d1   ca1 c
+1c da
+bQ
+1a bc
+1    d
+1 daa
+bQ
+1 db  d
+1   ca
+1 c
 bQ
 0 dda
 1 dda
@@ -16724,22 +19675,32 @@ bQ
 1 d a
 bQ
 bQ
-2#c daxa2#cxd
-1c dabQ
+2#c da
+xa
+2#c
+xd
+1c da
+bQ
 
 bQ
 1 daa
-2#a b dx d
-2#axc
+2#a b d
+x d
+2#a
+xc
 bQ
 0da   d
 1da   d
 bQ
 0da   d
-1c dabQ
-1a bc1    d
-1 daabQ
-1 db  d1   ca
+1c da
+bQ
+1a bc
+1    d
+1 daa
+bQ
+1 db  d
+1   ca
 1 c
 bQ
 0 dda
@@ -16749,11 +19710,24 @@ bQ
 b
 bQ
 2.c da
-3a3# dx c
-4# ax  dx  bx  a
-1 c cabQ
+3a
+3# d
+x c
+4# a
+x  d
+x  b
+x  a
+1 c ca
+bQ
 1 d ac
-3#   cax dx cx a3# dx cx ax c
+3#   ca
+x d
+x c
+x a
+3# d
+x c
+x a
+x c
 b
 Y dda
 b
@@ -17050,20 +20024,34 @@ S3
 1cdda
 bQ
 1.cdda
-2   a1cdd
+2   a
+1cdd
 bQ
-2# ddax c2# dxa2#cxd
+2# dda
+x c
+2# d
+xa
+2#c
+xd
 bQ
 1.cdda
 2   a
-1cddbQ
-1 da c1a b d
-3#   axcxaxc
+1cdd
+bQ
+1 da c
+1a b d
+3#   a
+xc
+xa
+xc
 bQ
 1.dab  d
 2     d
-1dabbQ
-1c da1a d e1 da c
+1dab
+bQ
+1c da
+1a d e
+1 da c
 bQ
 1.acd a
 2    a
@@ -17071,24 +20059,42 @@ bQ
 bQ
 
 bQ
-2#  d ax  c2#  dx a2# cx d
+2#  d a
+x  c
+2#  d
+x a
+2# c
+x d
 bQ
 1.acd a
 2    a
 1acd
 bQ
-2#  d ax  c2#  dx a2# cx d
+2#  d a
+x  c
+2#  d
+x a
+2# c
+x d
 bQ
 1.acd a
 2    a
 1acd
 bQ
-2# ea cxa2#cxa2# ex c
+2# ea c
+xa
+2#c
+xa
+2# e
+x c
 bQ
 1. ea c
 2    c
-1 eabQ
-1 ea c1 ea c1 ea c
+1 ea
+bQ
+1 ea c
+1 ea c
+1 ea c
 bQ
 1.dab  d
 2     d
@@ -17096,47 +20102,78 @@ bQ
 bQ
 
 bQ
-1dab  d1    a
-3#    cx    ax    cx    e
+1dab  d
+1    a
+3#    c
+x    a
+x    c
+x    e
 bQ
 bQ
 1.c da
 2   a
-1cddbQ
-1cdda1cdda1cdda
+1cdd
+bQ
+1cdda
+1cdda
+1cdda
 bQ
 1.da c
 2c
-1abQ
-1a d a1a a c1 e
+1a
+bQ
+1a d a
+1a a c
+1 e
 bQ
 1.aa c a
 2     a
-1aa cbQ
-1dabc1cdda1aabc
+1aa c
+bQ
+1dabc
+1cdda
+1aabc
 bQ
 1. ea c
 2a
-1cbQ
+1c
+bQ
 
 bQ
-1a d a1a a c1 e
+1a d a
+1a a c
+1 e
 bQ
 1.aa c a
 2     a
-1aa cbQ
-1dabc1dabc1dabc
+1aa c
 bQ
-2# da cx c2# dxa
-3#   axcxaxc
+1dabc
+1dabc
+1dabc
 bQ
-1aabc1 aa c1 ea c
+2# da c
+x c
+2# d
+xa
+3#   a
+xc
+xa
+xc
+bQ
+1aabc
+1 aa c
+1 ea c
 bQ
 1.aa c a
 2     a
-1aa cbQ
-1 ea c1aabc
-3#   axcxa
+1aa c
+bQ
+1 ea c
+1aabc
+3#   a
+xc
+xa
 xc
 bQ
 
@@ -17145,50 +20182,78 @@ bQ
 1dab  d
 bQ
 0cdda
-1aabcbQ
-0Q ea c1    c
+1aabc
+bQ
+0Q ea c
+1    c
 bQ
 bQ
 1.dabc
 2cdda
-1aabcbQ
-1 ea c1aabc
+1aabc
+bQ
+1 ea c
+1aabc
 1Q     a
 bQ
-1 ea c1aabc
-3#   axcxaxc
+1 ea c
+1aabc
+3#   a
+xc
+xa
+xc
 bQ
 0dab  d
 1dab  d
 bQ
 0cdda
-1aabcbQ
-0Q ea c1    c
+1aabc
+bQ
+0Q ea c
+1    c
 bQ
 1.dabc
 2cdda
-1aabcbQ
+1aabc
+bQ
 
 bQ
-1 ea c1aabc
+1 ea c
+1aabc
 1Q     a
 bQ
-1cdda1   a1cdd
+1cdda
+1   a
+1cdd
 bQ
 1.cdda
 2a
-1cbQ
-1a d a1a a c1 e
+1c
+bQ
+1a d a
+1a a c
+1 e
 bQ
 1.aa c a
 2     a
-1aa cbQ
-1dabc1dabc1dabc
+1aa c
 bQ
-2# da cx c2# dxa
-3#   axcxaxc
+1dabc
+1dabc
+1dabc
 bQ
-1aabc1 aa c1 ea c
+2# da c
+x c
+2# d
+xa
+3#   a
+xc
+xa
+xc
+bQ
+1aabc
+1 aa c
+1 ea c
 bQ
 1.aa c a
 2     a
@@ -17202,119 +20267,238 @@ BX
 bX
 Sc
 1a cc
-bQ1 ea c1a cc1c da1ea c
-bQ1fc  a
-2#fc.x    a
-1fc  a1ea cbQ1c da
-3#exc.xax e.
+bQ
+1 ea c
+1a cc
+1c da
+1ea c
+bQ
+1fc  a
+2#fc.
+x    a
+1fc  a
+1ea c
+bQ
+1c da
+3#e
+xc.
+xa
+x e.
 1a c e
-3#cxa.x ex c.
+3#c
+xa.
+x e
+x c.
 bX
 1 ea c
-2# ea.x    c
+2# ea.
+x    c
 1 ea c
 bQ
 bQ
-2#a ccxa c.bQ2# ea cx ea.2#a ccxa c.2#c daxc d.2#ea cxea.
+2#a cc
+xa c.
+bQ
+2# ea c
+x ea.
+2#a cc
+xa c.
+2#c da
+xc d.
+2#ea c
+xea.
 bQ
 
-bQ1fc  a
-2#fxe.2#c daxa.
-3#cxa.x ex c.
-bQ1 ea c1a cc
-2# ea cxa.
-3#cxa.xcx e.
-bQ1aac  a
-2#aac.x     a
+bQ
+1fc  a
+2#f
+xe.
+2#c da
+xa.
+3#c
+xa.
+x e
+x c.
+bQ
+1 ea c
+1a cc
+2# ea c
+xa.
+3#c
+xa.
+xc
+x e.
+bQ
+1aac  a
+2#aac.
+x     a
 1aac  a
 bbX
-2#ax e.bQ2# cd ax e.2#ax c.2# ea cxa.
-3#cxa.xcx e.
+2#a
+x e.
+bQ
+2# cd a
+x e.
+2#a
+x c.
+2# ea c
+xa.
+3#c
+xa.
+xc
+x e.
 bQ
 
-bQ1aac  a
-2#aac.x     a
+bQ
+1aac  a
+2#aac.
+x     a
 1aac  a
 bbX
-2#ax e.bQ2# cd ax e.2#ax c.2# ea cxa.
-3#cxa.x cx e.
-bQ1aac  a
-2#aac.x     a
+2#a
+x e.
+bQ
+2# cd a
+x e.
+2#a
+x c.
+2# ea c
+xa.
+3#c
+xa.
+x c
+x e.
+bQ
+1aac  a
+2#aac.
+x     a
 1Qaac  a
 bbX
 S3
 1aa c
 b
 1 ea c
-1 ea1a cc
-b1c da
-1c d1ea c
-b1.fc  a
-2fc.1Q    a
+1 ea
+1a cc
+b
+1c da
+1c d
+1ea c
+b
+1.fc  a
+2fc.
+1Q    a
 b
 
 b
-0fc  a1ea c
-b1c da
-2#exc.2#ax e.
+0fc  a
+1ea c
+b
+1c da
+2#e
+xc.
+2#a
+x e.
 b
 1a c e
-2#cxa.2# ex c.
+2#c
+xa.
+2# e
+x c.
 b
 1. ea c
-2 ea1    c
+2 ea
+1    c
 b
 0 ea c
 bbX
 1a cc
-b1 ea c1 ea
-1a ccb
-1c da1c d1ea c
-b
-
-b1.fc  a
-2fc1    a
-b2#fc  a
-xe.
-2#c
-xa.2# ex c.
 b
 1 ea c
-1 ea1a cc
+1 ea
+1a cc
 b
-2# ea cx c.
-2# exa.2# cx e.
+1c da
+1c d
+1ea c
+b
+
+b
+1.fc  a
+2fc
+1    a
+b
+2#fc  a
+xe.
+2#c
+xa.
+2# e
+x c.
+b
+1 ea c
+1 ea
+1a cc
+b
+2# ea c
+x c.
+2# e
+xa.
+2# c
+x e.
 b
 1.aac  a
-2aac1     a
+2aac
+1     a
 b
 1aac  a
 1aac
-bbX1 ea c
+bbX
+1 ea c
 b
 
-b2# cd ax a.2# cx e.
+b
+2# cd a
+x a.
+2# c
+x e.
 2#a
 x c.
-b2# ea cx c.
-2# exa.2# cx e.
+b
+2# ea c
+x c.
+2# e
+xa.
+2# c
+x e.
 b
 1.aac  a
-2aac1     a
+2aac
+1     a
 b
 1aac  a
-2#aacx     a
+2#aac
+x     a
 1 ea c
-bbX2# cd ax a.2# cx e.
+bbX
+2# cd a
+x a.
+2# c
+x e.
 2#a
 x c.
-b2# ea cx c.
-2# exa.2# cx e.
+b
+2# ea c
+x c.
+2# e
+xa.
+2# c
+x e.
 b
 
 b
 1.aac  a
-2aac1     a
+2aac
+1     a
 b
 2Qaac  a
 3# e
@@ -17548,41 +20732,99 @@ B
 {57c. Ein Welisch Tentzlein Clira Cassa - A8BCC4/Newsidler 1544b, sig. G3r}
 B
 b
-S31.ac  a
+S3
+1.ac  a
 2ac
 1ac  a
-b1ac  a1ac  a1ac  a
 b
-2# d ax c.2# dxa.2#bx d.
+1ac  a
+1ac  a
+1ac  a
 b
-1ab  d1ab1  b
-b1bb d1bb1bb d
-b1ab  d
-2#ax d.
+2# d a
+x c.
+2# d
+xa.
+2#b
+x d.
+b
 1ab  d
-b1 da c1    a1 da c
+1ab
+1  b
+b
+1bb d
+1bb
+1bb d
+b
+1ab  d
+2#a
+x d.
+1ab  d
+b
+1 da c
+1    a
+1 da c
 b
 
-b1ac  a1ac1  d
 b
-bQ1bb d1bb d1bb d
+1ac  a
+1ac
+1  d
 b
-2#ab  +dx a.2# bx d.
+bQ
+1bb d
+1bb d
+1bb d
+b
+2#ab  +d
+x a.
+2# b
+x d.
 1ab  d
-b1 da c1    a1 da c
-b1ac  a1ac1  d
 b
-bQ1ac  a1 d a1ab  d
-b1bb d1bb1ab  d
+1 da c
+1    a
+1 da c
+b
+1ac  a
+1ac
+1  d
+b
+bQ
+1ac  a
+1 d a
+1ab  d
+b
+1bb d
+1bb
+1ab  d
 b
 
-b1 da c1 db  d1ac  a
-b1 dda1 d1  d
 b
-bQ1bb d1bb1ab  d
-b1 d ac1 db  d1ac  a
-b1 d a1 d1  d
-b1 dda1 dY   a
+1 da c
+1 db  d
+1ac  a
+b
+1 dda
+1 d
+1  d
+b
+bQ
+1bb d
+1bb
+1ab  d
+b
+1 d ac
+1 db  d
+1ac  a
+b
+1 d a
+1 d
+1  d
+b
+1 dda
+1 d
+Y   a
 b
 B
 
@@ -17685,28 +20927,48 @@ B
 B
 b
 S3
-1 ea c1 ea c1 ea c
-b
-2# ea cx    a.2#    cx    e.
+1 ea c
+1 ea c
 1 ea c
 b
-2#aabcx d.2#axc.2#dxa.
+2# ea c
+x    a.
+2#    c
+x    e.
+1 ea c
 b
-2#c da
+2#aabc
+x d.
+2#a
+xc.
+2#d
 xa.
-2#cxd.
-1c da
-b2#d b  d
-x     c.
-2#     dx    a.2#    cx    e.
 b
 2#c da
 xa.
 2#c
-xd.1c da
-b1a bc
-2# exa.
-3#cxa.x e
+xd.
+1c da
+b
+2#d b  d
+x     c.
+2#     d
+x    a.
+2#    c
+x    e.
+b
+2#c da
+xa.
+2#c
+xd.
+1c da
+b
+1a bc
+2# e
+xa.
+3#c
+xa.
+x e
 x c.
 b
 
@@ -17715,153 +20977,293 @@ b
 1 ea
 1 ea c
 b
-bQ2#da   dx     c.2#     dx    a.
+bQ
+2#da   d
+x     c.
+2#     d
+x    a.
 2#    c
 x    e.
-b2#c daxa.2#c
+b
+2#c da
+xa.
+2#c
 xd.
 1c da
 b
 1a bc
-2# exa.
-3#cxa.x ex c.
+2# e
+xa.
+3#c
+xa.
+x e
+x c.
 b
 0 ea c
 1
-b1 ea c1a bc1c da
-b1da   d
-3#fxd.xcxa.
+b
+1 ea c
+1a bc
+1c da
+b
+1da   d
+3#f
+xd.
+xc
+xa.
 1c da
 b
 
 b
-3#dxc.xax d.
-1a bc1a bc
+3#d
+xc.
+xa
+x d.
+1a bc
+1a bc
 b
 0 ea c
 1
-bbQ
-1 ea c1a bc1c da
-b1da   d
-3#fxd.xcxa.
+b
+bQ
+1 ea c
+1a bc
 1c da
-b1a bc1a a c1 e
+b
+1da   d
+3#f
+xd.
+xc
+xa.
+1c da
+b
+1a bc
+1a a c
+1 e
 b
 0aa c a
 1
-b1 ea c1a bc1c da
-b1da   d
-3#fxd.xcxa.
+b
+1 ea c
+1a bc
 1c da
-b1a bc1a a c1 e
+b
+1da   d
+3#f
+xd.
+xc
+xa.
+1c da
+b
+1a bc
+1a a c
+1 e
 b
 
-b1aabc1     a1aabc
-bbQ
-1c da1c da1c da
 b
-2#c dax  b.2#  dx a.
+1aabc
+1     a
+1aabc
+b
+bQ
+1c da
+1c da
 1c da
 b
-1a bc1a a c1 e
-b1a bc1     a1a bc
-b1c da1c da1c da
-b
-2#c daxd.2#fxd.
+2#c da
+x  b.
+2#  d
+x a.
 1c da
-b1a bc
+b
+1a bc
+1a a c
+1 e
+b
+1a bc
+1     a
+1a bc
+b
+1c da
+1c da
+1c da
+b
+2#c da
+xd.
+2#f
+xd.
+1c da
+b
+1a bc
 2a a c
-3# ex c.
-2#a a cx e.
+3# e
+x c.
+2#a a c
+x e.
 b
 Yaa c a
 b
 B
 
 { }
-{59. Ein guttes welsch Denntzlin El buratto genannt - ABAB8/D-Us 131b, f. 2v}B
+{59. Ein guttes welsch Denntzlin El buratto genannt - ABAB8/D-Us 131b, f. 2v}
+B
 b
 S3
-2# dx c2# dxa2#cxd
+2# d
+x c
+2# d
+xa
+2#c
+xd
 bQ
-1c da1c da1da cbQ
-1c da1a b d1 da c
+1c da
+1c da
+1da c
+bQ
+1c da
+1a b d
+1 da c
 bQ
 1@ cd a
-2 cd1Q    a
+2 cd
+1Q    a
 bQ
-2# dx c2# dxa2#cxd
+2# d
+x c
+2# d
+xa
+2#c
+xd
 bQ
-1c da1c da1da cbQ
-1c da1a b d1 da c
+1c da
+1c da
+1da c
+bQ
+1c da
+1a b d
+1 da c
 bQ
 1@ cd a
-2 cd1Q    abQ
+2 cd
+1Q    a
+bQ
 bQ
 
 bQ
-1a b d1 da c1 bd a
+1a b d
+1 da c
+1 bd a
 bQ
 1@ ab  d
-2 ab1Q     dbQ
-2# cd ax a2# cx d
+2 ab
+1Q     d
+bQ
+2# cd a
+x a
+2# c
+x d
 1 cd a
 bQ
 1@ dda
-2Q dd1Q   abQ
-1a b d1 da c1 bd a
+2Q dd
+1Q   a
+bQ
+1a b d
+1 da c
+1 bd a
 bQ
 1@ ab  d
-2 ab1Q     dbQ
-2# cd ax a2# cx d
+2 ab
+1Q     d
+bQ
+2# cd a
+x a
+2# c
+x d
 1 cd a
 bQ
 1@ dda
-2Q dd1Q   a
+2Q dd
+1Q   a
 bQ
 bQ
 
 bQ
 bQ
-2# dx c2# dxa2#cxd
+2# d
+x c
+2# d
+xa
+2#c
+xd
 bQ
-1f de1f de1da c
+1f de
+1f de
+1da c
 bQ
 1Qc da
-2#ax d2# cx a
+2#a
+x d
+2# c
+x a
 bQ
 1@ cd a
-2 cd1Q    a
+2 cd
+1Q    a
 bQ
-1f de1f de1da cbQ
-1c da1c d1ac  a
+1f de
+1f de
+1da c
+bQ
+1c da
+1c d
+1ac  a
 bQ
 1Qc da
-2#ax d2# cx a
+2#a
+x d
+2# c
+x a
 bQ
 1Q cd a
-2 cd1Q    a
+2 cd
+1Q    a
 bQ
 bQ
 
 bQ
 bQ
-1a b d1 da c1 bd a
+1a b d
+1 da c
+1 bd a
 bQ
 1@ ab  d
-2 ab1Q     dbQ
-2# cd ax a2# cx d
+2 ab
+1Q     d
+bQ
+2# cd a
+x a
+2# c
+x d
 1 cd a
 bQ
 1@ dda
-2Q dd1Q   abQ
-1a b d1 da c1 bd a
+2Q dd
+1Q   a
+bQ
+1a b d
+1 da c
+1 bd a
 bQ
 1@ ab  d
 2 ab
 1     d
 bQ
-2# cd ax a2# cx d
+2# cd a
+x a
+2# c
+x d
 1 cd a
 bQ
 1Q dda
@@ -18116,7 +21518,10 @@ b
 b
 1bbdd
 2abb d
-b2#bbddx     bxbbdd
+b
+2#bbdd
+x     b
+xbbdd
 b
 2.abb d
 3b
@@ -18135,59 +21540,117 @@ b
 1 dda
 2 dd
 b
-3# ddax cx dx ax cx d
+3# dda
+x c
+x d
+x a
+x c
+x d
 b
 bQ
 2.acd a
 3acd
 2acd a
-b2#    axacdx cd a
-b1 dda
+b
+2#    a
+xacd
+x cd a
+b
+1 dda
 2 cd a
 b
 1 dda
 2abb d
-b2#bbddx     bxbbdd
-b2#dxbbddxa
+b
+2#bbdd
+x     b
+xbbdd
+b
+2#d
+xbbdd
+xa
 b
 
-b2#bbddx     bxbbdd
-b2.abb d
-3b2dbb d
 b
-3# ddaxbxdxbxax d
-b3# cd ax ax cx dxax c
+2#bbdd
+x     b
+xbbdd
+b
+2.abb d
+3b
+2dbb d
+b
+3# dda
+xb
+xd
+xb
+xa
+x d
+b
+3# cd a
+x a
+x c
+x d
+xa
+x c
 b
 1 dda
 2 dda
 bQ
 bQ
-2#b daxa   ex dda
+2#b da
+xa   e
+x dda
 b
-3# cd ax ax cx dxax c
+3# cd a
+x a
+x c
+x d
+xa
+x c
 bQ
 
 bQ
 2b da
-3#ax dx cx a
+3#a
+x d
+x c
+x a
 b
 1acd a
 2acd a
-b2#b daxa   ex dda
+b
+2#b da
+xa   e
+x dda
 b
 2.acd a
 3 d
 2acd a
 b
-3# ddaxbxax dx cx a
+3# dda
+xb
+xa
+x d
+x c
+x a
 b
 1 cdca
 2 cdca
-b2#b daxa d ex dda
-b2#acd ax   cxacd a
+b
+2#b da
+xa d e
+x dda
+b
+2#acd a
+x   c
+xacd a
 b
 
-b2# d abx     dx d ab
+b
+2# d ab
+x     d
+x d ab
 b
 1 cdca
 2 cdca
@@ -18210,13 +21673,29 @@ b
 3   c
 2acd a
 b
-3# ddaxaxbxax dx c
-b3# ddaxaxbx dxaxb
+3# dda
+xa
+xb
+xa
+x d
+x c
+b
+3# dda
+xa
+xb
+x d
+xa
+xb
 b
 
 b
-2#dbb dxbxdbb d
-b2#axbbb dxd
+2#dbb d
+xb
+xdbb d
+b
+2#a
+xbbb d
+xd
 b
 1f dd
 2     b
@@ -18228,7 +21707,10 @@ b
 2.b dd b
 3a
 2 d ab
-b2#     dx ddcax c
+b
+2#     d
+x ddca
+x c
 b
 1 dda
 2 dda
@@ -18244,113 +21726,215 @@ B
 b
 Sc
 1a  c a
-2#a  cx     a
+2#a  c
+x     a
 b
-3# bx ax bx d
+3# b
+x a
+x b
+x d
 1a  c a
 b
-3#axcxdxa3#cxax dx b
+3#a
+xc
+xd
+xa
+3#c
+xa
+x d
+x b
 b
 1 abc
-2# abx   c
+2# ab
+x   c
 b
-3#  bx  ax  bx  d
+3#  b
+x  a
+x  b
+x  d
 1 abc
-b1  dca
-2#  dcx    a
-b2 bd a
-3# ax b3# dx bx ax  d
+b
+1  dca
+2#  dc
+x    a
+b
+2 bd a
+3# a
+x b
+3# d
+x b
+x a
+x  d
 b
 
-b3# ax bx dx a
+b
+3# a
+x b
+x d
+x a
 1 bd a
-b1 abc
-2# abx   c
+b
+1 abc
+2# ab
+x   c
 b
 1  dca
-2#  dcx    a
-b2#  dcx    a
+2#  dc
+x    a
+b
+2#  dc
+x    a
 1  dca
-b1  dca
+b
+1  dca
 bbX
-3#  dx  bx  dx a
+3#  d
+x  b
+x  d
+x a
 b
 1 bd a
-2# bdx    a
+2# bd
+x    a
 b
-3# ax bx dx a
+3# a
+x b
+x d
+x a
 1 bd a
 b
-2# da cx    a2#     dx     c
+2# da c
+x    a
+2#     d
+x     c
 b
 
 b
 1a  c a
-2#a  cx     a
+2#a  c
+x     a
 b
-3# bx ax bx d
+3# b
+x a
+x b
+x d
 1a  c a
-b1a  c a
-3#ax dxaxc
+b
+1a  c a
+3#a
+x d
+xa
+xc
 b
 1da   d
-2#dax     d
+2#da
+x     d
 b
-3# dxaxc
+3# d
+xa
+xc
 x d
-2#dax     d
-b2#c daxa bc
-3# exa
-xcx Qe
+2#da
+x     d
+b
+2#c da
+xa bc
+3# e
+xa
+xc
+x Qe
 b
 1a  c a
-2#a  cx     a
+2#a  c
+x     a
 b
-3# bx ax bx d
+3# b
+x a
+x b
+x d
 1a  c a
 b
 
-b1a  c a
+b
+1a  c a
 bQ
 bQ
-3#cxaxcxe
+3#c
+xa
+xc
+xe
 bX
 1f d a
-2#f dx    a
+2#f d
+x    a
 b
-3#exfxhxe
+3#e
+xf
+xh
+xe
 1f   a
 b
 1 da c
-2# dax    c
-b2 bd a
-3# ax b3# dx bx ax  d
-b3# ax bx dx a
+2# da
+x    c
+b
+2 bd a
+3# a
+x b
+3# d
+x b
+x a
+x  d
+b
+3# a
+x b
+x d
+x a
 1 bd a
 b
-2# da cx    a2#     dx     c
+2# da c
+x    a
+2#     d
+x     c
 b
 1a  c a
-2#a  cx     a
+2#a  c
+x     a
 b
 
 b
-3# bx ax bx d
+3# b
+x a
+x b
+x d
 1a  c a
-b1 da c
-3#ax dx bx a
+b
+1 da c
+3#a
+x d
+x b
+x a
 b
 1 bd a
-2# bdx    a
+2# bd
+x    a
 b
-3# ax bx dx a
+3# a
+x b
+x d
+x a
 1 bd a
-b1 abc
-2# abx   c
+b
+1 abc
+2# ab
+x   c
 b
 1  dca
-2#  dcx    a
-b2#  dcx    a
+2#  dc
+x    a
+b
+2#  dc
+x    a
 1  dca
 b
 Y  dca
@@ -18790,22 +22374,60 @@ B
 B
 b
 S3
-1cdda1cdd1cdda
+1cdda
+1cdd
+1cdda
 b
-2#cddax c2# dxa2#cxd
-b2#cddaxa2#cx d2#axc
+2#cdda
+x c
+2# d
+xa
+2#c
+xd
+b
+2#cdda
+xa
+2#c
+x d
+2#a
+xc
 b
 1.da   d
 2da
 1   a
-b1abb d1abb1abb d
 b
-3#    dx ax bx d3#axbxdxb3#dxbxax d
+1abb d
+1abb
+1abb d
+b
+3#    d
+x a
+x b
+x d
+3#a
+xb
+xd
+xb
+3#d
+xb
+xa
+x d
 b
 
 b
-2#    dxabb2# d ax a2# c   dx d
-b2# cdcax d2#ax c2# dxa
+2#    d
+xabb
+2# d a
+x a
+2# c   d
+x d
+b
+2# cdca
+x d
+2#a
+x c
+2# d
+xa
 b
 bQ
 1cdda
@@ -18813,27 +22435,67 @@ bQ
 1cdda
 b
 2 dda
-3#axc3#dxcxax d3# cx dxaxc
+3#a
+xc
+3#d
+xc
+xa
+x d
+3# c
+x d
+xa
+xc
 b
 2da   d
-3#cxa3# dx bx ax  d
-2#  bxd
+3#c
+xa
+3# d
+x b
+x a
+x  d
+2#  b
+xd
 b
 
-b2#abb dx a2#  dx a2# bb dx d
-bQ2#abb dx d2#ax b2# d  dxa
-b2# da cx c2# d a dx a2# c  cx d
+b
+2#abb d
+x a
+2#  d
+x a
+2# bb d
+x d
+bQ
+2#abb d
+x d
+2#a
+x b
+2# d  d
+xa
+b
+2# da c
+x c
+2# d a d
+x a
+2# c  c
+x d
 b
 1. cdca
 2 cd
 1   c
-b1 cd a1 cd
+b
+1 cd a
+1 cd
 bQ
-bQ1 dda
+bQ
+1 dda
 bX
-2#abb dxc2d
-3#axd
-2#   axc d
+2#abb d
+xc
+2d
+3#a
+xd
+2#   a
+xc d
 b
 
 b
@@ -18847,12 +22509,32 @@ b
 2 ab
 1   a
 b
-2# a a dx  d
-2# ax c2# dx a
+2# a a d
+x  d
+2# a
+x c
+2# d
+x a
 b
-3# cd ax ax cx d3#ax dxaxc3#dxcxax d
+3# cd a
+x a
+x c
+x d
+3#a
+x d
+xa
+xc
+3#d
+xc
+xa
+x d
 b
-2# cd ax a2# cx  d2# ax c
+2# cd a
+x a
+2# c
+x  d
+2# a
+x c
 b
 1. dda
 2 d
@@ -18872,21 +22554,33 @@ xc
 xd.
 b
 2cdd
-3#axc.2#a   ex d  c
+3#a
+xc.
+2#a   e
+x d  c
 2acd a
 3# d
 x c.
-3# dx c.
+3# d
+x c.
 x a
 x c.
-b2# dfec
+b
+2# dfec
 x c
 3# d
 x c.
 x d
-x f.2# d  cxa   e2#cdfa
+x f.
+2# d  c
+xa   e
+2#cdfa
 xd  c
-b2#fcdexd f2#ccdxa.
+b
+2#fcde
+xd f
+2#ccd
+xa.
 1fc
 1hdff
 bQ
@@ -18898,33 +22592,48 @@ xf.
 2. ffc
 3#e.
 xf
-xe.4#f
+xe.
+4#f
 xe.
 xc
 xe.
 b
 1ffd a
 1 c
-1fcd1    e
-b1f  e
+1fcd
+1    e
+b
+1f  e
 2# c
 x   c.
-1f aa2#cxa   eb
-2# df cx c.
-2#  fx    e.
+1f aa
+2#c
+xa   e
+b
+2# df c
+x c.
+2#  f
+x    e.
 1ca a
 1c d
 b
 1h ff d
-2# da cxf.
+2# da c
+xf.
 1df cd
-2#c daxd.
+2#c da
+xd.
 b
 
 b
-2#ca axa.2# dff d
-x   e.2.  dca
-3# c.x dx c
+2#ca a
+xa.
+2# dff d
+x   e.
+2.  dca
+3# c.
+x d
+x c
 4# d
 x c
 x a
@@ -18933,15 +22642,19 @@ b
 0 daa  a
 3# dda
 x c.
-x ax  d.
+x a
+x  d.
 3# a
 x c.
 x d
 xa.
-b3# d acx c.
+b
+3# d ac
+x c.
 4# a
 x c.
-x dxa.
+x d
+xa.
 3#c da
 xa.
 4#c
@@ -18950,12 +22663,18 @@ xc
 xd.
 2cb
 3#a
-xc.2#a   e
+xc.
+2#a   e
 x d  c
 b
 
 b
-3#ac  ax  d.x ax c.3# dx c.
+3#ac  a
+x  d.
+x a
+x c.
+3# d
+x c.
 4# d
 x c.
 x a
@@ -19386,100 +23105,368 @@ b1
 Sc
 1.ha f a
 2   h
-1ha fh1fdde
+1ha fh
+1fdde
 b
-2#da cxc2#axh2#    hxf2#da cx c
+2#da c
+xc
+2#a
+xh
+2#    h
+xf
+2#da c
+x c
 b
 1cdda
-2#fx   c2#  defxd2#c daxa b
+2#f
+x   c
+2#  def
+xd
+2#c da
+xa b
 b
-1cdda1 efec1a dce
-2#ca bx  d
+1cdda
+1 efec
+1a dce
+2#ca b
+x  d
 b
 1dabc
-2#hx   h
-1ha f a1f g
-b1da c a1ccd  c1aac  e
-2# ea bx c
+2#h
+x   h
+1ha f a
+1f g
+b
+1da c a
+1ccd  c
+1aac  e
+2# ea b
+x c
 b
 
 b
-1 efec1c
-2#  fx f2# e ex c
-b2# e ecx f2#cx  f2# cx e2# f  cxc
-b2#d f  dx d2#   fx f2# dx  g2#  ffx  d
-b2#ddf  dxh2#   fxf2#d fx f2# h   dxd
-b2#cddaxf2#    fxd2#cddaxa b2#c dxda
+1 efec
+1c
+2#  f
+x f
+2# e e
+x c
+b
+2# e ec
+x f
+2#c
+x  f
+2# c
+x e
+2# f  c
+xc
+b
+2#d f  d
+x d
+2#   f
+x f
+2# d
+x  g
+2#  ff
+x  d
+b
+2#ddf  d
+xh
+2#   f
+xf
+2#d f
+x f
+2# h   d
+xd
+b
+2#cdda
+xf
+2#    f
+xd
+2#cdda
+xa b
+2#c d
+xda
 b
 
-b2#cddaxa2#d   cxc
-2#a   ex e2#a  bxc
-b2da c
-3#cxd
-2#fb  axda2#c d dxa b2# eax c c
-b2# ea c
-xa2#c
-xa2# ea ax c c2#aaa cx e
-b2aac  a
-3#   cx  d3# a   ex  cx  dx a3# cdcax e
-2a2#aaa cx e
+b
+2#cdda
+xa
+2#d   c
+xc
+2#a   e
+x e
+2#a  b
+xc
+b
+2da c
+3#c
+xd
+2#fb  a
+xda
+2#c d d
+xa b
+2# ea
+x c c
+b
+2# ea c
+xa
+2#c
+xa
+2# ea a
+x c c
+2#aaa c
+x e
+b
+2aac  a
+3#   c
+x  d
+3# a   e
+x  c
+x  d
+x a
+3# cdca
+x e
+2a
+2#aaa c
+x e
 b
 
-b2aac  a
-3#   cx c3# ax  dx  cx  a
-1aac1aac  a
+b
+2aac  a
+3#   c
+x c
+3# a
+x  d
+x  c
+x  a
+1aac
+1aac  a
 b2
 bQ
-2#h ff ax i
-3#    hxf
+2#h ff a
+x i
+3#    h
+xf
 2h
-3#  fxfx ix h3# fx  ix fx h
-b3# iffhx hx fx h3# ixfxhx i3#fxhxixh3#f   hx ix hx f
+3#  f
+xf
+x i
+x h
+3# f
+x  i
+x f
+x h
 b
-2# Qh hfx  i
-3#   hx fx hx  i3# fx hx ix h3#  ix fx hx i
+3# iffh
+x h
+x f
+x h
+3# i
+xf
+xh
+x i
+3#f
+xh
+xi
+xh
+3#f   h
+x i
+x h
+x f
+b
+2# Qh hf
+x  i
+3#   h
+x f
+x h
+x  i
+3# f
+x h
+x i
+x h
+3#  i
+x f
+x h
+x i
 b
 
-b3# hihfx ixfxh3#fx ix hx f3#  ix fx h
-x i3#f   fx  ix fx h
 b
-2# iffhxf2#hxl2#k l hxh i2# mhx k k
-b2ghhe
-3#exg
-2#hhhfx  f
-3# hhexhxgxe3#hxg
-4#hxgxexg
+3# hihf
+x i
+xf
+xh
+3#f
+x i
+x h
+x f
+3#  i
+x f
+x h
+x i
+3#f   f
+x  i
+x f
+x h
+b
+2# iffh
+xf
+2#h
+xl
+2#k l h
+xh i
+2# mh
+x k k
+b
+2ghhe
+3#e
+xg
+2#hhhf
+x  f
+3# hhe
+xh
+xg
+xe
+3#h
+xg
+4#h
+xg
+xe
+xg
 b
 
 b
 2hkk  h
-3#   kx  l3# hx kx lxh3#kxhx lx k3# hx  lx  kx  h
+3#   k
+x  l
+3# h
+x k
+x l
+xh
+3#k
+xh
+x l
+x k
+3# h
+x  l
+x  k
+x  h
 b
-2#hhk  hx   k2# hx  l2#  kx  h2#h  k hx   h
-b2hd f d
-3#fxd3# hxdxfxh3#fxdx hx f3# dx  gx  fx  d
+2#hhk  h
+x   k
+2# h
+x  l
+2#  k
+x  h
+2#h  k h
+x   h
+b
+2hd f d
+3#f
+xd
+3# h
+xd
+xf
+xh
+3#f
+xd
+x h
+x f
+3# d
+x  g
+x  f
+x  d
 b
 
 b
 2ddf  d
-3#   fx  g3# dx fx gx f3# dx  gx  fx  d3#  f  dx  gx dx f
+3#   f
+x  g
+3# d
+x f
+x g
+x f
+3# d
+x  g
+x  f
+x  d
+3#  f  d
+x  g
+x d
+x f
 b
-2#cddaxf
-3#  dxd
-xcx f3# dx cx  fx  d3#  fx cx dx Qf
+2#cdda
+xf
+3#  d
+xd
+xc
+x f
+3# d
+x c
+x  f
+x  d
+3#  f
+x c
+x d
+x Qf
 b
-2#c dax d
-3#  fx cx dx f3#cx fxcxd3#f  axcxdxf
+2#c da
+x d
+3#  f
+x c
+x d
+x f
+3#c
+x f
+xc
+xd
+3#f  a
+xc
+xd
+xf
 b
 
-b3#dabcxcxaxc3#dxaxcxd3#c d axdxfxd3#c dxax ex c
-b3# ea cx ax cx e3#a d dx  bx  ax   c3#  fecx fx ex c3# fx e
-4# fx e
-x cx e
+b
+3#dabc
+xc
+xa
+xc
+3#d
+xa
+xc
+xd
+3#c d a
+xd
+xf
+xd
+3#c d
+xa
+x e
+x c
+b
+3# ea c
+x a
+x c
+x e
+3#a d d
+x  b
+x  a
+x   c
+3#  fec
+x f
+x e
+x c
+3# f
+x e
+4# f
+x e
+x c
+x e
 b
 1aa c a
 2 a   e
-3#  dx a
+3#  d
+x a
 3# cdca
 x e
 2 f
